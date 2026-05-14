@@ -1,0 +1,23 @@
+# Rules file for PressRecord build on Jenkins. This suppresses errors we know about and can't fix
+# or errors in files that aren't intended to be validated with our schema.
+
+#We don't want all the annoying warnings about https on linkchecking.
+ok /InsecureRequestWarning/
+
+#We allow failures to retrieve local files because they may not be there.
+#ok /java.io.FileNotFoundException: https?:\/\/jenkins/
+
+#jsonlint validator errors
+error /can not decode value/
+error /has no value, expected/
+
+#Fix annoying filename warnings
+ok /staticSearch/test/images/warning.svg/
+
+# JS Compiler for static search report
+ok /\[jscomp\]\s+0\s+error/
+
+error /[Ee]rror/
+warning /[Ww]arning/
+warning /WARNING/
+error /ERROR/

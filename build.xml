@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="PressRecord" default="fullBuild">
+    <description>
+        *****************************************
+        This is the project build file for the 
+        PressRecord project. It handles a range 
+        of different processes, including con-
+        version of the spreadsheet to XML, 
+        diagnostic tests applied to the source
+        data, generation of the website and the
+        search index, and validation of the 
+        results.
+        
+        To run the full build, type:
+        
+        ant
+        
+        *****************************************
+    </description>
+    
+    <property name="echo.separator" value="************************************************"/>
+    
+    <!-- Enable choice of specific diagnostics. -->
+    <property name="diagsToRun" value=""/>
+    
+    <!-- We'll need access to the date. -->
+    <tstamp>
+        <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
+    </tstamp>
+    
+    <!-- Project directory. Directory vars DO NOT include final slashes. -->
+    <property name="projDir" value="${basedir}"/>
+    
+    <!-- XML directory (if there's only one). -->
+    <property name="xmlDir" value="${projDir}/xml"/>
+    
+    <!-- Output directory for products. -->
+    <property name="productsDir" value="${projDir}/products"/>
+    
+    <!-- Task for ant-contrib, assuming we need it. -->
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+    
+    <!-- Location of Saxon jar. -->
+    <property name="saxon" value="${projDir}/lib/saxon-he-12.jar"/>
+    
+    <!-- Jing task for validation of XML. -->
+    <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" 
+        classpath="${projDir}/lib/jing.jar"/>
+    
+    <target name="preClean">
+        <description>
+            TARGET preClean
+            Cleans up the products of previous build operations.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Cleaning up previous build products..."/>
+        <mkdir dir="${productsDir}"/>
+        <delete includeemptydirs="true">
+            <fileset dir="${productsDir}">
+                <include name="*"/>
+                <include name="**/*"/>
+            </fileset>
+        </delete>
+    </target>
+    
+    <target name="allTsvToXml">
+        <description>
+            TARGET allTsvToXml
+            This passes each distinct TSV file to the transformation
+            which converts it to simple XML.
+        </description>
+        <foreach target="tsvToXml" param="tsvFile">
+            <fileset refid="tsvSources"/>
+        </foreach>
+    </target>
+    
+    <target name="tsvToXml">
+        <description>
+            TARGET tsvToXml
+            This target runs XSLT to create simple XML
+            from a single TSV file.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Converting ${tsvFile} to ad-hoc XML..."/>
+        <java fork="true" classname="net.sf.saxon.Transform" 
+            classpath="${saxon}" 
+            failonerror="true">
+            <jvmarg value="-Xmx2048m"/>
+            <arg value="-s:${projDir}/xsl/master_tsv_to_xml.xsl"/>
+            <arg value="-xsl:${projDir}/xsl/master_tsv_to_xml.xsl"/>
+            <arg value="tsvFile=${tsvFile}"/>
+            <arg value="--suppressXsltNamespaceCheck:on"/>
+        </java>
+        <echo message="${echo.separator}"/>
+        <echo message="Basic XML created."/>    
+    </target>
+    
+    <target name="gitHashForSuffix">
+        <description>
+            TARGET gitHashForSuffix
+            This simply outputs the first four characters of the 
+            current git commit hash for use by staticSearch as a
+            suffix for versioning.
+        </description>
+        <exec executable="git" dir="${projDir}" outputproperty="gitHash">
+            <arg value="rev-parse"/>
+            <arg value="HEAD"/>
+        </exec>
+        <echo file="${projDir}/gitHash.txt" message="${gitHash}"/>
+        <replaceregexp file="${projDir}/gitHash.txt" match="^(.{4,4}).+$" replace="\1" flags="s"/>
+    </target>
+    
+    <target name="rngValidateXml">
+        <description>
+            TARGET rngValidateXml
+            This target validates the content of the xml
+            folder, against the relevant schemas.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Validating TEI XML content documents with RelaxNG..."/>
+        <jing compactsyntax="false" rngfile="${projDir}/tei/bbti.rng" failonerror="true">
+            <fileset refid="teiXml"/>
+        </jing>
+    </target>
+    
+    <target name="copyWebResources">
+        <description>
+            TARGET copyWebResources
+            This copies all the ancillary files such as css, js,
+            documentation, and images into the output site folder.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Copying required resources to the products folder."/>
+        <!-- NOTE: CSS is handled in its own target. -->
+        <copy todir="${productsDir}/fonts" preservelastmodified="true">
+            <fileset dir="${projDir}/fonts"/>
+        </copy>
+        <copy todir="${productsDir}/js" preservelastmodified="true">
+            <fileset dir="${projDir}/js"/>
+        </copy>
+        <copy todir="${productsDir}/js" preservelastmodified="true">
+            <file file="${projDir}/staticSearch/js/ssHighlight.js"/>
+        </copy>
+        <copy todir="${basedir}/site/images" preservelastmodified="true">
+            <fileset dir="${basedir}/images"/>
+        </copy>
+        <copy todir="${productsDir}/xml" preservelastmodified="true">
+            <fileset dir="${projDir}/xml">
+                <include name="**/*.xml"/>
+                <include name="**/*.odd"/>
+                <include name="**/*.rng"/>
+            </fileset> 
+        </copy>
+    </target>
+    
+    <target name="buildCss">
+        <description>
+            TARGET buildCss
+            This builds the SCSS file to create CSS and map file for the output site.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Building SCSS source to create CSS file in css folder."/>
+        <exec executable="sass">
+            <arg value="${projDir}/css/style.scss"/>
+            <arg value="${projDir}/css/style.css"/>
+        </exec>
+        <copy todir="${productsDir}/css">
+            <fileset dir="${projDir}.css">
+                <include name="*"/>
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+    </target>
+    
+    <target name="buildStaticSearch">
+        <description>
+            TARGET buildStaticSearch
+            This target uses the code in the staticSearch folder, to create a 
+            static search engine for the output site.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Building static search..."/>
+        <ant antfile="build.xml" dir="staticSearch">
+            <property name="ssConfig" value="${projDir}/config_staticSearch.xml"/>
+        </ant>
+    </target>
+    
+    <target name="diagnostics">
+        <description>
+            TARGET diagnostics
+            Runs a range of diagnostic and progress-measuring processes to help with 
+            project management.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Running project diagnostics..."/>
+        <java fork="true" classname="net.sf.saxon.Transform" classpath="${saxon}" 
+            failonerror="true" dir="${projDir}">
+            <arg value="-s:${projDir}/xsl/master_diagnostics.xsl"/>
+            <arg value="-xsl:${projDir}/xsl/master_diagnostics.xsl"/> 
+            <arg value="baseDir=${basedir}"/>
+            <arg value="diagsToRun=${diagsToRun}"/>
+            <arg value="--suppressXsltNamespaceCheck:on"/>
+        </java>
+        <copy todir="${productsDir}/css">
+            <file file="css/diagnostics.css"/>
+        </copy>
+        <copy todir="${productsDir}/js">
+            <file file="js/diagnostics.js"/>
+        </copy>
+    </target>
+    
+    <target name="validateHtml">
+        <description>
+            TARGET validateHtml
+            This target validates the complete collection of XHTML5 documents 
+            comprising the output website, using the VNU validator (the same validator used by 
+            the W3C's online validation service). 
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Validating the HTML pages produced in the build using the VNU validator."/>
+        <java jar="${projDir}/lib/vnu.jar" failonerror="false" fork="true">
+            <arg line="--filterfile ${projDir}/lib/vnu_filterfile.txt"/>
+            <arg value="--format text"/>
+            <arg value="--skip-non-html"/>
+            <arg value="--also-check-css"/>
+            <arg value="${projDir}/products"/>
+        </java>
+    </target>
+    
+    <target name="fullBuild">
+        <description>
+            TARGET fullBuild
+            This runs the entire build process, including 
+            diagnostics and search.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Running the site build process..."/>
+        <antcall target="preClean"/>
+        <antcall target="gitHashForSuffix"/>
+        <antcall target="allTsvToXml"/>
+        <antcall target="rngValidateXml"/>
+        <antcall target="copyWebResources"/>
+        <antcall target="diagnostics"/>
+        <antcall target="buildCss"/>
+        <antcall target="buildSite"/>
+        <antcall target="buildStaticSearch"/>
+        <antcall target="validateHtml"/>
+        <echo message="Done!"/>
+    </target>
+  
+</project>
