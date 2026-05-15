@@ -47,6 +47,10 @@
     <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" 
         classpath="${projDir}/lib/jing.jar"/>
     
+    <fileset dir="${projDir}/data" id="tsvSources">
+        <include name="*.tsv"/>
+    </fileset>
+    
     <target name="preClean">
         <description>
             TARGET preClean
