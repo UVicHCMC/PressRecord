@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxonomies">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taxonomies for PressRecord</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Jentery Sayers and the UVic HCMC.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc><p>The following taxonomies provide the controlled
+         vocabularies for metadata in the PressRecord project.</p></projectDesc>
+         <classDecl>
+            <taxonomy xml:id="taxReleaseType">
+               <gloss>Release Type</gloss>
+               <desc>
+                  The platform edition’s release type as assigned by its developer, publisher, and/or distributor
+               </desc>
+               <desc>Encoders will use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor.</desc>
+               <category xml:id="rtAlpha">
+                  <gloss>Alpha</gloss>
+               </category>
+               <category xml:id="rtBeta">
+                  <gloss>Beta</gloss>
+               </category>
+               <category xml:id="rtDemo">
+                  <gloss>Demo</gloss>
+               </category>
+               <category xml:id="rtDownloadable">
+                  <gloss>Downloadable content (DLC)</gloss>
+               </category>
+               <category xml:id="rtEarlyAccess">
+                  <gloss>Early access</gloss>
+               </category>
+               <category xml:id="rtEmulation">
+                  <gloss>Emulation</gloss>
+               </category>
+               <category xml:id="rtExpansion">
+                  <gloss>Expansion</gloss>
+               </category>
+               <category xml:id="rtFanGame">
+                  <gloss>Fan game</gloss>
+               </category>
+               <category xml:id="rtInitOrOrigRelease">
+                  <gloss>Initial release / original release</gloss>
+               </category>
+               <category xml:id="rtPort">
+                  <gloss>Port</gloss>
+               </category>
+               <category xml:id="rtReboot">
+                  <gloss>Reboot</gloss>
+               </category>
+               <category xml:id="rtRemake">
+                  <gloss>Remake</gloss>
+               </category>
+               <category xml:id="rtRemaster">
+                  <gloss>Remaster</gloss>
+               </category>
+               <category xml:id="rtUnfinished">
+                  <gloss>Unfinished</gloss>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Taxonomies for PressRecord</head>
+         <p>All data is in the header.</p>
+      </body>
+   </text>
+</TEI>
