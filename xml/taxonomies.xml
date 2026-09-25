@@ -74,7 +74,7 @@
             <taxonomy xml:id="taxPlatform" n="3D">
                <gloss>Platform</gloss>
                <desc>The operating system, device, computer, console, and/or service on which the
-                  platform edition was played and recorded (Lee et al., “VGMS 4.2,” 2024)</desc>
+                  platform edition was played and recorded (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <desc>Controlled vocabulary adapted, with minor changes, from Poff and Atari
                   2025</desc>
                <category xml:id="pf1291_Advanced_Programmable_Video_System">
@@ -2332,7 +2332,7 @@
             <taxonomy xml:id="taxPublisherClass" n="3I">
                <gloss>Publisher Class</gloss>
                <desc>The size, profile, and/or budget of the publisher and, in some cases, the developer, too</desc>
-               <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both “indie” and “self-published.”</desc>
+               <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both <q>indie</q> and <q>self-published.</q></desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class.</desc>
                <category xml:id="pcAAA">
                   <gloss>AAA</gloss>
@@ -2360,7 +2360,7 @@
                <gloss>Commentary</gloss>
                <desc>The type of player commentary, if any, included in the gameplay footage of the platform edition</desc>
                <desc>Commentary is reflective, and it typically addresses the video’s audience.</desc>
-               <desc>Select “No commentary” if the footage contains no commentary.</desc>
+               <desc>Select <q>No commentary</q> if the footage contains no commentary.</desc>
                <category xml:id="cmAvatar_VTubing">
                   <gloss>Avatar / VTubing</gloss>
                </category>
@@ -2384,7 +2384,7 @@
                <gloss>Chat</gloss>
                <desc>The type of chat, if any, included in the gameplay footage of the platform edition</desc>
                <desc>Chat typically occurs between players; however, in cases such as livestreams, it may also occur between players and audiences.</desc>
-               <desc>Select “No chat” if the footage contains no chat.</desc>
+               <desc>Select <q>No chat</q> if the footage contains no chat.</desc>
                <category xml:id="chEmotes">
                   <gloss>Emotes</gloss>
                </category>
@@ -2414,8 +2414,8 @@
             </taxonomy>
             <taxonomy xml:id="taxInputDevice" n="5A">
                <gloss>Input Device</gloss>
-               <desc>The equipment used to play the platform edition while the video was recorded (Lee et al., “VGMS 4.2,” 2024)</desc>
-               <desc>Controlled vocabulary (adapted, with minor changes, from Wikipedia, "Game Controller," 2026)</desc>
+               <desc>The equipment used to play the platform edition while the video was recorded (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>Controlled vocabulary adapted, with minor changes, from Wikipedia, "Game Controller," 2026</desc>
                <category xml:id="idAdaptive_controller">
                   <gloss>Adaptive controller</gloss>
                </category>
@@ -2485,8 +2485,8 @@
             </taxonomy>
             <taxonomy xml:id="taxConnectivity" n="5B">
                <gloss>Connectivity</gloss>
-               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., “VGMS 4.2,” 2024)</desc>
-               <desc>Select “Offline” if there were no online or networked components.</desc>
+               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>Select <q>Offline</q> if there were no online or networked components.</desc>
                <category xml:id="cnCloud_gaming_gaming_on_demand">
                   <gloss>Cloud gaming / gaming on demand</gloss>
                </category>
@@ -2514,7 +2514,7 @@
             </taxonomy>
             <taxonomy xml:id="taxNumPlayers" n="5C">
                <gloss>Number of Players</gloss>
-               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <category xml:id="np1_player">
                   <gloss>1 player</gloss>
                </category>
@@ -2555,7 +2555,7 @@
             <taxonomy xml:id="taxGameplayMode" n="5D">
                <gloss>Gameplay Mode</gloss>
                <desc>A distinct configuration of the platform edition’s mechanics and gameplay in the gameplay footage</desc>
-               <desc>Note that “Default” and “Normal / moderate” are separate options. Select “Default” if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select “Normal / moderate” if that gameplay mode was selected among other options, such as “Hard / expert” and “Easy / beginner / casual.”</desc>
+               <desc>Note that <q>Default</q> and <q>Normal / moderate</q> are separate options. Select <q>Default</q> if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select <q>Normal / moderate</q> if that gameplay mode was selected among other options, such as <q>Hard / expert</q> and <q>Easy / beginner / casual.</q></desc>
                <desc>Controlled vocabulary adapted, with minor changes, from Wikipedia, "Glossary of Video Game Terms," 2026</desc>
                <category xml:id="gpArena">
                   <gloss>Arena</gloss>
@@ -2639,7 +2639,7 @@
             <taxonomy xml:id="taxAccessibility" n="5F">
                <gloss>Accessibility</gloss>
                <desc>A configuration or appearance of the platform edition’s accessibility features in the gameplay footage</desc>
-               <desc>Select “No accessibility features” if none appears in the gameplay footage.</desc>
+               <desc>Select <q>No accessibility features</q> if none appears in the gameplay footage.</desc>
                <category xml:id="acAlternate_inputs">
                   <gloss>Alternate inputs</gloss>
                </category>
@@ -2887,8 +2887,8 @@
             </taxonomy>
             <taxonomy xml:id="taxGameplayGenre" n="6B">
                <gloss>Gameplay Genre</gloss>
-               <desc>“The overall nature of . . . interactivity” in the gameplay footage “based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
-               <desc>Note: “Traditional” in the controlled vocabulary below denotes “games based on mechanics that exist in the real world and can be played in a physical setting.” They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., “Controlled Vocabulary for Genre,” 2024).</desc>
+               <desc><q>The overall nature of . . . interactivity</q> in the gameplay footage <q>based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>Note: <q>Traditional</q> in the controlled vocabulary below denotes <q>games based on mechanics that exist in the real world and can be played in a physical setting.</q> They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., <q>Controlled Vocabulary for Genre,</q> 2024).</desc>
                <category xml:id="ggAction">
                   <gloss>Action</gloss>
                </category>
@@ -2931,7 +2931,7 @@
             </taxonomy>
             <taxonomy xml:id="taxGameplaySubgenre" n="6C">
                <gloss>Gameplay Subgenre</gloss>
-               <desc>Patterns of interactivity appearing in the gameplay footage “based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Patterns of interactivity appearing in the gameplay footage <q>based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <desc>Controlled vocabulary adapted, with additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024</desc>
                <category xml:id="gs4X">
                   <gloss>4X</gloss>
@@ -3431,12 +3431,12 @@
             </taxonomy>
             <taxonomy xml:id="taxDimensionPerspective" n="6F">
                <gloss>Dimension and Perspective</gloss>
-               <desc>“The intended perception of the depth of the represented entities in” the gameplay footage and “[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc><q>The intended perception of the depth of the represented entities in</q> the gameplay footage and <q>[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <desc>This element will typically be repeated: for example, 3D, 1st-person, and perspective camera.</desc>
                <desc>Two terms in this element (free camera and cinematic camera) are defined here to avoid confusion.</desc>
-               <desc>Select “free camera” if “the camera is not attached to a specific avatar and does not follow a specific target” (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the “player is able to freely slide/scroll/rotate through the environment” (ibid).</desc>
-               <desc>Select “cinematic camera” if “different, fixed camera positions are set during the game’s creation for a maximum cinematic effect. These positions cannot be controlled by the player” (ibid).</desc>
-               <desc>Don’t select “free camera” or “cinematic camera” if they do not apply to the gameplay footage.</desc>
+               <desc>Select <q>free camera</q> if <q>the camera is not attached to a specific avatar and does not follow a specific target</q> (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the <q>player is able to freely slide/scroll/rotate through the environment</q> (ibid).</desc>
+               <desc>Select <q>cinematic camera</q> if <q>different, fixed camera positions are set during the game’s creation for a maximum cinematic effect. These positions cannot be controlled by the player</q> (ibid).</desc>
+               <desc>Don’t select <q>free camera</q> or <q>cinematic camera</q> if they do not apply to the gameplay footage.</desc>
                <desc>Controlled vocabulary adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024</desc>
                <category xml:id="dp2D">
                   <gloss>2D</gloss>
@@ -3520,10 +3520,10 @@
             <taxonomy xml:id="taxLocation" n="6G">
                <gloss>Location</gloss>
                <desc>The planet, continent, and/or country appearing the gameplay footage</desc>
-               <desc>Select “Fictional” if the location is imaginary (that is, it originated in the video game or its franchise).</desc>
-               <desc>Select “Unspecified” when the location (such as “outer space”) is vague or cannot be determined.</desc>
-               <desc>Note that gameplay footage may combine actual and fictional locations: for example, the town of Tigland in Canada on Earth. It may also combine actual and unspecified locations: “somewhere on Earth,” for instance.</desc>
-               <desc>Use the “Gameplay Footage Note” to include a more specific location, such as an actual city or fictional town appearing in the gameplay footage.</desc>
+               <desc>Select <q>Fictional</q> if the location is imaginary (that is, it originated in the video game or its franchise).</desc>
+               <desc>Select <q>Unspecified</q> when the location (such as <q>outer space</q>) is vague or cannot be determined.</desc>
+               <desc>Note that gameplay footage may combine actual and fictional locations: for example, the town of Tigland in Canada on Earth. It may also combine actual and unspecified locations: <q>somewhere on Earth,</q> for instance.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to include a more specific location, such as an actual city or fictional town appearing in the gameplay footage.</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to confirm the location.</desc>
                <category xml:id="lcAfghanistan">
                   <gloss>Afghanistan</gloss>
@@ -4180,10 +4180,10 @@
             <taxonomy xml:id="taxTimePeriod" n="6H">
                <gloss>Time Period</gloss>
                <desc>The general time period in which the gameplay footage is set</desc>
-               <desc>Select “Fictional” if the time period is imaginary (that is, it originated in the video game or its franchise).</desc>
-               <desc>Select “Unspecified” when the time period is vague or cannot be determined.</desc>
-               <desc>Note that the “Future” option is diegetic. Select it even if that future is now the past or present. For instance, a game published in 1984 that’s set in 2025 but played in 2026 can be assigned the “Future” time period.</desc>
-               <desc>Use the “Gameplay Footage Note” to include a specific date, year, period, moment, or event represented by the gameplay footage.</desc>
+               <desc>Select <q>Fictional</q> if the time period is imaginary (that is, it originated in the video game or its franchise).</desc>
+               <desc>Select <q>Unspecified</q> when the time period is vague or cannot be determined.</desc>
+               <desc>Note that the <q>Future</q> option is diegetic. Select it even if that future is now the past or present. For instance, a game published in 1984 that’s set in 2025 but played in 2026 can be assigned the <q>Future</q> time period.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to include a specific date, year, period, moment, or event represented by the gameplay footage.</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to confirm the time period.</desc>
                <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024</desc>
                <category xml:id="tmpAxial_Age">
