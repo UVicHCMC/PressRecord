@@ -2403,13 +2403,84 @@
             </taxonomy>
             <taxonomy xml:id="taxRecordStatus" n="4H">
                <gloss>Metadata Record Status</gloss>
-               <desc>Communicates whether the metadata record for the gampeplay file is complete</desc>               
+               <desc>Communicates whether the metadata record for the gampeplay file is complete</desc>
                <desc>A gameplay file may appear in the Gameplay Footage Collection even if its metadata record is incomplete.</desc>
                <category xml:id="rsComplete">
                   <gloss>Complete</gloss>
                </category>
                <category xml:id="rsIncomplete">
                   <gloss>Incomplete</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxInputDevice" n="5A">
+               <gloss>Input Device</gloss>
+               <desc>The equipment used to play the platform edition while the video was recorded (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Controlled vocabulary (adapted, with minor changes, from Wikipedia, "Game Controller," 2026)</desc>
+               <category xml:id="idAdaptive_controller">
+                  <gloss>Adaptive controller</gloss>
+               </category>
+               <category xml:id="idBalance_board">
+                  <gloss>Balance board</gloss>
+               </category>
+               <category xml:id="idCamera">
+                  <gloss>Camera</gloss>
+               </category>
+               <category xml:id="idCrank">
+                  <gloss>Crank</gloss>
+               </category>
+               <category xml:id="idDance_pad">
+                  <gloss>Dance pad</gloss>
+               </category>
+               <category xml:id="idExercise_accessory">
+                  <gloss>Exercise accessory</gloss>
+               </category>
+               <category xml:id="idFishing_rod">
+                  <gloss>Fishing rod</gloss>
+               </category>
+               <category xml:id="idGamepad_joypad">
+                  <gloss>Gamepad / joypad</gloss>
+               </category>
+               <category xml:id="idJoystick">
+                  <gloss>Joystick</gloss>
+               </category>
+               <category xml:id="idKeyboard">
+                  <gloss>Keyboard</gloss>
+               </category>
+               <category xml:id="idLight_gun">
+                  <gloss>Light gun</gloss>
+               </category>
+               <category xml:id="idMechanical_motion_tracker">
+                  <gloss>Mechanical motion tracker</gloss>
+               </category>
+               <category xml:id="idMicrophone">
+                  <gloss>Microphone</gloss>
+               </category>
+               <category xml:id="idMouse">
+                  <gloss>Mouse</gloss>
+               </category>
+               <category xml:id="idOptical_motion_tracker">
+                  <gloss>Optical motion tracker</gloss>
+               </category>
+               <category xml:id="idPaddle">
+                  <gloss>Paddle</gloss>
+               </category>
+               <category xml:id="idPedals">
+                  <gloss>Pedals</gloss>
+               </category>
+               <category xml:id="idRacing_wheel_steering_wheel">
+                  <gloss>Racing wheel / steering wheel</gloss>
+               </category>
+               <category xml:id="idRhythm_game_accessory">
+                  <gloss>Rhythm game accessory</gloss>
+               </category>
+               <category xml:id="idTouchscreen">
+                  <gloss>Touchscreen</gloss>
+               </category>
+               <category xml:id="idTrackball">
+                  <gloss>Trackball</gloss>
+               </category>
+               <category xml:id="idWii_remote">
+                  <gloss>Wii remote</gloss>
                </category>
             </taxonomy>
          </classDecl>
