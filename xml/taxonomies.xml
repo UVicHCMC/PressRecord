@@ -2483,6 +2483,1040 @@
                   <gloss>Wii remote</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxConnectivity" n="5B">
+               <gloss>Connectivity</gloss>
+               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Select “Offline” if there were no online or networked components.</desc>
+               <category xml:id="cnCloud_gaming_gaming_on_demand">
+                  <gloss>Cloud gaming / gaming on demand</gloss>
+               </category>
+               <category xml:id="cnOffline">
+                  <gloss>Offline</gloss>
+               </category>
+               <category xml:id="cnOnline_browser">
+                  <gloss>Online browser</gloss>
+               </category>
+               <category xml:id="cnOnline_computer_networked_computer">
+                  <gloss>Online computer / networked computer</gloss>
+               </category>
+               <category xml:id="cnOnline_console_networked_console">
+                  <gloss>Online console / networked console</gloss>
+               </category>
+               <category xml:id="cnOnline_features_networked_features">
+                  <gloss>Online features / networked features</gloss>
+               </category>
+               <category xml:id="cnOnline_mobile_device_networked_mobile_device">
+                  <gloss>Online mobile device / networked mobile device</gloss>
+               </category>
+               <category xml:id="cnOnline_play_networked_play">
+                  <gloss>Online play / networked play</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxNumPlayers" n="5C">
+               <gloss>Number of Players</gloss>
+               <desc>The number of players in the gameplay footage of the platform edition (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <category xml:id="np1_player">
+                  <gloss>1 player</gloss>
+               </category>
+               <category xml:id="np2_players">
+                  <gloss>2 players</gloss>
+               </category>
+               <category xml:id="np3_players">
+                  <gloss>3 players</gloss>
+               </category>
+               <category xml:id="np4_players">
+                  <gloss>4 players</gloss>
+               </category>
+               <category xml:id="np5_players">
+                  <gloss>5 players</gloss>
+               </category>
+               <category xml:id="np6_players">
+                  <gloss>6 players</gloss>
+               </category>
+               <category xml:id="np7_players">
+                  <gloss>7 players</gloss>
+               </category>
+               <category xml:id="np8_players">
+                  <gloss>8 players</gloss>
+               </category>
+               <category xml:id="np9_players">
+                  <gloss>9 players</gloss>
+               </category>
+               <category xml:id="np10_players">
+                  <gloss>10 players</gloss>
+               </category>
+               <category xml:id="np11-50_players">
+                  <gloss>11-50 players</gloss>
+               </category>
+               <category xml:id="np51_or_more_players">
+                  <gloss>51 or more players</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxGameplayMode" n="5D">
+               <gloss>Gameplay Mode</gloss>
+               <desc>A distinct configuration of the platform edition’s mechanics and gameplay in the gameplay footage</desc>
+               <desc>Note that “Default” and “Normal / moderate” are separate options. Select “Default” if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select “Normal / moderate” if that gameplay mode was selected among other options, such as “Hard / expert” and “Easy / beginner / casual.”</desc>
+               <desc>Controlled vocabulary adapted, with minor changes, from Wikipedia, "Glossary of Video Game Terms," 2026</desc>
+               <category xml:id="gpArena">
+                  <gloss>Arena</gloss>
+               </category>
+               <category xml:id="gpAttract_display_show">
+                  <gloss>Attract / display / show</gloss>
+               </category>
+               <category xml:id="gpCapture_the_flag">
+                  <gloss>Capture the flag</gloss>
+               </category>
+               <category xml:id="gpCareer">
+                  <gloss>Career</gloss>
+               </category>
+               <category xml:id="gpChallenge">
+                  <gloss>Challenge</gloss>
+               </category>
+               <category xml:id="gpControl_point">
+                  <gloss>Control point</gloss>
+               </category>
+               <category xml:id="gpDeathmatch">
+                  <gloss>Deathmatch</gloss>
+               </category>
+               <category xml:id="gpDebug">
+                  <gloss>Debug</gloss>
+               </category>
+               <category xml:id="gpDefault">
+                  <gloss>Default</gloss>
+               </category>
+               <category xml:id="gpEasy_beginner_casual">
+                  <gloss>Easy / beginner / casual</gloss>
+               </category>
+               <category xml:id="gpEndless">
+                  <gloss>Endless</gloss>
+               </category>
+               <category xml:id="gpGod_invincible_infinite_health">
+                  <gloss>God / invincible / infinite health</gloss>
+               </category>
+               <category xml:id="gpHard_expert">
+                  <gloss>Hard / expert</gloss>
+               </category>
+               <category xml:id="gpHoliday">
+                  <gloss>Holiday</gloss>
+               </category>
+               <category xml:id="gpKing_of_the_hill">
+                  <gloss>King of the hill</gloss>
+               </category>
+               <category xml:id="gpNew_game_plus">
+                  <gloss>New game plus</gloss>
+               </category>
+               <category xml:id="gpNoclip">
+                  <gloss>Noclip</gloss>
+               </category>
+               <category xml:id="gpNormal_moderate">
+                  <gloss>Normal / moderate</gloss>
+               </category>
+               <category xml:id="gpPermadeath">
+                  <gloss>Permadeath</gloss>
+               </category>
+               <category xml:id="gpPhoto_photography">
+                  <gloss>Photo / photography</gloss>
+               </category>
+               <category xml:id="gpScore_attack">
+                  <gloss>Score attack</gloss>
+               </category>
+               <category xml:id="gpSkirmish">
+                  <gloss>Skirmish</gloss>
+               </category>
+               <category xml:id="gpSpectator">
+                  <gloss>Spectator</gloss>
+               </category>
+               <category xml:id="gpStory_campaign">
+                  <gloss>Story / campaign</gloss>
+               </category>
+               <category xml:id="gpSurvival_horde">
+                  <gloss>Survival / horde</gloss>
+               </category>
+               <category xml:id="gpTime_attack">
+                  <gloss>Time attack</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxAccessibility" n="5F">
+               <gloss>Accessibility</gloss>
+               <desc>A configuration or appearance of the platform edition’s accessibility features in the gameplay footage</desc>
+               <desc>Select “No accessibility features” if none appears in the gameplay footage.</desc>
+               <category xml:id="acAlternate_inputs">
+                  <gloss>Alternate inputs</gloss>
+               </category>
+               <category xml:id="acArachnophobia_mode">
+                  <gloss>Arachnophobia mode</gloss>
+               </category>
+               <category xml:id="acAssist_mode">
+                  <gloss>Assist mode</gloss>
+               </category>
+               <category xml:id="acAuto_aim">
+                  <gloss>Auto aim</gloss>
+               </category>
+               <category xml:id="acAuto_float">
+                  <gloss>Auto float</gloss>
+               </category>
+               <category xml:id="acAutosave">
+                  <gloss>Autosave</gloss>
+               </category>
+               <category xml:id="acCustomized_audio">
+                  <gloss>Customized audio</gloss>
+               </category>
+               <category xml:id="acCustomized_background_movement">
+                  <gloss>Customized background movement</gloss>
+               </category>
+               <category xml:id="acCustomized_colours">
+                  <gloss>Customized colours</gloss>
+               </category>
+               <category xml:id="acCustomized_communications_or_chat">
+                  <gloss>Customized communications or chat</gloss>
+               </category>
+               <category xml:id="acCustomized_control_sensitivity">
+                  <gloss>Customized control sensitivity</gloss>
+               </category>
+               <category xml:id="acCustomized_cool-down_period">
+                  <gloss>Customized cool-down period</gloss>
+               </category>
+               <category xml:id="acCustomized_cursor_or_crosshair_design">
+                  <gloss>Customized cursor or crosshair design</gloss>
+               </category>
+               <category xml:id="acCustomized_font_size">
+                  <gloss>Customized font size</gloss>
+               </category>
+               <category xml:id="acCustomized_game_speed">
+                  <gloss>Customized game speed</gloss>
+               </category>
+               <category xml:id="acCustomized_haptics">
+                  <gloss>Customized haptics</gloss>
+               </category>
+               <category xml:id="acCustomized_interface">
+                  <gloss>Customized interface</gloss>
+               </category>
+               <category xml:id="acCustomized_motion_tracking">
+                  <gloss>Customized motion tracking</gloss>
+               </category>
+               <category xml:id="acCustomized_speed">
+                  <gloss>Customized speed</gloss>
+               </category>
+               <category xml:id="acCustomized_steering">
+                  <gloss>Customized steering</gloss>
+               </category>
+               <category xml:id="acCustomized_text_formatting">
+                  <gloss>Customized text formatting</gloss>
+               </category>
+               <category xml:id="acCustomized_virtual_keyboard">
+                  <gloss>Customized virtual keyboard</gloss>
+               </category>
+               <category xml:id="acHigh_contrast_mode">
+                  <gloss>High contrast mode</gloss>
+               </category>
+               <category xml:id="acIn-game_help_guidance_tips">
+                  <gloss>In-game help / guidance / tips</gloss>
+               </category>
+               <category xml:id="acInfinite_items">
+                  <gloss>Infinite items</gloss>
+               </category>
+               <category xml:id="acInteractive_tutorial">
+                  <gloss>Interactive tutorial</gloss>
+               </category>
+               <category xml:id="acManual_save">
+                  <gloss>Manual save</gloss>
+               </category>
+               <category xml:id="acNo_accessibility_features">
+                  <gloss>No accessibility features</gloss>
+               </category>
+               <category xml:id="acNo_blood_or_gore">
+                  <gloss>No blood or gore</gloss>
+               </category>
+               <category xml:id="acNo_button_mashing">
+                  <gloss>No button mashing</gloss>
+               </category>
+               <category xml:id="acNo_camera_movement">
+                  <gloss>No camera movement</gloss>
+               </category>
+               <category xml:id="acNo_flashing_and_strobing_effects">
+                  <gloss>No flashing and strobing effects</gloss>
+               </category>
+               <category xml:id="acNo_flickering_images">
+                  <gloss>No flickering images</gloss>
+               </category>
+               <category xml:id="acNo_music">
+                  <gloss>No music</gloss>
+               </category>
+               <category xml:id="acNo_permadeath">
+                  <gloss>No permadeath</gloss>
+               </category>
+               <category xml:id="acNo_quick_time_events">
+                  <gloss>No quick time events</gloss>
+               </category>
+               <category xml:id="acNo_sound_effects">
+                  <gloss>No sound effects</gloss>
+               </category>
+               <category xml:id="acNo_triggering_content">
+                  <gloss>No triggering content</gloss>
+               </category>
+               <category xml:id="acNo_unexpected_movement_or_events">
+                  <gloss>No unexpected movement or events</gloss>
+               </category>
+               <category xml:id="acPractice_level">
+                  <gloss>Practice level</gloss>
+               </category>
+               <category xml:id="acProgress_summary">
+                  <gloss>Progress summary</gloss>
+               </category>
+               <category xml:id="acRealtime_speech-to-text">
+                  <gloss>Realtime speech-to-text</gloss>
+               </category>
+               <category xml:id="acRealtime_text-to-speech">
+                  <gloss>Realtime text-to-speech</gloss>
+               </category>
+               <category xml:id="acRemapped_controls_and_buttons">
+                  <gloss>Remapped controls and buttons</gloss>
+               </category>
+               <category xml:id="acScreenreader">
+                  <gloss>Screenreader</gloss>
+               </category>
+               <category xml:id="acSign_language">
+                  <gloss>Sign language</gloss>
+               </category>
+               <category xml:id="acSkip_boss_or_enemy">
+                  <gloss>Skip boss or enemy</gloss>
+               </category>
+               <category xml:id="acSkip_level">
+                  <gloss>Skip level</gloss>
+               </category>
+               <category xml:id="acSkip_scene">
+                  <gloss>Skip scene</gloss>
+               </category>
+               <category xml:id="acSubtitles_captions">
+                  <gloss>Subtitles / captions</gloss>
+               </category>
+               <category xml:id="acSurround_sound">
+                  <gloss>Surround sound</gloss>
+               </category>
+               <category xml:id="acSymbol-based_chat">
+                  <gloss>Symbol-based chat</gloss>
+               </category>
+               <category xml:id="acTank_controls">
+                  <gloss>Tank controls</gloss>
+               </category>
+               <category xml:id="acText_chat">
+                  <gloss>Text chat</gloss>
+               </category>
+               <category xml:id="acText_highlighing">
+                  <gloss>Text highlighing</gloss>
+               </category>
+               <category xml:id="acThalassophobia_mode">
+                  <gloss>Thalassophobia mode</gloss>
+               </category>
+               <category xml:id="acVisually_indicated_interactive_object">
+                  <gloss>Visually indicated interactive object</gloss>
+               </category>
+               <category xml:id="acVisually_indicated_movement">
+                  <gloss>Visually indicated movement</gloss>
+               </category>
+               <category xml:id="acVisually_indicated_speech">
+                  <gloss>Visually indicated speech</gloss>
+               </category>
+               <category xml:id="acVoice_chat">
+                  <gloss>Voice chat</gloss>
+               </category>
+               <category xml:id="acVoiced_global_positioning">
+                  <gloss>Voiced global positioning</gloss>
+               </category>
+               <category xml:id="acVoiceovers_for_menus">
+                  <gloss>Voiceovers for menus</gloss>
+               </category>
+               <category xml:id="acVoiceovers_for_text">
+                  <gloss>Voiceovers for text</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxTypeOfPlay" n="6A">
+               <gloss>Type of Play</gloss>
+               <desc>How players relate socially to each other and the game in the gameplay footage</desc>
+               <category xml:id="tpAsymmetrical_multiplayer">
+                  <gloss>Asymmetrical multiplayer</gloss>
+               </category>
+               <category xml:id="tpAsynchronous_multiplayer">
+                  <gloss>Asynchronous multiplayer</gloss>
+               </category>
+               <category xml:id="tpCollaborative">
+                  <gloss>Collaborative</gloss>
+               </category>
+               <category xml:id="tpCompetitive">
+                  <gloss>Competitive</gloss>
+               </category>
+               <category xml:id="tpCompetitive_teams">
+                  <gloss>Competitive teams</gloss>
+               </category>
+               <category xml:id="tpCooperative">
+                  <gloss>Cooperative</gloss>
+               </category>
+               <category xml:id="tpCooperative_teams">
+                  <gloss>Cooperative teams</gloss>
+               </category>
+               <category xml:id="tpGeolocative">
+                  <gloss>Geolocative</gloss>
+               </category>
+               <category xml:id="tpLocal_multiplayer">
+                  <gloss>Local multiplayer</gloss>
+               </category>
+               <category xml:id="tpMassively_multiplayer">
+                  <gloss>Massively multiplayer</gloss>
+               </category>
+               <category xml:id="tpOnline_multiplayer">
+                  <gloss>Online multiplayer</gloss>
+               </category>
+               <category xml:id="tpPlayer_versus_environment_PvE_">
+                  <gloss>Player versus environment (PvE)</gloss>
+               </category>
+               <category xml:id="tpPlayer_versus_player_PvP_">
+                  <gloss>Player versus player (PvP)</gloss>
+               </category>
+               <category xml:id="tpSingle-player">
+                  <gloss>Single-player</gloss>
+               </category>
+               <category xml:id="tpSplit_screen">
+                  <gloss>Split screen</gloss>
+               </category>
+               <category xml:id="tpSynchronous_multiplayer">
+                  <gloss>Synchronous multiplayer</gloss>
+               </category>
+               <category xml:id="tpZero_player">
+                  <gloss>Zero player</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxGameplayGenre" n="6B">
+               <gloss>Gameplay Genre</gloss>
+               <desc>“The overall nature of . . . interactivity” in the gameplay footage “based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Note: “Traditional” in the controlled vocabulary below denotes “games based on mechanics that exist in the real world and can be played in a physical setting.” They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., “Controlled Vocabulary for Genre,” 2024).</desc>
+               <category xml:id="ggAction">
+                  <gloss>Action</gloss>
+               </category>
+               <category xml:id="ggAdventure_story-driven">
+                  <gloss>Adventure / story-driven</gloss>
+               </category>
+               <category xml:id="ggCompilation_collection">
+                  <gloss>Compilation / collection</gloss>
+               </category>
+               <category xml:id="ggEducational">
+                  <gloss>Educational</gloss>
+               </category>
+               <category xml:id="ggIdle">
+                  <gloss>Idle</gloss>
+               </category>
+               <category xml:id="ggPuzzle">
+                  <gloss>Puzzle</gloss>
+               </category>
+               <category xml:id="ggRacing_driving">
+                  <gloss>Racing / driving</gloss>
+               </category>
+               <category xml:id="ggRole-playing_RPG">
+                  <gloss>Role-playing / RPG</gloss>
+               </category>
+               <category xml:id="ggSimulation">
+                  <gloss>Simulation</gloss>
+               </category>
+               <category xml:id="ggSocial">
+                  <gloss>Social</gloss>
+               </category>
+               <category xml:id="ggSports">
+                  <gloss>Sports</gloss>
+               </category>
+               <category xml:id="ggStrategy">
+                  <gloss>Strategy</gloss>
+               </category>
+               <category xml:id="ggTraditional">
+                  <gloss>Traditional</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxGameplaySubgenre" n="6C">
+               <gloss>Gameplay Subgenre</gloss>
+               <desc>Patterns of interactivity appearing in the gameplay footage “based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Controlled vocabulary adapted, with additions, from Poff and Atari 2025 and Lee et al., "Controlled Vocabulary for Genre," 2024</desc>
+               <category xml:id="gs4X">
+                  <gloss>4X</gloss>
+               </category>
+               <category xml:id="gsAbstract">
+                  <gloss>Abstract</gloss>
+               </category>
+               <category xml:id="gsAmerican_football">
+                  <gloss>American football</gloss>
+               </category>
+               <category xml:id="gsArcade">
+                  <gloss>Arcade</gloss>
+               </category>
+               <category xml:id="gsArena_shooter">
+                  <gloss>Arena shooter</gloss>
+               </category>
+               <category xml:id="gsArtillery">
+                  <gloss>Artillery</gloss>
+               </category>
+               <category xml:id="gsAustralian_football">
+                  <gloss>Australian football</gloss>
+               </category>
+               <category xml:id="gsAuto_battler_auto_chess">
+                  <gloss>Auto battler / auto chess</gloss>
+               </category>
+               <category xml:id="gsAuto_runner">
+                  <gloss>Auto runner</gloss>
+               </category>
+               <category xml:id="gsBaseball">
+                  <gloss>Baseball</gloss>
+               </category>
+               <category xml:id="gsBasketball">
+                  <gloss>Basketball</gloss>
+               </category>
+               <category xml:id="gsBattle_royale">
+                  <gloss>Battle royale</gloss>
+               </category>
+               <category xml:id="gsBeat_em_up_brawler">
+                  <gloss>Beat ‘em up / brawler</gloss>
+               </category>
+               <category xml:id="gsBlobber">
+                  <gloss>Blobber</gloss>
+               </category>
+               <category xml:id="gsBlock_breaking">
+                  <gloss>Block breaking</gloss>
+               </category>
+               <category xml:id="gsBoard_game">
+                  <gloss>Board game</gloss>
+               </category>
+               <category xml:id="gsBoardsports">
+                  <gloss>Boardsports</gloss>
+               </category>
+               <category xml:id="gsBowling">
+                  <gloss>Bowling</gloss>
+               </category>
+               <category xml:id="gsBullet_hell">
+                  <gloss>Bullet hell</gloss>
+               </category>
+               <category xml:id="gsBusiness_sim_tycoon">
+                  <gloss>Business sim / tycoon</gloss>
+               </category>
+               <category xml:id="gsCard_battle">
+                  <gloss>Card battle</gloss>
+               </category>
+               <category xml:id="gsCasino_roulette">
+                  <gloss>Casino / roulette</gloss>
+               </category>
+               <category xml:id="gsCastle_defence_castle_attack">
+                  <gloss>Castle defence / castle attack</gloss>
+               </category>
+               <category xml:id="gsChess">
+                  <gloss>Chess</gloss>
+               </category>
+               <category xml:id="gsChoose_your_own_adventure">
+                  <gloss>Choose your own adventure</gloss>
+               </category>
+               <category xml:id="gsCity_building_construction_sim">
+                  <gloss>City building / construction sim</gloss>
+               </category>
+               <category xml:id="gsClaw_machine">
+                  <gloss>Claw machine</gloss>
+               </category>
+               <category xml:id="gsClicker">
+                  <gloss>Clicker</gloss>
+               </category>
+               <category xml:id="gsCollect-a-thon">
+                  <gloss>Collect-a-thon</gloss>
+               </category>
+               <category xml:id="gsCombat_sports_wrestling">
+                  <gloss>Combat sports / wrestling</gloss>
+               </category>
+               <category xml:id="gsCooking_sim">
+                  <gloss>Cooking sim</gloss>
+               </category>
+               <category xml:id="gsCreature_breeding_genetics">
+                  <gloss>Creature breeding / genetics</gloss>
+               </category>
+               <category xml:id="gsCricket">
+                  <gloss>Cricket</gloss>
+               </category>
+               <category xml:id="gsCryptic_puzzle">
+                  <gloss>Cryptic puzzle</gloss>
+               </category>
+               <category xml:id="gsCue_sports_billiards">
+                  <gloss>Cue sports / billiards</gloss>
+               </category>
+               <category xml:id="gsCycling">
+                  <gloss>Cycling</gloss>
+               </category>
+               <category xml:id="gsDarts">
+                  <gloss>Darts</gloss>
+               </category>
+               <category xml:id="gsDating_sim">
+                  <gloss>Dating sim</gloss>
+               </category>
+               <category xml:id="gsDeckbuilder">
+                  <gloss>Deckbuilder</gloss>
+               </category>
+               <category xml:id="gsDexterity">
+                  <gloss>Dexterity</gloss>
+               </category>
+               <category xml:id="gsDodgeball">
+                  <gloss>Dodgeball</gloss>
+               </category>
+               <category xml:id="gsDungeon_crawl">
+                  <gloss>Dungeon crawl</gloss>
+               </category>
+               <category xml:id="gsEscape_room_exit_game_riddle_room">
+                  <gloss>Escape room / exit game / riddle room</gloss>
+               </category>
+               <category xml:id="gsExtraction">
+                  <gloss>Extraction</gloss>
+               </category>
+               <category xml:id="gsExtreme_sports">
+                  <gloss>Extreme sports</gloss>
+               </category>
+               <category xml:id="gsFairy_chess_unorthodox_chess">
+                  <gloss>Fairy chess / unorthodox chess</gloss>
+               </category>
+               <category xml:id="gsFalling_block_block_fill">
+                  <gloss>Falling block / block fill</gloss>
+               </category>
+               <category xml:id="gsFarming_sim">
+                  <gloss>Farming sim</gloss>
+               </category>
+               <category xml:id="gsFashion_sim">
+                  <gloss>Fashion sim</gloss>
+               </category>
+               <category xml:id="gsFighting">
+                  <gloss>Fighting</gloss>
+               </category>
+               <category xml:id="gsFitness_exercise">
+                  <gloss>Fitness / exercise</gloss>
+               </category>
+               <category xml:id="gsFlight_sim">
+                  <gloss>Flight sim</gloss>
+               </category>
+               <category xml:id="gsFriendslop">
+                  <gloss>Friendslop</gloss>
+               </category>
+               <category xml:id="gsFumblecore">
+                  <gloss>Fumblecore</gloss>
+               </category>
+               <category xml:id="gsGambling_gambling_elements">
+                  <gloss>Gambling / gambling elements</gloss>
+               </category>
+               <category xml:id="gsGame_show">
+                  <gloss>Game show</gloss>
+               </category>
+               <category xml:id="gsGashapon">
+                  <gloss>Gashapon</gloss>
+               </category>
+               <category xml:id="gsGenetics">
+                  <gloss>Genetics</gloss>
+               </category>
+               <category xml:id="gsGod_game">
+                  <gloss>God game</gloss>
+               </category>
+               <category xml:id="gsGolf">
+                  <gloss>Golf</gloss>
+               </category>
+               <category xml:id="gsGovernment_sim">
+                  <gloss>Government sim</gloss>
+               </category>
+               <category xml:id="gsGraphic_adventure">
+                  <gloss>Graphic adventure</gloss>
+               </category>
+               <category xml:id="gsGuessing_charades">
+                  <gloss>Guessing / charades</gloss>
+               </category>
+               <category xml:id="gsHack_and_slash">
+                  <gloss>Hack and slash</gloss>
+               </category>
+               <category xml:id="gsHero_shooter">
+                  <gloss>Hero shooter</gloss>
+               </category>
+               <category xml:id="gsHidden_object">
+                  <gloss>Hidden object</gloss>
+               </category>
+               <category xml:id="gsHockey">
+                  <gloss>Hockey</gloss>
+               </category>
+               <category xml:id="gsHorde_shooter_horde_surivor">
+                  <gloss>Horde shooter / horde surivor</gloss>
+               </category>
+               <category xml:id="gsHorse_racing">
+                  <gloss>Horse racing</gloss>
+               </category>
+               <category xml:id="gsHunting_hunting_sim">
+                  <gloss>Hunting / hunting sim</gloss>
+               </category>
+               <category xml:id="gsImmersive_sim">
+                  <gloss>Immersive sim</gloss>
+               </category>
+               <category xml:id="gsIncremental">
+                  <gloss>Incremental</gloss>
+               </category>
+               <category xml:id="gsInteractive_book">
+                  <gloss>Interactive book</gloss>
+               </category>
+               <category xml:id="gsInteractive_fiction">
+                  <gloss>Interactive fiction</gloss>
+               </category>
+               <category xml:id="gsInteractive_movie_full-motion_video">
+                  <gloss>Interactive movie / full-motion video</gloss>
+               </category>
+               <category xml:id="gsJapanese-style_adventure">
+                  <gloss>Japanese-style adventure</gloss>
+               </category>
+               <category xml:id="gsJapanese-style_RPG_JRPG">
+                  <gloss>Japanese-style RPG / JRPG</gloss>
+               </category>
+               <category xml:id="gsJob_sim">
+                  <gloss>Job sim</gloss>
+               </category>
+               <category xml:id="gsKaraoke_singing">
+                  <gloss>Karaoke / singing</gloss>
+               </category>
+               <category xml:id="gsKart_racing">
+                  <gloss>Kart racing</gloss>
+               </category>
+               <category xml:id="gsLife_sim_social_sim">
+                  <gloss>Life sim / social sim</gloss>
+               </category>
+               <category xml:id="gsLogic_puzzle">
+                  <gloss>Logic puzzle</gloss>
+               </category>
+               <category xml:id="gsLooter_shooter">
+                  <gloss>Looter shooter</gloss>
+               </category>
+               <category xml:id="gsMartial_arts">
+                  <gloss>Martial arts</gloss>
+               </category>
+               <category xml:id="gsMascot">
+                  <gloss>Mascot</gloss>
+               </category>
+               <category xml:id="gsMassively_multiplayer_online_RPG_MMPORG_">
+                  <gloss>Massively multiplayer online RPG (MMPORG)</gloss>
+               </category>
+               <category xml:id="gsMath_puzzle">
+                  <gloss>Math puzzle</gloss>
+               </category>
+               <category xml:id="gsMaze_maze_chase">
+                  <gloss>Maze / maze chase</gloss>
+               </category>
+               <category xml:id="gsMechanical_puzzle">
+                  <gloss>Mechanical puzzle</gloss>
+               </category>
+               <category xml:id="gsMedical_sim">
+                  <gloss>Medical sim</gloss>
+               </category>
+               <category xml:id="gsMental_training">
+                  <gloss>Mental training</gloss>
+               </category>
+               <category xml:id="gsMetroidvania_search_action">
+                  <gloss>Metroidvania / search action</gloss>
+               </category>
+               <category xml:id="gsMilitary_sim_milsim">
+                  <gloss>Military sim / milsim</gloss>
+               </category>
+               <category xml:id="gsMini-game_micro-game_collection">
+                  <gloss>Mini-game / micro-game collection</gloss>
+               </category>
+               <category xml:id="gsMonster_taming_raising">
+                  <gloss>Monster taming / raising</gloss>
+               </category>
+               <category xml:id="gsMovement_shooter">
+                  <gloss>Movement shooter</gloss>
+               </category>
+               <category xml:id="gsMulti-user_dungeon_MUD">
+                  <gloss>Multi-user dungeon / MUD</gloss>
+               </category>
+               <category xml:id="gsMultiplayer_online_battle_arean_MOBA">
+                  <gloss>Multiplayer online battle arean / MOBA</gloss>
+               </category>
+               <category xml:id="gsObstacle_course">
+                  <gloss>Obstacle course</gloss>
+               </category>
+               <category xml:id="gsOff-road_racing_rally_racing">
+                  <gloss>Off-road racing / rally racing</gloss>
+               </category>
+               <category xml:id="gsPachinko">
+                  <gloss>Pachinko</gloss>
+               </category>
+               <category xml:id="gsPaddle_ball_and_paddle">
+                  <gloss>Paddle / ball and paddle</gloss>
+               </category>
+               <category xml:id="gsParkour">
+                  <gloss>Parkour</gloss>
+               </category>
+               <category xml:id="gsParser_adventure">
+                  <gloss>Parser adventure</gloss>
+               </category>
+               <category xml:id="gsParty_parlour">
+                  <gloss>Party / parlour</gloss>
+               </category>
+               <category xml:id="gsPhotography_sim">
+                  <gloss>Photography sim</gloss>
+               </category>
+               <category xml:id="gsPhysics_sim_physics_puzzle">
+                  <gloss>Physics sim / physics puzzle</gloss>
+               </category>
+               <category xml:id="gsPicross_nonogram">
+                  <gloss>Picross / nonogram</gloss>
+               </category>
+               <category xml:id="gsPinball">
+                  <gloss>Pinball</gloss>
+               </category>
+               <category xml:id="gsPipe_puzzle">
+                  <gloss>Pipe puzzle</gloss>
+               </category>
+               <category xml:id="gsPlatformer_precision_platformer">
+                  <gloss>Platformer / precision platformer</gloss>
+               </category>
+               <category xml:id="gsPlatform_fighter">
+                  <gloss>Platform fighter</gloss>
+               </category>
+               <category xml:id="gsPoint_and_click">
+                  <gloss>Point and click</gloss>
+               </category>
+               <category xml:id="gsProgramming_hacking_sim">
+                  <gloss>Programming / hacking sim</gloss>
+               </category>
+               <category xml:id="gsRacing_sim">
+                  <gloss>Racing sim</gloss>
+               </category>
+               <category xml:id="gsRacket_sports">
+                  <gloss>Racket sports</gloss>
+               </category>
+               <category xml:id="gsRail_shooter">
+                  <gloss>Rail shooter</gloss>
+               </category>
+               <category xml:id="gsReal-time_strategy">
+                  <gloss>Real-time strategy</gloss>
+               </category>
+               <category xml:id="gsRhythm_music_dancing">
+                  <gloss>Rhythm / music / dancing</gloss>
+               </category>
+               <category xml:id="gsRocks_and_diamonds">
+                  <gloss>Rocks and diamonds</gloss>
+               </category>
+               <category xml:id="gsRoguelike_roguelite">
+                  <gloss>Roguelike / roguelite</gloss>
+               </category>
+               <category xml:id="gsRugby">
+                  <gloss>Rugby</gloss>
+               </category>
+               <category xml:id="gsRun_and_gun">
+                  <gloss>Run and gun</gloss>
+               </category>
+               <category xml:id="gsSandbox_open_world_falling_sand">
+                  <gloss>Sandbox / open world / falling sand</gloss>
+               </category>
+               <category xml:id="gsShoot_em_up">
+                  <gloss>Shoot 'em up</gloss>
+               </category>
+               <category xml:id="gsShooting_gallery">
+                  <gloss>Shooting gallery</gloss>
+               </category>
+               <category xml:id="gsSkating">
+                  <gloss>Skating</gloss>
+               </category>
+               <category xml:id="gsSlot_machine">
+                  <gloss>Slot machine</gloss>
+               </category>
+               <category xml:id="gsSnake">
+                  <gloss>Snake</gloss>
+               </category>
+               <category xml:id="gsSoccer_football">
+                  <gloss>Soccer / football</gloss>
+               </category>
+               <category xml:id="gsSocial_deduction_secret_identity">
+                  <gloss>Social deduction / secret identity</gloss>
+               </category>
+               <category xml:id="gsSokoban">
+                  <gloss>Sokoban</gloss>
+               </category>
+               <category xml:id="gsSoulslike">
+                  <gloss>Soulslike</gloss>
+               </category>
+               <category xml:id="gsSports_sim">
+                  <gloss>Sports sim</gloss>
+               </category>
+               <category xml:id="gsStealth">
+                  <gloss>Stealth</gloss>
+               </category>
+               <category xml:id="gsSurveillance">
+                  <gloss>Surveillance</gloss>
+               </category>
+               <category xml:id="gsSurvival">
+                  <gloss>Survival</gloss>
+               </category>
+               <category xml:id="gsTabletop_card_tabletop_tile">
+                  <gloss>Tabletop card / tabletop tile</gloss>
+               </category>
+               <category xml:id="gsTactics_tactical">
+                  <gloss>Tactics / tactical</gloss>
+               </category>
+               <category xml:id="gsTennis">
+                  <gloss>Tennis</gloss>
+               </category>
+               <category xml:id="gsText_adventure">
+                  <gloss>Text adventure</gloss>
+               </category>
+               <category xml:id="gsTile_matching">
+                  <gloss>Tile matching</gloss>
+               </category>
+               <category xml:id="gsTiling_puzzle_jigsaw">
+                  <gloss>Tiling puzzle / jigsaw</gloss>
+               </category>
+               <category xml:id="gsTime_management">
+                  <gloss>Time management</gloss>
+               </category>
+               <category xml:id="gsTimed_input">
+                  <gloss>Timed input</gloss>
+               </category>
+               <category xml:id="gsTower_defence">
+                  <gloss>Tower defence</gloss>
+               </category>
+               <category xml:id="gsTrack_and_field">
+                  <gloss>Track and field</gloss>
+               </category>
+               <category xml:id="gsTrading_collectible_card">
+                  <gloss>Trading / collectible card</gloss>
+               </category>
+               <category xml:id="gsTricks_stunts">
+                  <gloss>Tricks / stunts</gloss>
+               </category>
+               <category xml:id="gsTrivia_quiz">
+                  <gloss>Trivia / quiz</gloss>
+               </category>
+               <category xml:id="gsTurn-based_strategy">
+                  <gloss>Turn-based strategy</gloss>
+               </category>
+               <category xml:id="gsTwin-stick_shooter">
+                  <gloss>Twin-stick shooter</gloss>
+               </category>
+               <category xml:id="gsTwitch_skill">
+                  <gloss>Twitch skill</gloss>
+               </category>
+               <category xml:id="gsTyping">
+                  <gloss>Typing</gloss>
+               </category>
+               <category xml:id="gsVehicle_combat_car_combat">
+                  <gloss>Vehicle combat / car combat</gloss>
+               </category>
+               <category xml:id="gsVehicle_sim">
+                  <gloss>Vehicle sim</gloss>
+               </category>
+               <category xml:id="gsVirtual_life">
+                  <gloss>Virtual life</gloss>
+               </category>
+               <category xml:id="gsVirtual_pet">
+                  <gloss>Virtual pet</gloss>
+               </category>
+               <category xml:id="gsVisual_novel">
+                  <gloss>Visual novel</gloss>
+               </category>
+               <category xml:id="gsVolleyball">
+                  <gloss>Volleyball</gloss>
+               </category>
+               <category xml:id="gsWalking_sim">
+                  <gloss>Walking sim</gloss>
+               </category>
+               <category xml:id="gsWargame_grand_strategy">
+                  <gloss>Wargame / grand strategy</gloss>
+               </category>
+               <category xml:id="gsWater_sports">
+                  <gloss>Water sports</gloss>
+               </category>
+               <category xml:id="gsWinter_sports">
+                  <gloss>Winter sports</gloss>
+               </category>
+               <category xml:id="gsWord_puzzle_crossword">
+                  <gloss>Word puzzle / crossword</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxDimensionPerspective" n="6F">
+               <gloss>Dimension and Perspective</gloss>
+               <desc>“The intended perception of the depth of the represented entities in” the gameplay footage and “[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay” (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>This element will typically be repeated: for example, 3D, 1st-person, and perspective camera.</desc>
+               <desc>Two terms in this element (free camera and cinematic camera) are defined here to avoid confusion.</desc>
+               <desc>Select “free camera” if “the camera is not attached to a specific avatar and does not follow a specific target” (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the “player is able to freely slide/scroll/rotate through the environment” (ibid).</desc>
+               <desc>Select “cinematic camera” if “different, fixed camera positions are set during the game’s creation for a maximum cinematic effect. These positions cannot be controlled by the player” (ibid).</desc>
+               <desc>Don’t select “free camera” or “cinematic camera” if they do not apply to the gameplay footage.</desc>
+               <desc>Controlled vocabulary adapted, with minor changes, from Poff and Atari 2025, Jan 2017, and Lee et al., "VGMS 4.2," 2024</desc>
+               <category xml:id="dp2D">
+                  <gloss>2D</gloss>
+               </category>
+               <category xml:id="dp2_5D">
+                  <gloss>2.5D</gloss>
+               </category>
+               <category xml:id="dp3D">
+                  <gloss>3D</gloss>
+               </category>
+               <category xml:id="dp1st-person_first-person">
+                  <gloss>1st-person / first-person</gloss>
+               </category>
+               <category xml:id="dp2nd-person_second-person">
+                  <gloss>2nd-person / second-person</gloss>
+               </category>
+               <category xml:id="dp3rd-person_third-person">
+                  <gloss>3rd-person / third-person</gloss>
+               </category>
+               <category xml:id="dpAudio_game">
+                  <gloss>Audio game</gloss>
+               </category>
+               <category xml:id="dpAugmented_reality">
+                  <gloss>Augmented reality</gloss>
+               </category>
+               <category xml:id="dpBehind_view_over_the_shoulder">
+                  <gloss>Behind view / over the shoulder</gloss>
+               </category>
+               <category xml:id="dpBreaks_the_fourth_wall">
+                  <gloss>Breaks the fourth wall</gloss>
+               </category>
+               <category xml:id="dpCamera_zoom_scaling">
+                  <gloss>Camera zoom / scaling</gloss>
+               </category>
+               <category xml:id="dpCinematic_camera">
+                  <gloss>Cinematic camera</gloss>
+               </category>
+               <category xml:id="dpCurvilinear_projection">
+                  <gloss>Curvilinear projection</gloss>
+               </category>
+               <category xml:id="dpDiagonal-down_view_isometric_3_4_projection">
+                  <gloss>Diagonal-down view / isometric / 3/4 projection</gloss>
+               </category>
+               <category xml:id="dpFixed_screen">
+                  <gloss>Fixed screen</gloss>
+               </category>
+               <category xml:id="dpFree_camera">
+                  <gloss>Free camera</gloss>
+               </category>
+               <category xml:id="dpHD-2D">
+                  <gloss>HD-2D</gloss>
+               </category>
+               <category xml:id="dpOblique_projection_cabinet">
+                  <gloss>Oblique projection / cabinet</gloss>
+               </category>
+               <category xml:id="dpPerspective_projection">
+                  <gloss>Perspective projection</gloss>
+               </category>
+               <category xml:id="dpSide_view_multiview_projection">
+                  <gloss>Side view / multiview projection</gloss>
+               </category>
+               <category xml:id="dpStereoscopic_3D">
+                  <gloss>Stereoscopic 3D</gloss>
+               </category>
+               <category xml:id="dpText-based_spreadsheet">
+                  <gloss>Text-based / spreadsheet</gloss>
+               </category>
+               <category xml:id="dpTop-down_view_multiview_projection">
+                  <gloss>Top-down view / multiview projection</gloss>
+               </category>
+               <category xml:id="dpTracking_camera">
+                  <gloss>Tracking camera</gloss>
+               </category>
+               <category xml:id="dpVirtual_reality">
+                  <gloss>Virtual reality</gloss>
+               </category>
+               <category xml:id="dpWraparound">
+                  <gloss>Wraparound</gloss>
+               </category>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
