@@ -9,22 +9,25 @@
             <title>Taxonomies for PressRecord</title>
          </titleStmt>
          <publicationStmt>
-            <p>Published by Jentery Sayers and the UVic HCMC.</p>
+            <p part="N">Published by Jentery Sayers and the UVic HCMC.</p>
          </publicationStmt>
-         <sourceDesc>
-            <p>Born-digital.</p>
+         <sourceDesc default="false">
+            <p part="N">Born-digital.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>The following taxonomies provide the controlled
-         vocabularies for metadata in the PressRecord project.</p></projectDesc>
+         <projectDesc default="false">
+            <p part="N">The following taxonomies provide the controlled vocabularies for metadata in the
+               PressRecord project.</p>
+         </projectDesc>
          <classDecl>
-            <taxonomy xml:id="taxReleaseType">
+            <taxonomy xml:id="taxReleaseType" n="3C">
                <gloss>Release Type</gloss>
-               <desc>
-                  The platform edition’s release type as assigned by its developer, publisher, and/or distributor
-               </desc>
-               <desc>Encoders will use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor.</desc>
+               <desc> The platform edition’s release type as assigned by its developer, publisher,
+                  and/or distributor </desc>
+               <desc>Encoders will use existing scholarship, MobyGames, Wikipedia, Steam, and/or
+                  fansites to confirm the release type if it was not assigned by the developer,
+                  publisher, and/or distributor.</desc>
                <category xml:id="rtAlpha">
                   <gloss>Alpha</gloss>
                </category>
@@ -68,13 +71,2354 @@
                   <gloss>Unfinished</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxPlatform" n="3D">
+               <gloss>Platform</gloss>
+               <desc>The operating system, device, computer, console, and/or service on which the
+                  platform edition was played and recorded (Lee et al., “VGMS 4.2,” 2024)</desc>
+               <desc>Controlled vocabulary adapted, with minor changes, from Poff and Atari
+                  2025</desc>
+               <category xml:id="pf1291_Advanced_Programmable_Video_System">
+                  <gloss>1291 Advanced Programmable Video System</gloss>
+               </category>
+               <category xml:id="pf3DO">
+                  <gloss>3DO</gloss>
+               </category>
+               <category xml:id="pfABC_80">
+                  <gloss>ABC 80</gloss>
+               </category>
+               <category xml:id="pfAcorn_32-bit">
+                  <gloss>Acorn 32-bit</gloss>
+               </category>
+               <category xml:id="pfAdventure_Vision">
+                  <gloss>Adventure Vision</gloss>
+               </category>
+               <category xml:id="pfAirConsole">
+                  <gloss>AirConsole</gloss>
+               </category>
+               <category xml:id="pfAlice_32_90">
+                  <gloss>Alice 32/90</gloss>
+               </category>
+               <category xml:id="pfAltair_680">
+                  <gloss>Altair 680</gloss>
+               </category>
+               <category xml:id="pfAltair_8800">
+                  <gloss>Altair 8800</gloss>
+               </category>
+               <category xml:id="pfAmazon_Alexa">
+                  <gloss>Amazon Alexa</gloss>
+               </category>
+               <category xml:id="pfAmazon_Luna">
+                  <gloss>Amazon Luna</gloss>
+               </category>
+               <category xml:id="pfAmiga">
+                  <gloss>Amiga</gloss>
+               </category>
+               <category xml:id="pfAmiga_CD32">
+                  <gloss>Amiga CD32</gloss>
+               </category>
+               <category xml:id="pfAmstrad_CPC">
+                  <gloss>Amstrad CPC</gloss>
+               </category>
+               <category xml:id="pfAmstrad_PCW">
+                  <gloss>Amstrad PCW</gloss>
+               </category>
+               <category xml:id="pfAnalogue_3D">
+                  <gloss>Analogue 3D</gloss>
+               </category>
+               <category xml:id="pfAnalogue_Duo">
+                  <gloss>Analogue Duo</gloss>
+               </category>
+               <category xml:id="pfAnalogue_Mega_SG">
+                  <gloss>Analogue Mega SG</gloss>
+               </category>
+               <category xml:id="pfAnalogue_Nt_Mini">
+                  <gloss>Analogue Nt Mini</gloss>
+               </category>
+               <category xml:id="pfAnalogue_Pocket">
+                  <gloss>Analogue Pocket</gloss>
+               </category>
+               <category xml:id="pfAnalogue_Super_Nt">
+                  <gloss>Analogue Super Nt</gloss>
+               </category>
+               <category xml:id="pfAndroid">
+                  <gloss>Android</gloss>
+               </category>
+               <category xml:id="pfAnstream">
+                  <gloss>Anstream</gloss>
+               </category>
+               <category xml:id="pfAPF_MP1000_Imagination_Machine">
+                  <gloss>APF MP1000 / Imagination Machine</gloss>
+               </category>
+               <category xml:id="pfApple_I">
+                  <gloss>Apple I</gloss>
+               </category>
+               <category xml:id="pfApple_II">
+                  <gloss>Apple II</gloss>
+               </category>
+               <category xml:id="pfApple_IIgs">
+                  <gloss>Apple IIgs</gloss>
+               </category>
+               <category xml:id="pfArcade">
+                  <gloss>Arcade</gloss>
+               </category>
+               <category xml:id="pfArcadia_2001">
+                  <gloss>Arcadia 2001</gloss>
+               </category>
+               <category xml:id="pfArduboy">
+                  <gloss>Arduboy</gloss>
+               </category>
+               <category xml:id="pfAstral_2000">
+                  <gloss>Astral 2000</gloss>
+               </category>
+               <category xml:id="pfAtari_2600">
+                  <gloss>Atari 2600</gloss>
+               </category>
+               <category xml:id="pfAtari_5200">
+                  <gloss>Atari 5200</gloss>
+               </category>
+               <category xml:id="pfAtari_7800">
+                  <gloss>Atari 7800</gloss>
+               </category>
+               <category xml:id="pfAtari_8-bit">
+                  <gloss>Atari 8-bit</gloss>
+               </category>
+               <category xml:id="pfAtari_ST">
+                  <gloss>Atari ST</gloss>
+               </category>
+               <category xml:id="pfAtari_VCS">
+                  <gloss>Atari VCS</gloss>
+               </category>
+               <category xml:id="pfAtom">
+                  <gloss>Atom</gloss>
+               </category>
+               <category xml:id="pfAuto_Response_Board">
+                  <gloss>Auto Response Board</gloss>
+               </category>
+               <category xml:id="pfbada">
+                  <gloss>bada</gloss>
+               </category>
+               <category xml:id="pfBally_Astrocade">
+                  <gloss>Bally Astrocade</gloss>
+               </category>
+               <category xml:id="pfBandai_RX-78_Gundam">
+                  <gloss>Bandai RX-78 Gundam</gloss>
+               </category>
+               <category xml:id="pfBBC_Micro">
+                  <gloss>BBC Micro</gloss>
+               </category>
+               <category xml:id="pfBeOS">
+                  <gloss>BeOS</gloss>
+               </category>
+               <category xml:id="pfBlackBerry">
+                  <gloss>BlackBerry</gloss>
+               </category>
+               <category xml:id="pfBlacknut">
+                  <gloss>Blacknut</gloss>
+               </category>
+               <category xml:id="pfBlu-ray_disc_player">
+                  <gloss>Blu-ray disc player</gloss>
+               </category>
+               <category xml:id="pfBREW">
+                  <gloss>BREW</gloss>
+               </category>
+               <category xml:id="pfBrowser">
+                  <gloss>Browser</gloss>
+               </category>
+               <category xml:id="pfBubble">
+                  <gloss>Bubble</gloss>
+               </category>
+               <category xml:id="pfCamputers_Lynx">
+                  <gloss>Camputers Lynx</gloss>
+               </category>
+               <category xml:id="pfCasio_FP-1000_1100">
+                  <gloss>Casio FP-1000 / 1100</gloss>
+               </category>
+               <category xml:id="pfCasio_Loopy">
+                  <gloss>Casio Loopy</gloss>
+               </category>
+               <category xml:id="pfCasio_Programmable_Calculator">
+                  <gloss>Casio Programmable Calculator</gloss>
+               </category>
+               <category xml:id="pfCasio_PV-1000">
+                  <gloss>Casio PV-1000</gloss>
+               </category>
+               <category xml:id="pfCD-i">
+                  <gloss>CD-i</gloss>
+               </category>
+               <category xml:id="pfCDTV">
+                  <gloss>CDTV</gloss>
+               </category>
+               <category xml:id="pfChampion_2711">
+                  <gloss>Champion 2711</gloss>
+               </category>
+               <category xml:id="pfChannel_F">
+                  <gloss>Channel F</gloss>
+               </category>
+               <category xml:id="pfClickStart">
+                  <gloss>ClickStart</gloss>
+               </category>
+               <category xml:id="pfColeco_Adam">
+                  <gloss>Coleco Adam</gloss>
+               </category>
+               <category xml:id="pfColecoVision">
+                  <gloss>ColecoVision</gloss>
+               </category>
+               <category xml:id="pfColour_Genie">
+                  <gloss>Colour Genie</gloss>
+               </category>
+               <category xml:id="pfCommodore_128">
+                  <gloss>Commodore 128</gloss>
+               </category>
+               <category xml:id="pfCommodore_16_Plus_4">
+                  <gloss>Commodore 16, Plus/4</gloss>
+               </category>
+               <category xml:id="pfCommodore_64">
+                  <gloss>Commodore 64</gloss>
+               </category>
+               <category xml:id="pfCommodore_PET_CBM">
+                  <gloss>Commodore PET/CBM</gloss>
+               </category>
+               <category xml:id="pfCompal_80">
+                  <gloss>Compal 80</gloss>
+               </category>
+               <category xml:id="pfCompucolor_I">
+                  <gloss>Compucolor I</gloss>
+               </category>
+               <category xml:id="pfCompucolor_II">
+                  <gloss>Compucolor II</gloss>
+               </category>
+               <category xml:id="pfCompucorp_Programmable_Calculator">
+                  <gloss>Compucorp Programmable Calculator</gloss>
+               </category>
+               <category xml:id="pfCOSMAC">
+                  <gloss>COSMAC</gloss>
+               </category>
+               <category xml:id="pfCP_M">
+                  <gloss>CP/M</gloss>
+               </category>
+               <category xml:id="pfCreatiVision">
+                  <gloss>CreatiVision</gloss>
+               </category>
+               <category xml:id="pfCybervision">
+                  <gloss>Cybervision</gloss>
+               </category>
+               <category xml:id="pfDAI">
+                  <gloss>DAI</gloss>
+               </category>
+               <category xml:id="pfDanger_OS">
+                  <gloss>Danger OS</gloss>
+               </category>
+               <category xml:id="pfDedicated_console">
+                  <gloss>Dedicated console</gloss>
+               </category>
+               <category xml:id="pfDedicated_handheld">
+                  <gloss>Dedicated handheld</gloss>
+               </category>
+               <category xml:id="pfDidj">
+                  <gloss>Didj</gloss>
+               </category>
+               <category xml:id="pfdigiBlast">
+                  <gloss>digiBlast</gloss>
+               </category>
+               <category xml:id="pfDoJa">
+                  <gloss>DoJa</gloss>
+               </category>
+               <category xml:id="pfDOS">
+                  <gloss>DOS</gloss>
+               </category>
+               <category xml:id="pfDragon_32_64">
+                  <gloss>Dragon 32/64</gloss>
+               </category>
+               <category xml:id="pfDreamcast">
+                  <gloss>Dreamcast</gloss>
+               </category>
+               <category xml:id="pfDVD_Player">
+                  <gloss>DVD Player</gloss>
+               </category>
+               <category xml:id="pfECD_Micromind">
+                  <gloss>ECD Micromind</gloss>
+               </category>
+               <category xml:id="pfElectron">
+                  <gloss>Electron</gloss>
+               </category>
+               <category xml:id="pfEnterprise">
+                  <gloss>Enterprise</gloss>
+               </category>
+               <category xml:id="pfEpoch_Cassette_Vision">
+                  <gloss>Epoch Cassette Vision</gloss>
+               </category>
+               <category xml:id="pfEpoch_Game_Pocket_Computer">
+                  <gloss>Epoch Game Pocket Computer</gloss>
+               </category>
+               <category xml:id="pfEpoch_Super_Cassette_Vision">
+                  <gloss>Epoch Super Cassette Vision</gloss>
+               </category>
+               <category xml:id="pfEvercade">
+                  <gloss>Evercade</gloss>
+               </category>
+               <category xml:id="pfExcelvision">
+                  <gloss>Excelvision</gloss>
+               </category>
+               <category xml:id="pfExEn">
+                  <gloss>ExEn</gloss>
+               </category>
+               <category xml:id="pfExidy_Sorcerer">
+                  <gloss>Exidy Sorcerer</gloss>
+               </category>
+               <category xml:id="pfFeature_phone">
+                  <gloss>Feature phone</gloss>
+               </category>
+               <category xml:id="pfFire_OS">
+                  <gloss>Fire OS</gloss>
+               </category>
+               <category xml:id="pfFM-7">
+                  <gloss>FM-7</gloss>
+               </category>
+               <category xml:id="pfFM_Towns">
+                  <gloss>FM Towns</gloss>
+               </category>
+               <category xml:id="pfFreebox">
+                  <gloss>Freebox</gloss>
+               </category>
+               <category xml:id="pfFreeBSD">
+                  <gloss>FreeBSD</gloss>
+               </category>
+               <category xml:id="pfG-cluster">
+                  <gloss>G-cluster</gloss>
+               </category>
+               <category xml:id="pfGalaksija">
+                  <gloss>Galaksija</gloss>
+               </category>
+               <category xml:id="pfGame_Boy">
+                  <gloss>Game Boy</gloss>
+               </category>
+               <category xml:id="pfGame_Boy_Advance">
+                  <gloss>Game Boy Advance</gloss>
+               </category>
+               <category xml:id="pfGame_Boy_Color">
+                  <gloss>Game Boy Color</gloss>
+               </category>
+               <category xml:id="pfGame_Gear">
+                  <gloss>Game Gear</gloss>
+               </category>
+               <category xml:id="pfGame_Wave">
+                  <gloss>Game Wave</gloss>
+               </category>
+               <category xml:id="pfGame_com">
+                  <gloss>Game.com</gloss>
+               </category>
+               <category xml:id="pfGameCube">
+                  <gloss>GameCube</gloss>
+               </category>
+               <category xml:id="pfGameStick">
+                  <gloss>GameStick</gloss>
+               </category>
+               <category xml:id="pfGenesis">
+                  <gloss>Genesis</gloss>
+               </category>
+               <category xml:id="pfGIMINI">
+                  <gloss>GIMINI</gloss>
+               </category>
+               <category xml:id="pfGizmondo">
+                  <gloss>Gizmondo</gloss>
+               </category>
+               <category xml:id="pfGloud">
+                  <gloss>Gloud</gloss>
+               </category>
+               <category xml:id="pfGlulx">
+                  <gloss>Glulx</gloss>
+               </category>
+               <category xml:id="pfGNEX">
+                  <gloss>GNEX</gloss>
+               </category>
+               <category xml:id="pfGP2X">
+                  <gloss>GP2X</gloss>
+               </category>
+               <category xml:id="pfGP2X_Wix">
+                  <gloss>GP2X Wix</gloss>
+               </category>
+               <category xml:id="pfGP32">
+                  <gloss>GP32</gloss>
+               </category>
+               <category xml:id="pfGVM">
+                  <gloss>GVM</gloss>
+               </category>
+               <category xml:id="pfHD_DVD_player">
+                  <gloss>HD DVD player</gloss>
+               </category>
+               <category xml:id="pfHeath_Zenith_H8_H89">
+                  <gloss>Heath/Zenith H8/H89</gloss>
+               </category>
+               <category xml:id="pfHeathkit_H11">
+                  <gloss>Heathkit H11</gloss>
+               </category>
+               <category xml:id="pfHitachi_Basic_Master">
+                  <gloss>Hitachi Basic Master</gloss>
+               </category>
+               <category xml:id="pfHitachi_Basic_Master_Level_3">
+                  <gloss>Hitachi Basic Master Level 3</gloss>
+               </category>
+               <category xml:id="pfHitachi_H68_TR">
+                  <gloss>Hitachi H68/TR</gloss>
+               </category>
+               <category xml:id="pfHitachi_SI">
+                  <gloss>Hitachi SI</gloss>
+               </category>
+               <category xml:id="pfHP_9800">
+                  <gloss>HP 9800</gloss>
+               </category>
+               <category xml:id="pfHP_Oscilloscope">
+                  <gloss>HP Oscilloscope</gloss>
+               </category>
+               <category xml:id="pfHP_Programmable_Calculator">
+                  <gloss>HP Programmable Calculator</gloss>
+               </category>
+               <category xml:id="pfHP_Series_80">
+                  <gloss>HP Series 80</gloss>
+               </category>
+               <category xml:id="pfHugo">
+                  <gloss>Hugo</gloss>
+               </category>
+               <category xml:id="pfHyperScan">
+                  <gloss>HyperScan</gloss>
+               </category>
+               <category xml:id="pfIBM_5100">
+                  <gloss>IBM 5100</gloss>
+               </category>
+               <category xml:id="pfIdeal-Computer">
+                  <gloss>Ideal-Computer</gloss>
+               </category>
+               <category xml:id="pfiiRcade">
+                  <gloss>iiRcade</gloss>
+               </category>
+               <category xml:id="pfIntel_8008">
+                  <gloss>Intel 8008</gloss>
+               </category>
+               <category xml:id="pfIntel_8080">
+                  <gloss>Intel 8080</gloss>
+               </category>
+               <category xml:id="pfIntel_8086_8088">
+                  <gloss>Intel 8086 / 8088</gloss>
+               </category>
+               <category xml:id="pfIntellivision">
+                  <gloss>Intellivision</gloss>
+               </category>
+               <category xml:id="pfInteract_Model_One">
+                  <gloss>Interact Model One</gloss>
+               </category>
+               <category xml:id="pfInterton_Video_2000">
+                  <gloss>Interton Video 2000</gloss>
+               </category>
+               <category xml:id="pfiPad">
+                  <gloss>iPad</gloss>
+               </category>
+               <category xml:id="pfiPhone">
+                  <gloss>iPhone</gloss>
+               </category>
+               <category xml:id="pfiPod_Classic">
+                  <gloss>iPod Classic</gloss>
+               </category>
+               <category xml:id="pfJ2ME">
+                  <gloss>J2ME</gloss>
+               </category>
+               <category xml:id="pfJaguar">
+                  <gloss>Jaguar</gloss>
+               </category>
+               <category xml:id="pfJolt">
+                  <gloss>Jolt</gloss>
+               </category>
+               <category xml:id="pfJupiter_Ace">
+                  <gloss>Jupiter Ace</gloss>
+               </category>
+               <category xml:id="pfKaiOS">
+                  <gloss>KaiOS</gloss>
+               </category>
+               <category xml:id="pfKIM-1">
+                  <gloss>KIM-1</gloss>
+               </category>
+               <category xml:id="pfKindle_Classic">
+                  <gloss>Kindle Classic</gloss>
+               </category>
+               <category xml:id="pfLaser_200">
+                  <gloss>Laser 200</gloss>
+               </category>
+               <category xml:id="pfLaserActive">
+                  <gloss>LaserActive</gloss>
+               </category>
+               <category xml:id="pfLeapFrog_Explorer">
+                  <gloss>LeapFrog Explorer</gloss>
+               </category>
+               <category xml:id="pfLeapster">
+                  <gloss>Leapster</gloss>
+               </category>
+               <category xml:id="pfLeapTV">
+                  <gloss>LeapTV</gloss>
+               </category>
+               <category xml:id="pfLinux">
+                  <gloss>Linux</gloss>
+               </category>
+               <category xml:id="pfLkit-16">
+                  <gloss>Lkit-16</gloss>
+               </category>
+               <category xml:id="pfLuna">
+                  <gloss>Luna</gloss>
+               </category>
+               <category xml:id="pfLynx">
+                  <gloss>Lynx</gloss>
+               </category>
+               <category xml:id="pfMacintosh">
+                  <gloss>Macintosh</gloss>
+               </category>
+               <category xml:id="pfmacOS">
+                  <gloss>macOS</gloss>
+               </category>
+               <category xml:id="pfMaemo">
+                  <gloss>Maemo</gloss>
+               </category>
+               <category xml:id="pfMagic_Leap">
+                  <gloss>Magic Leap</gloss>
+               </category>
+               <category xml:id="pfMainframe">
+                  <gloss>Mainframe</gloss>
+               </category>
+               <category xml:id="pfMarvel_2000">
+                  <gloss>Marvel 2000</gloss>
+               </category>
+               <category xml:id="pfMatsushita_Panasonic_JR">
+                  <gloss>Matsushita / Panasonic JR</gloss>
+               </category>
+               <category xml:id="pfMattel_Aquarius">
+                  <gloss>Mattel Aquarius</gloss>
+               </category>
+               <category xml:id="pfMeeGo">
+                  <gloss>MeeGo</gloss>
+               </category>
+               <category xml:id="pfMemotech_MTX">
+                  <gloss>Memotech MTX</gloss>
+               </category>
+               <category xml:id="pfMeritum">
+                  <gloss>Meritum</gloss>
+               </category>
+               <category xml:id="pfMicrobee">
+                  <gloss>Microbee</gloss>
+               </category>
+               <category xml:id="pfMicrotan_65">
+                  <gloss>Microtan 65</gloss>
+               </category>
+               <category xml:id="pfMicrovision">
+                  <gloss>Microvision</gloss>
+               </category>
+               <category xml:id="pfMiSTer_FPGA">
+                  <gloss>MiSTer FPGA</gloss>
+               </category>
+               <category xml:id="pfMitsubishi_Multi-8">
+                  <gloss>Mitsubishi Multi-8</gloss>
+               </category>
+               <category xml:id="pfModular_Game_System">
+                  <gloss>Modular Game System</gloss>
+               </category>
+               <category xml:id="pfMophun">
+                  <gloss>Mophun</gloss>
+               </category>
+               <category xml:id="pfMOS_Technology_6502">
+                  <gloss>MOS Technology 6502</gloss>
+               </category>
+               <category xml:id="pfMotorola_6800">
+                  <gloss>Motorola 6800</gloss>
+               </category>
+               <category xml:id="pfMotorola_68k">
+                  <gloss>Motorola 68k</gloss>
+               </category>
+               <category xml:id="pfMRE">
+                  <gloss>MRE</gloss>
+               </category>
+               <category xml:id="pfMSX">
+                  <gloss>MSX</gloss>
+               </category>
+               <category xml:id="pfN-Gage">
+                  <gloss>N-Gage</gloss>
+               </category>
+               <category xml:id="pfN-Gage_service_">
+                  <gloss>N-Gage (service)</gloss>
+               </category>
+               <category xml:id="pfNascom">
+                  <gloss>Nascom</gloss>
+               </category>
+               <category xml:id="pfNEC_TK-80">
+                  <gloss>NEC TK-80</gloss>
+               </category>
+               <category xml:id="pfNeo_Geo">
+                  <gloss>Neo Geo</gloss>
+               </category>
+               <category xml:id="pfNeo_Geo_CD">
+                  <gloss>Neo Geo CD</gloss>
+               </category>
+               <category xml:id="pfNeo_Geo_Pocket">
+                  <gloss>Neo Geo Pocket</gloss>
+               </category>
+               <category xml:id="pfNeo_Geo_Pocket_Color">
+                  <gloss>Neo Geo Pocket Color</gloss>
+               </category>
+               <category xml:id="pfNeo_Geo_X">
+                  <gloss>Neo Geo X</gloss>
+               </category>
+               <category xml:id="pfNES">
+                  <gloss>NES</gloss>
+               </category>
+               <category xml:id="pfNetBSD">
+                  <gloss>NetBSD</gloss>
+               </category>
+               <category xml:id="pfNew_Nintendo_3DS">
+                  <gloss>New Nintendo 3DS</gloss>
+               </category>
+               <category xml:id="pfNewBrain">
+                  <gloss>NewBrain</gloss>
+               </category>
+               <category xml:id="pfNewton">
+                  <gloss>Newton</gloss>
+               </category>
+               <category xml:id="pfNintendo_3DS">
+                  <gloss>Nintendo 3DS</gloss>
+               </category>
+               <category xml:id="pfNintendo_64">
+                  <gloss>Nintendo 64</gloss>
+               </category>
+               <category xml:id="pfNintendo_DS">
+                  <gloss>Nintendo DS</gloss>
+               </category>
+               <category xml:id="pfNintendo_DSi">
+                  <gloss>Nintendo DSi</gloss>
+               </category>
+               <category xml:id="pfNintendo_Switch">
+                  <gloss>Nintendo Switch</gloss>
+               </category>
+               <category xml:id="pfNintendo_Switch_2">
+                  <gloss>Nintendo Switch 2</gloss>
+               </category>
+               <category xml:id="pfNorth_Star">
+                  <gloss>North Star</gloss>
+               </category>
+               <category xml:id="pfNoval_760">
+                  <gloss>Noval 760</gloss>
+               </category>
+               <category xml:id="pfNuon">
+                  <gloss>Nuon</gloss>
+               </category>
+               <category xml:id="pfOculus_Go">
+                  <gloss>Oculus Go</gloss>
+               </category>
+               <category xml:id="pfOdyssey">
+                  <gloss>Odyssey</gloss>
+               </category>
+               <category xml:id="pfOdyssey_2">
+                  <gloss>Odyssey 2</gloss>
+               </category>
+               <category xml:id="pfOhio_Scientific">
+                  <gloss>Ohio Scientific</gloss>
+               </category>
+               <category xml:id="pfOnLive">
+                  <gloss>OnLive</gloss>
+               </category>
+               <category xml:id="pfOOParts">
+                  <gloss>OOParts</gloss>
+               </category>
+               <category xml:id="pfOpenBSD">
+                  <gloss>OpenBSD</gloss>
+               </category>
+               <category xml:id="pfOrao">
+                  <gloss>Orao</gloss>
+               </category>
+               <category xml:id="pfOric">
+                  <gloss>Oric</gloss>
+               </category>
+               <category xml:id="pfOS_2">
+                  <gloss>OS/2</gloss>
+               </category>
+               <category xml:id="pfOuya">
+                  <gloss>Ouya</gloss>
+               </category>
+               <category xml:id="pfPalm_OS">
+                  <gloss>Palm OS</gloss>
+               </category>
+               <category xml:id="pfPandora">
+                  <gloss>Pandora</gloss>
+               </category>
+               <category xml:id="pfPC_Booter">
+                  <gloss>PC Booter</gloss>
+               </category>
+               <category xml:id="pfPC-6001">
+                  <gloss>PC-6001</gloss>
+               </category>
+               <category xml:id="pfPC-8000">
+                  <gloss>PC-8000</gloss>
+               </category>
+               <category xml:id="pfPC-88">
+                  <gloss>PC-88</gloss>
+               </category>
+               <category xml:id="pfPC-98">
+                  <gloss>PC-98</gloss>
+               </category>
+               <category xml:id="pfPC-FX">
+                  <gloss>PC-FX</gloss>
+               </category>
+               <category xml:id="pfPebble">
+                  <gloss>Pebble</gloss>
+               </category>
+               <category xml:id="pfPhilips_P200">
+                  <gloss>Philips P200</gloss>
+               </category>
+               <category xml:id="pfPhilips_VG_5000">
+                  <gloss>Philips VG 5000</gloss>
+               </category>
+               <category xml:id="pfPhoto_CD">
+                  <gloss>Photo CD</gloss>
+               </category>
+               <category xml:id="pfPICO">
+                  <gloss>PICO</gloss>
+               </category>
+               <category xml:id="pfPippin">
+                  <gloss>Pippin</gloss>
+               </category>
+               <category xml:id="pfPlaydate">
+                  <gloss>Playdate</gloss>
+               </category>
+               <category xml:id="pfPlaydia">
+                  <gloss>Playdia</gloss>
+               </category>
+               <category xml:id="pfPlayStation">
+                  <gloss>PlayStation</gloss>
+               </category>
+               <category xml:id="pfPlayStation_2">
+                  <gloss>PlayStation 2</gloss>
+               </category>
+               <category xml:id="pfPlayStation_3">
+                  <gloss>PlayStation 3</gloss>
+               </category>
+               <category xml:id="pfPlayStation_4">
+                  <gloss>PlayStation 4</gloss>
+               </category>
+               <category xml:id="pfPlayStation_5">
+                  <gloss>PlayStation 5</gloss>
+               </category>
+               <category xml:id="pfPlayStation_Now">
+                  <gloss>PlayStation Now</gloss>
+               </category>
+               <category xml:id="pfPlex_Arcade">
+                  <gloss>Plex Arcade</gloss>
+               </category>
+               <category xml:id="pfPok_mon_Mini">
+                  <gloss>Pokémon Mini</gloss>
+               </category>
+               <category xml:id="pfPokitto">
+                  <gloss>Pokitto</gloss>
+               </category>
+               <category xml:id="pfPoly-88">
+                  <gloss>Poly-88</gloss>
+               </category>
+               <category xml:id="pfPS_Vita">
+                  <gloss>PS Vita</gloss>
+               </category>
+               <category xml:id="pfPSP">
+                  <gloss>PSP</gloss>
+               </category>
+               <category xml:id="pfQuest">
+                  <gloss>Quest</gloss>
+               </category>
+               <category xml:id="pfRCA_Studio_II">
+                  <gloss>RCA Studio II</gloss>
+               </category>
+               <category xml:id="pfResearch_Machines_380Z">
+                  <gloss>Research Machines 380Z</gloss>
+               </category>
+               <category xml:id="pfRoblox">
+                  <gloss>Roblox</gloss>
+               </category>
+               <category xml:id="pfRoku">
+                  <gloss>Roku</gloss>
+               </category>
+               <category xml:id="pfSAM_Coup_">
+                  <gloss>SAM Coupé</gloss>
+               </category>
+               <category xml:id="pfSC_MP">
+                  <gloss>SC/MP</gloss>
+               </category>
+               <category xml:id="pfSD-200_270_290">
+                  <gloss>SD-200 / 270 / 290</gloss>
+               </category>
+               <category xml:id="pfSEGA_32X">
+                  <gloss>SEGA 32X</gloss>
+               </category>
+               <category xml:id="pfSEGA_CD">
+                  <gloss>SEGA CD</gloss>
+               </category>
+               <category xml:id="pfSEGA_Master_System">
+                  <gloss>SEGA Master System</gloss>
+               </category>
+               <category xml:id="pfSEGA_Pico">
+                  <gloss>SEGA Pico</gloss>
+               </category>
+               <category xml:id="pfSEGA_Saturn">
+                  <gloss>SEGA Saturn</gloss>
+               </category>
+               <category xml:id="pfSG-1000">
+                  <gloss>SG-1000</gloss>
+               </category>
+               <category xml:id="pfSharp_MZ-80B_2000_2500">
+                  <gloss>Sharp MZ-80B / 2000 / 2500</gloss>
+               </category>
+               <category xml:id="pfSharp_MZ-80K_700_800_1500">
+                  <gloss>Sharp MZ-80K / 700 / 800 / 1500</gloss>
+               </category>
+               <category xml:id="pfSharp_X1">
+                  <gloss>Sharp X1</gloss>
+               </category>
+               <category xml:id="pfSharp_X68000">
+                  <gloss>Sharp X68000</gloss>
+               </category>
+               <category xml:id="pfSharp_Zaurus">
+                  <gloss>Sharp Zaurus</gloss>
+               </category>
+               <category xml:id="pfSignetics_2650">
+                  <gloss>Signetics 2650</gloss>
+               </category>
+               <category xml:id="pfSinclair_QL">
+                  <gloss>Sinclair QL</gloss>
+               </category>
+               <category xml:id="pfSK-VM">
+                  <gloss>SK-VM</gloss>
+               </category>
+               <category xml:id="pfSMC-777">
+                  <gloss>SMC-777</gloss>
+               </category>
+               <category xml:id="pfSNES">
+                  <gloss>SNES</gloss>
+               </category>
+               <category xml:id="pfSocrates">
+                  <gloss>Socrates</gloss>
+               </category>
+               <category xml:id="pfSol-20">
+                  <gloss>Sol-20</gloss>
+               </category>
+               <category xml:id="pfSolaris">
+                  <gloss>Solaris</gloss>
+               </category>
+               <category xml:id="pfSord_M5">
+                  <gloss>Sord M5</gloss>
+               </category>
+               <category xml:id="pfSPC-1000">
+                  <gloss>SPC-1000</gloss>
+               </category>
+               <category xml:id="pfSpectravideo">
+                  <gloss>Spectravideo</gloss>
+               </category>
+               <category xml:id="pfSRI-500_1000">
+                  <gloss>SRI-500 / 1000</gloss>
+               </category>
+               <category xml:id="pfStadia">
+                  <gloss>Stadia</gloss>
+               </category>
+               <category xml:id="pfSteam">
+                  <gloss>Steam</gloss>
+               </category>
+               <category xml:id="pfSteam_Deck">
+                  <gloss>Steam Deck</gloss>
+               </category>
+               <category xml:id="pfSuper_A_can">
+                  <gloss>Super A'can</gloss>
+               </category>
+               <category xml:id="pfSuper_Vision_8000">
+                  <gloss>Super Vision 8000</gloss>
+               </category>
+               <category xml:id="pfSuperGrafx">
+                  <gloss>SuperGrafx</gloss>
+               </category>
+               <category xml:id="pfSupervision">
+                  <gloss>Supervision</gloss>
+               </category>
+               <category xml:id="pfSure_Shot_HD">
+                  <gloss>Sure Shot HD</gloss>
+               </category>
+               <category xml:id="pfSWTPC_6800">
+                  <gloss>SWTPC 6800</gloss>
+               </category>
+               <category xml:id="pfSymbian">
+                  <gloss>Symbian</gloss>
+               </category>
+               <category xml:id="pfTADS">
+                  <gloss>TADS</gloss>
+               </category>
+               <category xml:id="pfTaito_X-55">
+                  <gloss>Taito X-55</gloss>
+               </category>
+               <category xml:id="pfTatung_Einstein">
+                  <gloss>Tatung Einstein</gloss>
+               </category>
+               <category xml:id="pfTektronix_4050">
+                  <gloss>Tektronix 4050</gloss>
+               </category>
+               <category xml:id="pfTele-Spiel_ES-2201">
+                  <gloss>Tele-Spiel ES-2201</gloss>
+               </category>
+               <category xml:id="pfTelstar_Arcade">
+                  <gloss>Telstar Arcade</gloss>
+               </category>
+               <category xml:id="pfTempleOS">
+                  <gloss>TempleOS</gloss>
+               </category>
+               <category xml:id="pfTerminal">
+                  <gloss>Terminal</gloss>
+               </category>
+               <category xml:id="pfThomson_MO">
+                  <gloss>Thomson MO</gloss>
+               </category>
+               <category xml:id="pfThomson_TO">
+                  <gloss>Thomson TO</gloss>
+               </category>
+               <category xml:id="pfTI_Programmable_Calculator">
+                  <gloss>TI Programmable Calculator</gloss>
+               </category>
+               <category xml:id="pfTI-99_4A">
+                  <gloss>TI-99 / 4A</gloss>
+               </category>
+               <category xml:id="pfTIC-80">
+                  <gloss>TIC-80</gloss>
+               </category>
+               <category xml:id="pfTiki_100">
+                  <gloss>Tiki 100</gloss>
+               </category>
+               <category xml:id="pfTIM">
+                  <gloss>TIM</gloss>
+               </category>
+               <category xml:id="pfTimex_Sinclair_2068">
+                  <gloss>Timex Sinclair 2068</gloss>
+               </category>
+               <category xml:id="pfTizen">
+                  <gloss>Tizen</gloss>
+               </category>
+               <category xml:id="pfTomahawk_F1">
+                  <gloss>Tomahawk F1</gloss>
+               </category>
+               <category xml:id="pfTomy_Tutor">
+                  <gloss>Tomy Tutor</gloss>
+               </category>
+               <category xml:id="pfToshiba_Ex-80">
+                  <gloss>Toshiba Ex-80</gloss>
+               </category>
+               <category xml:id="pfToshiba_Pasopia">
+                  <gloss>Toshiba Pasopia</gloss>
+               </category>
+               <category xml:id="pfTriton">
+                  <gloss>Triton</gloss>
+               </category>
+               <category xml:id="pfTRS-80">
+                  <gloss>TRS-80</gloss>
+               </category>
+               <category xml:id="pfTRS-80_CoCo">
+                  <gloss>TRS-80 CoCo</gloss>
+               </category>
+               <category xml:id="pfTRS-80_MC-10">
+                  <gloss>TRS-80 MC-10</gloss>
+               </category>
+               <category xml:id="pfTRS-80_Model_100">
+                  <gloss>TRS-80 Model 100</gloss>
+               </category>
+               <category xml:id="pfTurboGrafx-16">
+                  <gloss>TurboGrafx-16</gloss>
+               </category>
+               <category xml:id="pfTurboGrafx_CD">
+                  <gloss>TurboGrafx CD</gloss>
+               </category>
+               <category xml:id="pftvOS">
+                  <gloss>tvOS</gloss>
+               </category>
+               <category xml:id="pfV_Flash">
+                  <gloss>V.Flash</gloss>
+               </category>
+               <category xml:id="pfV_Smile">
+                  <gloss>V.Smile</gloss>
+               </category>
+               <category xml:id="pfVectrex">
+                  <gloss>Vectrex</gloss>
+               </category>
+               <category xml:id="pfVersatile">
+                  <gloss>Versatile</gloss>
+               </category>
+               <category xml:id="pfVIC-20">
+                  <gloss>VIC-20</gloss>
+               </category>
+               <category xml:id="pfVideoBrain">
+                  <gloss>VideoBrain</gloss>
+               </category>
+               <category xml:id="pfVideopac_G7400">
+                  <gloss>Videopac+ G7400</gloss>
+               </category>
+               <category xml:id="pfVirtual_Boy">
+                  <gloss>Virtual Boy</gloss>
+               </category>
+               <category xml:id="pfVIS">
+                  <gloss>VIS</gloss>
+               </category>
+               <category xml:id="pfvisionOS">
+                  <gloss>visionOS</gloss>
+               </category>
+               <category xml:id="pfWang_2200">
+                  <gloss>Wang 2200</gloss>
+               </category>
+               <category xml:id="pfwatchOS">
+                  <gloss>watchOS</gloss>
+               </category>
+               <category xml:id="pfwebOS">
+                  <gloss>webOS</gloss>
+               </category>
+               <category xml:id="pfWii">
+                  <gloss>Wii</gloss>
+               </category>
+               <category xml:id="pfWii_U">
+                  <gloss>Wii U</gloss>
+               </category>
+               <category xml:id="pfWindows">
+                  <gloss>Windows</gloss>
+               </category>
+               <category xml:id="pfWindows_16-bit">
+                  <gloss>Windows 16-bit</gloss>
+               </category>
+               <category xml:id="pfWindows_Apps">
+                  <gloss>Windows Apps</gloss>
+               </category>
+               <category xml:id="pfWindows_Mobile">
+                  <gloss>Windows Mobile</gloss>
+               </category>
+               <category xml:id="pfWindows_Phone">
+                  <gloss>Windows Phone</gloss>
+               </category>
+               <category xml:id="pfWIPI">
+                  <gloss>WIPI</gloss>
+               </category>
+               <category xml:id="pfWonderSwan">
+                  <gloss>WonderSwan</gloss>
+               </category>
+               <category xml:id="pfWonderSwan_Color">
+                  <gloss>WonderSwan Color</gloss>
+               </category>
+               <category xml:id="pfXaviXPORT">
+                  <gloss>XaviXPORT</gloss>
+               </category>
+               <category xml:id="pfXbox">
+                  <gloss>Xbox</gloss>
+               </category>
+               <category xml:id="pfXbox_360">
+                  <gloss>Xbox 360</gloss>
+               </category>
+               <category xml:id="pfXbox_Cloud_Gaming">
+                  <gloss>Xbox Cloud Gaming</gloss>
+               </category>
+               <category xml:id="pfXbox_One">
+                  <gloss>Xbox One</gloss>
+               </category>
+               <category xml:id="pfXbox_Series">
+                  <gloss>Xbox Series</gloss>
+               </category>
+               <category xml:id="pfXerox_Alto">
+                  <gloss>Xerox Alto</gloss>
+               </category>
+               <category xml:id="pfZ-machine">
+                  <gloss>Z-machine</gloss>
+               </category>
+               <category xml:id="pfZeebo">
+                  <gloss>Zeebo</gloss>
+               </category>
+               <category xml:id="pfZilog_Z80">
+                  <gloss>Zilog Z80</gloss>
+               </category>
+               <category xml:id="pfZilog_Z8000">
+                  <gloss>Zilog Z8000</gloss>
+               </category>
+               <category xml:id="pfZillions_of_Games">
+                  <gloss>Zillions of Games</gloss>
+               </category>
+               <category xml:id="pfZodiac">
+                  <gloss>Zodiac</gloss>
+               </category>
+               <category xml:id="pfZune">
+                  <gloss>Zune</gloss>
+               </category>
+               <category xml:id="pfZX_Spectrum">
+                  <gloss>ZX Spectrum</gloss>
+               </category>
+               <category xml:id="pfZX_Spectrum_Next">
+                  <gloss>ZX Spectrum Next</gloss>
+               </category>
+               <category xml:id="pfZX80">
+                  <gloss>ZX80</gloss>
+               </category>
+               <category xml:id="pfZX81">
+                  <gloss>ZX81</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxEngine" n="3E">
+               <gloss>Engine</gloss>
+               <desc>The software framework and/or development environment used to design the platform edition</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the engine.</desc>
+               <gloss>4A Engine</gloss>
+               <category xml:id="enA-FRAME_VR_">
+                  <gloss>A-FRAME (VR)</gloss>
+               </category>
+               <category xml:id="enAdventure_Game_Interpreter">
+                  <gloss>Adventure Game Interpreter</gloss>
+               </category>
+               <category xml:id="enAdventure_Game_Studio">
+                  <gloss>Adventure Game Studio</gloss>
+               </category>
+               <category xml:id="enAleph_One">
+                  <gloss>Aleph One</gloss>
+               </category>
+               <category xml:id="enAmazon_Lumberyard">
+                  <gloss>Amazon Lumberyard</gloss>
+               </category>
+               <category xml:id="enAnvil">
+                  <gloss>Anvil</gloss>
+               </category>
+               <category xml:id="enAppGameKit">
+                  <gloss>AppGameKit</gloss>
+               </category>
+               <category xml:id="enArdor3D">
+                  <gloss>Ardor3D</gloss>
+               </category>
+               <category xml:id="enAurora_toolset">
+                  <gloss>Aurora toolset</gloss>
+               </category>
+               <category xml:id="enBabylon_js">
+                  <gloss>Babylon.js</gloss>
+               </category>
+               <category xml:id="enbitsy">
+                  <gloss>bitsy</gloss>
+               </category>
+               <category xml:id="enBlend4Web">
+                  <gloss>Blend4Web</gloss>
+               </category>
+               <category xml:id="enBlender">
+                  <gloss>Blender</gloss>
+               </category>
+               <category xml:id="enBuild_Engine">
+                  <gloss>Build Engine</gloss>
+               </category>
+               <category xml:id="enBuildbox">
+                  <gloss>Buildbox</gloss>
+               </category>
+               <category xml:id="enC4_Engine">
+                  <gloss>C4 Engine</gloss>
+               </category>
+               <category xml:id="enChrome_Engine">
+                  <gloss>Chrome Engine</gloss>
+               </category>
+               <category xml:id="enClanLib">
+                  <gloss>ClanLib</gloss>
+               </category>
+               <category xml:id="enClausewitz">
+                  <gloss>Clausewitz</gloss>
+               </category>
+               <category xml:id="enClickteam_Fusion">
+                  <gloss>Clickteam Fusion</gloss>
+               </category>
+               <category xml:id="enCobra_Engine">
+                  <gloss>Cobra Engine</gloss>
+               </category>
+               <category xml:id="enCocos2d_2d-x_2d-html5">
+                  <gloss>Cocos2d / 2d-x / 2d-html5</gloss>
+               </category>
+               <category xml:id="enCodea">
+                  <gloss>Codea</gloss>
+               </category>
+               <category xml:id="enConstruct">
+                  <gloss>Construct</gloss>
+               </category>
+               <category xml:id="enCoretech">
+                  <gloss>Coretech</gloss>
+               </category>
+               <category xml:id="enCraftStudio">
+                  <gloss>CraftStudio</gloss>
+               </category>
+               <category xml:id="enCreation_Engine">
+                  <gloss>Creation Engine</gloss>
+               </category>
+               <category xml:id="enCryEngine">
+                  <gloss>CryEngine</gloss>
+               </category>
+               <category xml:id="enCrystal_Space">
+                  <gloss>Crystal Space</gloss>
+               </category>
+               <category xml:id="enCrystal_Tools">
+                  <gloss>Crystal Tools</gloss>
+               </category>
+               <category xml:id="enCube_Engine">
+                  <gloss>Cube Engine</gloss>
+               </category>
+               <category xml:id="enCube_2_Engine">
+                  <gloss>Cube 2 Engine</gloss>
+               </category>
+               <category xml:id="enCustom-built_engine">
+                  <gloss>Custom-built engine</gloss>
+               </category>
+               <category xml:id="enDagor_Engine">
+                  <gloss>Dagor Engine</gloss>
+               </category>
+               <category xml:id="enDark_Engine">
+                  <gloss>Dark Engine</gloss>
+               </category>
+               <category xml:id="enDecima">
+                  <gloss>Decima</gloss>
+               </category>
+               <category xml:id="enDefold">
+                  <gloss>Defold</gloss>
+               </category>
+               <category xml:id="enDelta3D">
+                  <gloss>Delta3D</gloss>
+               </category>
+               <category xml:id="enDim3">
+                  <gloss>Dim3</gloss>
+               </category>
+               <category xml:id="enDimensioneX_Multiplayer_Engine">
+                  <gloss>DimensioneX Multiplayer Engine</gloss>
+               </category>
+               <category xml:id="enDivinity_Engine">
+                  <gloss>Divinity Engine</gloss>
+               </category>
+               <category xml:id="enDunia_Engine">
+                  <gloss>Dunia Engine</gloss>
+               </category>
+               <category xml:id="enDX_Studio">
+                  <gloss>DX Studio</gloss>
+               </category>
+               <category xml:id="enEGO">
+                  <gloss>EGO</gloss>
+               </category>
+               <category xml:id="enElectron_toolset">
+                  <gloss>Electron toolset</gloss>
+               </category>
+               <category xml:id="enEnforce">
+                  <gloss>Enforce</gloss>
+               </category>
+               <category xml:id="enEnigma_Engine">
+                  <gloss>Enigma Engine</gloss>
+               </category>
+               <category xml:id="enEssence_Engine">
+                  <gloss>Essence Engine</gloss>
+               </category>
+               <category xml:id="enExult">
+                  <gloss>Exult</gloss>
+               </category>
+               <category xml:id="enFlame">
+                  <gloss>Flame</gloss>
+               </category>
+               <category xml:id="enFlare3D">
+                  <gloss>Flare3D</gloss>
+               </category>
+               <category xml:id="enFlash_Adobe_">
+                  <gloss>Flash (Adobe)</gloss>
+               </category>
+               <category xml:id="enFlixel">
+                  <gloss>Flixel</gloss>
+               </category>
+               <category xml:id="enForgeLight">
+                  <gloss>ForgeLight</gloss>
+               </category>
+               <category xml:id="enFox_Engine">
+                  <gloss>Fox Engine</gloss>
+               </category>
+               <category xml:id="enFreescape">
+                  <gloss>Freescape</gloss>
+               </category>
+               <category xml:id="enFreespace_2">
+                  <gloss>Freespace 2</gloss>
+               </category>
+               <category xml:id="enFrostbite">
+                  <gloss>Frostbite</gloss>
+               </category>
+               <category xml:id="enFuture_Pinball">
+                  <gloss>Future Pinball</gloss>
+               </category>
+               <category xml:id="enGamebryo">
+                  <gloss>Gamebryo</gloss>
+               </category>
+               <category xml:id="enGameMaker">
+                  <gloss>GameMaker</gloss>
+               </category>
+               <category xml:id="enGameSalad">
+                  <gloss>GameSalad</gloss>
+               </category>
+               <category xml:id="enGamestudio">
+                  <gloss>Gamestudio</gloss>
+               </category>
+               <category xml:id="enGDevelop">
+                  <gloss>GDevelop</gloss>
+               </category>
+               <category xml:id="enGenie_Engine">
+                  <gloss>Genie Engine</gloss>
+               </category>
+               <category xml:id="enGodot">
+                  <gloss>Godot</gloss>
+               </category>
+               <category xml:id="enGold_Box">
+                  <gloss>Gold Box</gloss>
+               </category>
+               <category xml:id="enGoldSrc">
+                  <gloss>GoldSrc</gloss>
+               </category>
+               <category xml:id="enHavok">
+                  <gloss>Havok</gloss>
+               </category>
+               <category xml:id="enHeroEngine">
+                  <gloss>HeroEngine</gloss>
+               </category>
+               <category xml:id="enHorde3D">
+                  <gloss>Horde3D</gloss>
+               </category>
+               <category xml:id="enHPL_Engine">
+                  <gloss>HPL Engine</gloss>
+               </category>
+               <category xml:id="enid_Tech">
+                  <gloss>id Tech</gloss>
+               </category>
+               <category xml:id="eniMUSE">
+                  <gloss>iMUSE</gloss>
+               </category>
+               <category xml:id="enInfinity_Engine">
+                  <gloss>Infinity Engine</gloss>
+               </category>
+               <category xml:id="enioquake3">
+                  <gloss>ioquake3</gloss>
+               </category>
+               <category xml:id="enIron_Engine">
+                  <gloss>Iron Engine</gloss>
+               </category>
+               <category xml:id="enIrrlicht">
+                  <gloss>Irrlicht</gloss>
+               </category>
+               <category xml:id="enIW_Engine">
+                  <gloss>IW Engine</gloss>
+               </category>
+               <category xml:id="enJade">
+                  <gloss>Jade</gloss>
+               </category>
+               <category xml:id="enJake2">
+                  <gloss>Jake2</gloss>
+               </category>
+               <category xml:id="enJava_3D">
+                  <gloss>Java 3D</gloss>
+               </category>
+               <category xml:id="enJedi">
+                  <gloss>Jedi</gloss>
+               </category>
+               <category xml:id="enjMonkeyEngine">
+                  <gloss>jMonkeyEngine</gloss>
+               </category>
+               <category xml:id="enKinectica">
+                  <gloss>Kinectica</gloss>
+               </category>
+               <category xml:id="enKivy_framework_">
+                  <gloss>Kivy (framework)</gloss>
+               </category>
+               <category xml:id="enLayaAir">
+                  <gloss>LayaAir</gloss>
+               </category>
+               <category xml:id="enLeadwerks">
+                  <gloss>Leadwerks</gloss>
+               </category>
+               <category xml:id="enLibGDX">
+                  <gloss>LibGDX</gloss>
+               </category>
+               <category xml:id="enLithTech">
+                  <gloss>LithTech</gloss>
+               </category>
+               <category xml:id="enL_VE">
+                  <gloss>LÖVE</gloss>
+               </category>
+               <category xml:id="enLuminous_Engine">
+                  <gloss>Luminous Engine</gloss>
+               </category>
+               <category xml:id="enLyN">
+                  <gloss>LyN</gloss>
+               </category>
+               <category xml:id="enM_U_G_E_N_">
+                  <gloss>M.U.G.E.N.</gloss>
+               </category>
+               <category xml:id="enMarmalade">
+                  <gloss>Marmalade</gloss>
+               </category>
+               <category xml:id="enMessiah">
+                  <gloss>Messiah</gloss>
+               </category>
+               <category xml:id="enMoai_SDK">
+                  <gloss>Moai SDK</gloss>
+               </category>
+               <category xml:id="enMonkey_X">
+                  <gloss>Monkey X</gloss>
+               </category>
+               <category xml:id="enMonoGame_XNA">
+                  <gloss>MonoGame / XNA</gloss>
+               </category>
+               <category xml:id="enMT_Framework">
+                  <gloss>MT Framework</gloss>
+               </category>
+               <category xml:id="enNorthlight">
+                  <gloss>Northlight</gloss>
+               </category>
+               <category xml:id="enNScripter">
+                  <gloss>NScripter</gloss>
+               </category>
+               <category xml:id="enO3DE">
+                  <gloss>O3DE</gloss>
+               </category>
+               <category xml:id="enOdyssey_Engine">
+                  <gloss>Odyssey Engine</gloss>
+               </category>
+               <category xml:id="enOGRE">
+                  <gloss>OGRE</gloss>
+               </category>
+               <category xml:id="enOHRRPGCE">
+                  <gloss>OHRRPGCE</gloss>
+               </category>
+               <category xml:id="enONScripter">
+                  <gloss>ONScripter</gloss>
+               </category>
+               <category xml:id="enOpenClonk">
+                  <gloss>OpenClonk</gloss>
+               </category>
+               <category xml:id="enOpenMW">
+                  <gloss>OpenMW</gloss>
+               </category>
+               <category xml:id="enOpenSimulator">
+                  <gloss>OpenSimulator</gloss>
+               </category>
+               <category xml:id="enORX">
+                  <gloss>ORX</gloss>
+               </category>
+               <category xml:id="enPanda3D">
+                  <gloss>Panda3D</gloss>
+               </category>
+               <category xml:id="enPanta_Rhei">
+                  <gloss>Panta Rhei</gloss>
+               </category>
+               <category xml:id="enPhaser">
+                  <gloss>Phaser</gloss>
+               </category>
+               <category xml:id="enPhyreEngine">
+                  <gloss>PhyreEngine</gloss>
+               </category>
+               <category xml:id="enPICO-8">
+                  <gloss>PICO-8</gloss>
+               </category>
+               <category xml:id="enPie_in_the_Sky">
+                  <gloss>Pie in the Sky</gloss>
+               </category>
+               <category xml:id="enPixel_Game_Maker_MV">
+                  <gloss>Pixel Game Maker MV</gloss>
+               </category>
+               <category xml:id="enPlayCanvas">
+                  <gloss>PlayCanvas</gloss>
+               </category>
+               <category xml:id="enPlayN">
+                  <gloss>PlayN</gloss>
+               </category>
+               <category xml:id="enPulp">
+                  <gloss>Pulp</gloss>
+               </category>
+               <category xml:id="enPygame">
+                  <gloss>Pygame</gloss>
+               </category>
+               <category xml:id="enPyrogenesis">
+                  <gloss>Pyrogenesis</gloss>
+               </category>
+               <category xml:id="enQ">
+                  <gloss>Q</gloss>
+               </category>
+               <category xml:id="enQfusion">
+                  <gloss>Qfusion</gloss>
+               </category>
+               <category xml:id="enREDengine">
+                  <gloss>REDengine</gloss>
+               </category>
+               <category xml:id="enRen_Py">
+                  <gloss>Ren'Py</gloss>
+               </category>
+               <category xml:id="enRenderWare">
+                  <gloss>RenderWare</gloss>
+               </category>
+               <category xml:id="enRoblox">
+                  <gloss>Roblox</gloss>
+               </category>
+               <category xml:id="enRockstar_Advanced_Game_Engine">
+                  <gloss>Rockstar Advanced Game Engine</gloss>
+               </category>
+               <category xml:id="enRPG_Maker">
+                  <gloss>RPG Maker</gloss>
+               </category>
+               <category xml:id="enS_box">
+                  <gloss>S&amp;box</gloss>
+               </category>
+               <category xml:id="enSAGE">
+                  <gloss>SAGE</gloss>
+               </category>
+               <category xml:id="enScratch">
+                  <gloss>Scratch</gloss>
+               </category>
+               <category xml:id="enSCUMM">
+                  <gloss>SCUMM</gloss>
+               </category>
+               <category xml:id="enSerious_Engine">
+                  <gloss>Serious Engine</gloss>
+               </category>
+               <category xml:id="enShark_3D">
+                  <gloss>Shark 3D</gloss>
+               </category>
+               <category xml:id="enSilent_Storm_Engine">
+                  <gloss>Silent Storm Engine</gloss>
+               </category>
+               <category xml:id="enSnowdrop">
+                  <gloss>Snowdrop</gloss>
+               </category>
+               <category xml:id="enSolar2D">
+                  <gloss>Solar2D</gloss>
+               </category>
+               <category xml:id="enSolaris">
+                  <gloss>Solaris</gloss>
+               </category>
+               <category xml:id="enSource">
+                  <gloss>Source</gloss>
+               </category>
+               <category xml:id="enSource_2">
+                  <gloss>Source 2</gloss>
+               </category>
+               <category xml:id="enStarling_Framework">
+                  <gloss>Starling Framework</gloss>
+               </category>
+               <category xml:id="enStencyl">
+                  <gloss>Stencyl</gloss>
+               </category>
+               <category xml:id="enStepMania">
+                  <gloss>StepMania</gloss>
+               </category>
+               <category xml:id="enStingray_Autodesk_">
+                  <gloss>Stingray (Autodesk)</gloss>
+               </category>
+               <category xml:id="enStratagus">
+                  <gloss>Stratagus</gloss>
+               </category>
+               <category xml:id="enStride">
+                  <gloss>Stride</gloss>
+               </category>
+               <category xml:id="enTelltale_Tool">
+                  <gloss>Telltale Tool</gloss>
+               </category>
+               <category xml:id="enThree_js">
+                  <gloss>Three.js</gloss>
+               </category>
+               <category xml:id="enTorque3D">
+                  <gloss>Torque3D</gloss>
+               </category>
+               <category xml:id="enTOSHI">
+                  <gloss>TOSHI</gloss>
+               </category>
+               <category xml:id="enTreyarch_NGL">
+                  <gloss>Treyarch NGL</gloss>
+               </category>
+               <category xml:id="enTurbulenz">
+                  <gloss>Turbulenz</gloss>
+               </category>
+               <category xml:id="enTwine">
+                  <gloss>Twine</gloss>
+               </category>
+               <category xml:id="enUbiArt_Framework">
+                  <gloss>UbiArt Framework</gloss>
+               </category>
+               <category xml:id="enUnigine">
+                  <gloss>Unigine</gloss>
+               </category>
+               <category xml:id="enUnity">
+                  <gloss>Unity</gloss>
+               </category>
+               <category xml:id="enUnreal_Engine">
+                  <gloss>Unreal Engine</gloss>
+               </category>
+               <category xml:id="enV-Play">
+                  <gloss>V-Play</gloss>
+               </category>
+               <category xml:id="enVengeance_Engine">
+                  <gloss>Vengeance Engine</gloss>
+               </category>
+               <category xml:id="enVicarious_Visions_Alchemy">
+                  <gloss>Vicarious Visions Alchemy</gloss>
+               </category>
+               <category xml:id="enVirtools">
+                  <gloss>Virtools</gloss>
+               </category>
+               <category xml:id="enVision">
+                  <gloss>Vision</gloss>
+               </category>
+               <category xml:id="enVisual3D_Game_Engine">
+                  <gloss>Visual3D Game Engine</gloss>
+               </category>
+               <category xml:id="enVisual_Pinball">
+                  <gloss>Visual Pinball</gloss>
+               </category>
+               <category xml:id="enVRAGE">
+                  <gloss>VRAGE</gloss>
+               </category>
+               <category xml:id="enWintermute_Engine">
+                  <gloss>Wintermute Engine</gloss>
+               </category>
+               <category xml:id="enWolf_RPG_Editor">
+                  <gloss>Wolf RPG Editor</gloss>
+               </category>
+               <category xml:id="enWorld_Builder">
+                  <gloss>World Builder</gloss>
+               </category>
+               <category xml:id="enWorldForge">
+                  <gloss>WorldForge</gloss>
+               </category>
+               <category xml:id="enXnGine">
+                  <gloss>XnGine</gloss>
+               </category>
+               <category xml:id="enZero">
+                  <gloss>Zero</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxDeveloperLocation" n="3G">
+               <gloss>Developer’s Location</gloss>
+               <desc>The geographic location of the platform edition’s developer(s)</desc>
+               <desc>Select the country for all developers except those in Canada.</desc>
+               <desc>For developers in Canada, select the country and province or territory: for example, Canada / British Columbia.</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the developer’s location.</desc>
+               <category xml:id="dlAfghanistan">
+                  <gloss>Afghanistan</gloss>
+               </category>
+               <category xml:id="dlAlbania">
+                  <gloss>Albania</gloss>
+               </category>
+               <category xml:id="dlAlgeria">
+                  <gloss>Algeria</gloss>
+               </category>
+               <category xml:id="dlAndorra">
+                  <gloss>Andorra</gloss>
+               </category>
+               <category xml:id="dlAngola">
+                  <gloss>Angola</gloss>
+               </category>
+               <category xml:id="dlAntigua_and_Barbuda">
+                  <gloss>Antigua and Barbuda</gloss>
+               </category>
+               <category xml:id="dlArgentina">
+                  <gloss>Argentina</gloss>
+               </category>
+               <category xml:id="dlArmenia">
+                  <gloss>Armenia</gloss>
+               </category>
+               <category xml:id="dlAustralia">
+                  <gloss>Australia</gloss>
+               </category>
+               <category xml:id="dlAustria">
+                  <gloss>Austria</gloss>
+               </category>
+               <category xml:id="dlAzerbaijan">
+                  <gloss>Azerbaijan</gloss>
+               </category>
+               <category xml:id="dlBahamas">
+                  <gloss>Bahamas</gloss>
+               </category>
+               <category xml:id="dlBahrain">
+                  <gloss>Bahrain</gloss>
+               </category>
+               <category xml:id="dlBangladesh">
+                  <gloss>Bangladesh</gloss>
+               </category>
+               <category xml:id="dlBarbados">
+                  <gloss>Barbados</gloss>
+               </category>
+               <category xml:id="dlBelarus">
+                  <gloss>Belarus</gloss>
+               </category>
+               <category xml:id="dlBelgium">
+                  <gloss>Belgium</gloss>
+               </category>
+               <category xml:id="dlBelize">
+                  <gloss>Belize</gloss>
+               </category>
+               <category xml:id="dlBenin">
+                  <gloss>Benin</gloss>
+               </category>
+               <category xml:id="dlBermuda">
+                  <gloss>Bermuda</gloss>
+               </category>
+               <category xml:id="dlBhutan">
+                  <gloss>Bhutan</gloss>
+               </category>
+               <category xml:id="dlBolivia">
+                  <gloss>Bolivia</gloss>
+               </category>
+               <category xml:id="dlBosnia_and_Herzegovina">
+                  <gloss>Bosnia and Herzegovina</gloss>
+               </category>
+               <category xml:id="dlBotswana">
+                  <gloss>Botswana</gloss>
+               </category>
+               <category xml:id="dlBrazil">
+                  <gloss>Brazil</gloss>
+               </category>
+               <category xml:id="dlBrunei">
+                  <gloss>Brunei</gloss>
+               </category>
+               <category xml:id="dlBulgaria">
+                  <gloss>Bulgaria</gloss>
+               </category>
+               <category xml:id="dlBurkina_Faso">
+                  <gloss>Burkina Faso</gloss>
+               </category>
+               <category xml:id="dlBurundi">
+                  <gloss>Burundi</gloss>
+               </category>
+               <category xml:id="dlCambodia">
+                  <gloss>Cambodia</gloss>
+               </category>
+               <category xml:id="dlCameroon">
+                  <gloss>Cameroon</gloss>
+               </category>
+               <category xml:id="dlCanada">
+                  <gloss>Canada</gloss>
+               </category>
+               <category xml:id="dlCanada_Alberta">
+                  <gloss>Canada / Alberta</gloss>
+               </category>
+               <category xml:id="dlCanada_British_Columbia">
+                  <gloss>Canada / British Columbia</gloss>
+               </category>
+               <category xml:id="dlCanada_Manitoba">
+                  <gloss>Canada / Manitoba</gloss>
+               </category>
+               <category xml:id="dlCanada_New_Brunswick">
+                  <gloss>Canada / New Brunswick</gloss>
+               </category>
+               <category xml:id="dlCanada_Newfoundland_and_Labrador">
+                  <gloss>Canada / Newfoundland and Labrador</gloss>
+               </category>
+               <category xml:id="dlCanada_Northwest_Territories">
+                  <gloss>Canada / Northwest Territories</gloss>
+               </category>
+               <category xml:id="dlCanada_Nova_Scotia">
+                  <gloss>Canada / Nova Scotia</gloss>
+               </category>
+               <category xml:id="dlCanada_Nunavut">
+                  <gloss>Canada / Nunavut</gloss>
+               </category>
+               <category xml:id="dlCanada_Ontario">
+                  <gloss>Canada / Ontario</gloss>
+               </category>
+               <category xml:id="dlCanada_Prince_Edward_Island">
+                  <gloss>Canada / Prince Edward Island</gloss>
+               </category>
+               <category xml:id="dlCanada_Quebec">
+                  <gloss>Canada / Quebec</gloss>
+               </category>
+               <category xml:id="dlCanada_Saskatchewan">
+                  <gloss>Canada / Saskatchewan</gloss>
+               </category>
+               <category xml:id="dlCanada_Yukon">
+                  <gloss>Canada / Yukon</gloss>
+               </category>
+               <category xml:id="dlCape_Verde">
+                  <gloss>Cape Verde</gloss>
+               </category>
+               <category xml:id="dlCentral_African_Republic">
+                  <gloss>Central African Republic</gloss>
+               </category>
+               <category xml:id="dlChad">
+                  <gloss>Chad</gloss>
+               </category>
+               <category xml:id="dlChile">
+                  <gloss>Chile</gloss>
+               </category>
+               <category xml:id="dlChina">
+                  <gloss>China</gloss>
+               </category>
+               <category xml:id="dlColombia">
+                  <gloss>Colombia</gloss>
+               </category>
+               <category xml:id="dlComoros">
+                  <gloss>Comoros</gloss>
+               </category>
+               <category xml:id="dlCongo_Republic_of_the">
+                  <gloss>Congo, Republic of the</gloss>
+               </category>
+               <category xml:id="dlCongo_Democratic_Republic_of_the">
+                  <gloss>Congo, Democratic Republic of the</gloss>
+               </category>
+               <category xml:id="dlCosta_Rica">
+                  <gloss>Costa Rica</gloss>
+               </category>
+               <category xml:id="dlCroatia">
+                  <gloss>Croatia</gloss>
+               </category>
+               <category xml:id="dlCuba">
+                  <gloss>Cuba</gloss>
+               </category>
+               <category xml:id="dlCuracao">
+                  <gloss>Curacao</gloss>
+               </category>
+               <category xml:id="dlCyprus">
+                  <gloss>Cyprus</gloss>
+               </category>
+               <category xml:id="dlCzech_Republic">
+                  <gloss>Czech Republic</gloss>
+               </category>
+               <category xml:id="dlDenmark">
+                  <gloss>Denmark</gloss>
+               </category>
+               <category xml:id="dlDjibouti">
+                  <gloss>Djibouti</gloss>
+               </category>
+               <category xml:id="dlDominica">
+                  <gloss>Dominica</gloss>
+               </category>
+               <category xml:id="dlDominican_Republic">
+                  <gloss>Dominican Republic</gloss>
+               </category>
+               <category xml:id="dlEast_Timor">
+                  <gloss>East Timor</gloss>
+               </category>
+               <category xml:id="dlEcuador">
+                  <gloss>Ecuador</gloss>
+               </category>
+               <category xml:id="dlEgypt">
+                  <gloss>Egypt</gloss>
+               </category>
+               <category xml:id="dlEl_Salvador">
+                  <gloss>El Salvador</gloss>
+               </category>
+               <category xml:id="dlEquatorial_Guinea">
+                  <gloss>Equatorial Guinea</gloss>
+               </category>
+               <category xml:id="dlEritrea">
+                  <gloss>Eritrea</gloss>
+               </category>
+               <category xml:id="dlEstonia">
+                  <gloss>Estonia</gloss>
+               </category>
+               <category xml:id="dlEswatini">
+                  <gloss>Eswatini</gloss>
+               </category>
+               <category xml:id="dlEthiopia">
+                  <gloss>Ethiopia</gloss>
+               </category>
+               <category xml:id="dlFiji">
+                  <gloss>Fiji</gloss>
+               </category>
+               <category xml:id="dlFinland">
+                  <gloss>Finland</gloss>
+               </category>
+               <category xml:id="dlFrance">
+                  <gloss>France</gloss>
+               </category>
+               <category xml:id="dlGabon">
+                  <gloss>Gabon</gloss>
+               </category>
+               <category xml:id="dlGambia">
+                  <gloss>Gambia</gloss>
+               </category>
+               <category xml:id="dlGeorgia">
+                  <gloss>Georgia</gloss>
+               </category>
+               <category xml:id="dlGermany">
+                  <gloss>Germany</gloss>
+               </category>
+               <category xml:id="dlGhana">
+                  <gloss>Ghana</gloss>
+               </category>
+               <category xml:id="dlGreece">
+                  <gloss>Greece</gloss>
+               </category>
+               <category xml:id="dlGrenada">
+                  <gloss>Grenada</gloss>
+               </category>
+               <category xml:id="dlGuatemala">
+                  <gloss>Guatemala</gloss>
+               </category>
+               <category xml:id="dlGuinea">
+                  <gloss>Guinea</gloss>
+               </category>
+               <category xml:id="dlGuinea-Bissau">
+                  <gloss>Guinea-Bissau</gloss>
+               </category>
+               <category xml:id="dlGuyana">
+                  <gloss>Guyana</gloss>
+               </category>
+               <category xml:id="dlHaiti">
+                  <gloss>Haiti</gloss>
+               </category>
+               <category xml:id="dlHonduras">
+                  <gloss>Honduras</gloss>
+               </category>
+               <category xml:id="dlHungary">
+                  <gloss>Hungary</gloss>
+               </category>
+               <category xml:id="dlIceland">
+                  <gloss>Iceland</gloss>
+               </category>
+               <category xml:id="dlIndia">
+                  <gloss>India</gloss>
+               </category>
+               <category xml:id="dlIndonesia">
+                  <gloss>Indonesia</gloss>
+               </category>
+               <category xml:id="dlIran">
+                  <gloss>Iran</gloss>
+               </category>
+               <category xml:id="dlIraq">
+                  <gloss>Iraq</gloss>
+               </category>
+               <category xml:id="dlIreland">
+                  <gloss>Ireland</gloss>
+               </category>
+               <category xml:id="dlIsrael">
+                  <gloss>Israel</gloss>
+               </category>
+               <category xml:id="dlItaly">
+                  <gloss>Italy</gloss>
+               </category>
+               <category xml:id="dlIvory_Coast">
+                  <gloss>Ivory Coast</gloss>
+               </category>
+               <category xml:id="dlJamaica">
+                  <gloss>Jamaica</gloss>
+               </category>
+               <category xml:id="dlJapan">
+                  <gloss>Japan</gloss>
+               </category>
+               <category xml:id="dlJordan">
+                  <gloss>Jordan</gloss>
+               </category>
+               <category xml:id="dlKazakhstan">
+                  <gloss>Kazakhstan</gloss>
+               </category>
+               <category xml:id="dlKenya">
+                  <gloss>Kenya</gloss>
+               </category>
+               <category xml:id="dlKiribati">
+                  <gloss>Kiribati</gloss>
+               </category>
+               <category xml:id="dlKosovo">
+                  <gloss>Kosovo</gloss>
+               </category>
+               <category xml:id="dlKuwait">
+                  <gloss>Kuwait</gloss>
+               </category>
+               <category xml:id="dlKyrgyzstan">
+                  <gloss>Kyrgyzstan</gloss>
+               </category>
+               <category xml:id="dlLaos">
+                  <gloss>Laos</gloss>
+               </category>
+               <category xml:id="dlLatvia">
+                  <gloss>Latvia</gloss>
+               </category>
+               <category xml:id="dlLebanon">
+                  <gloss>Lebanon</gloss>
+               </category>
+               <category xml:id="dlLesotho">
+                  <gloss>Lesotho</gloss>
+               </category>
+               <category xml:id="dlLiberia">
+                  <gloss>Liberia</gloss>
+               </category>
+               <category xml:id="dlLibya">
+                  <gloss>Libya</gloss>
+               </category>
+               <category xml:id="dlLiechtenstein">
+                  <gloss>Liechtenstein</gloss>
+               </category>
+               <category xml:id="dlLithuania">
+                  <gloss>Lithuania</gloss>
+               </category>
+               <category xml:id="dlLuxembourg">
+                  <gloss>Luxembourg</gloss>
+               </category>
+               <category xml:id="dlMadagascar">
+                  <gloss>Madagascar</gloss>
+               </category>
+               <category xml:id="dlMalawi">
+                  <gloss>Malawi</gloss>
+               </category>
+               <category xml:id="dlMalaysia">
+                  <gloss>Malaysia</gloss>
+               </category>
+               <category xml:id="dlMaldives">
+                  <gloss>Maldives</gloss>
+               </category>
+               <category xml:id="dlMali">
+                  <gloss>Mali</gloss>
+               </category>
+               <category xml:id="dlMalta">
+                  <gloss>Malta</gloss>
+               </category>
+               <category xml:id="dlMarshall_Islands">
+                  <gloss>Marshall Islands</gloss>
+               </category>
+               <category xml:id="dlMauritania">
+                  <gloss>Mauritania</gloss>
+               </category>
+               <category xml:id="dlMauritius">
+                  <gloss>Mauritius</gloss>
+               </category>
+               <category xml:id="dlMexico">
+                  <gloss>Mexico</gloss>
+               </category>
+               <category xml:id="dlMicronesia">
+                  <gloss>Micronesia</gloss>
+               </category>
+               <category xml:id="dlMoldova">
+                  <gloss>Moldova</gloss>
+               </category>
+               <category xml:id="dlMonaco">
+                  <gloss>Monaco</gloss>
+               </category>
+               <category xml:id="dlMongolia">
+                  <gloss>Mongolia</gloss>
+               </category>
+               <category xml:id="dlMontenegro">
+                  <gloss>Montenegro</gloss>
+               </category>
+               <category xml:id="dlMorocco">
+                  <gloss>Morocco</gloss>
+               </category>
+               <category xml:id="dlMozambique">
+                  <gloss>Mozambique</gloss>
+               </category>
+               <category xml:id="dlMyanmar">
+                  <gloss>Myanmar</gloss>
+               </category>
+               <category xml:id="dlNamibia">
+                  <gloss>Namibia</gloss>
+               </category>
+               <category xml:id="dlNauru">
+                  <gloss>Nauru</gloss>
+               </category>
+               <category xml:id="dlNepal">
+                  <gloss>Nepal</gloss>
+               </category>
+               <category xml:id="dlNetherlands">
+                  <gloss>Netherlands</gloss>
+               </category>
+               <category xml:id="dlNew_Zealand">
+                  <gloss>New Zealand</gloss>
+               </category>
+               <category xml:id="dlNicaragua">
+                  <gloss>Nicaragua</gloss>
+               </category>
+               <category xml:id="dlNiger">
+                  <gloss>Niger</gloss>
+               </category>
+               <category xml:id="dlNigeria">
+                  <gloss>Nigeria</gloss>
+               </category>
+               <category xml:id="dlNorth_Korea">
+                  <gloss>North Korea</gloss>
+               </category>
+               <category xml:id="dlNorth_Macedonia">
+                  <gloss>North Macedonia</gloss>
+               </category>
+               <category xml:id="dlNorway">
+                  <gloss>Norway</gloss>
+               </category>
+               <category xml:id="dlOman">
+                  <gloss>Oman</gloss>
+               </category>
+               <category xml:id="dlPakistan">
+                  <gloss>Pakistan</gloss>
+               </category>
+               <category xml:id="dlPalau">
+                  <gloss>Palau</gloss>
+               </category>
+               <category xml:id="dlPalestine">
+                  <gloss>Palestine</gloss>
+               </category>
+               <category xml:id="dlPanama">
+                  <gloss>Panama</gloss>
+               </category>
+               <category xml:id="dlPapua_New_Guinea">
+                  <gloss>Papua New Guinea</gloss>
+               </category>
+               <category xml:id="dlParaguay">
+                  <gloss>Paraguay</gloss>
+               </category>
+               <category xml:id="dlPeru">
+                  <gloss>Peru</gloss>
+               </category>
+               <category xml:id="dlPhilippines">
+                  <gloss>Philippines</gloss>
+               </category>
+               <category xml:id="dlPoland">
+                  <gloss>Poland</gloss>
+               </category>
+               <category xml:id="dlPortugal">
+                  <gloss>Portugal</gloss>
+               </category>
+               <category xml:id="dlPuerto_Rico">
+                  <gloss>Puerto Rico</gloss>
+               </category>
+               <category xml:id="dlQatar">
+                  <gloss>Qatar</gloss>
+               </category>
+               <category xml:id="dlRomania">
+                  <gloss>Romania</gloss>
+               </category>
+               <category xml:id="dlRussia">
+                  <gloss>Russia</gloss>
+               </category>
+               <category xml:id="dlRwanda">
+                  <gloss>Rwanda</gloss>
+               </category>
+               <category xml:id="dlSaint_Kitts_and_Nevis">
+                  <gloss>Saint Kitts and Nevis</gloss>
+               </category>
+               <category xml:id="dlSaint_Lucia">
+                  <gloss>Saint Lucia</gloss>
+               </category>
+               <category xml:id="dlSaint_Vincent_and_the_Grenadines">
+                  <gloss>Saint Vincent and the Grenadines</gloss>
+               </category>
+               <category xml:id="dlSamoa">
+                  <gloss>Samoa</gloss>
+               </category>
+               <category xml:id="dlSan_Marino">
+                  <gloss>San Marino</gloss>
+               </category>
+               <category xml:id="dlS_o_Tom_and_Pr_ncipe">
+                  <gloss>São Tomé and Príncipe</gloss>
+               </category>
+               <category xml:id="dlSaudi_Arabia">
+                  <gloss>Saudi Arabia</gloss>
+               </category>
+               <category xml:id="dlSenegal">
+                  <gloss>Senegal</gloss>
+               </category>
+               <category xml:id="dlSerbia">
+                  <gloss>Serbia</gloss>
+               </category>
+               <category xml:id="dlSeychelles">
+                  <gloss>Seychelles</gloss>
+               </category>
+               <category xml:id="dlSierra_Leone">
+                  <gloss>Sierra Leone</gloss>
+               </category>
+               <category xml:id="dlSingapore">
+                  <gloss>Singapore</gloss>
+               </category>
+               <category xml:id="dlSlovakia">
+                  <gloss>Slovakia</gloss>
+               </category>
+               <category xml:id="dlSlovenia">
+                  <gloss>Slovenia</gloss>
+               </category>
+               <category xml:id="dlSolomon_Islands">
+                  <gloss>Solomon Islands</gloss>
+               </category>
+               <category xml:id="dlSomalia">
+                  <gloss>Somalia</gloss>
+               </category>
+               <category xml:id="dlSouth_Africa">
+                  <gloss>South Africa</gloss>
+               </category>
+               <category xml:id="dlSouth_Korea">
+                  <gloss>South Korea</gloss>
+               </category>
+               <category xml:id="dlSouth_Sudan">
+                  <gloss>South Sudan</gloss>
+               </category>
+               <category xml:id="dlSpain">
+                  <gloss>Spain</gloss>
+               </category>
+               <category xml:id="dlSri_Lanka">
+                  <gloss>Sri Lanka</gloss>
+               </category>
+               <category xml:id="dlSudan">
+                  <gloss>Sudan</gloss>
+               </category>
+               <category xml:id="dlSuriname">
+                  <gloss>Suriname</gloss>
+               </category>
+               <category xml:id="dlSweden">
+                  <gloss>Sweden</gloss>
+               </category>
+               <category xml:id="dlSwitzerland">
+                  <gloss>Switzerland</gloss>
+               </category>
+               <category xml:id="dlSyria">
+                  <gloss>Syria</gloss>
+               </category>
+               <category xml:id="dlTaiwan">
+                  <gloss>Taiwan</gloss>
+               </category>
+               <category xml:id="dlTajikistan">
+                  <gloss>Tajikistan</gloss>
+               </category>
+               <category xml:id="dlTanzania">
+                  <gloss>Tanzania</gloss>
+               </category>
+               <category xml:id="dlThailand">
+                  <gloss>Thailand</gloss>
+               </category>
+               <category xml:id="dlTogo">
+                  <gloss>Togo</gloss>
+               </category>
+               <category xml:id="dlTonga">
+                  <gloss>Tonga</gloss>
+               </category>
+               <category xml:id="dlTrinidad_and_Tobago">
+                  <gloss>Trinidad and Tobago</gloss>
+               </category>
+               <category xml:id="dlTunisia">
+                  <gloss>Tunisia</gloss>
+               </category>
+               <category xml:id="dlTurkey">
+                  <gloss>Turkey</gloss>
+               </category>
+               <category xml:id="dlTurkmenistan">
+                  <gloss>Turkmenistan</gloss>
+               </category>
+               <category xml:id="dlTuvalu">
+                  <gloss>Tuvalu</gloss>
+               </category>
+               <category xml:id="dlUganda">
+                  <gloss>Uganda</gloss>
+               </category>
+               <category xml:id="dlUkraine">
+                  <gloss>Ukraine</gloss>
+               </category>
+               <category xml:id="dlUnited_Arab_Emirates">
+                  <gloss>United Arab Emirates</gloss>
+               </category>
+               <category xml:id="dlUnited_Kingdom">
+                  <gloss>United Kingdom</gloss>
+               </category>
+               <category xml:id="dlUnited_States">
+                  <gloss>United States</gloss>
+               </category>
+               <category xml:id="dlUruguay">
+                  <gloss>Uruguay</gloss>
+               </category>
+               <category xml:id="dlUzbekistan">
+                  <gloss>Uzbekistan</gloss>
+               </category>
+               <category xml:id="dlVanuatu">
+                  <gloss>Vanuatu</gloss>
+               </category>
+               <category xml:id="dlVatican_City">
+                  <gloss>Vatican City</gloss>
+               </category>
+               <category xml:id="dlVenezuela">
+                  <gloss>Venezuela</gloss>
+               </category>
+               <category xml:id="dlVietnam">
+                  <gloss>Vietnam</gloss>
+               </category>
+               <category xml:id="dlYemen">
+                  <gloss>Yemen</gloss>
+               </category>
+               <category xml:id="dlZambia">
+                  <gloss>Zambia</gloss>
+               </category>
+               <category xml:id="dlZimbabwe">
+                  <gloss>Zimbabwe</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxPublisherClass" n="3I">
+               <gloss>Publisher Class</gloss>
+               <desc>The size, profile, and/or budget of the publisher and, in some cases, the developer, too</desc>
+               <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both “indie” and “self-published.”</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class.</desc>
+               <category xml:id="pcAAA">
+                  <gloss>AAA</gloss>
+               </category>
+               <category xml:id="pcAA">
+                  <gloss>AA</gloss>
+               </category>
+               <category xml:id="pcB">
+                  <gloss>B</gloss>
+               </category>
+               <category xml:id="pcIII">
+                  <gloss>III</gloss>
+               </category>
+               <category xml:id="pcIndie">
+                  <gloss>Indie</gloss>
+               </category>
+               <category xml:id="pcLicensed_game">
+                  <gloss>Licensed game</gloss>
+               </category>
+               <category xml:id="pcSelf-published">
+                  <gloss>Self-published</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxCommentary" n="4D">
+               <gloss>Commentary</gloss>
+               <desc>The type of player commentary, if any, included in the gameplay footage of the platform edition</desc>
+               <desc>Commentary is reflective, and it typically addresses the video’s audience.</desc>
+               <desc>Select “No commentary” if the footage contains no commentary.</desc>
+               <category xml:id="cmAvatar_VTubing">
+                  <gloss>Avatar / VTubing</gloss>
+               </category>
+               <category xml:id="cmCaptions_subtitles">
+                  <gloss>Captions / subtitles</gloss>
+               </category>
+               <category xml:id="cmEmotes">
+                  <gloss>Emotes</gloss>
+               </category>
+               <category xml:id="cmFace_cam_facecam">
+                  <gloss>Face cam / facecam</gloss>
+               </category>
+               <category xml:id="cmNo_commentary">
+                  <gloss>No commentary</gloss>
+               </category>
+               <category xml:id="cmVoice_over_voice-over_voiceover_VO_">
+                  <gloss>Voice over / voice-over / voiceover (VO)</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxChat" n="4E">
+               <gloss>Chat</gloss>
+               <desc>The type of chat, if any, included in the gameplay footage of the platform edition</desc>
+               <desc>Chat typically occurs between players; however, in cases such as livestreams, it may also occur between players and audiences.</desc>
+               <desc>Select “No chat” if the footage contains no chat.</desc>
+               <category xml:id="chEmotes">
+                  <gloss>Emotes</gloss>
+               </category>
+               <category xml:id="chNo_chat">
+                  <gloss>No chat</gloss>
+               </category>
+               <category xml:id="chText_chat">
+                  <gloss>Text chat</gloss>
+               </category>
+               <category xml:id="chVideo_chat">
+                  <gloss>Video chat</gloss>
+               </category>
+               <category xml:id="chVoice_chat">
+                  <gloss>Voice chat</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxRecordStatus" n="4H">
+               <gloss>Metadata Record Status</gloss>
+               <desc>Communicates whether the metadata record for the gampeplay file is complete</desc>               
+               <desc>A gameplay file may appear in the Gameplay Footage Collection even if its metadata record is incomplete.</desc>
+               <category xml:id="rsComplete">
+                  <gloss>Complete</gloss>
+               </category>
+               <category xml:id="rsIncomplete">
+                  <gloss>Incomplete</gloss>
+               </category>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <head>Taxonomies for PressRecord</head>
-         <p>All data is in the header.</p>
+         <p part="N">All data is in the header.</p>
       </body>
    </text>
 </TEI>
