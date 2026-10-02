@@ -2332,7 +2332,8 @@
             <taxonomy xml:id="taxPublisherClass" n="3I">
                <gloss>Publisher Class</gloss>
                <desc>The size, profile, and/or budget of the publisher and, in some cases, the developer, too</desc>
-               <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both <q>indie</q> and <q>self-published.</q></desc>
+               <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both <q>indie</q> and <q>self-published.</q>
+               </desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class.</desc>
                <category xml:id="pcAAA">
                   <gloss>AAA</gloss>
@@ -2555,7 +2556,8 @@
             <taxonomy xml:id="taxGameplayMode" n="5D">
                <gloss>Gameplay Mode</gloss>
                <desc>A distinct configuration of the platform edition’s mechanics and gameplay in the gameplay footage</desc>
-               <desc>Note that <q>Default</q> and <q>Normal / moderate</q> are separate options. Select <q>Default</q> if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select <q>Normal / moderate</q> if that gameplay mode was selected among other options, such as <q>Hard / expert</q> and <q>Easy / beginner / casual.</q></desc>
+               <desc>Note that <q>Default</q> and <q>Normal / moderate</q> are separate options. Select <q>Default</q> if only one gameplay mode is available or the default gameplay mode does not have a unique name or identifier. Select <q>Normal / moderate</q> if that gameplay mode was selected among other options, such as <q>Hard / expert</q> and <q>Easy / beginner / casual.</q>
+               </desc>
                <desc>Controlled vocabulary adapted, with minor changes, from Wikipedia, "Glossary of Video Game Terms," 2026</desc>
                <category xml:id="gpArena">
                   <gloss>Arena</gloss>
@@ -2887,7 +2889,8 @@
             </taxonomy>
             <taxonomy xml:id="taxGameplayGenre" n="6B">
                <gloss>Gameplay Genre</gloss>
-               <desc><q>The overall nature of . . . interactivity</q> in the gameplay footage <q>based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>
+                  <q>The overall nature of . . . interactivity</q> in the gameplay footage <q>based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <desc>Note: <q>Traditional</q> in the controlled vocabulary below denotes <q>games based on mechanics that exist in the real world and can be played in a physical setting.</q> They include board, card, exercise, gambling, game show, maze, pinball, and trivia games (Lee et al., <q>Controlled Vocabulary for Genre,</q> 2024).</desc>
                <category xml:id="ggAction">
                   <gloss>Action</gloss>
@@ -3431,7 +3434,8 @@
             </taxonomy>
             <taxonomy xml:id="taxDimensionPerspective" n="6F">
                <gloss>Dimension and Perspective</gloss>
-               <desc><q>The intended perception of the depth of the represented entities in</q> the gameplay footage and <q>[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>
+                  <q>The intended perception of the depth of the represented entities in</q> the gameplay footage and <q>[t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <desc>This element will typically be repeated: for example, 3D, 1st-person, and perspective camera.</desc>
                <desc>Two terms in this element (free camera and cinematic camera) are defined here to avoid confusion.</desc>
                <desc>Select <q>free camera</q> if <q>the camera is not attached to a specific avatar and does not follow a specific target</q> (Poff and Atari 2025). Such cameras are common in strategy and sandbox games, where the <q>player is able to freely slide/scroll/rotate through the environment</q> (ibid).</desc>
@@ -4239,6 +4243,256 @@
                </category>
                <category xml:id="tmpUnspecified">
                   <gloss>Unspecified</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxBiome" n="6I">
+               <gloss>Biome</gloss>
+               <desc>The ecological community type appearing in the gameplay footage</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., <q>Controlled Vocabulary for Setting,</q> 2024.</desc>
+               <category xml:id="bmeAbstract">
+                  <gloss>Abstract</gloss>
+               </category>
+               <category xml:id="bmeAquatic_underwater">
+                  <gloss>Aquatic / underwater</gloss>
+               </category>
+               <category xml:id="bmeBeach_island">
+                  <gloss>Beach / island</gloss>
+               </category>
+               <category xml:id="bmeCave_subterranean">
+                  <gloss>Cave / subterranean</gloss>
+               </category>
+               <category xml:id="bmeDesert">
+                  <gloss>Desert</gloss>
+               </category>
+               <category xml:id="bmeForest_woodlands">
+                  <gloss>Forest / woodlands</gloss>
+               </category>
+               <category xml:id="bmeGrasslands_plains_savanna">
+                  <gloss>Grasslands / plains / savanna</gloss>
+               </category>
+               <category xml:id="bmeJungle">
+                  <gloss>Jungle</gloss>
+               </category>
+               <category xml:id="bmeLava_volcano">
+                  <gloss>Lava / volcano</gloss>
+               </category>
+               <category xml:id="bmeMountains">
+                  <gloss>Mountains</gloss>
+               </category>
+               <category xml:id="bmeOuter_space">
+                  <gloss>Outer space</gloss>
+               </category>
+               <category xml:id="bmeRuins">
+                  <gloss>Ruins</gloss>
+               </category>
+               <category xml:id="bmeSky">
+                  <gloss>Sky</gloss>
+               </category>
+               <category xml:id="bmeSuburban_suburb">
+                  <gloss>Suburban / suburb</gloss>
+               </category>
+               <category xml:id="bmeSwamp_marsh">
+                  <gloss>Swamp / marsh</gloss>
+               </category>
+               <category xml:id="bmeTundra_snow_ice">
+                  <gloss>Tundra / snow / ice</gloss>
+               </category>
+               <category xml:id="bmeUrban_city">
+                  <gloss>Urban / city</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxBuiltEnv" n="6J">
+               <gloss>Built Environment</gloss>
+               <desc>An artificial physical feature or edifice appearing in the gameplay footage that’s typically meant to surround, structure, and/or guide the diegetic activities of characters in the platform edition</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., <q>Controlled Vocabulary for Setting,</q> 2024.</desc>
+               <category xml:id="beAlley">
+                  <gloss>Alley</gloss>
+               </category>
+               <category xml:id="beAmusement_park_circus_carnival">
+                  <gloss>Amusement park / circus / carnival</gloss>
+               </category>
+               <category xml:id="beAquarium">
+                  <gloss>Aquarium</gloss>
+               </category>
+               <category xml:id="beArcade_diegetic_video_game">
+                  <gloss>Arcade / diegetic video game</gloss>
+               </category>
+               <category xml:id="beArena_coliseum_stadium">
+                  <gloss>Arena / coliseum / stadium</gloss>
+               </category>
+               <category xml:id="beBank">
+                  <gloss>Bank</gloss>
+               </category>
+               <category xml:id="beBasement">
+                  <gloss>Basement</gloss>
+               </category>
+               <category xml:id="beBathhouse_spa_sauna">
+                  <gloss>Bathhouse / spa / sauna</gloss>
+               </category>
+               <category xml:id="beBathroom_washroom_water_closet">
+                  <gloss>Bathroom / washroom / water closet</gloss>
+               </category>
+               <category xml:id="beBedroom">
+                  <gloss>Bedroom</gloss>
+               </category>
+               <category xml:id="beBridge">
+                  <gloss>Bridge</gloss>
+               </category>
+               <category xml:id="beCastle_fortress">
+                  <gloss>Castle / fortress</gloss>
+               </category>
+               <category xml:id="beChurch_cathedral_chapel_temple">
+                  <gloss>Church / cathedral / chapel / temple</gloss>
+               </category>
+               <category xml:id="beClub_bar_saloon_pub">
+                  <gloss>Club / bar / saloon / pub</gloss>
+               </category>
+               <category xml:id="beComputer_cyberspace_internet">
+                  <gloss>Computer / cyberspace / internet</gloss>
+               </category>
+               <category xml:id="beDoor">
+                  <gloss>Door</gloss>
+               </category>
+               <category xml:id="beDungeon">
+                  <gloss>Dungeon</gloss>
+               </category>
+               <category xml:id="beFactory">
+                  <gloss>Factory</gloss>
+               </category>
+               <category xml:id="beFarm_farmhouse">
+                  <gloss>Farm / farmhouse</gloss>
+               </category>
+               <category xml:id="beFuneral_home_morgue">
+                  <gloss>Funeral home / morgue</gloss>
+               </category>
+               <category xml:id="beGarage">
+                  <gloss>Garage</gloss>
+               </category>
+               <category xml:id="beGraveyard">
+                  <gloss>Graveyard</gloss>
+               </category>
+               <category xml:id="beGym_gymnasium">
+                  <gloss>Gym / gymnasium</gloss>
+               </category>
+               <category xml:id="beHospital_asylum">
+                  <gloss>Hospital / asylum</gloss>
+               </category>
+               <category xml:id="beHotel_inn">
+                  <gloss>Hotel / inn</gloss>
+               </category>
+               <category xml:id="beHouse_apartment_townhouse">
+                  <gloss>House / apartment / townhouse</gloss>
+               </category>
+               <category xml:id="beInvisible_wall">
+                  <gloss>Invisible wall</gloss>
+               </category>
+               <category xml:id="beJail_prison">
+                  <gloss>Jail / prison</gloss>
+               </category>
+               <category xml:id="beKitchen">
+                  <gloss>Kitchen</gloss>
+               </category>
+               <category xml:id="beLaboratory_lab">
+                  <gloss>Laboratory / lab</gloss>
+               </category>
+               <category xml:id="beLibrary">
+                  <gloss>Library</gloss>
+               </category>
+               <category xml:id="beLonghouse">
+                  <gloss>Longhouse</gloss>
+               </category>
+               <category xml:id="beMansion_palace">
+                  <gloss>Mansion / palace</gloss>
+               </category>
+               <category xml:id="beMaze">
+                  <gloss>Maze</gloss>
+               </category>
+               <category xml:id="beMilitary_base">
+                  <gloss>Military base</gloss>
+               </category>
+               <category xml:id="beMill">
+                  <gloss>Mill</gloss>
+               </category>
+               <category xml:id="beMine">
+                  <gloss>Mine</gloss>
+               </category>
+               <category xml:id="beMonastery">
+                  <gloss>Monastery</gloss>
+               </category>
+               <category xml:id="beMuseum_archive_gallery">
+                  <gloss>Museum / archive / gallery</gloss>
+               </category>
+               <category xml:id="beOffice_office_building">
+                  <gloss>Office / office building</gloss>
+               </category>
+               <category xml:id="bePark_nature_reserve">
+                  <gloss>Park / nature reserve</gloss>
+               </category>
+               <category xml:id="bePlayground">
+                  <gloss>Playground</gloss>
+               </category>
+               <category xml:id="beRacetrack">
+                  <gloss>Racetrack</gloss>
+               </category>
+               <category xml:id="beRestaurant_cafe">
+                  <gloss>Restaurant / cafe</gloss>
+               </category>
+               <category xml:id="beRooftop">
+                  <gloss>Rooftop</gloss>
+               </category>
+               <category xml:id="beSchool_classroom">
+                  <gloss>School / classroom</gloss>
+               </category>
+               <category xml:id="beSewer">
+                  <gloss>Sewer</gloss>
+               </category>
+               <category xml:id="beShack">
+                  <gloss>Shack</gloss>
+               </category>
+               <category xml:id="beShip">
+                  <gloss>Ship</gloss>
+               </category>
+               <category xml:id="beShrine">
+                  <gloss>Shrine</gloss>
+               </category>
+               <category xml:id="beSkyscraper">
+                  <gloss>Skyscraper</gloss>
+               </category>
+               <category xml:id="beSpace_station">
+                  <gloss>Space station</gloss>
+               </category>
+               <category xml:id="beStairs_ladder">
+                  <gloss>Stairs / ladder</gloss>
+               </category>
+               <category xml:id="beStore">
+                  <gloss>Store</gloss>
+               </category>
+               <category xml:id="beStreetlight_streetlamp">
+                  <gloss>Streetlight / streetlamp</gloss>
+               </category>
+               <category xml:id="beTower">
+                  <gloss>Tower</gloss>
+               </category>
+               <category xml:id="beTown">
+                  <gloss>Town</gloss>
+               </category>
+               <category xml:id="beTraining_ground">
+                  <gloss>Training ground</gloss>
+               </category>
+               <category xml:id="beUniversity_campus_college_campus">
+                  <gloss>University campus / college campus</gloss>
+               </category>
+               <category xml:id="beVillage">
+                  <gloss>Village</gloss>
+               </category>
+               <category xml:id="beVisible_wall">
+                  <gloss>Visible wall</gloss>
+               </category>
+               <category xml:id="beWindow">
+                  <gloss>Window</gloss>
+               </category>
+               <category xml:id="beZoo">
+                  <gloss>Zoo</gloss>
                </category>
             </taxonomy>
          </classDecl>
