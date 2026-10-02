@@ -6148,6 +6148,38 @@
                   <gloss>Writing</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxTimekeeping" n="6Q">
+               <gloss>Timekeeping</gloss>
+               <desc>How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and games</desc>
+               <desc>Two terms for this element (<q>meditative / zen</q> and “persistent”) are defined here to avoid confusion.</desc>
+               <desc>Select <q>meditative / zen</q> if the game <q>tr[ies] to calm or relax players. These types of games often have no goals and players can’t do anything wrong inside the game</q> (Poff and Atari 2025).</desc>
+               <desc>Select <q>persistent</q> if the game’s <q>mechanics continue even when the player is not playing the game. Either the game state is simulated on a remote server or the changes over time are calculated when the player returns to playing</q> (ibid).</desc>
+               <desc>Don’t select <q>meditative / zen</q> or <q>persistent</q> if they do not apply to the gameplay footage.</desc>
+               <desc>Controlled vocabulary adapted from Poff and Atari 2025.</desc>
+               <category xml:id="tmkMeditative_zen">
+                  <gloss>Meditative / zen</gloss>
+               </category>
+               <category xml:id="tmkPersistent">
+                  <gloss>Persistent</gloss>
+               </category>
+               <category xml:id="tmkReal-time">
+                  <gloss>Real-time</gloss>
+               </category>
+               <category xml:id="tmkTurn-based">
+                  <gloss>Turn-based</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxProgression" n="6R">
+               <gloss>Progression</gloss>
+               <desc>How, as demonstrated by the footage, the platform edition allows players to advance, acknowledges their attempts to advance, or affords them with a sense of progress, achievement, or productivity (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               
+               <desc>This element will typically be repeated.</desc>
+               
+               <desc>Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution, including pacing), and gamification (achievements or trophies) (Brazie 2024).</desc>
+               <desc>Controlled vocabulary with nine beats adapted from Laws 2010 and environmental storytelling from Jenkins 2002.</desc>
+               <!-- TODO... -->
+               
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
