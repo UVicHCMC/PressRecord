@@ -4975,7 +4975,1178 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="taxPlayerCharacter" n="6N">
-               <gloss></gloss>
+               <gloss>Player Character</gloss>
+               <desc>A character in the gameplay footage whose actions are controlled by the player</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>Select <q>No player character</q> if no player character appears in the footage.</desc>
+               <desc>When pertinent, tag the option with <q>implicit</q> when characters are implicitly coded and <q>explicit</q> when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will corect and update this controlled vocabulary as the Gameplay Footage Collection unfolds.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to further describe the player character(s).</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to substantiate metadata about player characters.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., <q>Controlled Vocabulary for Protagonist</q> and <q>Controlled Vocabulary for Tropes,</q> 2024.</desc>
+               <category xml:id="pcAdult">
+                  <gloss>Adult</gloss>
+               </category>
+               <category xml:id="pcAfrican">
+                  <gloss>African</gloss>
+               </category>
+               <category xml:id="pcAgender">
+                  <gloss>Agender</gloss>
+               </category>
+               <category xml:id="pcAmnesiac">
+                  <gloss>Amnesiac</gloss>
+               </category>
+               <category xml:id="pcAromantic">
+                  <gloss>Aromantic</gloss>
+               </category>
+               <category xml:id="pcAsexual">
+                  <gloss>Asexual</gloss>
+               </category>
+               <category xml:id="pcAsian">
+                  <gloss>Asian</gloss>
+               </category>
+               <category xml:id="pcAssimilator">
+                  <gloss>Assimilator</gloss>
+               </category>
+               <category xml:id="pcAustralian_from_Oceania">
+                  <gloss>Australian / from Oceania</gloss>
+               </category>
+               <category xml:id="pcAutistic">
+                  <gloss>Autistic</gloss>
+               </category>
+               <category xml:id="pcAvatar">
+                  <gloss>Avatar</gloss>
+               </category>
+               <category xml:id="pcBisexual">
+                  <gloss>Bisexual</gloss>
+               </category>
+               <category xml:id="pcBlack">
+                  <gloss>Black</gloss>
+               </category>
+               <category xml:id="pcBlank_slate_cipher">
+                  <gloss>Blank slate / cipher</gloss>
+               </category>
+               <category xml:id="pcBlind">
+                  <gloss>Blind</gloss>
+               </category>
+               <category xml:id="pcBrawler">
+                  <gloss>Brawler</gloss>
+               </category>
+               <category xml:id="pcBuilder">
+                  <gloss>Builder</gloss>
+               </category>
+               <category xml:id="pcCanadian">
+                  <gloss>Canadian</gloss>
+               </category>
+               <category xml:id="pcChild">
+                  <gloss>Child</gloss>
+               </category>
+               <category xml:id="pcCollector">
+                  <gloss>Collector</gloss>
+               </category>
+               <category xml:id="pcColonizer_settler">
+                  <gloss>Colonizer / settler</gloss>
+               </category>
+               <category xml:id="pcCustomizable_age">
+                  <gloss>Customizable age</gloss>
+               </category>
+               <category xml:id="pcCustomizable_character_model">
+                  <gloss>Customizable character model</gloss>
+               </category>
+               <category xml:id="pcCustomizable_complexion">
+                  <gloss>Customizable complexion</gloss>
+               </category>
+               <category xml:id="pcCustomizable_gender">
+                  <gloss>Customizable gender</gloss>
+               </category>
+               <category xml:id="pcCustomizable_hair">
+                  <gloss>Customizable hair</gloss>
+               </category>
+               <category xml:id="pcCustomizable_race_ethnicity">
+                  <gloss>Customizable race/ethnicity</gloss>
+               </category>
+               <category xml:id="pcCustomizable_relationships">
+                  <gloss>Customizable relationships</gloss>
+               </category>
+               <category xml:id="pcCustomizable_species">
+                  <gloss>Customizable species</gloss>
+               </category>
+               <category xml:id="pcDeaf">
+                  <gloss>Deaf</gloss>
+               </category>
+               <category xml:id="pcDemisexual">
+                  <gloss>Demisexual</gloss>
+               </category>
+               <category xml:id="pcDisabled">
+                  <gloss>Disabled</gloss>
+               </category>
+               <category xml:id="pcDragon">
+                  <gloss>Dragon</gloss>
+               </category>
+               <category xml:id="pcElder">
+                  <gloss>Elder</gloss>
+               </category>
+               <category xml:id="pcEntitled">
+                  <gloss>Entitled</gloss>
+               </category>
+               <category xml:id="pcEuropean">
+                  <gloss>European</gloss>
+               </category>
+               <category xml:id="pcFemale">
+                  <gloss>Female</gloss>
+               </category>
+               <category xml:id="pcFictional_species">
+                  <gloss>Fictional species</gloss>
+               </category>
+               <category xml:id="pcFundamentalist">
+                  <gloss>Fundamentalist</gloss>
+               </category>
+               <category xml:id="pcGay">
+                  <gloss>Gay</gloss>
+               </category>
+               <category xml:id="pcGender_non-conforming">
+                  <gloss>Gender non-conforming</gloss>
+               </category>
+               <category xml:id="pcGenderfluid">
+                  <gloss>Genderfluid</gloss>
+               </category>
+               <category xml:id="pcGenderqueer">
+                  <gloss>Genderqueer</gloss>
+               </category>
+               <category xml:id="pcHearing-impaired">
+                  <gloss>Hearing-impaired</gloss>
+               </category>
+               <category xml:id="pcHeretic">
+                  <gloss>Heretic</gloss>
+               </category>
+               <category xml:id="pcHero">
+                  <gloss>Hero</gloss>
+               </category>
+               <category xml:id="pcHeterosexual_straight">
+                  <gloss>Heterosexual / straight</gloss>
+               </category>
+               <category xml:id="pcHivemind">
+                  <gloss>Hivemind</gloss>
+               </category>
+               <category xml:id="pcHostage">
+                  <gloss>Hostage</gloss>
+               </category>
+               <category xml:id="pcHunter">
+                  <gloss>Hunter</gloss>
+               </category>
+               <category xml:id="pcImmigrant">
+                  <gloss>Immigrant</gloss>
+               </category>
+               <category xml:id="pcIndigenous">
+                  <gloss>Indigenous</gloss>
+               </category>
+               <category xml:id="pcIntersex">
+                  <gloss>Intersex</gloss>
+               </category>
+               <category xml:id="pcIsolationist">
+                  <gloss>Isolationist</gloss>
+               </category>
+               <category xml:id="pcKnight">
+                  <gloss>Knight</gloss>
+               </category>
+               <category xml:id="pcLesbian">
+                  <gloss>Lesbian</gloss>
+               </category>
+               <category xml:id="pcLibrarian_archivist">
+                  <gloss>Librarian / archivist</gloss>
+               </category>
+               <category xml:id="pcMagic_user">
+                  <gloss>Magic user</gloss>
+               </category>
+               <category xml:id="pcMale">
+                  <gloss>Male</gloss>
+               </category>
+               <category xml:id="pcMatriarch">
+                  <gloss>Matriarch</gloss>
+               </category>
+               <category xml:id="pcMigrant">
+                  <gloss>Migrant</gloss>
+               </category>
+               <category xml:id="pcMonster">
+                  <gloss>Monster</gloss>
+               </category>
+               <category xml:id="pcNeurodivergent">
+                  <gloss>Neurodivergent</gloss>
+               </category>
+               <category xml:id="pcNo_player_character">
+                  <gloss>No player character</gloss>
+               </category>
+               <category xml:id="pcNon-binary">
+                  <gloss>Non-binary</gloss>
+               </category>
+               <category xml:id="pcNon-corporeal">
+                  <gloss>Non-corporeal</gloss>
+               </category>
+               <category xml:id="pcNonhuman">
+                  <gloss>Nonhuman</gloss>
+               </category>
+               <category xml:id="pcNorth_American">
+                  <gloss>North American</gloss>
+               </category>
+               <category xml:id="pcOriginal_character">
+                  <gloss>Original character</gloss>
+               </category>
+               <category xml:id="pcOrphan">
+                  <gloss>Orphan</gloss>
+               </category>
+               <category xml:id="pcOutlaw">
+                  <gloss>Outlaw</gloss>
+               </category>
+               <category xml:id="pcOverlord_conqueror">
+                  <gloss>Overlord / conqueror</gloss>
+               </category>
+               <category xml:id="pcOverpowered">
+                  <gloss>Overpowered</gloss>
+               </category>
+               <category xml:id="pcPansexual">
+                  <gloss>Pansexual</gloss>
+               </category>
+               <category xml:id="pcParent_guardian">
+                  <gloss>Parent / guardian</gloss>
+               </category>
+               <category xml:id="pcParty_member">
+                  <gloss>Party member</gloss>
+               </category>
+               <category xml:id="pcPatriarch">
+                  <gloss>Patriarch</gloss>
+               </category>
+               <category xml:id="pcPC_can_die">
+                  <gloss>PC can die</gloss>
+               </category>
+               <category xml:id="pcPC_cannot_be_customized">
+                  <gloss>PC cannot be customized</gloss>
+               </category>
+               <category xml:id="pcPC_cannot_die">
+                  <gloss>PC cannot die</gloss>
+               </category>
+               <category xml:id="pcPC_has_black_or_brown_hair">
+                  <gloss>PC has black or brown hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_blond_hair">
+                  <gloss>PC has blond hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_blue_hair">
+                  <gloss>PC has blue hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_green_hair">
+                  <gloss>PC has green hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_pink_hair">
+                  <gloss>PC has pink hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_purple_hair">
+                  <gloss>PC has purple hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_red_or_auburn_hair">
+                  <gloss>PC has red or auburn hair</gloss>
+               </category>
+               <category xml:id="pcPC_has_white_or_gray_hair">
+                  <gloss>PC has white or gray hair</gloss>
+               </category>
+               <category xml:id="pcPC_is_bald_has_no_hair">
+                  <gloss>PC is bald / has no hair</gloss>
+               </category>
+               <category xml:id="pcPirate">
+                  <gloss>Pirate</gloss>
+               </category>
+               <category xml:id="pcPoor">
+                  <gloss>Poor</gloss>
+               </category>
+               <category xml:id="pcPregnant">
+                  <gloss>Pregnant</gloss>
+               </category>
+               <category xml:id="pcQueer">
+                  <gloss>Queer</gloss>
+               </category>
+               <category xml:id="pcRacialized">
+                  <gloss>Racialized</gloss>
+               </category>
+               <category xml:id="pcRanger">
+                  <gloss>Ranger</gloss>
+               </category>
+               <category xml:id="pcReligious">
+                  <gloss>Religious</gloss>
+               </category>
+               <category xml:id="pcRevolutionary">
+                  <gloss>Revolutionary</gloss>
+               </category>
+               <category xml:id="pcRobot_android_automaton">
+                  <gloss>Robot / android / automaton</gloss>
+               </category>
+               <category xml:id="pcRogue_assassin">
+                  <gloss>Rogue / assassin</gloss>
+               </category>
+               <category xml:id="pcRoyalty">
+                  <gloss>Royalty</gloss>
+               </category>
+               <category xml:id="pcShapeshifter">
+                  <gloss>Shapeshifter</gloss>
+               </category>
+               <category xml:id="pcShopkeeper">
+                  <gloss>Shopkeeper</gloss>
+               </category>
+               <category xml:id="pcSouth_American">
+                  <gloss>South American</gloss>
+               </category>
+               <category xml:id="pcSpy_spymaster">
+                  <gloss>Spy / spymaster</gloss>
+               </category>
+               <category xml:id="pcStranger_visitor">
+                  <gloss>Stranger / visitor</gloss>
+               </category>
+               <category xml:id="pcStrong">
+                  <gloss>Strong</gloss>
+               </category>
+               <category xml:id="pcStudent">
+                  <gloss>Student</gloss>
+               </category>
+               <category xml:id="pcTank">
+                  <gloss>Tank</gloss>
+               </category>
+               <category xml:id="pcTeenager">
+                  <gloss>Teenager</gloss>
+               </category>
+               <category xml:id="pcTrans">
+                  <gloss>Trans</gloss>
+               </category>
+               <category xml:id="pcTwin">
+                  <gloss>Twin</gloss>
+               </category>
+               <category xml:id="pcTwo-spirit">
+                  <gloss>Two-spirit</gloss>
+               </category>
+               <category xml:id="pcUndead">
+                  <gloss>Undead</gloss>
+               </category>
+               <category xml:id="pcVillager">
+                  <gloss>Villager</gloss>
+               </category>
+               <category xml:id="pcVillain">
+                  <gloss>Villain</gloss>
+               </category>
+               <category xml:id="pcVisually-impaired">
+                  <gloss>Visually-impaired</gloss>
+               </category>
+               <category xml:id="pcWar_veteran_commander">
+                  <gloss>War veteran / commander</gloss>
+               </category>
+               <category xml:id="pcWeak">
+                  <gloss>Weak</gloss>
+               </category>
+               <category xml:id="pcWealthy">
+                  <gloss>Wealthy</gloss>
+               </category>
+               <category xml:id="pcWhite">
+                  <gloss>White</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxNonPlayerCharacter" n="6O">
+               <gloss>Non-Player Character</gloss>
+               <desc>A character in the gameplay footage whose actions are not controlled by the player</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>Select <q>No non-player character</q> if a non-player character does not appear in the footage.</desc>
+               <desc>When pertinent, tag the option with <q>implicit</q> when characters are implicitly coded and <q>explicit</q> when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the Gameplay Footage Collection unfolds.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to further describe the non-player character(s).</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to substantiate metadata about non-player characters.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., <q>Controlled Vocabulary for Protagonist</q> and <q>Controlled Vocabulary for Tropes,</q> 2024.</desc>
+               <category xml:id="npcAdult">
+                  <gloss>Adult</gloss>
+               </category>
+               <category xml:id="npcAfrican">
+                  <gloss>African</gloss>
+               </category>
+               <category xml:id="npcAgender">
+                  <gloss>Agender</gloss>
+               </category>
+               <category xml:id="npcAmnesiac">
+                  <gloss>Amnesiac</gloss>
+               </category>
+               <category xml:id="npcAromantic">
+                  <gloss>Aromantic</gloss>
+               </category>
+               <category xml:id="npcAsexual">
+                  <gloss>Asexual</gloss>
+               </category>
+               <category xml:id="npcAsian">
+                  <gloss>Asian</gloss>
+               </category>
+               <category xml:id="npcAssimilator">
+                  <gloss>Assimilator</gloss>
+               </category>
+               <category xml:id="npcAustralian_from_Oceania">
+                  <gloss>Australian / from Oceania</gloss>
+               </category>
+               <category xml:id="npcAutistic">
+                  <gloss>Autistic</gloss>
+               </category>
+               <category xml:id="npcBisexual">
+                  <gloss>Bisexual</gloss>
+               </category>
+               <category xml:id="npcBlack">
+                  <gloss>Black</gloss>
+               </category>
+               <category xml:id="npcBlacksmith">
+                  <gloss>Blacksmith</gloss>
+               </category>
+               <category xml:id="npcBlind">
+                  <gloss>Blind</gloss>
+               </category>
+               <category xml:id="npcBoss">
+                  <gloss>Boss</gloss>
+               </category>
+               <category xml:id="npcBrawler">
+                  <gloss>Brawler</gloss>
+               </category>
+               <category xml:id="npcBuilder">
+                  <gloss>Builder</gloss>
+               </category>
+               <category xml:id="npcCanadian">
+                  <gloss>Canadian</gloss>
+               </category>
+               <category xml:id="npcChild">
+                  <gloss>Child</gloss>
+               </category>
+               <category xml:id="npcCollector">
+                  <gloss>Collector</gloss>
+               </category>
+               <category xml:id="npcColonizer_settler">
+                  <gloss>Colonizer / settler</gloss>
+               </category>
+               <category xml:id="npcCompanion_buddy">
+                  <gloss>Companion / buddy</gloss>
+               </category>
+               <category xml:id="npcCustomizable">
+                  <gloss>Customizable</gloss>
+               </category>
+               <category xml:id="npcDeaf">
+                  <gloss>Deaf</gloss>
+               </category>
+               <category xml:id="npcDemisexual">
+                  <gloss>Demisexual</gloss>
+               </category>
+               <category xml:id="npcDisabled">
+                  <gloss>Disabled</gloss>
+               </category>
+               <category xml:id="npcDragon">
+                  <gloss>Dragon</gloss>
+               </category>
+               <category xml:id="npcElder">
+                  <gloss>Elder</gloss>
+               </category>
+               <category xml:id="npcEnemy_hostile">
+                  <gloss>Enemy / hostile</gloss>
+               </category>
+               <category xml:id="npcEntitled">
+                  <gloss>Entitled</gloss>
+               </category>
+               <category xml:id="npcEuropean">
+                  <gloss>European</gloss>
+               </category>
+               <category xml:id="npcFamiliar">
+                  <gloss>Familiar</gloss>
+               </category>
+               <category xml:id="npcFemale">
+                  <gloss>Female</gloss>
+               </category>
+               <category xml:id="npcFictional_species">
+                  <gloss>Fictional species</gloss>
+               </category>
+               <category xml:id="npcFriendly_not_hostile">
+                  <gloss>Friendly / not hostile</gloss>
+               </category>
+               <category xml:id="npcFundamentalist">
+                  <gloss>Fundamentalist</gloss>
+               </category>
+               <category xml:id="npcGay">
+                  <gloss>Gay</gloss>
+               </category>
+               <category xml:id="npcGender_non-conforming">
+                  <gloss>Gender non-conforming</gloss>
+               </category>
+               <category xml:id="npcGenderfluid">
+                  <gloss>Genderfluid</gloss>
+               </category>
+               <category xml:id="npcGenderqueer">
+                  <gloss>Genderqueer</gloss>
+               </category>
+               <category xml:id="npcGuide">
+                  <gloss>Guide</gloss>
+               </category>
+               <category xml:id="npcHearing-impaired">
+                  <gloss>Hearing-impaired</gloss>
+               </category>
+               <category xml:id="npcHeretic">
+                  <gloss>Heretic</gloss>
+               </category>
+               <category xml:id="npcHero">
+                  <gloss>Hero</gloss>
+               </category>
+               <category xml:id="npcHeterosexual_straight">
+                  <gloss>Heterosexual / straight</gloss>
+               </category>
+               <category xml:id="npcHivemind">
+                  <gloss>Hivemind</gloss>
+               </category>
+               <category xml:id="npcHostage">
+                  <gloss>Hostage</gloss>
+               </category>
+               <category xml:id="npcHunter">
+                  <gloss>Hunter</gloss>
+               </category>
+               <category xml:id="npcImaginary">
+                  <gloss>Imaginary</gloss>
+               </category>
+               <category xml:id="npcImmigrant">
+                  <gloss>Immigrant</gloss>
+               </category>
+               <category xml:id="npcIndigenous">
+                  <gloss>Indigenous</gloss>
+               </category>
+               <category xml:id="npcIntersex">
+                  <gloss>Intersex</gloss>
+               </category>
+               <category xml:id="npcIsolationist">
+                  <gloss>Isolationist</gloss>
+               </category>
+               <category xml:id="npcKnight">
+                  <gloss>Knight</gloss>
+               </category>
+               <category xml:id="npcLesbian">
+                  <gloss>Lesbian</gloss>
+               </category>
+               <category xml:id="npcLibrarian_archivist">
+                  <gloss>Librarian / archivist</gloss>
+               </category>
+               <category xml:id="npcMagic_user">
+                  <gloss>Magic user</gloss>
+               </category>
+               <category xml:id="npcMale">
+                  <gloss>Male</gloss>
+               </category>
+               <category xml:id="npcMatriarch">
+                  <gloss>Matriarch</gloss>
+               </category>
+               <category xml:id="npcMigrant">
+                  <gloss>Migrant</gloss>
+               </category>
+               <category xml:id="npcMonster">
+                  <gloss>Monster</gloss>
+               </category>
+               <category xml:id="npcNeurodivergent">
+                  <gloss>Neurodivergent</gloss>
+               </category>
+               <category xml:id="npcNo_non-player_character">
+                  <gloss>No non-player character</gloss>
+               </category>
+               <category xml:id="npcNon-binary_PC">
+                  <gloss>Non-binary PC</gloss>
+               </category>
+               <category xml:id="npcNon-corporeal">
+                  <gloss>Non-corporeal</gloss>
+               </category>
+               <category xml:id="npcNonhuman_PC">
+                  <gloss>Nonhuman PC</gloss>
+               </category>
+               <category xml:id="npcNorth_American_PC">
+                  <gloss>North American PC</gloss>
+               </category>
+               <category xml:id="npcNPC_can_die">
+                  <gloss>NPC can die</gloss>
+               </category>
+               <category xml:id="npcNPC_cannot_die">
+                  <gloss>NPC cannot die</gloss>
+               </category>
+               <category xml:id="npcNPC_has_black_or_brown_hair">
+                  <gloss>NPC has black or brown hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_blond_hair">
+                  <gloss>NPC has blond hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_blue_hair">
+                  <gloss>NPC has blue hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_green_hair">
+                  <gloss>NPC has green hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_pink_hair">
+                  <gloss>NPC has pink hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_purple_hair">
+                  <gloss>NPC has purple hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_red_or_auburn_hair">
+                  <gloss>NPC has red or auburn hair</gloss>
+               </category>
+               <category xml:id="npcNPC_has_white_or_gray_hair">
+                  <gloss>NPC has white or gray hair</gloss>
+               </category>
+               <category xml:id="npcNPC_is_bald_has_no_hair">
+                  <gloss>NPC is bald / has no hair</gloss>
+               </category>
+               <category xml:id="npcOrphan">
+                  <gloss>Orphan</gloss>
+               </category>
+               <category xml:id="npcOutlaw">
+                  <gloss>Outlaw</gloss>
+               </category>
+               <category xml:id="npcOverlord_conqueror">
+                  <gloss>Overlord / conqueror</gloss>
+               </category>
+               <category xml:id="npcOverpowered">
+                  <gloss>Overpowered</gloss>
+               </category>
+               <category xml:id="npcPansexual">
+                  <gloss>Pansexual</gloss>
+               </category>
+               <category xml:id="npcParent_guardian">
+                  <gloss>Parent / guardian</gloss>
+               </category>
+               <category xml:id="npcParty_member">
+                  <gloss>Party member</gloss>
+               </category>
+               <category xml:id="npcPatriarch">
+                  <gloss>Patriarch</gloss>
+               </category>
+               <category xml:id="npcPC_s_child">
+                  <gloss>PC's child</gloss>
+               </category>
+               <category xml:id="npcPC_s_grandparent">
+                  <gloss>PC's grandparent</gloss>
+               </category>
+               <category xml:id="npcPC_s_mentor_adviser">
+                  <gloss>PC's mentor / adviser</gloss>
+               </category>
+               <category xml:id="npcPC_s_parent_guardian">
+                  <gloss>PC's parent / guardian</gloss>
+               </category>
+               <category xml:id="npcPC_s_partner">
+                  <gloss>PC's partner</gloss>
+               </category>
+               <category xml:id="npcPC_s_rival">
+                  <gloss>PC's rival</gloss>
+               </category>
+               <category xml:id="npcPC_s_roommate">
+                  <gloss>PC's roommate</gloss>
+               </category>
+               <category xml:id="npcPC_s_sibling">
+                  <gloss>PC's sibling</gloss>
+               </category>
+               <category xml:id="npcPC_s_teacher_tutor">
+                  <gloss>PC's teacher / tutor</gloss>
+               </category>
+               <category xml:id="npcPet">
+                  <gloss>Pet</gloss>
+               </category>
+               <category xml:id="npcPirate">
+                  <gloss>Pirate</gloss>
+               </category>
+               <category xml:id="npcPoor">
+                  <gloss>Poor</gloss>
+               </category>
+               <category xml:id="npcPregnant">
+                  <gloss>Pregnant</gloss>
+               </category>
+               <category xml:id="npcProtagonist">
+                  <gloss>Protagonist</gloss>
+               </category>
+               <category xml:id="npcQueer">
+                  <gloss>Queer</gloss>
+               </category>
+               <category xml:id="npcRacialized">
+                  <gloss>Racialized</gloss>
+               </category>
+               <category xml:id="npcRanger">
+                  <gloss>Ranger</gloss>
+               </category>
+               <category xml:id="npcReligious">
+                  <gloss>Religious</gloss>
+               </category>
+               <category xml:id="npcRevolutionary">
+                  <gloss>Revolutionary</gloss>
+               </category>
+               <category xml:id="npcRobot_android_automaton">
+                  <gloss>Robot / android / automaton</gloss>
+               </category>
+               <category xml:id="npcRogue_assassin">
+                  <gloss>Rogue / assassin</gloss>
+               </category>
+               <category xml:id="npcRoyalty">
+                  <gloss>Royalty</gloss>
+               </category>
+               <category xml:id="npcShapeshifter">
+                  <gloss>Shapeshifter</gloss>
+               </category>
+               <category xml:id="npcShopkeeper">
+                  <gloss>Shopkeeper</gloss>
+               </category>
+               <category xml:id="npcSouth_American">
+                  <gloss>South American</gloss>
+               </category>
+               <category xml:id="npcSpy_spymaster">
+                  <gloss>Spy / spymaster</gloss>
+               </category>
+               <category xml:id="npcStranger_visitor">
+                  <gloss>Stranger / visitor</gloss>
+               </category>
+               <category xml:id="npcStrong">
+                  <gloss>Strong</gloss>
+               </category>
+               <category xml:id="npcStudent">
+                  <gloss>Student</gloss>
+               </category>
+               <category xml:id="npcTank">
+                  <gloss>Tank</gloss>
+               </category>
+               <category xml:id="npcTeenager">
+                  <gloss>Teenager</gloss>
+               </category>
+               <category xml:id="npcTrans">
+                  <gloss>Trans</gloss>
+               </category>
+               <category xml:id="npcTwin">
+                  <gloss>Twin</gloss>
+               </category>
+               <category xml:id="npcTwo-spirit">
+                  <gloss>Two-spirit</gloss>
+               </category>
+               <category xml:id="npcUndead">
+                  <gloss>Undead</gloss>
+               </category>
+               <category xml:id="npcVillain">
+                  <gloss>Villain</gloss>
+               </category>
+               <category xml:id="npcVisually-impaired">
+                  <gloss>Visually-impaired</gloss>
+               </category>
+               <category xml:id="npcWar_veteran_commander">
+                  <gloss>War veteran / commander</gloss>
+               </category>
+               <category xml:id="npcWeak">
+                  <gloss>Weak</gloss>
+               </category>
+               <category xml:id="npcWealthy">
+                  <gloss>Wealthy</gloss>
+               </category>
+               <category xml:id="npcWhite">
+                  <gloss>White</gloss>
+               </category>
+               <category xml:id="npcZombie">
+                  <gloss>Zombie</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxMechanics" n="6P">
+               <gloss>Mechanics</gloss>
+               <desc>A method or <q>verb</q> players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>Select <desc>“No mechanic”</desc> if a mechanic is not used in the gameplay footage.</desc>
+               <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to substantiate metadata about the mechanics.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from BoardGameGeek n.d. and Lee et al., <q>Controlled Vocabulary for Mechanics,</q> 2024.</desc>
+               <category xml:id="mecAccelerating">
+                  <gloss>Accelerating</gloss>
+               </category>
+               <category xml:id="mecAiming">
+                  <gloss>Aiming</gloss>
+               </category>
+               <category xml:id="mecAligning">
+                  <gloss>Aligning</gloss>
+               </category>
+               <category xml:id="mecAttacking_melee_">
+                  <gloss>Attacking (melee)</gloss>
+               </category>
+               <category xml:id="mecAttacking_ranged_">
+                  <gloss>Attacking (ranged)</gloss>
+               </category>
+               <category xml:id="mecAuctioning">
+                  <gloss>Auctioning</gloss>
+               </category>
+               <category xml:id="mecAvoiding">
+                  <gloss>Avoiding</gloss>
+               </category>
+               <category xml:id="mecBalancing">
+                  <gloss>Balancing</gloss>
+               </category>
+               <category xml:id="mecBarricading">
+                  <gloss>Barricading</gloss>
+               </category>
+               <category xml:id="mecBattling">
+                  <gloss>Battling</gloss>
+               </category>
+               <category xml:id="mecBidding">
+                  <gloss>Bidding</gloss>
+               </category>
+               <category xml:id="mecBlocking">
+                  <gloss>Blocking</gloss>
+               </category>
+               <category xml:id="mecBluffing">
+                  <gloss>Bluffing</gloss>
+               </category>
+               <category xml:id="mecBreaking">
+                  <gloss>Breaking</gloss>
+               </category>
+               <category xml:id="mecBuilding">
+                  <gloss>Building</gloss>
+               </category>
+               <category xml:id="mecBuying">
+                  <gloss>Buying</gloss>
+               </category>
+               <category xml:id="mecCapturing">
+                  <gloss>Capturing</gloss>
+               </category>
+               <category xml:id="mecCaretaking">
+                  <gloss>Caretaking</gloss>
+               </category>
+               <category xml:id="mecCarrying">
+                  <gloss>Carrying</gloss>
+               </category>
+               <category xml:id="mecChaining">
+                  <gloss>Chaining</gloss>
+               </category>
+               <category xml:id="mecChoosing">
+                  <gloss>Choosing</gloss>
+               </category>
+               <category xml:id="mecCleaning_washing">
+                  <gloss>Cleaning / washing</gloss>
+               </category>
+               <category xml:id="mecClicking">
+                  <gloss>Clicking</gloss>
+               </category>
+               <category xml:id="mecClimbing">
+                  <gloss>Climbing</gloss>
+               </category>
+               <category xml:id="mecClosing">
+                  <gloss>Closing</gloss>
+               </category>
+               <category xml:id="mecCollecting">
+                  <gloss>Collecting</gloss>
+               </category>
+               <category xml:id="mecCommunicating_noverbally">
+                  <gloss>Communicating noverbally</gloss>
+               </category>
+               <category xml:id="mecCommunicating_verbally">
+                  <gloss>Communicating verbally</gloss>
+               </category>
+               <category xml:id="mecCooking_making_food">
+                  <gloss>Cooking / making food</gloss>
+               </category>
+               <category xml:id="mecCrafting">
+                  <gloss>Crafting</gloss>
+               </category>
+               <category xml:id="mecCrawling_dungeon_crawling">
+                  <gloss>Crawling / dungeon crawling</gloss>
+               </category>
+               <category xml:id="mecDancing">
+                  <gloss>Dancing</gloss>
+               </category>
+               <category xml:id="mecDating">
+                  <gloss>Dating</gloss>
+               </category>
+               <category xml:id="mecDealing">
+                  <gloss>Dealing</gloss>
+               </category>
+               <category xml:id="mecDeckbuilding">
+                  <gloss>Deckbuilding</gloss>
+               </category>
+               <category xml:id="mecDecoding">
+                  <gloss>Decoding</gloss>
+               </category>
+               <category xml:id="mecDecorating">
+                  <gloss>Decorating</gloss>
+               </category>
+               <category xml:id="mecDefenestrating">
+                  <gloss>Defenestrating</gloss>
+               </category>
+               <category xml:id="mecDelivering">
+                  <gloss>Delivering</gloss>
+               </category>
+               <category xml:id="mecDestroying">
+                  <gloss>Destroying</gloss>
+               </category>
+               <category xml:id="mecDigging">
+                  <gloss>Digging</gloss>
+               </category>
+               <category xml:id="mecDisk-flicking">
+                  <gloss>Disk-flicking</gloss>
+               </category>
+               <category xml:id="mecDodging">
+                  <gloss>Dodging</gloss>
+               </category>
+               <category xml:id="mecDoing_acrobatics">
+                  <gloss>Doing acrobatics</gloss>
+               </category>
+               <category xml:id="mecDrawing">
+                  <gloss>Drawing</gloss>
+               </category>
+               <category xml:id="mecDrinking">
+                  <gloss>Drinking</gloss>
+               </category>
+               <category xml:id="mecDriving">
+                  <gloss>Driving</gloss>
+               </category>
+               <category xml:id="mecEating">
+                  <gloss>Eating</gloss>
+               </category>
+               <category xml:id="mecEavesdropping">
+                  <gloss>Eavesdropping</gloss>
+               </category>
+               <category xml:id="mecEmoting">
+                  <gloss>Emoting</gloss>
+               </category>
+               <category xml:id="mecEquipping">
+                  <gloss>Equipping</gloss>
+               </category>
+               <category xml:id="mecExercising">
+                  <gloss>Exercising</gloss>
+               </category>
+               <category xml:id="mecExploding">
+                  <gloss>Exploding</gloss>
+               </category>
+               <category xml:id="mecExploring">
+                  <gloss>Exploring</gloss>
+               </category>
+               <category xml:id="mecFalling">
+                  <gloss>Falling</gloss>
+               </category>
+               <category xml:id="mecFarming">
+                  <gloss>Farming</gloss>
+               </category>
+               <category xml:id="mecFetching">
+                  <gloss>Fetching</gloss>
+               </category>
+               <category xml:id="mecFighting_kicking_punching">
+                  <gloss>Fighting / kicking / punching</gloss>
+               </category>
+               <category xml:id="mecFishing">
+                  <gloss>Fishing</gloss>
+               </category>
+               <category xml:id="mecFlying">
+                  <gloss>Flying</gloss>
+               </category>
+               <category xml:id="mecForaging_gathering">
+                  <gloss>Foraging / gathering</gloss>
+               </category>
+               <category xml:id="mecGardening">
+                  <gloss>Gardening</gloss>
+               </category>
+               <category xml:id="mecGrabbing">
+                  <gloss>Grabbing</gloss>
+               </category>
+               <category xml:id="mecHacking">
+                  <gloss>Hacking</gloss>
+               </category>
+               <category xml:id="mecHealing">
+                  <gloss>Healing</gloss>
+               </category>
+               <category xml:id="mecHiding">
+                  <gloss>Hiding</gloss>
+               </category>
+               <category xml:id="mecHitting">
+                  <gloss>Hitting</gloss>
+               </category>
+               <category xml:id="mecHunting">
+                  <gloss>Hunting</gloss>
+               </category>
+               <category xml:id="mecInputting_text">
+                  <gloss>Inputting text</gloss>
+               </category>
+               <category xml:id="mecInvestigating">
+                  <gloss>Investigating</gloss>
+               </category>
+               <category xml:id="mecJumping">
+                  <gloss>Jumping</gloss>
+               </category>
+               <category xml:id="mecLocking">
+                  <gloss>Locking</gloss>
+               </category>
+               <category xml:id="mecLooting">
+                  <gloss>Looting</gloss>
+               </category>
+               <category xml:id="mecManaging">
+                  <gloss>Managing</gloss>
+               </category>
+               <category xml:id="mecMatching">
+                  <gloss>Matching</gloss>
+               </category>
+               <category xml:id="mecMining">
+                  <gloss>Mining</gloss>
+               </category>
+               <category xml:id="mecMoving">
+                  <gloss>Moving</gloss>
+               </category>
+               <category xml:id="mecNegotiating">
+                  <gloss>Negotiating</gloss>
+               </category>
+               <category xml:id="mecNo_mechanic">
+                  <gloss>No mechanic</gloss>
+               </category>
+               <category xml:id="mecOpening">
+                  <gloss>Opening</gloss>
+               </category>
+               <category xml:id="mecParrying">
+                  <gloss>Parrying</gloss>
+               </category>
+               <category xml:id="mecPausing">
+                  <gloss>Pausing</gloss>
+               </category>
+               <category xml:id="mecPhotographing">
+                  <gloss>Photographing</gloss>
+               </category>
+               <category xml:id="mecPiloting">
+                  <gloss>Piloting</gloss>
+               </category>
+               <category xml:id="mecPlacing_workers">
+                  <gloss>Placing workers</gloss>
+               </category>
+               <category xml:id="mecPlaying_cards">
+                  <gloss>Playing cards</gloss>
+               </category>
+               <category xml:id="mecPlaying_music">
+                  <gloss>Playing music</gloss>
+               </category>
+               <category xml:id="mecPool_building">
+                  <gloss>Pool building</gloss>
+               </category>
+               <category xml:id="mecPositioning">
+                  <gloss>Positioning</gloss>
+               </category>
+               <category xml:id="mecProgramming">
+                  <gloss>Programming</gloss>
+               </category>
+               <category xml:id="mecPulling">
+                  <gloss>Pulling</gloss>
+               </category>
+               <category xml:id="mecPushing">
+                  <gloss>Pushing</gloss>
+               </category>
+               <category xml:id="mecRacing">
+                  <gloss>Racing</gloss>
+               </category>
+               <category xml:id="mecRaising_creatures">
+                  <gloss>Raising creatures</gloss>
+               </category>
+               <category xml:id="mecReleasing">
+                  <gloss>Releasing</gloss>
+               </category>
+               <category xml:id="mecResearching">
+                  <gloss>Researching</gloss>
+               </category>
+               <category xml:id="mecRewinding">
+                  <gloss>Rewinding</gloss>
+               </category>
+               <category xml:id="mecRiding">
+                  <gloss>Riding</gloss>
+               </category>
+               <category xml:id="mecRolling">
+                  <gloss>Rolling</gloss>
+               </category>
+               <category xml:id="mecRolling_dice">
+                  <gloss>Rolling dice</gloss>
+               </category>
+               <category xml:id="mecRomancing">
+                  <gloss>Romancing</gloss>
+               </category>
+               <category xml:id="mecRotating">
+                  <gloss>Rotating</gloss>
+               </category>
+               <category xml:id="mecRunning">
+                  <gloss>Running</gloss>
+               </category>
+               <category xml:id="mecSailing">
+                  <gloss>Sailing</gloss>
+               </category>
+               <category xml:id="mecSaving">
+                  <gloss>Saving</gloss>
+               </category>
+               <category xml:id="mecSearching">
+                  <gloss>Searching</gloss>
+               </category>
+               <category xml:id="mecSharing">
+                  <gloss>Sharing</gloss>
+               </category>
+               <category xml:id="mecShooting">
+                  <gloss>Shooting</gloss>
+               </category>
+               <category xml:id="mecSigning">
+                  <gloss>Signing</gloss>
+               </category>
+               <category xml:id="mecSinging">
+                  <gloss>Singing</gloss>
+               </category>
+               <category xml:id="mecSkateboarding">
+                  <gloss>Skateboarding</gloss>
+               </category>
+               <category xml:id="mecSkating">
+                  <gloss>Skating</gloss>
+               </category>
+               <category xml:id="mecSkiing">
+                  <gloss>Skiing</gloss>
+               </category>
+               <category xml:id="mecSneaking">
+                  <gloss>Sneaking</gloss>
+               </category>
+               <category xml:id="mecSniping">
+                  <gloss>Sniping</gloss>
+               </category>
+               <category xml:id="mecSolving_puzzles">
+                  <gloss>Solving puzzles</gloss>
+               </category>
+               <category xml:id="mecSpellcasting">
+                  <gloss>Spellcasting</gloss>
+               </category>
+               <category xml:id="mecSpinning">
+                  <gloss>Spinning</gloss>
+               </category>
+               <category xml:id="mecStealing">
+                  <gloss>Stealing</gloss>
+               </category>
+               <category xml:id="mecStorytelling">
+                  <gloss>Storytelling</gloss>
+               </category>
+               <category xml:id="mecSwimming">
+                  <gloss>Swimming</gloss>
+               </category>
+               <category xml:id="mecSwiping">
+                  <gloss>Swiping</gloss>
+               </category>
+               <category xml:id="mecTalking_speaking">
+                  <gloss>Talking / speaking</gloss>
+               </category>
+               <category xml:id="mecTaming">
+                  <gloss>Taming</gloss>
+               </category>
+               <category xml:id="mecThrowing">
+                  <gloss>Throwing</gloss>
+               </category>
+               <category xml:id="mecTiming">
+                  <gloss>Timing</gloss>
+               </category>
+               <category xml:id="mecTrading">
+                  <gloss>Trading</gloss>
+               </category>
+               <category xml:id="mecTravelling">
+                  <gloss>Travelling</gloss>
+               </category>
+               <category xml:id="mecTyping">
+                  <gloss>Typing</gloss>
+               </category>
+               <category xml:id="mecUnlocking">
+                  <gloss>Unlocking</gloss>
+               </category>
+               <category xml:id="mecVoting">
+                  <gloss>Voting</gloss>
+               </category>
+               <category xml:id="mecWalking">
+                  <gloss>Walking</gloss>
+               </category>
+               <category xml:id="mecWandering">
+                  <gloss>Wandering</gloss>
+               </category>
+               <category xml:id="mecWriting">
+                  <gloss>Writing</gloss>
+               </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
