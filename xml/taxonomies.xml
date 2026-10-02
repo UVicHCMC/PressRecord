@@ -9,15 +9,15 @@
             <title>Taxonomies for PressRecord</title>
          </titleStmt>
          <publicationStmt>
-            <p part="N">Published by Jentery Sayers and the UVic HCMC.</p>
+            <p>Published by Jentery Sayers and the UVic HCMC.</p>
          </publicationStmt>
          <sourceDesc default="false">
-            <p part="N">Born-digital.</p>
+            <p>Born-digital.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc default="false">
-            <p part="N">The following taxonomies provide the controlled vocabularies for metadata in the
+            <p>The following taxonomies provide the controlled vocabularies for metadata in the
                PressRecord project.</p>
          </projectDesc>
          <classDecl>
@@ -4495,13 +4495,495 @@
                   <gloss>Zoo</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxTransport" n="6K">
+               <gloss>Means of Transport</gloss>
+               <desc>A means of conveyance or travel from one place to another appearing in the gameplay footage</desc>
+               <desc>Select <q>No means of transport</q> if the footage contains no means of conveyance or travel.</desc>
+               <desc>Controlled vocabulary (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., <q>Controlled Vocabulary for Setting,</q> 2024.</desc>
+               <category xml:id="trAirplane">
+                  <gloss>Airplane</gloss>
+               </category>
+               <category xml:id="trAirship">
+                  <gloss>Airship</gloss>
+               </category>
+               <category xml:id="trAll-terrain_vehicle">
+                  <gloss>All-terrain vehicle</gloss>
+               </category>
+               <category xml:id="trBicycle_bike">
+                  <gloss>Bicycle / bike</gloss>
+               </category>
+               <category xml:id="trBoat_sailboat_steamboat_yacht">
+                  <gloss>Boat / sailboat / steamboat / yacht</gloss>
+               </category>
+               <category xml:id="trBovine_cow_buffalo">
+                  <gloss>Bovine / cow / buffalo</gloss>
+               </category>
+               <category xml:id="trBuggy_carriage">
+                  <gloss>Buggy / carriage</gloss>
+               </category>
+               <category xml:id="trBus">
+                  <gloss>Bus</gloss>
+               </category>
+               <category xml:id="trCable_car">
+                  <gloss>Cable car</gloss>
+               </category>
+               <category xml:id="trCamel">
+                  <gloss>Camel</gloss>
+               </category>
+               <category xml:id="trCanoe_kayak">
+                  <gloss>Canoe / kayak</gloss>
+               </category>
+               <category xml:id="trCar_racecar">
+                  <gloss>Car / racecar</gloss>
+               </category>
+               <category xml:id="trCaribou_reindeer">
+                  <gloss>Caribou / reindeer</gloss>
+               </category>
+               <category xml:id="trCat">
+                  <gloss>Cat</gloss>
+               </category>
+               <category xml:id="trChocobo">
+                  <gloss>Chocobo</gloss>
+               </category>
+               <category xml:id="trDog">
+                  <gloss>Dog</gloss>
+               </category>
+               <category xml:id="trElephant">
+                  <gloss>Elephant</gloss>
+               </category>
+               <category xml:id="trEquine_horse_donkey_mule">
+                  <gloss>Equine / horse / donkey / mule</gloss>
+               </category>
+               <category xml:id="trFerry">
+                  <gloss>Ferry</gloss>
+               </category>
+               <category xml:id="trFictional_item">
+                  <gloss>Fictional item</gloss>
+               </category>
+               <category xml:id="trFictional_species">
+                  <gloss>Fictional species</gloss>
+               </category>
+               <category xml:id="trFictional_technology">
+                  <gloss>Fictional technology</gloss>
+               </category>
+               <category xml:id="trFictional_vehicle">
+                  <gloss>Fictional vehicle</gloss>
+               </category>
+               <category xml:id="trGliding">
+                  <gloss>Gliding</gloss>
+               </category>
+               <category xml:id="trHelicopter">
+                  <gloss>Helicopter</gloss>
+               </category>
+               <category xml:id="trHot_air_balloon">
+                  <gloss>Hot air balloon</gloss>
+               </category>
+               <category xml:id="trHoverboard">
+                  <gloss>Hoverboard</gloss>
+               </category>
+               <category xml:id="trHovercraft">
+                  <gloss>Hovercraft</gloss>
+               </category>
+               <category xml:id="trKart_go_kart">
+                  <gloss>Kart / go kart</gloss>
+               </category>
+               <category xml:id="trLlama">
+                  <gloss>Llama</gloss>
+               </category>
+               <category xml:id="trMecha_giant_robot">
+                  <gloss>Mecha / giant robot</gloss>
+               </category>
+               <category xml:id="trMinecart">
+                  <gloss>Minecart</gloss>
+               </category>
+               <category xml:id="trMotorcycle">
+                  <gloss>Motorcycle</gloss>
+               </category>
+               <category xml:id="trNo_means_of_transport">
+                  <gloss>No means of transport</gloss>
+               </category>
+               <category xml:id="trPipe_warp_pipe">
+                  <gloss>Pipe / warp pipe</gloss>
+               </category>
+               <category xml:id="trPortal_fast_travel_teleportation">
+                  <gloss>Portal / fast travel / teleportation</gloss>
+               </category>
+               <category xml:id="trRunning">
+                  <gloss>Running</gloss>
+               </category>
+               <category xml:id="trSkateboard">
+                  <gloss>Skateboard</gloss>
+               </category>
+               <category xml:id="trSkates">
+                  <gloss>Skates</gloss>
+               </category>
+               <category xml:id="trSkis">
+                  <gloss>Skis</gloss>
+               </category>
+               <category xml:id="trSled">
+                  <gloss>Sled</gloss>
+               </category>
+               <category xml:id="trSnowboard">
+                  <gloss>Snowboard</gloss>
+               </category>
+               <category xml:id="trSnowmobile">
+                  <gloss>Snowmobile</gloss>
+               </category>
+               <category xml:id="trSpacecraft_spaceship">
+                  <gloss>Spacecraft / spaceship</gloss>
+               </category>
+               <category xml:id="trSubmarine">
+                  <gloss>Submarine</gloss>
+               </category>
+               <category xml:id="trSwimming">
+                  <gloss>Swimming</gloss>
+               </category>
+               <category xml:id="trTank">
+                  <gloss>Tank</gloss>
+               </category>
+               <category xml:id="trTaxi">
+                  <gloss>Taxi</gloss>
+               </category>
+               <category xml:id="trTime_machine">
+                  <gloss>Time machine</gloss>
+               </category>
+               <category xml:id="trTractor">
+                  <gloss>Tractor</gloss>
+               </category>
+               <category xml:id="trTrain_subway">
+                  <gloss>Train / subway</gloss>
+               </category>
+               <category xml:id="trTrolley">
+                  <gloss>Trolley</gloss>
+               </category>
+               <category xml:id="trTruck">
+                  <gloss>Truck</gloss>
+               </category>
+               <category xml:id="trTube">
+                  <gloss>Tube</gloss>
+               </category>
+               <category xml:id="trUnicorn">
+                  <gloss>Unicorn</gloss>
+               </category>
+               <category xml:id="trWalking">
+                  <gloss>Walking</gloss>
+               </category>
+               <category xml:id="trWheelchair">
+                  <gloss>Wheelchair</gloss>
+               </category>
+               <category xml:id="trWings_flight">
+                  <gloss>Wings / flight</gloss>
+               </category>
+               <category xml:id="trZipline">
+                  <gloss>Zipline</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxItems" n="6L">
+               <gloss>Items</gloss>
+               <desc>Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, <q>Item (game terminology),</q> 2026)</desc>
+               <desc>Select <q>No items</q> if the footage contains no items.</desc>
+               <category xml:id="itAccessory">
+                  <gloss>Accessory</gloss>
+               </category>
+               <category xml:id="itAmmunition_ammo">
+                  <gloss>Ammunition / ammo</gloss>
+               </category>
+               <category xml:id="itAntidote">
+                  <gloss>Antidote</gloss>
+               </category>
+               <category xml:id="itArmour">
+                  <gloss>Armour</gloss>
+               </category>
+               <category xml:id="itBlueprint">
+                  <gloss>Blueprint</gloss>
+               </category>
+               <category xml:id="itBook">
+                  <gloss>Book</gloss>
+               </category>
+               <category xml:id="itBuff_boost">
+                  <gloss>Buff / boost</gloss>
+               </category>
+               <category xml:id="itCoat">
+                  <gloss>Coat</gloss>
+               </category>
+               <category xml:id="itCollectible">
+                  <gloss>Collectible</gloss>
+               </category>
+               <category xml:id="itCompact_disc_CD">
+                  <gloss>Compact disc / CD</gloss>
+               </category>
+               <category xml:id="itCompass">
+                  <gloss>Compass</gloss>
+               </category>
+               <category xml:id="itComputer_computer_parts">
+                  <gloss>Computer / computer parts</gloss>
+               </category>
+               <category xml:id="itCooked_food_prepared_food">
+                  <gloss>Cooked food / prepared food</gloss>
+               </category>
+               <category xml:id="itCosmetic_skin">
+                  <gloss>Cosmetic / skin</gloss>
+               </category>
+               <category xml:id="itCredits">
+                  <gloss>Credits</gloss>
+               </category>
+               <category xml:id="itDigital_optical_disc_DVD">
+                  <gloss>Digital optical disc / DVD</gloss>
+               </category>
+               <category xml:id="itDress">
+                  <gloss>Dress</gloss>
+               </category>
+               <category xml:id="itDrink">
+                  <gloss>Drink</gloss>
+               </category>
+               <category xml:id="itDye_ink">
+                  <gloss>Dye / ink</gloss>
+               </category>
+               <category xml:id="itEnergy">
+                  <gloss>Energy</gloss>
+               </category>
+               <category xml:id="itFabric_textile">
+                  <gloss>Fabric / textile</gloss>
+               </category>
+               <category xml:id="itFilm_rolls_of_film">
+                  <gloss>Film / rolls of film</gloss>
+               </category>
+               <category xml:id="itFruit_fruit_product">
+                  <gloss>Fruit / fruit product</gloss>
+               </category>
+               <category xml:id="itHat">
+                  <gloss>Hat</gloss>
+               </category>
+               <category xml:id="itHealth_potion">
+                  <gloss>Health potion</gloss>
+               </category>
+               <category xml:id="itKey_keycard">
+                  <gloss>Key / keycard</gloss>
+               </category>
+               <category xml:id="itLetter_journal_entry">
+                  <gloss>Letter / journal entry</gloss>
+               </category>
+               <category xml:id="itMana_potion">
+                  <gloss>Mana potion</gloss>
+               </category>
+               <category xml:id="itMap">
+                  <gloss>Map</gloss>
+               </category>
+               <category xml:id="itMeat_bone_animal_product">
+                  <gloss>Meat / bone / animal product</gloss>
+               </category>
+               <category xml:id="itMoney_coins_cash">
+                  <gloss>Money / coins / cash</gloss>
+               </category>
+               <category xml:id="itMonster_parts">
+                  <gloss>Monster parts</gloss>
+               </category>
+               <category xml:id="itMushroom_fungi">
+                  <gloss>Mushroom / fungi</gloss>
+               </category>
+               <category xml:id="itMusical_instrument">
+                  <gloss>Musical instrument</gloss>
+               </category>
+               <category xml:id="itNo_items">
+                  <gloss>No items</gloss>
+               </category>
+               <category xml:id="itOil">
+                  <gloss>Oil</gloss>
+               </category>
+               <category xml:id="itOre_minerals_metals">
+                  <gloss>Ore / minerals / metals</gloss>
+               </category>
+               <category xml:id="itPants">
+                  <gloss>Pants</gloss>
+               </category>
+               <category xml:id="itPhotograph">
+                  <gloss>Photograph</gloss>
+               </category>
+               <category xml:id="itRecipe">
+                  <gloss>Recipe</gloss>
+               </category>
+               <category xml:id="itShirt">
+                  <gloss>Shirt</gloss>
+               </category>
+               <category xml:id="itShoes_boots">
+                  <gloss>Shoes / boots</gloss>
+               </category>
+               <category xml:id="itSkirt">
+                  <gloss>Skirt</gloss>
+               </category>
+               <category xml:id="itSuit">
+                  <gloss>Suit</gloss>
+               </category>
+               <category xml:id="itSwimsuit">
+                  <gloss>Swimsuit</gloss>
+               </category>
+               <category xml:id="itTape_cassette_audio_video">
+                  <gloss>Tape / cassette / audio / video</gloss>
+               </category>
+               <category xml:id="itTool_technology">
+                  <gloss>Tool / technology</gloss>
+               </category>
+               <category xml:id="itUnderwear">
+                  <gloss>Underwear</gloss>
+               </category>
+               <category xml:id="itVegetable_herb_plant_plant_product">
+                  <gloss>Vegetable / herb / plant / plant product</gloss>
+               </category>
+               <category xml:id="itWater">
+                  <gloss>Water</gloss>
+               </category>
+               <category xml:id="itWeapon">
+                  <gloss>Weapon</gloss>
+               </category>
+               <category xml:id="itWood">
+                  <gloss>Wood</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxAtmosphere" n="6M">
+               <gloss>Atmosphere</gloss>
+               <desc>
+                  <q>The pervading [mood] or tone of the</q> world appearing in the gameplay footage; it <q>evokes or recalls a certain emotion or state of mind</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the <q>Narrative Genre,</q>
+                  <q>Narrative Subgenre,</q>
+                  <q>Type of Play,</q> and <q>Experience</q> elements.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., <q>"Controlled Vocabulary for Mood,"</q> 2024.</desc>
+               <category xml:id="atmAccessible">
+                  <gloss>Accessible</gloss>
+               </category>
+               <category xml:id="atmBeautiful">
+                  <gloss>Beautiful</gloss>
+               </category>
+               <category xml:id="atmBelievable">
+                  <gloss>Believable</gloss>
+               </category>
+               <category xml:id="atmBleak">
+                  <gloss>Bleak</gloss>
+               </category>
+               <category xml:id="atmBold">
+                  <gloss>Bold</gloss>
+               </category>
+               <category xml:id="atmBright">
+                  <gloss>Bright</gloss>
+               </category>
+               <category xml:id="atmBrittle">
+                  <gloss>Brittle</gloss>
+               </category>
+               <category xml:id="atmCaptivating">
+                  <gloss>Captivating</gloss>
+               </category>
+               <category xml:id="atmCozy">
+                  <gloss>Cozy</gloss>
+               </category>
+               <category xml:id="atmCreative">
+                  <gloss>Creative</gloss>
+               </category>
+               <category xml:id="atmDangerous">
+                  <gloss>Dangerous</gloss>
+               </category>
+               <category xml:id="atmEerie">
+                  <gloss>Eerie</gloss>
+               </category>
+               <category xml:id="atmEnergizing">
+                  <gloss>Energizing</gloss>
+               </category>
+               <category xml:id="atmErotic">
+                  <gloss>Erotic</gloss>
+               </category>
+               <category xml:id="atmGloomy">
+                  <gloss>Gloomy</gloss>
+               </category>
+               <category xml:id="atmHaunting">
+                  <gloss>Haunting</gloss>
+               </category>
+               <category xml:id="atmHopeful">
+                  <gloss>Hopeful</gloss>
+               </category>
+               <category xml:id="atmHostile">
+                  <gloss>Hostile</gloss>
+               </category>
+               <category xml:id="atmIntellectual">
+                  <gloss>Intellectual</gloss>
+               </category>
+               <category xml:id="atmIntense">
+                  <gloss>Intense</gloss>
+               </category>
+               <category xml:id="atmLonely">
+                  <gloss>Lonely</gloss>
+               </category>
+               <category xml:id="atmMischievous">
+                  <gloss>Mischievous</gloss>
+               </category>
+               <category xml:id="atmMournful">
+                  <gloss>Mournful</gloss>
+               </category>
+               <category xml:id="atmOminous">
+                  <gloss>Ominous</gloss>
+               </category>
+               <category xml:id="atmOpaque">
+                  <gloss>Opaque</gloss>
+               </category>
+               <category xml:id="atmPeaceful">
+                  <gloss>Peaceful</gloss>
+               </category>
+               <category xml:id="atmPensive">
+                  <gloss>Pensive</gloss>
+               </category>
+               <category xml:id="atmPunishing">
+                  <gloss>Punishing</gloss>
+               </category>
+               <category xml:id="atmQuotidian">
+                  <gloss>Quotidian</gloss>
+               </category>
+               <category xml:id="atmRigid">
+                  <gloss>Rigid</gloss>
+               </category>
+               <category xml:id="atmScary">
+                  <gloss>Scary</gloss>
+               </category>
+               <category xml:id="atmSentimental">
+                  <gloss>Sentimental</gloss>
+               </category>
+               <category xml:id="atmSerene">
+                  <gloss>Serene</gloss>
+               </category>
+               <category xml:id="atmSnarky">
+                  <gloss>Snarky</gloss>
+               </category>
+               <category xml:id="atmSuspicious">
+                  <gloss>Suspicious</gloss>
+               </category>
+               <category xml:id="atmTheatrical">
+                  <gloss>Theatrical</gloss>
+               </category>
+               <category xml:id="atmThreatening">
+                  <gloss>Threatening</gloss>
+               </category>
+               <category xml:id="atmToxic">
+                  <gloss>Toxic</gloss>
+               </category>
+               <category xml:id="atmUnpredictable">
+                  <gloss>Unpredictable</gloss>
+               </category>
+               <category xml:id="atmViolent">
+                  <gloss>Violent</gloss>
+               </category>
+               <category xml:id="atmWelcoming">
+                  <gloss>Welcoming</gloss>
+               </category>
+               <category xml:id="atmWhimsical">
+                  <gloss>Whimsical</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxPlayerCharacter" n="6N">
+               <gloss></gloss>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <head>Taxonomies for PressRecord</head>
-         <p part="N">All data is in the header.</p>
+         <p>All data is in the header.</p>
       </body>
    </text>
 </TEI>
