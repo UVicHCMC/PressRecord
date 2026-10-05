@@ -6172,13 +6172,940 @@
             <taxonomy xml:id="taxProgression" n="6R">
                <gloss>Progression</gloss>
                <desc>How, as demonstrated by the footage, the platform edition allows players to advance, acknowledges their attempts to advance, or affords them with a sense of progress, achievement, or productivity (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
-               
                <desc>This element will typically be repeated.</desc>
-               
                <desc>Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution, including pacing), and gamification (achievements or trophies) (Brazie 2024).</desc>
                <desc>Controlled vocabulary with nine beats adapted from Laws 2010 and environmental storytelling from Jenkins 2002.</desc>
                <!-- TODO... -->
-               
+               <category xml:id="prgAchievement_trophy_badge">
+                  <gloss>Achievement / trophy / badge</gloss>
+               </category>
+               <category xml:id="prgAct_structure">
+                  <gloss>Act structure</gloss>
+               </category>
+               <category xml:id="prgAha_moment">
+                  <gloss>Aha moment</gloss>
+               </category>
+               <category xml:id="prgAnticipation_beat">
+                  <gloss>Anticipation beat</gloss>
+               </category>
+               <category xml:id="prgAuto-scrolling">
+                  <gloss>Auto-scrolling</gloss>
+               </category>
+               <category xml:id="prgBranching_narrative">
+                  <gloss>Branching narrative</gloss>
+               </category>
+               <category xml:id="prgBringdown_beat">
+                  <gloss>Bringdown beat</gloss>
+               </category>
+               <category xml:id="prgCheckpoint">
+                  <gloss>Checkpoint</gloss>
+               </category>
+               <category xml:id="prgChoice-and-consequence_system">
+                  <gloss>Choice-and-consequence system</gloss>
+               </category>
+               <category xml:id="prgClimax">
+                  <gloss>Climax</gloss>
+               </category>
+               <category xml:id="prgCognitive_development">
+                  <gloss>Cognitive development</gloss>
+               </category>
+               <category xml:id="prgCollectible">
+                  <gloss>Collectible</gloss>
+               </category>
+               <category xml:id="prgCommentary_beat">
+                  <gloss>Commentary beat</gloss>
+               </category>
+               <category xml:id="prgCore_loop">
+                  <gloss>Core loop</gloss>
+               </category>
+               <category xml:id="prgCutscene_live-action_cutscene">
+                  <gloss>Cutscene / live-action cutscene</gloss>
+               </category>
+               <category xml:id="prgDeath">
+                  <gloss>Death</gloss>
+               </category>
+               <category xml:id="prgDialogue_tree">
+                  <gloss>Dialogue tree</gloss>
+               </category>
+               <category xml:id="prgDramatic_beat">
+                  <gloss>Dramatic beat</gloss>
+               </category>
+               <category xml:id="prgDynamic_loading">
+                  <gloss>Dynamic loading</gloss>
+               </category>
+               <category xml:id="prgElimination_team_wipe">
+                  <gloss>Elimination / team wipe</gloss>
+               </category>
+               <category xml:id="prgEmbedded_story">
+                  <gloss>Embedded story</gloss>
+               </category>
+               <category xml:id="prgEmergent_gameplay">
+                  <gloss>Emergent gameplay</gloss>
+               </category>
+               <category xml:id="prgEmergent_narrative">
+                  <gloss>Emergent narrative</gloss>
+               </category>
+               <category xml:id="prgEnacted_story">
+                  <gloss>Enacted story</gloss>
+               </category>
+               <category xml:id="prgEndless_game">
+                  <gloss>Endless game</gloss>
+               </category>
+               <category xml:id="prgEvoked_story">
+                  <gloss>Evoked story</gloss>
+               </category>
+               <category xml:id="prgExperience_points">
+                  <gloss>Experience points</gloss>
+               </category>
+               <category xml:id="prgExposition">
+                  <gloss>Exposition</gloss>
+               </category>
+               <category xml:id="prgFalling_action">
+                  <gloss>Falling action</gloss>
+               </category>
+               <category xml:id="prgFlashback_analepsis">
+                  <gloss>Flashback / analepsis</gloss>
+               </category>
+               <category xml:id="prgFlashforward_prolepsis">
+                  <gloss>Flashforward / prolepsis</gloss>
+               </category>
+               <category xml:id="prgFlip-screen_scrolling">
+                  <gloss>Flip-screen scrolling</gloss>
+               </category>
+               <category xml:id="prgGating">
+                  <gloss>Gating</gloss>
+               </category>
+               <category xml:id="prgGratification_beat">
+                  <gloss>Gratification beat</gloss>
+               </category>
+               <category xml:id="prgHighlight_reel_replay_reel">
+                  <gloss>Highlight reel / replay reel</gloss>
+               </category>
+               <category xml:id="prgHit_points">
+                  <gloss>Hit points</gloss>
+               </category>
+               <category xml:id="prgHorizontal_movement">
+                  <gloss>Horizontal movement</gloss>
+               </category>
+               <category xml:id="prgHub_home_base">
+                  <gloss>Hub / home base</gloss>
+               </category>
+               <category xml:id="prgIn-game_reward">
+                  <gloss>In-game reward</gloss>
+               </category>
+               <category xml:id="prgIn_medias_res">
+                  <gloss>In medias res</gloss>
+               </category>
+               <category xml:id="prgJumpscare_jump_scare">
+                  <gloss>Jumpscare / jump scare</gloss>
+               </category>
+               <category xml:id="prgLevel_complete">
+                  <gloss>Level complete</gloss>
+               </category>
+               <category xml:id="prgLevelling_up">
+                  <gloss>Levelling up</gloss>
+               </category>
+               <category xml:id="prgLoading_screen">
+                  <gloss>Loading screen</gloss>
+               </category>
+               <category xml:id="prgLore_drop">
+                  <gloss>Lore drop</gloss>
+               </category>
+               <category xml:id="prgLore_dump_info_dump">
+                  <gloss>Lore dump / info dump</gloss>
+               </category>
+               <category xml:id="prgMini-game">
+                  <gloss>Mini-game</gloss>
+               </category>
+               <category xml:id="prgMission_complete_quest_complete">
+                  <gloss>Mission complete / quest complete</gloss>
+               </category>
+               <category xml:id="prgMotor_development">
+                  <gloss>Motor development</gloss>
+               </category>
+               <category xml:id="prgNew_ability_skill">
+                  <gloss>New ability / skill</gloss>
+               </category>
+               <category xml:id="prgNew_character_secret_character">
+                  <gloss>New character / secret character</gloss>
+               </category>
+               <category xml:id="prgNew_cosmetic_skin">
+                  <gloss>New cosmetic / skin</gloss>
+               </category>
+               <category xml:id="prgNew_game_plus">
+                  <gloss>New game plus</gloss>
+               </category>
+               <category xml:id="prgNew_item">
+                  <gloss>New item</gloss>
+               </category>
+               <category xml:id="prgNew_level">
+                  <gloss>New level</gloss>
+               </category>
+               <category xml:id="prgNew_location">
+                  <gloss>New location</gloss>
+               </category>
+               <category xml:id="prgNew_mission_quest">
+                  <gloss>New mission / quest</gloss>
+               </category>
+               <category xml:id="prgNew_round">
+                  <gloss>New round</gloss>
+               </category>
+               <category xml:id="prgParallax_scrolling">
+                  <gloss>Parallax scrolling</gloss>
+               </category>
+               <category xml:id="prgPipe_beat">
+                  <gloss>Pipe beat</gloss>
+               </category>
+               <category xml:id="prgPlatinum_100_achievements">
+                  <gloss>Platinum / 100% achievements</gloss>
+               </category>
+               <category xml:id="prgProcedural_beat">
+                  <gloss>Procedural beat</gloss>
+               </category>
+               <category xml:id="prgProcedural_generation">
+                  <gloss>Procedural generation</gloss>
+               </category>
+               <category xml:id="prgProgression_map_player_path">
+                  <gloss>Progression map / player path</gloss>
+               </category>
+               <category xml:id="prgQuestion_beat">
+                  <gloss>Question beat</gloss>
+               </category>
+               <category xml:id="prgQuick_time_event">
+                  <gloss>Quick time event</gloss>
+               </category>
+               <category xml:id="prgRandom_event">
+                  <gloss>Random event</gloss>
+               </category>
+               <category xml:id="prgRatchet_scrolling">
+                  <gloss>Ratchet scrolling</gloss>
+               </category>
+               <category xml:id="prgResolution_ending">
+                  <gloss>Resolution / ending</gloss>
+               </category>
+               <category xml:id="prgRespawning">
+                  <gloss>Respawning</gloss>
+               </category>
+               <category xml:id="prgReveal_beat">
+                  <gloss>Reveal beat</gloss>
+               </category>
+               <category xml:id="prgRising_action">
+                  <gloss>Rising action</gloss>
+               </category>
+               <category xml:id="prgRolling_credits">
+                  <gloss>Rolling credits</gloss>
+               </category>
+               <category xml:id="prgRound_complete">
+                  <gloss>Round complete</gloss>
+               </category>
+               <category xml:id="prgSave_point">
+                  <gloss>Save point</gloss>
+               </category>
+               <category xml:id="prgScripted_event">
+                  <gloss>Scripted event</gloss>
+               </category>
+               <category xml:id="prgSide-scrolling">
+                  <gloss>Side-scrolling</gloss>
+               </category>
+               <category xml:id="prgSkill_tree_tech_tree">
+                  <gloss>Skill tree / tech tree</gloss>
+               </category>
+               <category xml:id="prgTime_loop">
+                  <gloss>Time loop</gloss>
+               </category>
+               <category xml:id="prgUnlosable">
+                  <gloss>Unlosable</gloss>
+               </category>
+               <category xml:id="prgUnwinnable">
+                  <gloss>Unwinnable</gloss>
+               </category>
+               <category xml:id="prgUpgrade">
+                  <gloss>Upgrade</gloss>
+               </category>
+               <category xml:id="prgVertical_movement">
+                  <gloss>Vertical movement</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxTheme" n="6S">
+               <gloss>Theme</gloss>
+               <desc>
+                  <q>A common thread, motif, subject, or idea that recurs in</q> the gameplay footage (Getty 2004; Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the <q>Atmosphere</q> and <q>Experience</q> elements.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to further describe the theme(s).</desc>
+               <desc>Controlled vocabulary adapted, with additions, from Lee et al., <q>Controlled Vocabulary for Theme,</q> 2024.</desc>
+               <category xml:id="thm2SLGBTQIA_cultures_and_communities">
+                  <gloss>2SLGBTQIA+ cultures and communities</gloss>
+               </category>
+               <category xml:id="thmAbandonment_trust">
+                  <gloss>Abandonment / trust</gloss>
+               </category>
+               <category xml:id="thmAbleism_internalized_interpersonal_institutional_">
+                  <gloss>Ableism (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmAbduction">
+                  <gloss>Abduction</gloss>
+               </category>
+               <category xml:id="thmAddiction">
+                  <gloss>Addiction</gloss>
+               </category>
+               <category xml:id="thmAfrican_cultures_and_communities">
+                  <gloss>African cultures and communities</gloss>
+               </category>
+               <category xml:id="thmAging">
+                  <gloss>Aging</gloss>
+               </category>
+               <category xml:id="thmAlienation_isolation_solitude">
+                  <gloss>Alienation / isolation / solitude</gloss>
+               </category>
+               <category xml:id="thmAlter-ego">
+                  <gloss>Alter-ego</gloss>
+               </category>
+               <category xml:id="thmAmerican_cultures_and_communities">
+                  <gloss>American cultures and communities</gloss>
+               </category>
+               <category xml:id="thmAnti-capitalism">
+                  <gloss>Anti-capitalism</gloss>
+               </category>
+               <category xml:id="thmAnti-colonial">
+                  <gloss>Anti-colonial</gloss>
+               </category>
+               <category xml:id="thmAnti-war">
+                  <gloss>Anti-war</gloss>
+               </category>
+               <category xml:id="thmAntisemitism_internalized_interpersonal_institutional_">
+                  <gloss>Antisemitism (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmApocalypse_post-apocalypse">
+                  <gloss>Apocalypse / post-apocalypse</gloss>
+               </category>
+               <category xml:id="thmArab_cultures_and_communities">
+                  <gloss>Arab cultures and communities</gloss>
+               </category>
+               <category xml:id="thmArrogance_hubris">
+                  <gloss>Arrogance / hubris</gloss>
+               </category>
+               <category xml:id="thmArt_and_creativity">
+                  <gloss>Art and creativity</gloss>
+               </category>
+               <category xml:id="thmAsian_cultures_and_communities">
+                  <gloss>Asian cultures and communities</gloss>
+               </category>
+               <category xml:id="thmAssimilation">
+                  <gloss>Assimilation</gloss>
+               </category>
+               <category xml:id="thmAthletics_and_sports">
+                  <gloss>Athletics and sports</gloss>
+               </category>
+               <category xml:id="thmAuthoritarianism_totalitarianism">
+                  <gloss>Authoritarianism / totalitarianism</gloss>
+               </category>
+               <category xml:id="thmBeauty_attraction">
+                  <gloss>Beauty / attraction</gloss>
+               </category>
+               <category xml:id="thmBelonging_inclusion">
+                  <gloss>Belonging / inclusion</gloss>
+               </category>
+               <category xml:id="thmBetrayal_heartbreak">
+                  <gloss>Betrayal / heartbreak</gloss>
+               </category>
+               <category xml:id="thmBinaries">
+                  <gloss>Binaries</gloss>
+               </category>
+               <category xml:id="thmBiphobia_internalized_interpersonal_institutional_">
+                  <gloss>Biphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmBlack_cultures_and_communities">
+                  <gloss>Black cultures and communities</gloss>
+               </category>
+               <category xml:id="thmBlackness">
+                  <gloss>Blackness</gloss>
+               </category>
+               <category xml:id="thmBlasphemy">
+                  <gloss>Blasphemy</gloss>
+               </category>
+               <category xml:id="thmBravery_courage">
+                  <gloss>Bravery / courage</gloss>
+               </category>
+               <category xml:id="thmBuddhist_cultures_and_communities">
+                  <gloss>Buddhist cultures and communities</gloss>
+               </category>
+               <category xml:id="thmCanadian_cultures_and_communities">
+                  <gloss>Canadian cultures and communities</gloss>
+               </category>
+               <category xml:id="thmCapitalism">
+                  <gloss>Capitalism</gloss>
+               </category>
+               <category xml:id="thmCatastrophe">
+                  <gloss>Catastrophe</gloss>
+               </category>
+               <category xml:id="thmChance_certainty">
+                  <gloss>Chance / certainty</gloss>
+               </category>
+               <category xml:id="thmChaos_order">
+                  <gloss>Chaos / order</gloss>
+               </category>
+               <category xml:id="thmChildhood">
+                  <gloss>Childhood</gloss>
+               </category>
+               <category xml:id="thmChristian_cultures_and_communities">
+                  <gloss>Christian cultures and communities</gloss>
+               </category>
+               <category xml:id="thmCircle_of_life">
+                  <gloss>Circle of life</gloss>
+               </category>
+               <category xml:id="thmCisnormativity">
+                  <gloss>Cisnormativity</gloss>
+               </category>
+               <category xml:id="thmCivilization">
+                  <gloss>Civilization</gloss>
+               </category>
+               <category xml:id="thmClass_wealth">
+                  <gloss>Class / wealth</gloss>
+               </category>
+               <category xml:id="thmClimate_change">
+                  <gloss>Climate change</gloss>
+               </category>
+               <category xml:id="thmCompanionship_friendship">
+                  <gloss>Companionship / friendship</gloss>
+               </category>
+               <category xml:id="thmCompetition_winning_losing">
+                  <gloss>Competition / winning / losing</gloss>
+               </category>
+               <category xml:id="thmConnecting_with_nature_land_water">
+                  <gloss>Connecting with nature / land / water</gloss>
+               </category>
+               <category xml:id="thmConquest_colonization">
+                  <gloss>Conquest / colonization</gloss>
+               </category>
+               <category xml:id="thmConservation">
+                  <gloss>Conservation</gloss>
+               </category>
+               <category xml:id="thmConspiracy">
+                  <gloss>Conspiracy</gloss>
+               </category>
+               <category xml:id="thmConvention_rebellion">
+                  <gloss>Convention / rebellion</gloss>
+               </category>
+               <category xml:id="thmCorruption">
+                  <gloss>Corruption</gloss>
+               </category>
+               <category xml:id="thmCult">
+                  <gloss>Cult</gloss>
+               </category>
+               <category xml:id="thmCurse">
+                  <gloss>Curse</gloss>
+               </category>
+               <category xml:id="thmDecolonization">
+                  <gloss>Decolonization</gloss>
+               </category>
+               <category xml:id="thmDemocracy">
+                  <gloss>Democracy</gloss>
+               </category>
+               <category xml:id="thmDestruction">
+                  <gloss>Destruction</gloss>
+               </category>
+               <category xml:id="thmDiaspora_migration_displacement">
+                  <gloss>Diaspora / migration / displacement</gloss>
+               </category>
+               <category xml:id="thmDiplomacy">
+                  <gloss>Diplomacy</gloss>
+               </category>
+               <category xml:id="thmDisability">
+                  <gloss>Disability</gloss>
+               </category>
+               <category xml:id="thmDisplacement">
+                  <gloss>Displacement</gloss>
+               </category>
+               <category xml:id="thmDreams_hopes">
+                  <gloss>Dreams / hopes</gloss>
+               </category>
+               <category xml:id="thmDrugs_and_alcohol_intoxication">
+                  <gloss>Drugs and alcohol / intoxication</gloss>
+               </category>
+               <category xml:id="thmDuty_responsibility">
+                  <gloss>Duty / responsibility</gloss>
+               </category>
+               <category xml:id="thmDystopia">
+                  <gloss>Dystopia</gloss>
+               </category>
+               <category xml:id="thmEast_West">
+                  <gloss>East / West</gloss>
+               </category>
+               <category xml:id="thmEconomy_economics">
+                  <gloss>Economy / economics</gloss>
+               </category>
+               <category xml:id="thmEducation_learning_pedagogy">
+                  <gloss>Education / learning / pedagogy</gloss>
+               </category>
+               <category xml:id="thmEmpire">
+                  <gloss>Empire</gloss>
+               </category>
+               <category xml:id="thmEquality_equity">
+                  <gloss>Equality / equity</gloss>
+               </category>
+               <category xml:id="thmEuropean_cultures_and_communities">
+                  <gloss>European cultures and communities</gloss>
+               </category>
+               <category xml:id="thmEvolution">
+                  <gloss>Evolution</gloss>
+               </category>
+               <category xml:id="thmFailure">
+                  <gloss>Failure</gloss>
+               </category>
+               <category xml:id="thmFaith_doubt">
+                  <gloss>Faith / doubt</gloss>
+               </category>
+               <category xml:id="thmFamily_found_family">
+                  <gloss>Family / found family</gloss>
+               </category>
+               <category xml:id="thmFascism">
+                  <gloss>Fascism</gloss>
+               </category>
+               <category xml:id="thmFate_free_will">
+                  <gloss>Fate / free will</gloss>
+               </category>
+               <category xml:id="thmFatphobia_internalized_interpersonal_institutional_">
+                  <gloss>Fatphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmFear">
+                  <gloss>Fear</gloss>
+               </category>
+               <category xml:id="thmFeminism">
+                  <gloss>Feminism</gloss>
+               </category>
+               <category xml:id="thmFreedom">
+                  <gloss>Freedom</gloss>
+               </category>
+               <category xml:id="thmGay_cultures_and_communities">
+                  <gloss>Gay cultures and communities</gloss>
+               </category>
+               <category xml:id="thmGender_gender_expression">
+                  <gloss>Gender / gender expression</gloss>
+               </category>
+               <category xml:id="thmGentrification">
+                  <gloss>Gentrification</gloss>
+               </category>
+               <category xml:id="thmGods_goddesses">
+                  <gloss>Gods / goddesses</gloss>
+               </category>
+               <category xml:id="thmGood_versus_evil">
+                  <gloss>Good versus evil</gloss>
+               </category>
+               <category xml:id="thmGrace_humility">
+                  <gloss>Grace / humility</gloss>
+               </category>
+               <category xml:id="thmGreed_ambition">
+                  <gloss>Greed / ambition</gloss>
+               </category>
+               <category xml:id="thmGrotesque">
+                  <gloss>Grotesque</gloss>
+               </category>
+               <category xml:id="thmGuilt_conscience">
+                  <gloss>Guilt / conscience</gloss>
+               </category>
+               <category xml:id="thmHappiness_joy">
+                  <gloss>Happiness / joy</gloss>
+               </category>
+               <category xml:id="thmHarassment">
+                  <gloss>Harassment</gloss>
+               </category>
+               <category xml:id="thmHate_hate_crime">
+                  <gloss>Hate / hate crime</gloss>
+               </category>
+               <category xml:id="thmHealth_healing_medicine">
+                  <gloss>Health / healing / medicine</gloss>
+               </category>
+               <category xml:id="thmHelp_from_others">
+                  <gloss>Help from others</gloss>
+               </category>
+               <category xml:id="thmHeroism">
+                  <gloss>Heroism</gloss>
+               </category>
+               <category xml:id="thmHeteronormativity">
+                  <gloss>Heteronormativity</gloss>
+               </category>
+               <category xml:id="thmHierarchies">
+                  <gloss>Hierarchies</gloss>
+               </category>
+               <category xml:id="thmHindu_cultures_and_communities">
+                  <gloss>Hindu cultures and communities</gloss>
+               </category>
+               <category xml:id="thmHinduphobia_internalized_interpersonal_institutional_">
+                  <gloss>Hinduphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmHoliday_vacation">
+                  <gloss>Holiday / vacation</gloss>
+               </category>
+               <category xml:id="thmHomophobia_internalized_interpersonal_institutional_">
+                  <gloss>Homophobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmHuman_rights_civil_rights">
+                  <gloss>Human rights / civil rights</gloss>
+               </category>
+               <category xml:id="thmHumans_versus_machine">
+                  <gloss>Humans versus machine</gloss>
+               </category>
+               <category xml:id="thmHumans_versus_nature">
+                  <gloss>Humans versus nature</gloss>
+               </category>
+               <category xml:id="thmHumour_laughter">
+                  <gloss>Humour / laughter</gloss>
+               </category>
+               <category xml:id="thmIdentity_self-image">
+                  <gloss>Identity / self-image</gloss>
+               </category>
+               <category xml:id="thmIlluminati">
+                  <gloss>Illuminati</gloss>
+               </category>
+               <category xml:id="thmIllusion_disillusionment">
+                  <gloss>Illusion / disillusionment</gloss>
+               </category>
+               <category xml:id="thmIndigeneity">
+                  <gloss>Indigeneity</gloss>
+               </category>
+               <category xml:id="thmIndigenous_cultures_and_communities">
+                  <gloss>Indigenous cultures and communities</gloss>
+               </category>
+               <category xml:id="thmIntersectionality">
+                  <gloss>Intersectionality</gloss>
+               </category>
+               <category xml:id="thmInterspecies_friendship">
+                  <gloss>Interspecies friendship</gloss>
+               </category>
+               <category xml:id="thmIntrigue">
+                  <gloss>Intrigue</gloss>
+               </category>
+               <category xml:id="thmInvasion_alien_invasion">
+                  <gloss>Invasion / alien invasion</gloss>
+               </category>
+               <category xml:id="thmIslamaphobia_internalized_interpersonal_institutional_">
+                  <gloss>Islamaphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmJealousy">
+                  <gloss>Jealousy</gloss>
+               </category>
+               <category xml:id="thmJewish_cultures_and_communities">
+                  <gloss>Jewish cultures and communities</gloss>
+               </category>
+               <category xml:id="thmJustice_injustice">
+                  <gloss>Justice / injustice</gloss>
+               </category>
+               <category xml:id="thmKnowledge_ignorance">
+                  <gloss>Knowledge / ignorance</gloss>
+               </category>
+               <category xml:id="thmLanguage_minority_communities">
+                  <gloss>Language minority communities</gloss>
+               </category>
+               <category xml:id="thmLatin_American_cultures_and_communities">
+                  <gloss>Latin American cultures and communities</gloss>
+               </category>
+               <category xml:id="thmLesbian_cultures_and_communities">
+                  <gloss>Lesbian cultures and communities</gloss>
+               </category>
+               <category xml:id="thmLight_and_darkness">
+                  <gloss>Light and darkness</gloss>
+               </category>
+               <category xml:id="thmLogic_common_sense">
+                  <gloss>Logic / common sense</gloss>
+               </category>
+               <category xml:id="thmLoss_grief">
+                  <gloss>Loss / grief</gloss>
+               </category>
+               <category xml:id="thmLoss_of_innocence">
+                  <gloss>Loss of innocence</gloss>
+               </category>
+               <category xml:id="thmLove_romance_everlasting_love_forbidden_love">
+                  <gloss>Love / romance / everlasting love / forbidden love</gloss>
+               </category>
+               <category xml:id="thmLoyalty">
+                  <gloss>Loyalty</gloss>
+               </category>
+               <category xml:id="thmLust_desire">
+                  <gloss>Lust / desire</gloss>
+               </category>
+               <category xml:id="thmMarginalization_discrimination">
+                  <gloss>Marginalization / discrimination</gloss>
+               </category>
+               <category xml:id="thmMasking">
+                  <gloss>Masking</gloss>
+               </category>
+               <category xml:id="thmMatriarchy">
+                  <gloss>Matriarchy</gloss>
+               </category>
+               <category xml:id="thmMemory_amnesia">
+                  <gloss>Memory / amnesia</gloss>
+               </category>
+               <category xml:id="thmMercy_ruthlessness">
+                  <gloss>Mercy / ruthlessness</gloss>
+               </category>
+               <category xml:id="thmMiscommunication">
+                  <gloss>Miscommunication</gloss>
+               </category>
+               <category xml:id="thmMisogynoir_internalized_interpersonal_institutional_">
+                  <gloss>Misogynoir (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmMistaken_identity">
+                  <gloss>Mistaken identity</gloss>
+               </category>
+               <category xml:id="thmMorality">
+                  <gloss>Morality</gloss>
+               </category>
+               <category xml:id="thmMortality_immortality">
+                  <gloss>Mortality / immortality</gloss>
+               </category>
+               <category xml:id="thmMurder">
+                  <gloss>Murder</gloss>
+               </category>
+               <category xml:id="thmNationalism_patriotism">
+                  <gloss>Nationalism / patriotism</gloss>
+               </category>
+               <category xml:id="thmNeoliberalism">
+                  <gloss>Neoliberalism</gloss>
+               </category>
+               <category xml:id="thmNonviolence">
+                  <gloss>Nonviolence</gloss>
+               </category>
+               <category xml:id="thmNorth_South">
+                  <gloss>North / South</gloss>
+               </category>
+               <category xml:id="thmNostalgia">
+                  <gloss>Nostalgia</gloss>
+               </category>
+               <category xml:id="thmObscenity">
+                  <gloss>Obscenity</gloss>
+               </category>
+               <category xml:id="thmOccult_witchcraft">
+                  <gloss>Occult / witchcraft</gloss>
+               </category>
+               <category xml:id="thmOceanic_cultures_and_communities">
+                  <gloss>Oceanic cultures and communities</gloss>
+               </category>
+               <category xml:id="thmOppression_internalized_interpersonal_institutional_">
+                  <gloss>Oppression (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmOrientalism_internalized_interpersonal_institutional_">
+                  <gloss>Orientalism (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmOthering">
+                  <gloss>Othering</gloss>
+               </category>
+               <category xml:id="thmPandemic">
+                  <gloss>Pandemic</gloss>
+               </category>
+               <category xml:id="thmParanormal">
+                  <gloss>Paranormal</gloss>
+               </category>
+               <category xml:id="thmParenthood">
+                  <gloss>Parenthood</gloss>
+               </category>
+               <category xml:id="thmPassing">
+                  <gloss>Passing</gloss>
+               </category>
+               <category xml:id="thmPatriarchy">
+                  <gloss>Patriarchy</gloss>
+               </category>
+               <category xml:id="thmPeer_pressure">
+                  <gloss>Peer pressure</gloss>
+               </category>
+               <category xml:id="thmPerseverance">
+                  <gloss>Perseverance</gloss>
+               </category>
+               <category xml:id="thmPersonal_growth_maturity">
+                  <gloss>Personal growth / maturity</gloss>
+               </category>
+               <category xml:id="thmPolice_policing">
+                  <gloss>Police / policing</gloss>
+               </category>
+               <category xml:id="thmPolyamory">
+                  <gloss>Polyamory</gloss>
+               </category>
+               <category xml:id="thmPower_regime_change">
+                  <gloss>Power / regime change</gloss>
+               </category>
+               <category xml:id="thmPride">
+                  <gloss>Pride</gloss>
+               </category>
+               <category xml:id="thmPrivacy">
+                  <gloss>Privacy</gloss>
+               </category>
+               <category xml:id="thmPrivilege">
+                  <gloss>Privilege</gloss>
+               </category>
+               <category xml:id="thmProductivity">
+                  <gloss>Productivity</gloss>
+               </category>
+               <category xml:id="thmProgress">
+                  <gloss>Progress</gloss>
+               </category>
+               <category xml:id="thmProphecy">
+                  <gloss>Prophecy</gloss>
+               </category>
+               <category xml:id="thmQueer_cultures_and_communities">
+                  <gloss>Queer cultures and communities</gloss>
+               </category>
+               <category xml:id="thmRace_racialization">
+                  <gloss>Race / racialization</gloss>
+               </category>
+               <category xml:id="thmRacism_internalized_interpersonal_institutional_">
+                  <gloss>Racism (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmRebirth">
+                  <gloss>Rebirth</gloss>
+               </category>
+               <category xml:id="thmRedemption_forgiveness">
+                  <gloss>Redemption / forgiveness</gloss>
+               </category>
+               <category xml:id="thmRegret">
+                  <gloss>Regret</gloss>
+               </category>
+               <category xml:id="thmReligion_religious_cultures_and_communities">
+                  <gloss>Religion / religious cultures and communities</gloss>
+               </category>
+               <category xml:id="thmReligious_intolerance_persecution_or_segregation">
+                  <gloss>Religious intolerance, persecution, or segregation</gloss>
+               </category>
+               <category xml:id="thmResistance">
+                  <gloss>Resistance</gloss>
+               </category>
+               <category xml:id="thmReunion">
+                  <gloss>Reunion</gloss>
+               </category>
+               <category xml:id="thmRevenge_honour_reputation">
+                  <gloss>Revenge / honour / reputation</gloss>
+               </category>
+               <category xml:id="thmRivalry">
+                  <gloss>Rivalry</gloss>
+               </category>
+               <category xml:id="thmRoyalty_monarchy">
+                  <gloss>Royalty / monarchy</gloss>
+               </category>
+               <category xml:id="thmSacred_profane">
+                  <gloss>Sacred / profane</gloss>
+               </category>
+               <category xml:id="thmSacrifice_dedication">
+                  <gloss>Sacrifice / dedication</gloss>
+               </category>
+               <category xml:id="thmSanity_madness">
+                  <gloss>Sanity / madness</gloss>
+               </category>
+               <category xml:id="thmSecrecy">
+                  <gloss>Secrecy</gloss>
+               </category>
+               <category xml:id="thmSelf-harm">
+                  <gloss>Self-harm</gloss>
+               </category>
+               <category xml:id="thmSelf-reliance_will_to_survive">
+                  <gloss>Self-reliance / will to survive</gloss>
+               </category>
+               <category xml:id="thmSex">
+                  <gloss>Sex</gloss>
+               </category>
+               <category xml:id="thmSexism_misogyny_internalized_interpersonal_institutional_">
+                  <gloss>Sexism / misogyny (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmSexuality">
+                  <gloss>Sexuality</gloss>
+               </category>
+               <category xml:id="thmSikh_cultures_and_communities">
+                  <gloss>Sikh cultures and communities</gloss>
+               </category>
+               <category xml:id="thmSikhphobia_internalized_interpersonal_institutional_">
+                  <gloss>Sikhphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmSimplicity_simple_living">
+                  <gloss>Simplicity / simple living</gloss>
+               </category>
+               <category xml:id="thmSlavery">
+                  <gloss>Slavery</gloss>
+               </category>
+               <category xml:id="thmSocial_mobility">
+                  <gloss>Social mobility</gloss>
+               </category>
+               <category xml:id="thmSocial_norms_conformity">
+                  <gloss>Social norms / conformity</gloss>
+               </category>
+               <category xml:id="thmSocialism">
+                  <gloss>Socialism</gloss>
+               </category>
+               <category xml:id="thmSpirituality">
+                  <gloss>Spirituality</gloss>
+               </category>
+               <category xml:id="thmSublime">
+                  <gloss>Sublime</gloss>
+               </category>
+               <category xml:id="thmSuccession">
+                  <gloss>Succession</gloss>
+               </category>
+               <category xml:id="thmTechnological_determinism">
+                  <gloss>Technological determinism</gloss>
+               </category>
+               <category xml:id="thmTemptation">
+                  <gloss>Temptation</gloss>
+               </category>
+               <category xml:id="thmTokenism">
+                  <gloss>Tokenism</gloss>
+               </category>
+               <category xml:id="thmTradition">
+                  <gloss>Tradition</gloss>
+               </category>
+               <category xml:id="thmTrans_cultures_and_communities">
+                  <gloss>Trans cultures and communities</gloss>
+               </category>
+               <category xml:id="thmTransitioning">
+                  <gloss>Transitioning</gloss>
+               </category>
+               <category xml:id="thmTransmisogyny_internalized_interpersonal_institutional_">
+                  <gloss>Transmisogyny (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmTransphobia_internalized_interpersonal_institutional_">
+                  <gloss>Transphobia (internalized, interpersonal, institutional)</gloss>
+               </category>
+               <category xml:id="thmTrauma">
+                  <gloss>Trauma</gloss>
+               </category>
+               <category xml:id="thmTreachery_deception">
+                  <gloss>Treachery / deception</gloss>
+               </category>
+               <category xml:id="thmTruth">
+                  <gloss>Truth</gloss>
+               </category>
+               <category xml:id="thmTyranny">
+                  <gloss>Tyranny</gloss>
+               </category>
+               <category xml:id="thmUrban_rural">
+                  <gloss>Urban / rural</gloss>
+               </category>
+               <category xml:id="thmUtopia">
+                  <gloss>Utopia</gloss>
+               </category>
+               <category xml:id="thmVanity">
+                  <gloss>Vanity</gloss>
+               </category>
+               <category xml:id="thmViolence_combat_war">
+                  <gloss>Violence / combat / war</gloss>
+               </category>
+               <category xml:id="thmVulnerability">
+                  <gloss>Vulnerability</gloss>
+               </category>
+               <category xml:id="thmWhite_supremacy">
+                  <gloss>White supremacy</gloss>
+               </category>
+               <category xml:id="thmWhiteness">
+                  <gloss>Whiteness</gloss>
+               </category>
+               <category xml:id="thmWisdom">
+                  <gloss>Wisdom</gloss>
+               </category>
+               <category xml:id="thmWork_labour">
+                  <gloss>Work / labour</gloss>
+               </category>
+               <category xml:id="thmWrath_anger">
+                  <gloss>Wrath / anger</gloss>
+               </category>
+               <category xml:id="thmXenophobia_internalized_interpersonal_institutional_">
+                  <gloss>Xenophobia (internalized, interpersonal, institutional)</gloss>
+               </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
