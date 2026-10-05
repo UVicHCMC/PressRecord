@@ -638,7 +638,7 @@
                <category xml:id="pfN-Gage">
                   <gloss>N-Gage</gloss>
                </category>
-               <category xml:id="pfN-Gage_service_">
+               <category xml:id="pfN-Gage_service">
                   <gloss>N-Gage (service)</gloss>
                </category>
                <category xml:id="pfNascom">
@@ -836,7 +836,7 @@
                <category xml:id="pfRoku">
                   <gloss>Roku</gloss>
                </category>
-               <category xml:id="pfSAM_Coup_">
+               <category xml:id="pfSAM_Coup">
                   <gloss>SAM Coupé</gloss>
                </category>
                <category xml:id="pfSC_MP">
@@ -1160,7 +1160,7 @@
                <desc>The software framework and/or development environment used to design the platform edition</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the engine.</desc>
                <gloss>4A Engine</gloss>
-               <category xml:id="enA-FRAME_VR_">
+               <category xml:id="enA-FRAME_VR">
                   <gloss>A-FRAME (VR)</gloss>
                </category>
                <category xml:id="enAdventure_Game_Interpreter">
@@ -1313,7 +1313,7 @@
                <category xml:id="enFlare3D">
                   <gloss>Flare3D</gloss>
                </category>
-               <category xml:id="enFlash_Adobe_">
+               <category xml:id="enFlash_Adobe">
                   <gloss>Flash (Adobe)</gloss>
                </category>
                <category xml:id="enFlixel">
@@ -1415,7 +1415,7 @@
                <category xml:id="enKinectica">
                   <gloss>Kinectica</gloss>
                </category>
-               <category xml:id="enKivy_framework_">
+               <category xml:id="enKivy_framework">
                   <gloss>Kivy (framework)</gloss>
                </category>
                <category xml:id="enLayaAir">
@@ -1439,7 +1439,7 @@
                <category xml:id="enLyN">
                   <gloss>LyN</gloss>
                </category>
-               <category xml:id="enM_U_G_E_N_">
+               <category xml:id="enM_U_G_E_N">
                   <gloss>M.U.G.E.N.</gloss>
                </category>
                <category xml:id="enMarmalade">
@@ -1598,7 +1598,7 @@
                <category xml:id="enStepMania">
                   <gloss>StepMania</gloss>
                </category>
-               <category xml:id="enStingray_Autodesk_">
+               <category xml:id="enStingray_Autodesk">
                   <gloss>Stingray (Autodesk)</gloss>
                </category>
                <category xml:id="enStratagus">
@@ -2335,25 +2335,25 @@
                <desc>This element rarely needs to be repeated. Exceptions include cases where the platform edition is both <q>indie</q> and <q>self-published.</q>
                </desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class.</desc>
-               <category xml:id="pcAAA">
+               <category xml:id="pclAAA">
                   <gloss>AAA</gloss>
                </category>
-               <category xml:id="pcAA">
+               <category xml:id="pclAA">
                   <gloss>AA</gloss>
                </category>
-               <category xml:id="pcB">
+               <category xml:id="pclB">
                   <gloss>B</gloss>
                </category>
-               <category xml:id="pcIII">
+               <category xml:id="pclIII">
                   <gloss>III</gloss>
                </category>
-               <category xml:id="pcIndie">
+               <category xml:id="pclIndie">
                   <gloss>Indie</gloss>
                </category>
-               <category xml:id="pcLicensed_game">
+               <category xml:id="pclLicensed_game">
                   <gloss>Licensed game</gloss>
                </category>
-               <category xml:id="pcSelf-published">
+               <category xml:id="pclSelf-published">
                   <gloss>Self-published</gloss>
                </category>
             </taxonomy>
@@ -2377,7 +2377,7 @@
                <category xml:id="cmNo_commentary">
                   <gloss>No commentary</gloss>
                </category>
-               <category xml:id="cmVoice_over_voice-over_voiceover_VO_">
+               <category xml:id="cmVoice_over_voice-over_voiceover_VO">
                   <gloss>Voice over / voice-over / voiceover (VO)</gloss>
                </category>
             </taxonomy>
@@ -2868,10 +2868,10 @@
                <category xml:id="tpOnline_multiplayer">
                   <gloss>Online multiplayer</gloss>
                </category>
-               <category xml:id="tpPlayer_versus_environment_PvE_">
+               <category xml:id="tpPlayer_versus_environment_PvE">
                   <gloss>Player versus environment (PvE)</gloss>
                </category>
-               <category xml:id="tpPlayer_versus_player_PvP_">
+               <category xml:id="tpPlayer_versus_player_PvP">
                   <gloss>Player versus player (PvP)</gloss>
                </category>
                <category xml:id="tpSingle-player">
@@ -3191,7 +3191,7 @@
                <category xml:id="gsMascot">
                   <gloss>Mascot</gloss>
                </category>
-               <category xml:id="gsMassively_multiplayer_online_RPG_MMPORG_">
+               <category xml:id="gsMassively_multiplayer_online_RPG_MMPORG">
                   <gloss>Massively multiplayer online RPG (MMPORG)</gloss>
                </category>
                <category xml:id="gsMath_puzzle">
@@ -5754,10 +5754,10 @@
                <category xml:id="mecAligning">
                   <gloss>Aligning</gloss>
                </category>
-               <category xml:id="mecAttacking_melee_">
+               <category xml:id="mecAttacking_melee">
                   <gloss>Attacking (melee)</gloss>
                </category>
-               <category xml:id="mecAttacking_ranged_">
+               <category xml:id="mecAttacking_ranged">
                   <gloss>Attacking (ranged)</gloss>
                </category>
                <category xml:id="mecAuctioning">
@@ -6440,7 +6440,7 @@
                <category xml:id="thmAbandonment_trust">
                   <gloss>Abandonment / trust</gloss>
                </category>
-               <category xml:id="thmAbleism_internalized_interpersonal_institutional_">
+               <category xml:id="thmAbleism_internalized_interpersonal_institutional">
                   <gloss>Ableism (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmAbduction">
@@ -6473,7 +6473,7 @@
                <category xml:id="thmAnti-war">
                   <gloss>Anti-war</gloss>
                </category>
-               <category xml:id="thmAntisemitism_internalized_interpersonal_institutional_">
+               <category xml:id="thmAntisemitism_internalized_interpersonal_institutional">
                   <gloss>Antisemitism (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmApocalypse_post-apocalypse">
@@ -6512,7 +6512,7 @@
                <category xml:id="thmBinaries">
                   <gloss>Binaries</gloss>
                </category>
-               <category xml:id="thmBiphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmBiphobia_internalized_interpersonal_institutional">
                   <gloss>Biphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmBlack_cultures_and_communities">
@@ -6665,7 +6665,7 @@
                <category xml:id="thmFate_free_will">
                   <gloss>Fate / free will</gloss>
                </category>
-               <category xml:id="thmFatphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmFatphobia_internalized_interpersonal_institutional">
                   <gloss>Fatphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmFear">
@@ -6731,13 +6731,13 @@
                <category xml:id="thmHindu_cultures_and_communities">
                   <gloss>Hindu cultures and communities</gloss>
                </category>
-               <category xml:id="thmHinduphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmHinduphobia_internalized_interpersonal_institutional">
                   <gloss>Hinduphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmHoliday_vacation">
                   <gloss>Holiday / vacation</gloss>
                </category>
-               <category xml:id="thmHomophobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmHomophobia_internalized_interpersonal_institutional">
                   <gloss>Homophobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmHuman_rights_civil_rights">
@@ -6779,7 +6779,7 @@
                <category xml:id="thmInvasion_alien_invasion">
                   <gloss>Invasion / alien invasion</gloss>
                </category>
-               <category xml:id="thmIslamaphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmIslamaphobia_internalized_interpersonal_institutional">
                   <gloss>Islamaphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmJealousy">
@@ -6842,7 +6842,7 @@
                <category xml:id="thmMiscommunication">
                   <gloss>Miscommunication</gloss>
                </category>
-               <category xml:id="thmMisogynoir_internalized_interpersonal_institutional_">
+               <category xml:id="thmMisogynoir_internalized_interpersonal_institutional">
                   <gloss>Misogynoir (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmMistaken_identity">
@@ -6881,10 +6881,10 @@
                <category xml:id="thmOceanic_cultures_and_communities">
                   <gloss>Oceanic cultures and communities</gloss>
                </category>
-               <category xml:id="thmOppression_internalized_interpersonal_institutional_">
+               <category xml:id="thmOppression_internalized_interpersonal_institutional">
                   <gloss>Oppression (internalized, interpersonal, institutional)</gloss>
                </category>
-               <category xml:id="thmOrientalism_internalized_interpersonal_institutional_">
+               <category xml:id="thmOrientalism_internalized_interpersonal_institutional">
                   <gloss>Orientalism (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmOthering">
@@ -6947,7 +6947,7 @@
                <category xml:id="thmRace_racialization">
                   <gloss>Race / racialization</gloss>
                </category>
-               <category xml:id="thmRacism_internalized_interpersonal_institutional_">
+               <category xml:id="thmRacism_internalized_interpersonal_institutional">
                   <gloss>Racism (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmRebirth">
@@ -7001,7 +7001,7 @@
                <category xml:id="thmSex">
                   <gloss>Sex</gloss>
                </category>
-               <category xml:id="thmSexism_misogyny_internalized_interpersonal_institutional_">
+               <category xml:id="thmSexism_misogyny_internalized_interpersonal_institutional">
                   <gloss>Sexism / misogyny (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmSexuality">
@@ -7010,7 +7010,7 @@
                <category xml:id="thmSikh_cultures_and_communities">
                   <gloss>Sikh cultures and communities</gloss>
                </category>
-               <category xml:id="thmSikhphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmSikhphobia_internalized_interpersonal_institutional">
                   <gloss>Sikhphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmSimplicity_simple_living">
@@ -7055,10 +7055,10 @@
                <category xml:id="thmTransitioning">
                   <gloss>Transitioning</gloss>
                </category>
-               <category xml:id="thmTransmisogyny_internalized_interpersonal_institutional_">
+               <category xml:id="thmTransmisogyny_internalized_interpersonal_institutional">
                   <gloss>Transmisogyny (internalized, interpersonal, institutional)</gloss>
                </category>
-               <category xml:id="thmTransphobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmTransphobia_internalized_interpersonal_institutional">
                   <gloss>Transphobia (internalized, interpersonal, institutional)</gloss>
                </category>
                <category xml:id="thmTrauma">
@@ -7103,7 +7103,7 @@
                <category xml:id="thmWrath_anger">
                   <gloss>Wrath / anger</gloss>
                </category>
-               <category xml:id="thmXenophobia_internalized_interpersonal_institutional_">
+               <category xml:id="thmXenophobia_internalized_interpersonal_institutional">
                   <gloss>Xenophobia (internalized, interpersonal, institutional)</gloss>
                </category>
             </taxonomy>
@@ -7449,7 +7449,7 @@
                <category xml:id="itfButton_layouts_screen">
                   <gloss>Button layouts screen</gloss>
                </category>
-               <category xml:id="itfButton_prompt_contextual_">
+               <category xml:id="itfButton_prompt_contextual">
                   <gloss>Button prompt (contextual)</gloss>
                </category>
                <category xml:id="itfBuying_and_trading_screen">
@@ -7581,7 +7581,7 @@
                <category xml:id="itfPhoto_camera_mode">
                   <gloss>Photo / camera mode</gloss>
                </category>
-               <category xml:id="itfPickup_prompt_contextual_">
+               <category xml:id="itfPickup_prompt_contextual">
                   <gloss>Pickup prompt (contextual)</gloss>
                </category>
                <category xml:id="itfPlayable_menu">
@@ -8011,7 +8011,7 @@
                <category xml:id="mtgOptional_stealth">
                   <gloss>Optional stealth</gloss>
                </category>
-               <category xml:id="mtgOrthogame_no_observable_meta_">
+               <category xml:id="mtgOrthogame_no_observable_meta">
                   <gloss>Orthogame (no observable meta)</gloss>
                </category>
                <category xml:id="mtgOutside-the-box_tactic">
@@ -8591,7 +8591,7 @@
                <category xml:id="evtSpikes_of_doom">
                   <gloss>Spikes of doom</gloss>
                </category>
-               <category xml:id="evtSprings_springs_everywhere_">
+               <category xml:id="evtSprings_springs_everywhere">
                   <gloss>Springs, springs everywhere!</gloss>
                </category>
                <category xml:id="evtSteam_vent_obstacle">
@@ -8642,18 +8642,740 @@
                <category xml:id="evtWeather_effects_weather_gameplay_mechanic">
                   <gloss>Weather effects / weather gameplay mechanic</gloss>
                </category>
-               <category xml:id="evtWhat_the_hell_player_">
+               <category xml:id="evtWhat_the_hell_player">
                   <gloss>What the hell, player?</gloss>
                </category>
-               <category xml:id="evtWho_forgot_the_lights_">
+               <category xml:id="evtWho_forgot_the_lights">
                   <gloss>Who forgot the lights?</gloss>
                </category>
                <category xml:id="evtYour_door_was_open">
                   <gloss>Your door was open</gloss>
                </category>
             </taxonomy>
-            
-            
+            <taxonomy xml:id="taxProgressionTrope" n="6BB">
+               <gloss>Progression Trope</gloss>
+               <desc>
+                  <q>A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations</q> (Lee et al., <q>VGMS 4.2,</q> 2024).</desc>
+               <desc>This element will typically be repeated. It differs from the <q>Narrative Trope</q> element, which focuses on diegetic events and actions, by focusing on devices and conventions that influence or shape players’ decision-making. These devices and conventions often prompt non-diegetic actions.</desc>
+               <desc>See TV Tropes for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., <q>Controlled Vocabulary for Tropes,</q> 2024, and TV Tropes 2026.</desc>
+               <category xml:id="prtAbility_required_to_proceed">
+                  <gloss>Ability required to proceed</gloss>
+               </category>
+               <category xml:id="prtAll_or_nothing_zero-sum_game">
+                  <gloss>All or nothing / zero-sum game</gloss>
+               </category>
+               <category xml:id="prtAnti-idling">
+                  <gloss>Anti-idling</gloss>
+               </category>
+               <category xml:id="prtArbitrary_mission_restriction">
+                  <gloss>Arbitrary mission restriction</gloss>
+               </category>
+               <category xml:id="prtBacktracking">
+                  <gloss>Backtracking</gloss>
+               </category>
+               <category xml:id="prtBig_first_choice">
+                  <gloss>Big first choice</gloss>
+               </category>
+               <category xml:id="prtBoss_battle">
+                  <gloss>Boss battle</gloss>
+               </category>
+               <category xml:id="prtBreather_level_easy_level">
+                  <gloss>Breather level / easy level</gloss>
+               </category>
+               <category xml:id="prtCatastrophic_countdown">
+                  <gloss>Catastrophic countdown</gloss>
+               </category>
+               <category xml:id="prtCharacter-specific_dialogue">
+                  <gloss>Character-specific dialogue</gloss>
+               </category>
+               <category xml:id="prtCharacter_class_system_job_system">
+                  <gloss>Character class system / job system</gloss>
+               </category>
+               <category xml:id="prtCharacter_level_or_strength_gate">
+                  <gloss>Character level or strength gate</gloss>
+               </category>
+               <category xml:id="prtCharacter_level_scaling">
+                  <gloss>Character level scaling</gloss>
+               </category>
+               <category xml:id="prtCheckpoint_starvation">
+                  <gloss>Checkpoint starvation</gloss>
+               </category>
+               <category xml:id="prtChoices_don_t_matter">
+                  <gloss>Choices don't matter</gloss>
+               </category>
+               <category xml:id="prtChoices_matter">
+                  <gloss>Choices matter</gloss>
+               </category>
+               <category xml:id="prtCom_mon_common_monster">
+                  <gloss>Com mon / common monster</gloss>
+               </category>
+               <category xml:id="prtCompletion_or_achievement_mockery">
+                  <gloss>Completion or achievement mockery</gloss>
+               </category>
+               <category xml:id="prtComputer_shall_taunt_you">
+                  <gloss>Computer shall taunt you</gloss>
+               </category>
+               <category xml:id="prtCooperation_versus_competition">
+                  <gloss>Cooperation versus competition</gloss>
+               </category>
+               <category xml:id="prtCruelty_is_the_only_option">
+                  <gloss>Cruelty is the only option</gloss>
+               </category>
+               <category xml:id="prtDeadly_game_of_chance">
+                  <gloss>Deadly game of chance</gloss>
+               </category>
+               <category xml:id="prtDefeat_means_friendship">
+                  <gloss>Defeat means friendship</gloss>
+               </category>
+               <category xml:id="prtDefeat_means_playable">
+                  <gloss>Defeat means playable</gloss>
+               </category>
+               <category xml:id="prtDev_is_smarter_than_me">
+                  <gloss>Dev is smarter than me</gloss>
+               </category>
+               <category xml:id="prtDifficulty_spike">
+                  <gloss>Difficulty spike</gloss>
+               </category>
+               <category xml:id="prtDoor_roulette_magical_mystery_doors">
+                  <gloss>Door roulette / magical mystery doors</gloss>
+               </category>
+               <category xml:id="prtDriving_test">
+                  <gloss>Driving test</gloss>
+               </category>
+               <category xml:id="prtEarly_game_hell">
+                  <gloss>Early game hell</gloss>
+               </category>
+               <category xml:id="prtEarn_your_bad_ending">
+                  <gloss>Earn your bad ending</gloss>
+               </category>
+               <category xml:id="prtEarn_your_fun">
+                  <gloss>Earn your fun</gloss>
+               </category>
+               <category xml:id="prtEarn_your_happy_ending">
+                  <gloss>Earn your happy ending</gloss>
+               </category>
+               <category xml:id="prtEasy_EXP_experience_farming">
+                  <gloss>Easy EXP / experience farming</gloss>
+               </category>
+               <category xml:id="prtEnjoy_the_story_skip_the_game">
+                  <gloss>Enjoy the story, skip the game</gloss>
+               </category>
+               <category xml:id="prtEnter_the_solution_here">
+                  <gloss>Enter the solution here</gloss>
+               </category>
+               <category xml:id="prtEscort_mission">
+                  <gloss>Escort mission</gloss>
+               </category>
+               <category xml:id="prtEvent_flag">
+                  <gloss>Event flag</gloss>
+               </category>
+               <category xml:id="prtExpanded_ending_secret_expanded_epilogue">
+                  <gloss>Expanded ending / secret expanded epilogue</gloss>
+               </category>
+               <category xml:id="prtExpository_gameplay_limitation">
+                  <gloss>Expository gameplay limitation</gloss>
+               </category>
+               <category xml:id="prtFailure_is_the_only_option_mis_re_game">
+                  <gloss>Failure is the only option / misère game</gloss>
+               </category>
+               <category xml:id="prtFame_gate_must_be_famous_to_progress">
+                  <gloss>Fame gate / must be famous to progress</gloss>
+               </category>
+               <category xml:id="prtFetch_quest">
+                  <gloss>Fetch quest</gloss>
+               </category>
+               <category xml:id="prtFollow_the_money_pass_through_the_rings">
+                  <gloss>Follow the money / pass through the rings</gloss>
+               </category>
+               <category xml:id="prtFoolishness_is_the_only_option">
+                  <gloss>Foolishness is the only option</gloss>
+               </category>
+               <category xml:id="prtGame_of_chicken">
+                  <gloss>Game of chicken</gloss>
+               </category>
+               <category xml:id="prtGrinding_stat_grinding_level_grinding">
+                  <gloss>Grinding / stat grinding / level grinding</gloss>
+               </category>
+               <category xml:id="prtGroundhog_day_loop">
+                  <gloss>Groundhog day loop</gloss>
+               </category>
+               <category xml:id="prtInescapable_ambush">
+                  <gloss>Inescapable ambush</gloss>
+               </category>
+               <category xml:id="prtInforming_the_fourth_wall_PC_s_intrapersonal_communication">
+                  <gloss>Informing the fourth wall / PC's intrapersonal communication</gloss>
+               </category>
+               <category xml:id="prtInstant_death">
+                  <gloss>Instant death</gloss>
+               </category>
+               <category xml:id="prtInvoluntary_group_split">
+                  <gloss>Involuntary group split</gloss>
+               </category>
+               <category xml:id="prtKill_screen">
+                  <gloss>Kill screen</gloss>
+               </category>
+               <category xml:id="prtKingmaker_scenario">
+                  <gloss>Kingmaker scenario</gloss>
+               </category>
+               <category xml:id="prtLast_lousy_point">
+                  <gloss>Last lousy point</gloss>
+               </category>
+               <category xml:id="prtLight-and-mirrors_puzzle">
+                  <gloss>Light-and-mirrors puzzle</gloss>
+               </category>
+               <category xml:id="prtLoading_screen_message_gag">
+                  <gloss>Loading screen message gag</gloss>
+               </category>
+               <category xml:id="prtLock-and-key_puzzle">
+                  <gloss>Lock-and-key puzzle</gloss>
+               </category>
+               <category xml:id="prtLocked_door">
+                  <gloss>Locked door</gloss>
+               </category>
+               <category xml:id="prtMultiple_game_openings">
+                  <gloss>Multiple game openings</gloss>
+               </category>
+               <category xml:id="prtMultiple_persuasion_modes">
+                  <gloss>Multiple persuasion modes</gloss>
+               </category>
+               <category xml:id="prtNew_world_tease">
+                  <gloss>New world tease</gloss>
+               </category>
+               <category xml:id="prtNo-gear_level">
+                  <gloss>No-gear level</gloss>
+               </category>
+               <category xml:id="prtNo-harm_requirement_bring_them_back_alive">
+                  <gloss>No-harm requirement / bring them back alive</gloss>
+               </category>
+               <category xml:id="prtNo_campaign_or_canon_for_the_wicked">
+                  <gloss>No campaign or canon for the wicked</gloss>
+               </category>
+               <category xml:id="prtNo_exploration_no_sidepaths">
+                  <gloss>No exploration / no sidepaths</gloss>
+               </category>
+               <category xml:id="prtNon-standard_game_over_deliberate_game_crash">
+                  <gloss>Non-standard game over / deliberate game crash</gloss>
+               </category>
+               <category xml:id="prtNPC_scheduling">
+                  <gloss>NPC scheduling</gloss>
+               </category>
+               <category xml:id="prtNPC_volunteers_to_repeat_information_for_you">
+                  <gloss>NPC volunteers to repeat information for you</gloss>
+               </category>
+               <category xml:id="prtOne_game_one_boss">
+                  <gloss>One game, one boss</gloss>
+               </category>
+               <category xml:id="prtOnly_one_save_file">
+                  <gloss>Only one save file</gloss>
+               </category>
+               <category xml:id="prtOnly_smart_people_may_pass">
+                  <gloss>Only smart people may pass</gloss>
+               </category>
+               <category xml:id="prtOptional_boss">
+                  <gloss>Optional boss</gloss>
+               </category>
+               <category xml:id="prtOptional_encounter">
+                  <gloss>Optional encounter</gloss>
+               </category>
+               <category xml:id="prtOptional_party_member">
+                  <gloss>Optional party member</gloss>
+               </category>
+               <category xml:id="prtOverly_generous_time_limit">
+                  <gloss>Overly generous time limit</gloss>
+               </category>
+               <category xml:id="prtPassword_save">
+                  <gloss>Password save</gloss>
+               </category>
+               <category xml:id="prtPath_of_most_resistance_harder_route_better_rewards">
+                  <gloss>Path of most resistance / harder route, better rewards</gloss>
+               </category>
+               <category xml:id="prtPawns_but_no_bosses">
+                  <gloss>Pawns but no bosses</gloss>
+               </category>
+               <category xml:id="prtPawns_go_first">
+                  <gloss>Pawns go first</gloss>
+               </category>
+               <category xml:id="prtPhilosophical_choice_ending">
+                  <gloss>Philosophical choice ending</gloss>
+               </category>
+               <category xml:id="prtPlacate_the_NPC_or_monster">
+                  <gloss>Placate the NPC or monster</gloss>
+               </category>
+               <category xml:id="prtPlay_the_game_skip_the_story">
+                  <gloss>Play the game, skip the story</gloss>
+               </category>
+               <category xml:id="prtPlot_lock">
+                  <gloss>Plot lock</gloss>
+               </category>
+               <category xml:id="prtPoint_of_no_return">
+                  <gloss>Point of no return</gloss>
+               </category>
+               <category xml:id="prtPop_quiz">
+                  <gloss>Pop quiz</gloss>
+               </category>
+               <category xml:id="prtPress_X_not_to_die">
+                  <gloss>Press X not to die</gloss>
+               </category>
+               <category xml:id="prtRailroading_blamed_for_being_railroaded">
+                  <gloss>Railroading / blamed for being railroaded</gloss>
+               </category>
+               <category xml:id="prtReal-time_with_pause">
+                  <gloss>Real-time with pause</gloss>
+               </category>
+               <category xml:id="prtRecollection_sidequest">
+                  <gloss>Recollection sidequest</gloss>
+               </category>
+               <category xml:id="prtRepeatable_quest">
+                  <gloss>Repeatable quest</gloss>
+               </category>
+               <category xml:id="prtRespawn_point">
+                  <gloss>Respawn point</gloss>
+               </category>
+               <category xml:id="prtRock_paper_scissors">
+                  <gloss>Rock, paper, scissors</gloss>
+               </category>
+               <category xml:id="prtRomance_option">
+                  <gloss>Romance option</gloss>
+               </category>
+               <category xml:id="prtRomance_sidequest">
+                  <gloss>Romance sidequest</gloss>
+               </category>
+               <category xml:id="prtRunback_boss_runback">
+                  <gloss>Runback / boss runback</gloss>
+               </category>
+               <category xml:id="prtRunning-out-of-time_warning">
+                  <gloss>Running-out-of-time warning</gloss>
+               </category>
+               <category xml:id="prtSafe_space_bonfire">
+                  <gloss>Safe space / bonfire</gloss>
+               </category>
+               <category xml:id="prtSecret_final_campaign">
+                  <gloss>Secret final campaign</gloss>
+               </category>
+               <category xml:id="prtSecret_level">
+                  <gloss>Secret level</gloss>
+               </category>
+               <category xml:id="prtStory_branch_favouritism">
+                  <gloss>Story branch favouritism</gloss>
+               </category>
+               <category xml:id="prtThat_one_achievement">
+                  <gloss>That one achievement</gloss>
+               </category>
+               <category xml:id="prtThat_one_boss">
+                  <gloss>That one boss</gloss>
+               </category>
+               <category xml:id="prtThat_one_level">
+                  <gloss>That one level</gloss>
+               </category>
+               <category xml:id="prtThat_one_puzzle">
+                  <gloss>That one puzzle</gloss>
+               </category>
+               <category xml:id="prtThat_one_sidequest">
+                  <gloss>That one sidequest</gloss>
+               </category>
+               <category xml:id="prtTiebreaker_round">
+                  <gloss>Tiebreaker round</gloss>
+               </category>
+               <category xml:id="prtTime_trial_timed_mission">
+                  <gloss>Time trial / timed mission</gloss>
+               </category>
+               <category xml:id="prtTraining_stage">
+                  <gloss>Training stage</gloss>
+               </category>
+               <category xml:id="prtTrap_is_the_only_option">
+                  <gloss>Trap is the only option</gloss>
+               </category>
+               <category xml:id="prtTreacherous_checkpoint">
+                  <gloss>Treacherous checkpoint</gloss>
+               </category>
+               <category xml:id="prtTutorial_failure">
+                  <gloss>Tutorial failure</gloss>
+               </category>
+               <category xml:id="prtVariable_player_goals">
+                  <gloss>Variable player goals</gloss>
+               </category>
+               <category xml:id="prtViolation_of_common_sense">
+                  <gloss>Violation of common sense</gloss>
+               </category>
+               <category xml:id="prtViolence_is_the_only_option">
+                  <gloss>Violence is the only option</gloss>
+               </category>
+               <category xml:id="prtWhen_all_else_fails_go_right">
+                  <gloss>When all else fails, go right</gloss>
+               </category>
+               <category xml:id="prtWinner_is_you">
+                  <gloss>Winner is you</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxNarrativeTrope" n="6CC">
+               <gloss>Narrative Trope</gloss>
+               <desc>
+                  <q>A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>This element will typically be repeated. It differs from the <q>Progression Trope</q> element, which focuses on players’ decision-making, by focusing on devices and conventions that influence diegetic events and actions.</desc>
+               <desc>See TV Tropes for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., <q>Controlled Vocabulary for Tropes,</q> 2024, and TV Tropes 2026.</desc>
+               <category xml:id="ntAbandoned_hospital_awakening">
+                  <gloss>Abandoned hospital awakening</gloss>
+               </category>
+               <category xml:id="ntAcceptable_break_from_reality">
+                  <gloss>Acceptable break from reality</gloss>
+               </category>
+               <category xml:id="ntAchieve_three_goals">
+                  <gloss>Achieve three goals</gloss>
+               </category>
+               <category xml:id="ntApocalyptic_log_audio_log">
+                  <gloss>Apocalyptic log / audio log</gloss>
+               </category>
+               <category xml:id="ntArduous_descent_to_terra_firma">
+                  <gloss>Arduous descent to terra firma</gloss>
+               </category>
+               <category xml:id="ntArtistic_license_putting_the_story_first">
+                  <gloss>Artistic license / putting the story first</gloss>
+               </category>
+               <category xml:id="ntBack_from_the_brink_of_destruction">
+                  <gloss>Back from the brink of destruction</gloss>
+               </category>
+               <category xml:id="ntBattle_intro_scene_or_animation">
+                  <gloss>Battle intro scene or animation</gloss>
+               </category>
+               <category xml:id="ntBefore_the_dark_times_speech">
+                  <gloss>Before the dark times speech</gloss>
+               </category>
+               <category xml:id="ntBring_help_back_bring_news_back">
+                  <gloss>Bring help back / bring news back</gloss>
+               </category>
+               <category xml:id="ntBroken_masquerade">
+                  <gloss>Broken masquerade</gloss>
+               </category>
+               <category xml:id="ntCharacter_arrives_late_to_the_tragedy">
+                  <gloss>Character arrives late to the tragedy</gloss>
+               </category>
+               <category xml:id="ntChase_chase_scene">
+                  <gloss>Chase / chase scene</gloss>
+               </category>
+               <category xml:id="ntChekov_s_gun">
+                  <gloss>Chekov's gun</gloss>
+               </category>
+               <category xml:id="ntChess_motif">
+                  <gloss>Chess motif</gloss>
+               </category>
+               <category xml:id="ntClear_my_name_clear_their_name">
+                  <gloss>Clear my name / clear their name</gloss>
+               </category>
+               <category xml:id="ntColonizing_or_settling_the_frontier">
+                  <gloss>Colonizing or settling the frontier</gloss>
+               </category>
+               <category xml:id="ntComing-out_story">
+                  <gloss>Coming-out story</gloss>
+               </category>
+               <category xml:id="ntComputer_is_lying_to_me_is_cheating">
+                  <gloss>Computer is lying to me / is cheating</gloss>
+               </category>
+               <category xml:id="ntCoup_de_gr_ce_cutscene">
+                  <gloss>Coup de grâce cutscene</gloss>
+               </category>
+               <category xml:id="ntCrashing_the_coronation">
+                  <gloss>Crashing the coronation</gloss>
+               </category>
+               <category xml:id="ntCutscene_incompetence">
+                  <gloss>Cutscene incompetence</gloss>
+               </category>
+               <category xml:id="ntDamsel_in_distress">
+                  <gloss>Damsel in distress</gloss>
+               </category>
+               <category xml:id="ntDarkest_before_the_dawn">
+                  <gloss>Darkest before the dawn</gloss>
+               </category>
+               <category xml:id="ntDeal_with_the_devil">
+                  <gloss>Deal with the devil</gloss>
+               </category>
+               <category xml:id="ntDeclaration_of_personal_independence">
+                  <gloss>Declaration of personal independence</gloss>
+               </category>
+               <category xml:id="ntDecolonizing_lands_waters_or_space">
+                  <gloss>Decolonizing lands, waters, or space</gloss>
+               </category>
+               <category xml:id="ntDefeating_the_cheating_opponent">
+                  <gloss>Defeating the cheating opponent</gloss>
+               </category>
+               <category xml:id="ntDestiny_reveal">
+                  <gloss>Destiny reveal</gloss>
+               </category>
+               <category xml:id="ntDon_t_celebrate_just_yet">
+                  <gloss>Don't celebrate just yet</gloss>
+               </category>
+               <category xml:id="ntDragons_versus_knights">
+                  <gloss>Dragons versus knights</gloss>
+               </category>
+               <category xml:id="ntEnd_of_an_age_end_of_an_era">
+                  <gloss>End of an age / end of an era</gloss>
+               </category>
+               <category xml:id="ntEnd_justifies_the_means">
+                  <gloss>End justifies the means</gloss>
+               </category>
+               <category xml:id="ntEnemy_mine_common_enemy_common_goal">
+                  <gloss>Enemy mine / common enemy, common goal</gloss>
+               </category>
+               <category xml:id="ntEpic_competition_battle_or_journey">
+                  <gloss>Epic competition, battle, or journey</gloss>
+               </category>
+               <category xml:id="ntEscape_the_labyrinth">
+                  <gloss>Escape the labyrinth</gloss>
+               </category>
+               <category xml:id="ntExcuse_plot_no_plot_no_problem">
+                  <gloss>Excuse plot / no plot, no problem</gloss>
+               </category>
+               <category xml:id="ntFace-heel_turn">
+                  <gloss>Face-heel turn</gloss>
+               </category>
+               <category xml:id="ntFailed_audition_plot_talent_contest">
+                  <gloss>Failed audition plot / talent contest</gloss>
+               </category>
+               <category xml:id="ntFalse_utopia">
+                  <gloss>False utopia</gloss>
+               </category>
+               <category xml:id="ntFind_the_cure">
+                  <gloss>Find the cure</gloss>
+               </category>
+               <category xml:id="ntFive-second_foreshadowing">
+                  <gloss>Five-second foreshadowing</gloss>
+               </category>
+               <category xml:id="ntFormer_friends_now_foes">
+                  <gloss>Former friends, now foes</gloss>
+               </category>
+               <category xml:id="ntFriend_in_need_chronic_hero_syndrome">
+                  <gloss>Friend in need / chronic hero syndrome</gloss>
+               </category>
+               <category xml:id="ntGameplay-guided_amnesia_for_tutorials">
+                  <gloss>Gameplay-guided amnesia for tutorials</gloss>
+               </category>
+               <category xml:id="ntGrass_is_greener">
+                  <gloss>Grass is greener</gloss>
+               </category>
+               <category xml:id="ntHail_mary">
+                  <gloss>Hail mary</gloss>
+               </category>
+               <category xml:id="ntHeel-face_turn">
+                  <gloss>Heel-face turn</gloss>
+               </category>
+               <category xml:id="ntHeroic_sacrifice_occupational_hazard">
+                  <gloss>Heroic sacrifice / occupational hazard</gloss>
+               </category>
+               <category xml:id="ntHijacked_by_a_body_snatcher_symbiote_or_hacker">
+                  <gloss>Hijacked by a body snatcher, symbiote, or hacker</gloss>
+               </category>
+               <category xml:id="ntHold_the_line">
+                  <gloss>Hold the line</gloss>
+               </category>
+               <category xml:id="ntHow_we_got_here_whole_episode_flashback">
+                  <gloss>How we got here / whole episode flashback</gloss>
+               </category>
+               <category xml:id="ntI_choose_to_stay_character_remains_in_new_environment">
+                  <gloss>I choose to stay / character remains in new environment</gloss>
+               </category>
+               <category xml:id="ntI_fought_the_law_and_the_law_won">
+                  <gloss>I fought the law, and the law won</gloss>
+               </category>
+               <category xml:id="ntJade-coloured_glasses_newcomer_becomes_cynic">
+                  <gloss>Jade-coloured glasses / newcomer becomes cynic</gloss>
+               </category>
+               <category xml:id="ntJourney_of_reclamation">
+                  <gloss>Journey of reclamation</gloss>
+               </category>
+               <category xml:id="ntJourney_to_the_sky">
+                  <gloss>Journey to the sky</gloss>
+               </category>
+               <category xml:id="ntLampshading_characters_call_attention_to_the_illogical">
+                  <gloss>Lampshading / characters call attention to the illogical</gloss>
+               </category>
+               <category xml:id="ntLast_moment_together_but_now_I_must_go">
+                  <gloss>Last moment together / but now I must go</gloss>
+               </category>
+               <category xml:id="ntLecture_as_exposition">
+                  <gloss>Lecture as exposition</gloss>
+               </category>
+               <category xml:id="ntLed_by_the_outsider">
+                  <gloss>Led by the outsider</gloss>
+               </category>
+               <category xml:id="ntLife-affirming_event_carpe_diem_speech">
+                  <gloss>Life-affirming event / carpe diem speech</gloss>
+               </category>
+               <category xml:id="ntLiving_a_double_life">
+                  <gloss>Living a double life</gloss>
+               </category>
+               <category xml:id="ntLost_at_sea">
+                  <gloss>Lost at sea</gloss>
+               </category>
+               <category xml:id="ntLove_triangle">
+                  <gloss>Love triangle</gloss>
+               </category>
+               <category xml:id="ntMacGuffin">
+                  <gloss>MacGuffin</gloss>
+               </category>
+               <category xml:id="ntMakeover_scene_or_plot">
+                  <gloss>Makeover scene or plot</gloss>
+               </category>
+               <category xml:id="ntMusical_spoiler_what_s_that_sound">
+                  <gloss>Musical spoiler / what's that sound?</gloss>
+               </category>
+               <category xml:id="ntNature_is_not_nice_is_not_a_toy">
+                  <gloss>Nature is not nice / is not a toy</gloss>
+               </category>
+               <category xml:id="ntNo_main_villain_no_Big_Bad">
+                  <gloss>No main villain / no Big Bad</gloss>
+               </category>
+               <category xml:id="ntNow_it_s_personal">
+                  <gloss>Now it's personal</gloss>
+               </category>
+               <category xml:id="ntNPC_has_their_own_adventure_or_story">
+                  <gloss>NPC has their own adventure or story</gloss>
+               </category>
+               <category xml:id="ntOdd_couple_two_completely_different_characters">
+                  <gloss>Odd couple / two completely different characters</gloss>
+               </category>
+               <category xml:id="ntOffer_you_can_t_refuse">
+                  <gloss>Offer you can't refuse</gloss>
+               </category>
+               <category xml:id="ntOutside_context_problem_alien_invasion">
+                  <gloss>Outside context problem / alien invasion</gloss>
+               </category>
+               <category xml:id="ntPainting_the_medium_design_conveys_story">
+                  <gloss>Painting the medium / design conveys story</gloss>
+               </category>
+               <category xml:id="ntParanormal_scene_or_episode">
+                  <gloss>Paranormal scene or episode</gloss>
+               </category>
+               <category xml:id="ntPassing_the_torch">
+                  <gloss>Passing the torch</gloss>
+               </category>
+               <category xml:id="ntPatience_plot_we_wait">
+                  <gloss>Patience plot / we wait</gloss>
+               </category>
+               <category xml:id="ntPawn_debut_cutscene">
+                  <gloss>Pawn debut cutscene</gloss>
+               </category>
+               <category xml:id="ntPerpetually_saving_the_same_character">
+                  <gloss>Perpetually saving the same character</gloss>
+               </category>
+               <category xml:id="ntPlayer_and_protagonist_integration">
+                  <gloss>Player and protagonist integration</gloss>
+               </category>
+               <category xml:id="ntPC_death_is_dramatic">
+                  <gloss>PC death is dramatic</gloss>
+               </category>
+               <category xml:id="ntPC_death_is_not_dramatic">
+                  <gloss>PC death is not dramatic</gloss>
+               </category>
+               <category xml:id="ntPlot_armour_story-driven_invulnerability">
+                  <gloss>Plot armour / story-driven invulnerability</gloss>
+               </category>
+               <category xml:id="ntPlot_coupon">
+                  <gloss>Plot coupon</gloss>
+               </category>
+               <category xml:id="ntPlot_twist">
+                  <gloss>Plot twist</gloss>
+               </category>
+               <category xml:id="ntPrevent_the_war_crime_or_tragedy">
+                  <gloss>Prevent the war, crime, or tragedy</gloss>
+               </category>
+               <category xml:id="ntPrized_possession_giveaway_this_is_a_gift">
+                  <gloss>Prized possession giveaway / this is a gift</gloss>
+               </category>
+               <category xml:id="ntProdigal_protagonist_prodigal_family">
+                  <gloss>Prodigal protagonist / prodigal family</gloss>
+               </category>
+               <category xml:id="ntProtagonist_stumbled_into_the_plot">
+                  <gloss>Protagonist stumbled into the plot</gloss>
+               </category>
+               <category xml:id="ntProtagonist_without_a_past">
+                  <gloss>Protagonist without a past</gloss>
+               </category>
+               <category xml:id="ntPygmalion_plot">
+                  <gloss>Pygmalion plot</gloss>
+               </category>
+               <category xml:id="ntQuest_for_identity">
+                  <gloss>Quest for identity</gloss>
+               </category>
+               <category xml:id="ntQuest_for_the_rest_or_others_like_you">
+                  <gloss>Quest for the rest or others like you</gloss>
+               </category>
+               <category xml:id="ntRemoving_the_rival">
+                  <gloss>Removing the rival</gloss>
+               </category>
+               <category xml:id="ntRescue_arc">
+                  <gloss>Rescue arc</gloss>
+               </category>
+               <category xml:id="ntResistance_is_futile_speech_or_scene">
+                  <gloss>Resistance is futile speech or scene</gloss>
+               </category>
+               <category xml:id="ntRevenge_plot_pointless_revenge">
+                  <gloss>Revenge plot / pointless revenge</gloss>
+               </category>
+               <category xml:id="ntRip_Van_Winkle_slept_through_the_apocalypse">
+                  <gloss>Rip Van Winkle / slept through the apocalypse</gloss>
+               </category>
+               <category xml:id="ntRoad_trip_plot">
+                  <gloss>Road trip plot</gloss>
+               </category>
+               <category xml:id="ntSanity_slippage_driven_to_madness_or_misanthropy">
+                  <gloss>Sanity slippage / driven to madness or misanthropy</gloss>
+               </category>
+               <category xml:id="ntSeal_the_breach">
+                  <gloss>Seal the breach</gloss>
+               </category>
+               <category xml:id="ntSell_what_you_love_I_ran_out_of_cash">
+                  <gloss>Sell what you love / I ran out of cash</gloss>
+               </category>
+               <category xml:id="ntSignificant_wardrobe_change">
+                  <gloss>Significant wardrobe change</gloss>
+               </category>
+               <category xml:id="ntStatic_role_exchangeable_character">
+                  <gloss>Static role, exchangeable character</gloss>
+               </category>
+               <category xml:id="ntSuperpowers_for_a_day">
+                  <gloss>Superpowers for a day</gloss>
+               </category>
+               <category xml:id="ntThis_is_the_final_battle_speech">
+                  <gloss>This is the final battle speech</gloss>
+               </category>
+               <category xml:id="ntTime-compression_montage">
+                  <gloss>Time-compression montage</gloss>
+               </category>
+               <category xml:id="ntTime_travel_wayback_trip">
+                  <gloss>Time travel / wayback trip</gloss>
+               </category>
+               <category xml:id="ntTo_hell_and_back">
+                  <gloss>To hell and back</gloss>
+               </category>
+               <category xml:id="ntUnreliable_narrator">
+                  <gloss>Unreliable narrator</gloss>
+               </category>
+               <category xml:id="ntUpsetting_the_balance">
+                  <gloss>Upsetting the balance</gloss>
+               </category>
+               <category xml:id="ntVirtual_training_simulation_diegetic_simulation">
+                  <gloss>Virtual training simulation / diegetic simulation</gloss>
+               </category>
+               <category xml:id="ntWar_sequence_a_thousand_against_one">
+                  <gloss>War sequence / a thousand against one</gloss>
+               </category>
+               <category xml:id="ntWe_cannot_go_on_without_you">
+                  <gloss>We cannot go on without you</gloss>
+               </category>
+               <category xml:id="ntWe_need_to_get_proof">
+                  <gloss>We need to get proof</gloss>
+               </category>
+               <category xml:id="ntWhat_could_possibly_go_wrong_scene_or_speech">
+                  <gloss>What could possibly go wrong? scene or speech</gloss>
+               </category>
+               <category xml:id="ntYou_can_t_fight_fate_but_thou_must">
+                  <gloss>You can't fight fate / but thou must!</gloss>
+               </category>
+               <category xml:id="ntYou_wake_up_in_a_room_on_a_beach">
+                  <gloss>You wake up in a room / on a beach</gloss>
+               </category>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
