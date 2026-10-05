@@ -7107,6 +7107,1551 @@
                   <gloss>Xenophobia (internalized, interpersonal, institutional)</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxAssets" n="6T">
+               <gloss>Assets</gloss>
+               <desc>Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>Controlled vocabulary informed by game assets available at itch.io</desc>
+               <category xml:id="ast3D_models">
+                  <gloss>3D models</gloss>
+               </category>
+               <category xml:id="astAction_animation">
+                  <gloss>Action animation</gloss>
+               </category>
+               <category xml:id="astAdaptive_lighting">
+                  <gloss>Adaptive lighting</gloss>
+               </category>
+               <category xml:id="astAdaptive_music">
+                  <gloss>Adaptive music</gloss>
+               </category>
+               <category xml:id="astAmbient_sound_soundscape">
+                  <gloss>Ambient sound / soundscape</gloss>
+               </category>
+               <category xml:id="astArticulated_animation">
+                  <gloss>Articulated animation</gloss>
+               </category>
+               <category xml:id="astCharacter_art">
+                  <gloss>Character art</gloss>
+               </category>
+               <category xml:id="astCharacter_dialogue_speech">
+                  <gloss>Character dialogue / speech</gloss>
+               </category>
+               <category xml:id="astCharacter_portrait">
+                  <gloss>Character portrait</gloss>
+               </category>
+               <category xml:id="astDestructible_objects">
+                  <gloss>Destructible objects</gloss>
+               </category>
+               <category xml:id="astEnvironment_art_scenery">
+                  <gloss>Environment art / scenery</gloss>
+               </category>
+               <category xml:id="astExteriors">
+                  <gloss>Exteriors</gloss>
+               </category>
+               <category xml:id="astFlavour_text">
+                  <gloss>Flavour text</gloss>
+               </category>
+               <category xml:id="astFluid_dynamics">
+                  <gloss>Fluid dynamics</gloss>
+               </category>
+               <category xml:id="astFoley_sound">
+                  <gloss>Foley sound</gloss>
+               </category>
+               <category xml:id="astFoliage_terrain">
+                  <gloss>Foliage / terrain</gloss>
+               </category>
+               <category xml:id="astFonts_typography">
+                  <gloss>Fonts / typography</gloss>
+               </category>
+               <category xml:id="astFree-form_animation">
+                  <gloss>Free-form animation</gloss>
+               </category>
+               <category xml:id="astGauges">
+                  <gloss>Gauges</gloss>
+               </category>
+               <category xml:id="astHaptics">
+                  <gloss>Haptics</gloss>
+               </category>
+               <category xml:id="astIcons_buttons">
+                  <gloss>Icons / buttons</gloss>
+               </category>
+               <category xml:id="astIdle_animation">
+                  <gloss>Idle animation</gloss>
+               </category>
+               <category xml:id="astInteriors">
+                  <gloss>Interiors</gloss>
+               </category>
+               <category xml:id="astItems_clothes_equipment">
+                  <gloss>Items / clothes / equipment</gloss>
+               </category>
+               <category xml:id="astLevel_art">
+                  <gloss>Level art</gloss>
+               </category>
+               <category xml:id="astLicensed_music">
+                  <gloss>Licensed music</gloss>
+               </category>
+               <category xml:id="astLocomotion_animation">
+                  <gloss>Locomotion animation</gloss>
+               </category>
+               <category xml:id="astMotion_capture_mocap">
+                  <gloss>Motion capture / mocap</gloss>
+               </category>
+               <category xml:id="astNo_audio">
+                  <gloss>No audio</gloss>
+               </category>
+               <category xml:id="astNo_visuals">
+                  <gloss>No visuals</gloss>
+               </category>
+               <category xml:id="astOriginal_soundtrack">
+                  <gloss>Original soundtrack</gloss>
+               </category>
+               <category xml:id="astParticle_effects">
+                  <gloss>Particle effects</gloss>
+               </category>
+               <category xml:id="astPhotographs">
+                  <gloss>Photographs</gloss>
+               </category>
+               <category xml:id="astPre-recorded_audio">
+                  <gloss>Pre-recorded audio</gloss>
+               </category>
+               <category xml:id="astPre-recorded_video">
+                  <gloss>Pre-recorded video</gloss>
+               </category>
+               <category xml:id="astPreviews">
+                  <gloss>Previews</gloss>
+               </category>
+               <category xml:id="astProps">
+                  <gloss>Props</gloss>
+               </category>
+               <category xml:id="astRagdoll_physics">
+                  <gloss>Ragdoll physics</gloss>
+               </category>
+               <category xml:id="astRay_tracing">
+                  <gloss>Ray tracing</gloss>
+               </category>
+               <category xml:id="astRigid_animation">
+                  <gloss>Rigid animation</gloss>
+               </category>
+               <category xml:id="astRigid_body_dynamics">
+                  <gloss>Rigid body dynamics</gloss>
+               </category>
+               <category xml:id="astShaders">
+                  <gloss>Shaders</gloss>
+               </category>
+               <category xml:id="astSkeuomorph">
+                  <gloss>Skeuomorph</gloss>
+               </category>
+               <category xml:id="astSkyboxes">
+                  <gloss>Skyboxes</gloss>
+               </category>
+               <category xml:id="astSoft_body_dynamics">
+                  <gloss>Soft body dynamics</gloss>
+               </category>
+               <category xml:id="astSound_effects_SFX">
+                  <gloss>Sound effects / SFX</gloss>
+               </category>
+               <category xml:id="astSprites">
+                  <gloss>Sprites</gloss>
+               </category>
+               <category xml:id="astText_boxes">
+                  <gloss>Text boxes</gloss>
+               </category>
+               <category xml:id="astTextures">
+                  <gloss>Textures</gloss>
+               </category>
+               <category xml:id="astTilesets">
+                  <gloss>Tilesets</gloss>
+               </category>
+               <category xml:id="astVector_graphics">
+                  <gloss>Vector graphics</gloss>
+               </category>
+               <category xml:id="astVisual_art_drawings">
+                  <gloss>Visual art / drawings</gloss>
+               </category>
+               <category xml:id="astVisual_effects_VFX">
+                  <gloss>Visual effects / VFX</gloss>
+               </category>
+               <category xml:id="astVoice_acting_barks">
+                  <gloss>Voice acting / barks</gloss>
+               </category>
+               <category xml:id="astVoice-over_VO">
+                  <gloss>Voice-over / VO </gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxStyle" n="6U">
+               <gloss>Style</gloss>
+               <desc>
+                  <q>The predominant and recognizable [artistic tendencies] and appearance of</q> the platform edition as demonstrated by the gameplay footage (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to further describe the style(s).</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Wikipedia, <q>List of Art Movements,</q> 2026 and Lee et al.,<q>Controlled Vocabulary for Visual Style,</q> 2024.</desc>
+               <category xml:id="stlAbstract">
+                  <gloss>Abstract</gloss>
+               </category>
+               <category xml:id="stlAchromatic">
+                  <gloss>Achromatic</gloss>
+               </category>
+               <category xml:id="stlAdaptation_homage">
+                  <gloss>Adaptation / homage</gloss>
+               </category>
+               <category xml:id="stlArt_Nouveau">
+                  <gloss>Art Nouveau</gloss>
+               </category>
+               <category xml:id="stlArt_shift_change_in_artstyle">
+                  <gloss>Art shift / change in artstyle</gloss>
+               </category>
+               <category xml:id="stlASCII_art">
+                  <gloss>ASCII art</gloss>
+               </category>
+               <category xml:id="stlAvant-garde">
+                  <gloss>Avant-garde</gloss>
+               </category>
+               <category xml:id="stlBaroque">
+                  <gloss>Baroque</gloss>
+               </category>
+               <category xml:id="stlBauhaus">
+                  <gloss>Bauhaus</gloss>
+               </category>
+               <category xml:id="stlBricolage_mixed_media">
+                  <gloss>Bricolage / mixed media</gloss>
+               </category>
+               <category xml:id="stlCartoon_anime">
+                  <gloss>Cartoon / anime</gloss>
+               </category>
+               <category xml:id="stlCel_shaded_toon_shaded">
+                  <gloss>Cel shaded / toon shaded</gloss>
+               </category>
+               <category xml:id="stlChiptune">
+                  <gloss>Chiptune</gloss>
+               </category>
+               <category xml:id="stlComics_manga">
+                  <gloss>Comics / manga</gloss>
+               </category>
+               <category xml:id="stlCubism_assemblage">
+                  <gloss>Cubism / assemblage</gloss>
+               </category>
+               <category xml:id="stlCutout_papercutting">
+                  <gloss>Cutout / papercutting</gloss>
+               </category>
+               <category xml:id="stlExpressionism">
+                  <gloss>Expressionism</gloss>
+               </category>
+               <category xml:id="stlFlat_superflat">
+                  <gloss>Flat / superflat</gloss>
+               </category>
+               <category xml:id="stlFuturism_retrofuturism">
+                  <gloss>Futurism / retrofuturism</gloss>
+               </category>
+               <category xml:id="stlGlitch_art">
+                  <gloss>Glitch art</gloss>
+               </category>
+               <category xml:id="stlGothic">
+                  <gloss>Gothic</gloss>
+               </category>
+               <category xml:id="stlHand-drawn_hand-painted">
+                  <gloss>Hand-drawn / hand-painted</gloss>
+               </category>
+               <category xml:id="stlHigh_fidelity_hi-fi">
+                  <gloss>High fidelity / hi-fi</gloss>
+               </category>
+               <category xml:id="stlImpressionism">
+                  <gloss>Impressionism</gloss>
+               </category>
+               <category xml:id="stlLego">
+                  <gloss>Lego</gloss>
+               </category>
+               <category xml:id="stlLow-poly_3D">
+                  <gloss>Low-poly 3D</gloss>
+               </category>
+               <category xml:id="stlLow_fidelity_lo-fi">
+                  <gloss>Low fidelity / lo-fi</gloss>
+               </category>
+               <category xml:id="stlLowbrow_populist">
+                  <gloss>Lowbrow / populist</gloss>
+               </category>
+               <category xml:id="stlMagical_realism_fantasy_realism">
+                  <gloss>Magical realism / fantasy realism</gloss>
+               </category>
+               <category xml:id="stlMaximalism">
+                  <gloss>Maximalism</gloss>
+               </category>
+               <category xml:id="stlMedieval_art">
+                  <gloss>Medieval art</gloss>
+               </category>
+               <category xml:id="stlMiniature_art">
+                  <gloss>Miniature art</gloss>
+               </category>
+               <category xml:id="stlMinimalism">
+                  <gloss>Minimalism</gloss>
+               </category>
+               <category xml:id="stlMonochromatic">
+                  <gloss>Monochromatic</gloss>
+               </category>
+               <category xml:id="stlNaturalism_regionalism">
+                  <gloss>Naturalism / regionalism</gloss>
+               </category>
+               <category xml:id="stlOutsider_art_art_brut">
+                  <gloss>Outsider art / art brut</gloss>
+               </category>
+               <category xml:id="stlPhotorealism">
+                  <gloss>Photorealism</gloss>
+               </category>
+               <category xml:id="stlPixel_art">
+                  <gloss>Pixel art</gloss>
+               </category>
+               <category xml:id="stlPointillism">
+                  <gloss>Pointillism</gloss>
+               </category>
+               <category xml:id="stlPop_art">
+                  <gloss>Pop art</gloss>
+               </category>
+               <category xml:id="stlPsychedelic">
+                  <gloss>Psychedelic</gloss>
+               </category>
+               <category xml:id="stlPunk">
+                  <gloss>Punk</gloss>
+               </category>
+               <category xml:id="stlRenaissance_art">
+                  <gloss>Renaissance art</gloss>
+               </category>
+               <category xml:id="stlRomanticism">
+                  <gloss>Romanticism</gloss>
+               </category>
+               <category xml:id="stlSemi-realistic_3D">
+                  <gloss>Semi-realistic 3D</gloss>
+               </category>
+               <category xml:id="stlSocial_realism">
+                  <gloss>Social realism</gloss>
+               </category>
+               <category xml:id="stlStop_motion">
+                  <gloss>Stop motion</gloss>
+               </category>
+               <category xml:id="stlStylized_3D">
+                  <gloss>Stylized 3D</gloss>
+               </category>
+               <category xml:id="stlSurrealism">
+                  <gloss>Surrealism</gloss>
+               </category>
+               <category xml:id="stlVector_art">
+                  <gloss>Vector art</gloss>
+               </category>
+               <category xml:id="stlVoxel_art">
+                  <gloss>Voxel art</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxInterface" n="6V">
+               <gloss>Interface</gloss>
+               <desc>The means by which players interact or communicate with the game and each other in the gameplay footage; also, how the game prompts and transforms input into output in the gameplay footage</desc>
+               <desc>Common interfaces include menus, maps, popups, graphic overlays, and heads-up displays.</desc>
+               <desc>Controlled vocabulary adapted, with changes, from Coates 2025.</desc>
+               <category xml:id="itfAbility_list_screen_or_overlay">
+                  <gloss>Ability list screen or overlay</gloss>
+               </category>
+               <category xml:id="itfButton_layouts_screen">
+                  <gloss>Button layouts screen</gloss>
+               </category>
+               <category xml:id="itfButton_prompt_contextual_">
+                  <gloss>Button prompt (contextual)</gloss>
+               </category>
+               <category xml:id="itfBuying_and_trading_screen">
+                  <gloss>Buying and trading screen</gloss>
+               </category>
+               <category xml:id="itfCharacter_customization_screen">
+                  <gloss>Character customization screen</gloss>
+               </category>
+               <category xml:id="itfCharacter_intro_screen">
+                  <gloss>Character intro screen</gloss>
+               </category>
+               <category xml:id="itfCharacter_select_screen">
+                  <gloss>Character select screen</gloss>
+               </category>
+               <category xml:id="itfClass_party_select_screen">
+                  <gloss>Class / party select screen</gloss>
+               </category>
+               <category xml:id="itfClock_timer">
+                  <gloss>Clock / timer</gloss>
+               </category>
+               <category xml:id="itfCodex_journal">
+                  <gloss>Codex / journal</gloss>
+               </category>
+               <category xml:id="itfCollectables_collections_menu">
+                  <gloss>Collectables / collections menu</gloss>
+               </category>
+               <category xml:id="itfContent_discovery_menu">
+                  <gloss>Content discovery menu</gloss>
+               </category>
+               <category xml:id="itfContent_or_health_warning_screen">
+                  <gloss>Content or health warning screen</gloss>
+               </category>
+               <category xml:id="itfCrafting_menu_screen">
+                  <gloss>Crafting menu / screen</gloss>
+               </category>
+               <category xml:id="itfCredits_sequence_screen">
+                  <gloss>Credits sequence / screen</gloss>
+               </category>
+               <category xml:id="itfDecals_and_liveries_menu">
+                  <gloss>Decals and liveries menu</gloss>
+               </category>
+               <category xml:id="itfDialogue_menu_speech_screen">
+                  <gloss>Dialogue menu / speech screen</gloss>
+               </category>
+               <category xml:id="itfDifficulty_select_screen">
+                  <gloss>Difficulty select screen</gloss>
+               </category>
+               <category xml:id="itfEquipping_loadout_menu">
+                  <gloss>Equipping / loadout menu</gloss>
+               </category>
+               <category xml:id="itfGallery_gallery_menu">
+                  <gloss>Gallery / gallery menu</gloss>
+               </category>
+               <category xml:id="itfGame_over_failure_screen">
+                  <gloss>Game over / failure screen</gloss>
+               </category>
+               <category xml:id="itfHacking_or_lockpicking_controls">
+                  <gloss>Hacking or lockpicking controls</gloss>
+               </category>
+               <category xml:id="itfHeads-up_display_HUD">
+                  <gloss>Heads-up display / HUD</gloss>
+               </category>
+               <category xml:id="itfHub_menu">
+                  <gloss>Hub menu</gloss>
+               </category>
+               <category xml:id="itfInventory_menu">
+                  <gloss>Inventory menu</gloss>
+               </category>
+               <category xml:id="itfItems_and_unlocks_menu">
+                  <gloss>Items and unlocks menu</gloss>
+               </category>
+               <category xml:id="itfLeaderboard_ranking_screen">
+                  <gloss>Leaderboard / ranking screen</gloss>
+               </category>
+               <category xml:id="itfLevel_complete_screen">
+                  <gloss>Level complete screen</gloss>
+               </category>
+               <category xml:id="itfLevel_editor">
+                  <gloss>Level editor</gloss>
+               </category>
+               <category xml:id="itfLoad_save_screen">
+                  <gloss>Load / save screen</gloss>
+               </category>
+               <category xml:id="itfLog_history_screen">
+                  <gloss>Log / history screen</gloss>
+               </category>
+               <category xml:id="itfMaintenance_or_management_screen">
+                  <gloss>Maintenance or management screen</gloss>
+               </category>
+               <category xml:id="itfMap_area_map_world_map">
+                  <gloss>Map / area map / world map</gloss>
+               </category>
+               <category xml:id="itfMatchmaking_lobby">
+                  <gloss>Matchmaking lobby</gloss>
+               </category>
+               <category xml:id="itfMinimap_compass">
+                  <gloss>Minimap / compass</gloss>
+               </category>
+               <category xml:id="itfMission_accept_quest_select_screen">
+                  <gloss>Mission accept / quest select screen</gloss>
+               </category>
+               <category xml:id="itfMission_intro_screen">
+                  <gloss>Mission intro screen</gloss>
+               </category>
+               <category xml:id="itfModals_and_popups">
+                  <gloss>Modals and popups</gloss>
+               </category>
+               <category xml:id="itfMode_select_screen">
+                  <gloss>Mode select screen</gloss>
+               </category>
+               <category xml:id="itfMusic_player">
+                  <gloss>Music player</gloss>
+               </category>
+               <category xml:id="itfNPC_information_screen">
+                  <gloss>NPC information screen</gloss>
+               </category>
+               <category xml:id="itfObject_information_screen">
+                  <gloss>Object information screen</gloss>
+               </category>
+               <category xml:id="itfObjectives_or_goals_menu">
+                  <gloss>Objectives or goals menu</gloss>
+               </category>
+               <category xml:id="itfOverlay_menu">
+                  <gloss>Overlay menu</gloss>
+               </category>
+               <category xml:id="itfPause_screen">
+                  <gloss>Pause screen</gloss>
+               </category>
+               <category xml:id="itfPhoto_camera_mode">
+                  <gloss>Photo / camera mode</gloss>
+               </category>
+               <category xml:id="itfPickup_prompt_contextual_">
+                  <gloss>Pickup prompt (contextual)</gloss>
+               </category>
+               <category xml:id="itfPlayable_menu">
+                  <gloss>Playable menu</gloss>
+               </category>
+               <category xml:id="itfPlayer_chat_communication_overlay">
+                  <gloss>Player chat / communication overlay</gloss>
+               </category>
+               <category xml:id="itfPlayer_profile_customization_screen">
+                  <gloss>Player profile / customization screen</gloss>
+               </category>
+               <category xml:id="itfPlayer_select_screen">
+                  <gloss>Player select screen</gloss>
+               </category>
+               <category xml:id="itfPost-game_menu">
+                  <gloss>Post-game menu</gloss>
+               </category>
+               <category xml:id="itfProgress_notification_feature_unlocked">
+                  <gloss>Progress notification / feature unlocked</gloss>
+               </category>
+               <category xml:id="itfQuick_time_event">
+                  <gloss>Quick time event</gloss>
+               </category>
+               <category xml:id="itfResults_screen">
+                  <gloss>Results screen</gloss>
+               </category>
+               <category xml:id="itfReticle">
+                  <gloss>Reticle</gloss>
+               </category>
+               <category xml:id="itfReward_or_achievement_notification">
+                  <gloss>Reward or achievement notification</gloss>
+               </category>
+               <category xml:id="itfScreen_shake">
+                  <gloss>Screen shake</gloss>
+               </category>
+               <category xml:id="itfSettings_menu_options_menu">
+                  <gloss>Settings menu / options menu</gloss>
+               </category>
+               <category xml:id="itfSkins_or_accessories_menu">
+                  <gloss>Skins or accessories menu</gloss>
+               </category>
+               <category xml:id="itfStage_intro_screen">
+                  <gloss>Stage intro screen</gloss>
+               </category>
+               <category xml:id="itfStage_level_select">
+                  <gloss>Stage / level select</gloss>
+               </category>
+               <category xml:id="itfStats_overview_screen">
+                  <gloss>Stats / overview screen</gloss>
+               </category>
+               <category xml:id="itfStore_purchase_menu">
+                  <gloss>Store / purchase menu</gloss>
+               </category>
+               <category xml:id="itfTeam_summary_screen">
+                  <gloss>Team summary screen</gloss>
+               </category>
+               <category xml:id="itfTitle_screen">
+                  <gloss>Title screen</gloss>
+               </category>
+               <category xml:id="itfTutorial_overlay_guided_tutorial">
+                  <gloss>Tutorial overlay / guided tutorial</gloss>
+               </category>
+               <category xml:id="itfUpdate_popup_news_screen">
+                  <gloss>Update popup / news screen</gloss>
+               </category>
+               <category xml:id="itfUpgrading_ranking_up_screen">
+                  <gloss>Upgrading / ranking up screen</gloss>
+               </category>
+               <category xml:id="itfVideo_player">
+                  <gloss>Video player</gloss>
+               </category>
+               <category xml:id="itfWaypoints_and_markers">
+                  <gloss>Waypoints and markers</gloss>
+               </category>
+               <category xml:id="itfWorld_customization_screen">
+                  <gloss>World customization screen</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxExperience" n="6W">
+               <gloss>Experience</gloss>
+               <desc>An emotion, feeling, or range of emotions and feelings experienced by the player when the gameplay footage was recorded</desc>
+               <desc>The person responsible for the gameplay (see <q>Gameplay Attribution</q>) should complete this element.</desc>
+               <desc>The controlled vocabulary for this element avoids duplicating options included in the controlled vocabularies for the <q>Atmosphere</q> and <q>Theme</q> elements.</desc>
+               <desc>Use the <q>Gameplay Footage Note</q> to further describe the experience(s).</desc>
+               <desc>Controlled vocabulary informed by Isbister 2016 and Anable 2018.</desc>
+               <category xml:id="expAdmiration">
+                  <gloss>Admiration</gloss>
+               </category>
+               <category xml:id="expAffection">
+                  <gloss>Affection</gloss>
+               </category>
+               <category xml:id="expAlienation">
+                  <gloss>Alienation</gloss>
+               </category>
+               <category xml:id="expAmusement">
+                  <gloss>Amusement</gloss>
+               </category>
+               <category xml:id="expAnger_rage">
+                  <gloss>Anger / rage</gloss>
+               </category>
+               <category xml:id="expAnticipation">
+                  <gloss>Anticipation</gloss>
+               </category>
+               <category xml:id="expApathy">
+                  <gloss>Apathy</gloss>
+               </category>
+               <category xml:id="expAvoidance">
+                  <gloss>Avoidance</gloss>
+               </category>
+               <category xml:id="expAwe_wonder">
+                  <gloss>Awe / wonder</gloss>
+               </category>
+               <category xml:id="expBelonging">
+                  <gloss>Belonging</gloss>
+               </category>
+               <category xml:id="expBetrayal">
+                  <gloss>Betrayal</gloss>
+               </category>
+               <category xml:id="expBetter_as_a_Let_s_Play">
+                  <gloss>Better as a Let's Play</gloss>
+               </category>
+               <category xml:id="expBittersweetness">
+                  <gloss>Bittersweetness</gloss>
+               </category>
+               <category xml:id="expBoredom">
+                  <gloss>Boredom</gloss>
+               </category>
+               <category xml:id="expCamaraderie">
+                  <gloss>Camaraderie</gloss>
+               </category>
+               <category xml:id="expCatharsis">
+                  <gloss>Catharsis</gloss>
+               </category>
+               <category xml:id="expCompassion">
+                  <gloss>Compassion</gloss>
+               </category>
+               <category xml:id="expComplicity">
+                  <gloss>Complicity</gloss>
+               </category>
+               <category xml:id="expConfusion">
+                  <gloss>Confusion</gloss>
+               </category>
+               <category xml:id="expContempt">
+                  <gloss>Contempt</gloss>
+               </category>
+               <category xml:id="expContentment">
+                  <gloss>Contentment</gloss>
+               </category>
+               <category xml:id="expCuriosity">
+                  <gloss>Curiosity</gloss>
+               </category>
+               <category xml:id="expDehumanization">
+                  <gloss>Dehumanization</gloss>
+               </category>
+               <category xml:id="expDisappointment">
+                  <gloss>Disappointment</gloss>
+               </category>
+               <category xml:id="expDiscouragement">
+                  <gloss>Discouragement</gloss>
+               </category>
+               <category xml:id="expDisgust">
+                  <gloss>Disgust</gloss>
+               </category>
+               <category xml:id="expDread">
+                  <gloss>Dread</gloss>
+               </category>
+               <category xml:id="expEmbarrassment">
+                  <gloss>Embarrassment</gloss>
+               </category>
+               <category xml:id="expEmpathy">
+                  <gloss>Empathy</gloss>
+               </category>
+               <category xml:id="expEscapism_power_fantasy">
+                  <gloss>Escapism / power fantasy</gloss>
+               </category>
+               <category xml:id="expExcitement">
+                  <gloss>Excitement</gloss>
+               </category>
+               <category xml:id="expFascination">
+                  <gloss>Fascination</gloss>
+               </category>
+               <category xml:id="expFatigue">
+                  <gloss>Fatigue</gloss>
+               </category>
+               <category xml:id="expFear">
+                  <gloss>Fear</gloss>
+               </category>
+               <category xml:id="expFlow">
+                  <gloss>Flow</gloss>
+               </category>
+               <category xml:id="expFreudenfreude">
+                  <gloss>Freudenfreude</gloss>
+               </category>
+               <category xml:id="expFrustration">
+                  <gloss>Frustration</gloss>
+               </category>
+               <category xml:id="expGratification">
+                  <gloss>Gratification</gloss>
+               </category>
+               <category xml:id="expGrief">
+                  <gloss>Grief</gloss>
+               </category>
+               <category xml:id="expGuilt">
+                  <gloss>Guilt</gloss>
+               </category>
+               <category xml:id="expHappiness">
+                  <gloss>Happiness</gloss>
+               </category>
+               <category xml:id="expHumility">
+                  <gloss>Humility</gloss>
+               </category>
+               <category xml:id="expIntimacy">
+                  <gloss>Intimacy</gloss>
+               </category>
+               <category xml:id="expJealousy">
+                  <gloss>Jealousy</gloss>
+               </category>
+               <category xml:id="expJoy">
+                  <gloss>Joy</gloss>
+               </category>
+               <category xml:id="expLove">
+                  <gloss>Love</gloss>
+               </category>
+               <category xml:id="expOverwhelm">
+                  <gloss>Overwhelm</gloss>
+               </category>
+               <category xml:id="expPerfectionism">
+                  <gloss>Perfectionism</gloss>
+               </category>
+               <category xml:id="expPity">
+                  <gloss>Pity</gloss>
+               </category>
+               <category xml:id="expPride_mastery">
+                  <gloss>Pride / mastery</gloss>
+               </category>
+               <category xml:id="expRegret">
+                  <gloss>Regret</gloss>
+               </category>
+               <category xml:id="expRelief">
+                  <gloss>Relief</gloss>
+               </category>
+               <category xml:id="expResignation">
+                  <gloss>Resignation</gloss>
+               </category>
+               <category xml:id="expSadness">
+                  <gloss>Sadness</gloss>
+               </category>
+               <category xml:id="expSchadenfreude">
+                  <gloss>Schadenfreude</gloss>
+               </category>
+               <category xml:id="expShame">
+                  <gloss>Shame</gloss>
+               </category>
+               <category xml:id="expStress">
+                  <gloss>Stress</gloss>
+               </category>
+               <category xml:id="expSurprise">
+                  <gloss>Surprise</gloss>
+               </category>
+               <category xml:id="expSympathy">
+                  <gloss>Sympathy</gloss>
+               </category>
+               <category xml:id="expTerror">
+                  <gloss>Terror</gloss>
+               </category>
+               <category xml:id="expTilt">
+                  <gloss>Tilt</gloss>
+               </category>
+               <category xml:id="expTranquility">
+                  <gloss>Tranquility</gloss>
+               </category>
+               <category xml:id="expTriumph">
+                  <gloss>Triumph</gloss>
+               </category>
+               <category xml:id="expTrust">
+                  <gloss>Trust</gloss>
+               </category>
+               <category xml:id="expVulnerability">
+                  <gloss>Vulnerability</gloss>
+               </category>
+               <category xml:id="expWorry">
+                  <gloss>Worry</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxTransaction" n="6X">
+               <gloss>Transaction</gloss>
+               <desc>Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage</desc>
+               <desc>Select “No transaction” if the footage contains no observable purchase or form of monetization.</desc>
+               <desc>Controlled vocabulary adapted, with minor changes and additions, from Wikipedia, <q>Video Game Monetization,</q> 2026.</desc>
+               <category xml:id="trnAdvertising">
+                  <gloss>Advertising</gloss>
+               </category>
+               <category xml:id="trnBattle_pass">
+                  <gloss>Battle pass</gloss>
+               </category>
+               <category xml:id="trnCosmetics_skins">
+                  <gloss>Cosmetics / skins</gloss>
+               </category>
+               <category xml:id="trnDownloadable_content_expansion_pack">
+                  <gloss>Downloadable content / expansion pack</gloss>
+               </category>
+               <category xml:id="trnFree-to-play">
+                  <gloss>Free-to-play</gloss>
+               </category>
+               <category xml:id="trnFreemium">
+                  <gloss>Freemium</gloss>
+               </category>
+               <category xml:id="trnFreeware">
+                  <gloss>Freeware</gloss>
+               </category>
+               <category xml:id="trnIn-game_currency_premium_currency">
+                  <gloss>In-game currency / premium currency</gloss>
+               </category>
+               <category xml:id="trnLoot_boxes_Gacha">
+                  <gloss>Loot boxes / Gacha</gloss>
+               </category>
+               <category xml:id="trnNo_transaction">
+                  <gloss>No transaction</gloss>
+               </category>
+               <category xml:id="trnPlay-to-earn_pay-to-earn">
+                  <gloss>Play-to-earn / pay-to-earn</gloss>
+               </category>
+               <category xml:id="trnPlayer_trading">
+                  <gloss>Player trading</gloss>
+               </category>
+               <category xml:id="trnPremium_content">
+                  <gloss>Premium content</gloss>
+               </category>
+               <category xml:id="trnProgression_skip">
+                  <gloss>Progression skip</gloss>
+               </category>
+               <category xml:id="trnSeason_pass_buy-to-play">
+                  <gloss>Season pass / buy-to-play</gloss>
+               </category>
+               <category xml:id="trnShareware">
+                  <gloss>Shareware</gloss>
+               </category>
+               <category xml:id="trnSubscription_pay-to-play">
+                  <gloss>Subscription / pay-to-play</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxMetagaming" n="6Y">
+               <gloss>Metagaming</gloss>
+               <desc>Acts of play appearing in the gamemplay footage that <q>involve or consider resources that are <q>beyond</q> the scope or control of what players . . . collectively consider to be the <q>right and correct game</q>
+                  </q> (Carter et al. 2012)</desc>
+               <desc>Select <q>Orthogame (no observable meta)</q> if the footage contains no observable or deliberate metagaming.</desc>
+               <desc>The <q>Current meta</q> option applies to the meta as of the date of play and recording.</desc>
+               <desc>Controlled vocabulary informed by Carter et al. 2012 and Boluk &amp; LeMieux 2017; adapted, with changes and additions, from TV Tropes 2026.</desc>
+               <category xml:id="mtgAdvanced_movement_technique">
+                  <gloss>Advanced movement technique</gloss>
+               </category>
+               <category xml:id="mtgAI_breaking">
+                  <gloss>AI breaking</gloss>
+               </category>
+               <category xml:id="mtgAnti-meta">
+                  <gloss>Anti-meta</gloss>
+               </category>
+               <category xml:id="mtgChallenge_run">
+                  <gloss>Challenge run</gloss>
+               </category>
+               <category xml:id="mtgCheat_code">
+                  <gloss>Cheat code</gloss>
+               </category>
+               <category xml:id="mtgCheesing_cheese_strategy">
+                  <gloss>Cheesing / cheese strategy</gloss>
+               </category>
+               <category xml:id="mtgComplacent_gaming">
+                  <gloss>Complacent gaming</gloss>
+               </category>
+               <category xml:id="mtgCurrent_meta">
+                  <gloss>Current meta</gloss>
+               </category>
+               <category xml:id="mtgDerailing_derailment">
+                  <gloss>Derailing / derailment</gloss>
+               </category>
+               <category xml:id="mtgDev_console">
+                  <gloss>Dev console</gloss>
+               </category>
+               <category xml:id="mtgDisc-one_nuke">
+                  <gloss>Disc-one nuke</gloss>
+               </category>
+               <category xml:id="mtgDuping">
+                  <gloss>Duping</gloss>
+               </category>
+               <category xml:id="mtgEasy_level_trick">
+                  <gloss>Easy level trick</gloss>
+               </category>
+               <category xml:id="mtgEmulation">
+                  <gloss>Emulation</gloss>
+               </category>
+               <category xml:id="mtgExploit">
+                  <gloss>Exploit</gloss>
+               </category>
+               <category xml:id="mtgGame-breaker">
+                  <gloss>Game-breaker</gloss>
+               </category>
+               <category xml:id="mtgGod_mode">
+                  <gloss>God mode</gloss>
+               </category>
+               <category xml:id="mtgGood_bad_bug">
+                  <gloss>Good bad bug</gloss>
+               </category>
+               <category xml:id="mtgGriefing">
+                  <gloss>Griefing</gloss>
+               </category>
+               <category xml:id="mtgHigh_score_chasing">
+                  <gloss>High score chasing</gloss>
+               </category>
+               <category xml:id="mtgHouse_rules">
+                  <gloss>House rules</gloss>
+               </category>
+               <category xml:id="mtgMin-maxing">
+                  <gloss>Min-maxing</gloss>
+               </category>
+               <category xml:id="mtgMod_modding">
+                  <gloss>Mod / modding</gloss>
+               </category>
+               <category xml:id="mtgMovement_glitch">
+                  <gloss>Movement glitch</gloss>
+               </category>
+               <category xml:id="mtgMunchkinning_munchkin">
+                  <gloss>Munchkinning / munchkin</gloss>
+               </category>
+               <category xml:id="mtgNot_the_intended_use">
+                  <gloss>Not the intended use</gloss>
+               </category>
+               <category xml:id="mtgOptional_stealth">
+                  <gloss>Optional stealth</gloss>
+               </category>
+               <category xml:id="mtgOrthogame_no_observable_meta_">
+                  <gloss>Orthogame (no observable meta)</gloss>
+               </category>
+               <category xml:id="mtgOutside-the-box_tactic">
+                  <gloss>Outside-the-box tactic</gloss>
+               </category>
+               <category xml:id="mtgPause_scumming">
+                  <gloss>Pause scumming</gloss>
+               </category>
+               <category xml:id="mtgSafe_zone">
+                  <gloss>Safe zone</gloss>
+               </category>
+               <category xml:id="mtgSave_scumming">
+                  <gloss>Save scumming</gloss>
+               </category>
+               <category xml:id="mtgScore_milking">
+                  <gloss>Score milking</gloss>
+               </category>
+               <category xml:id="mtgScript_breaking">
+                  <gloss>Script breaking</gloss>
+               </category>
+               <category xml:id="mtgSequence_breaking">
+                  <gloss>Sequence breaking</gloss>
+               </category>
+               <category xml:id="mtgSmurfing">
+                  <gloss>Smurfing</gloss>
+               </category>
+               <category xml:id="mtgSoft_reset">
+                  <gloss>Soft reset</gloss>
+               </category>
+               <category xml:id="mtgSolo-character_run">
+                  <gloss>Solo-character run</gloss>
+               </category>
+               <category xml:id="mtgSpawncamping">
+                  <gloss>Spawncamping</gloss>
+               </category>
+               <category xml:id="mtgSpeedrun">
+                  <gloss>Speedrun</gloss>
+               </category>
+               <category xml:id="mtgTesting_the_narrative">
+                  <gloss>Testing the narrative</gloss>
+               </category>
+               <category xml:id="mtgTesting_the_system">
+                  <gloss>Testing the system</gloss>
+               </category>
+               <category xml:id="mtgTheorycrafting">
+                  <gloss>Theorycrafting</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxGameplayTrope" n="6Z">
+               <gloss>Gameplay Trope</gloss>
+               <desc>
+                  <q>A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>See TV Tropes for definitions and examples of most tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026.</desc>
+               <category xml:id="gptAction-based_mission">
+                  <gloss>Action-based mission</gloss>
+               </category>
+               <category xml:id="gptAction_commands">
+                  <gloss>Action commands</gloss>
+               </category>
+               <category xml:id="gptAdventurer_is_you">
+                  <gloss>Adventurer is you</gloss>
+               </category>
+               <category xml:id="gptAnti-hoarding">
+                  <gloss>Anti-hoarding</gloss>
+               </category>
+               <category xml:id="gptArea_of_effect_attack">
+                  <gloss>Area of effect attack</gloss>
+               </category>
+               <category xml:id="gptAttack_its_weak_point_or_injury">
+                  <gloss>Attack its weak point or injury</gloss>
+               </category>
+               <category xml:id="gptAura_vision_detect_evil">
+                  <gloss>Aura vision / detect evil</gloss>
+               </category>
+               <category xml:id="gptBottomless_fuel_tank">
+                  <gloss>Bottomless fuel tank</gloss>
+               </category>
+               <category xml:id="gptCalvinball_we_don_t_know_the_rules">
+                  <gloss>Calvinball / we don't know the rules</gloss>
+               </category>
+               <category xml:id="gptCollision_damage">
+                  <gloss>Collision damage</gloss>
+               </category>
+               <category xml:id="gptCombat_resuscitation">
+                  <gloss>Combat resuscitation</gloss>
+               </category>
+               <category xml:id="gptComeback_mechanic">
+                  <gloss>Comeback mechanic</gloss>
+               </category>
+               <category xml:id="gptCommander_is_you">
+                  <gloss>Commander is you</gloss>
+               </category>
+               <category xml:id="gptContext-sensitive_button">
+                  <gloss>Context-sensitive button</gloss>
+               </category>
+               <category xml:id="gptControllable_helplessness">
+                  <gloss>Controllable helplessness</gloss>
+               </category>
+               <category xml:id="gptCooldown">
+                  <gloss>Cooldown</gloss>
+               </category>
+               <category xml:id="gptCorridor_cubbyhole_run">
+                  <gloss>Corridor cubbyhole run</gloss>
+               </category>
+               <category xml:id="gptCoup_de_gr_ce_thwarted_coup_de_gr_ce">
+                  <gloss>Coup de grâce / thwarted coup de grâce</gloss>
+               </category>
+               <category xml:id="gptCoyote_time">
+                  <gloss>Coyote time</gloss>
+               </category>
+               <category xml:id="gptCranium_ride">
+                  <gloss>Cranium ride</gloss>
+               </category>
+               <category xml:id="gptCritical_hit">
+                  <gloss>Critical hit</gloss>
+               </category>
+               <category xml:id="gptDialogue_during_gameplay">
+                  <gloss>Dialogue during gameplay</gloss>
+               </category>
+               <category xml:id="gptEasy_to_learn_hard_to_master">
+                  <gloss>Easy to learn, hard to master</gloss>
+               </category>
+               <category xml:id="gptElaborate_equals_effective_evolving_weapon">
+                  <gloss>Elaborate equals effective / evolving weapon</gloss>
+               </category>
+               <category xml:id="gptEntrepreneur_is_you">
+                  <gloss>Entrepreneur is you</gloss>
+               </category>
+               <category xml:id="gptEssence_drop">
+                  <gloss>Essence drop</gloss>
+               </category>
+               <category xml:id="gptExtra_turn">
+                  <gloss>Extra turn</gloss>
+               </category>
+               <category xml:id="gptFake_difficulty">
+                  <gloss>Fake difficulty</gloss>
+               </category>
+               <category xml:id="gptFatigue_mechanic">
+                  <gloss>Fatigue mechanic</gloss>
+               </category>
+               <category xml:id="gptFrustration_simulator">
+                  <gloss>Frustration simulator</gloss>
+               </category>
+               <category xml:id="gptGame-favoured_abilities">
+                  <gloss>Game-favoured abilities</gloss>
+               </category>
+               <category xml:id="gptGame-favoured_gender">
+                  <gloss>Game-favoured gender</gloss>
+               </category>
+               <category xml:id="gptGame-favoured_race">
+                  <gloss>Game-favoured race</gloss>
+               </category>
+               <category xml:id="gptGame-favoured_sexuality">
+                  <gloss>Game-favoured sexuality</gloss>
+               </category>
+               <category xml:id="gptGameplay_automation_game_plays_itself">
+                  <gloss>Gameplay automation / game plays itself</gloss>
+               </category>
+               <category xml:id="gptGendered_fighting_style">
+                  <gloss>Gendered fighting style</gloss>
+               </category>
+               <category xml:id="gptHealing_boss">
+                  <gloss>Healing boss</gloss>
+               </category>
+               <category xml:id="gptHide-and-seek_horror">
+                  <gloss>Hide-and-seek horror</gloss>
+               </category>
+               <category xml:id="gptHit_flash_hit_spark">
+                  <gloss>Hit flash / hit spark</gloss>
+               </category>
+               <category xml:id="gptHitbox_dissonance">
+                  <gloss>Hitbox dissonance</gloss>
+               </category>
+               <category xml:id="gptHome_field_advantage">
+                  <gloss>Home field advantage</gloss>
+               </category>
+               <category xml:id="gptInstant_death_radius">
+                  <gloss>Instant death radius</gloss>
+               </category>
+               <category xml:id="gptInterior_designer_is_you">
+                  <gloss>Interior designer is you</gloss>
+               </category>
+               <category xml:id="gptIntoxication_mechanic">
+                  <gloss>Intoxication mechanic</gloss>
+               </category>
+               <category xml:id="gptLimited-use_magical_device">
+                  <gloss>Limited-use magical device</gloss>
+               </category>
+               <category xml:id="gptLuck_stat">
+                  <gloss>Luck stat</gloss>
+               </category>
+               <category xml:id="gptMagical_weapon">
+                  <gloss>Magical weapon</gloss>
+               </category>
+               <category xml:id="gptMagnet_hands_never_lose_grip">
+                  <gloss>Magnet hands / never lose grip</gloss>
+               </category>
+               <category xml:id="gptMirror_match_fearful_symmetry">
+                  <gloss>Mirror match / fearful symmetry</gloss>
+               </category>
+               <category xml:id="gptMisaimed_realism_breakable_weapons">
+                  <gloss>Misaimed realism / breakable weapons</gloss>
+               </category>
+               <category xml:id="gptMorale_mechanic_team_spirit">
+                  <gloss>Morale mechanic / team spirit</gloss>
+               </category>
+               <category xml:id="gptMusical_gameplay_Mickey_Mousing">
+                  <gloss>Musical gameplay / Mickey Mousing</gloss>
+               </category>
+               <category xml:id="gptNo_such_thing_as_dehydration_or_hunger">
+                  <gloss>No such thing as dehydration or hunger</gloss>
+               </category>
+               <category xml:id="gptNo_such_thing_as_drowning">
+                  <gloss>No such thing as drowning</gloss>
+               </category>
+               <category xml:id="gptOptional_party_member">
+                  <gloss>Optional party member</gloss>
+               </category>
+               <category xml:id="gptOverheating">
+                  <gloss>Overheating</gloss>
+               </category>
+               <category xml:id="gptPersonality_mechanic">
+                  <gloss>Personality mechanic</gloss>
+               </category>
+               <category xml:id="gptPower-up_motif">
+                  <gloss>Power-up motif</gloss>
+               </category>
+               <category xml:id="gptPower_equals_rarity_hard-to-acquire_item">
+                  <gloss>Power equals rarity / hard-to-acquire item</gloss>
+               </category>
+               <category xml:id="gptPurely_aesthetic_customization">
+                  <gloss>Purely aesthetic customization</gloss>
+               </category>
+               <category xml:id="gptPurely_aesthetic_gender">
+                  <gloss>Purely aesthetic gender</gloss>
+               </category>
+               <category xml:id="gptQuest_giver_is_you">
+                  <gloss>Quest giver is you</gloss>
+               </category>
+               <category xml:id="gptRacialized_fighting_style">
+                  <gloss>Racialized fighting style</gloss>
+               </category>
+               <category xml:id="gptRacing_ghost">
+                  <gloss>Racing ghost</gloss>
+               </category>
+               <category xml:id="gptRandom_drop">
+                  <gloss>Random drop</gloss>
+               </category>
+               <category xml:id="gptRegenerating_health">
+                  <gloss>Regenerating health</gloss>
+               </category>
+               <category xml:id="gptRegenerating_mana">
+                  <gloss>Regenerating mana</gloss>
+               </category>
+               <category xml:id="gptRubber-band_AI">
+                  <gloss>Rubber-band AI</gloss>
+               </category>
+               <category xml:id="gptShows_damage_damage_is_fire">
+                  <gloss>Shows damage / damage is fire</gloss>
+               </category>
+               <category xml:id="gptSimon_says_minigame">
+                  <gloss>Simon says minigame</gloss>
+               </category>
+               <category xml:id="gptSimple_rescue_mechanic">
+                  <gloss>Simple rescue mechanic</gloss>
+               </category>
+               <category xml:id="gptSome_dexterity_required">
+                  <gloss>Some dexterity required</gloss>
+               </category>
+               <category xml:id="gptSpiteful_AI">
+                  <gloss>Spiteful AI</gloss>
+               </category>
+               <category xml:id="gptStatus_effect_ailment_buff">
+                  <gloss>Status effect / ailment / buff</gloss>
+               </category>
+               <category xml:id="gptStatus_line_expressive_health_bar">
+                  <gloss>Status line / expressive health bar</gloss>
+               </category>
+               <category xml:id="gptStealth-based_mission">
+                  <gloss>Stealth-based mission</gloss>
+               </category>
+               <category xml:id="gptTactical_door_use">
+                  <gloss>Tactical door use</gloss>
+               </category>
+               <category xml:id="gptTaunt_button">
+                  <gloss>Taunt button</gloss>
+               </category>
+               <category xml:id="gptThree-approach_system">
+                  <gloss>Three-approach system</gloss>
+               </category>
+               <category xml:id="gptUnbroken_first-person_perspective">
+                  <gloss>Unbroken first-person perspective</gloss>
+               </category>
+               <category xml:id="gptUnexpected_gameplay_change">
+                  <gloss>Unexpected gameplay change</gloss>
+               </category>
+               <category xml:id="gptUnexpected_shmup_level">
+                  <gloss>Unexpected shmup level</gloss>
+               </category>
+               <category xml:id="gptUnexpectedly_realistic_gameplay">
+                  <gloss>Unexpectedly realistic gameplay</gloss>
+               </category>
+               <category xml:id="gptUnpopular_mechanic_scrappy_mechanic">
+                  <gloss>Unpopular mechanic / scrappy mechanic</gloss>
+               </category>
+               <category xml:id="gptUseless_item_joke_item">
+                  <gloss>Useless item / joke item</gloss>
+               </category>
+               <category xml:id="gptVictory_pose_victory_quote">
+                  <gloss>Victory pose / victory quote</gloss>
+               </category>
+               <category xml:id="gptWandering_you_random_encounters">
+                  <gloss>Wandering you / random encounters</gloss>
+               </category>
+               <category xml:id="gptWhack-a-monster">
+                  <gloss>Whack-a-monster</gloss>
+               </category>
+               <category xml:id="gptYou_are_you">
+                  <gloss>You are you</gloss>
+               </category>
+               <category xml:id="gptYou_will_not_evade_me_grabbing_and_pulling">
+                  <gloss>You will not evade me / grabbing and pulling</gloss>
+               </category>
+               <category xml:id="gptZip_mode">
+                  <gloss>Zip mode</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxEnvironmentTrope" n="6AA">
+               <gloss>Environment Trope</gloss>
+               <desc>
+                  <q>A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>This element will typically be repeated.</desc>
+               <desc>See TV Tropes for definitions and examples of many tropes in this controlled vocabulary. The use of TV Tropes should be accompanied by peer-reviewed scholarship in Media and Game Studies.</desc>
+               <desc>Controlled vocabulary adapted, with changes and additions, from TV Tropes 2026.</desc>
+               <category xml:id="evtAbandoned_ship_abandoned_means_of_transport">
+                  <gloss>Abandoned ship / abandoned means of transport</gloss>
+               </category>
+               <category xml:id="evtAdventure-friendly_world">
+                  <gloss>Adventure-friendly world</gloss>
+               </category>
+               <category xml:id="evtAir-vent_passageway">
+                  <gloss>Air-vent passageway</gloss>
+               </category>
+               <category xml:id="evtAnnouncer_or_commentator_chatter">
+                  <gloss>Announcer or commentator chatter</gloss>
+               </category>
+               <category xml:id="evtAnnoying_enemy_won_t_leave_you_alone">
+                  <gloss>Annoying enemy won't leave you alone</gloss>
+               </category>
+               <category xml:id="evtAntepiece_for_the_setpiece">
+                  <gloss>Antepiece for the setpiece</gloss>
+               </category>
+               <category xml:id="evtApathetic_citizens_or_villagers">
+                  <gloss>Apathetic citizens or villagers</gloss>
+               </category>
+               <category xml:id="evtBattle_or_combat_theme_music">
+                  <gloss>Battle or combat theme music</gloss>
+               </category>
+               <category xml:id="evtBottle_episode">
+                  <gloss>Bottle episode</gloss>
+               </category>
+               <category xml:id="evtBright_and_colourful_war">
+                  <gloss>Bright and colourful war</gloss>
+               </category>
+               <category xml:id="evtBroken_bridge">
+                  <gloss>Broken bridge</gloss>
+               </category>
+               <category xml:id="evtCardboard_prison">
+                  <gloss>Cardboard prison</gloss>
+               </category>
+               <category xml:id="evtColour-coded_for_your_convenience">
+                  <gloss>Colour-coded for your convenience</gloss>
+               </category>
+               <category xml:id="evtControl_room_surveillance_station">
+                  <gloss>Control room / surveillance station</gloss>
+               </category>
+               <category xml:id="evtConveniently_available_escape_route">
+                  <gloss>Conveniently available escape route</gloss>
+               </category>
+               <category xml:id="evtConveniently_timed_guard_clairvoyant_security_force">
+                  <gloss>Conveniently timed guard / clairvoyant security force</gloss>
+               </category>
+               <category xml:id="evtCrate_expectations_crates_everywhere">
+                  <gloss>Crate expectations / crates everywhere</gloss>
+               </category>
+               <category xml:id="evtCut_and_paste_environments">
+                  <gloss>Cut and paste environments</gloss>
+               </category>
+               <category xml:id="evtDeath_from_above">
+                  <gloss>Death from above</gloss>
+               </category>
+               <category xml:id="evtDeserted_island">
+                  <gloss>Deserted island</gloss>
+               </category>
+               <category xml:id="evtDestroy_the_security_camera">
+                  <gloss>Destroy the security camera</gloss>
+               </category>
+               <category xml:id="evtDon_t_go_in_the_woods">
+                  <gloss>Don't go in the woods</gloss>
+               </category>
+               <category xml:id="evtEaster_egg_hunt">
+                  <gloss>Easter egg hunt</gloss>
+               </category>
+               <category xml:id="evtEmpty_room_psychology">
+                  <gloss>Empty room psychology</gloss>
+               </category>
+               <category xml:id="evtEmpty_room_until_the_trap">
+                  <gloss>Empty room until the trap</gloss>
+               </category>
+               <category xml:id="evtEnemy_chatter_enemy_barks">
+                  <gloss>Enemy chatter / enemy barks</gloss>
+               </category>
+               <category xml:id="evtEnemy_overconfidence">
+                  <gloss>Enemy overconfidence</gloss>
+               </category>
+               <category xml:id="evtEveryone_is_dead_or_gone">
+                  <gloss>Everyone is dead or gone</gloss>
+               </category>
+               <category xml:id="evtEverything_breaks">
+                  <gloss>Everything breaks</gloss>
+               </category>
+               <category xml:id="evtEverything_is_smashable">
+                  <gloss>Everything is smashable</gloss>
+               </category>
+               <category xml:id="evtEverything_is_trying_to_kill_you">
+                  <gloss>Everything is trying to kill you</gloss>
+               </category>
+               <category xml:id="evtFake_trap">
+                  <gloss>Fake trap</gloss>
+               </category>
+               <category xml:id="evtFaux_symbolism">
+                  <gloss>Faux symbolism</gloss>
+               </category>
+               <category xml:id="evtFog_of_war">
+                  <gloss>Fog of war</gloss>
+               </category>
+               <category xml:id="evtForeboding_architecture_malevolent_architecture">
+                  <gloss>Foreboding architecture / malevolent architecture</gloss>
+               </category>
+               <category xml:id="evtFrictionless_ice">
+                  <gloss>Frictionless ice</gloss>
+               </category>
+               <category xml:id="evtGravity_barrier">
+                  <gloss>Gravity barrier</gloss>
+               </category>
+               <category xml:id="evtGrimy_water">
+                  <gloss>Grimy water</gloss>
+               </category>
+               <category xml:id="evtHealing_spring">
+                  <gloss>Healing spring</gloss>
+               </category>
+               <category xml:id="evtHide_your_children_no_children_anywhere">
+                  <gloss>Hide your children / no children anywhere</gloss>
+               </category>
+               <category xml:id="evtHigh_culture_low_tech">
+                  <gloss>High culture, low tech</gloss>
+               </category>
+               <category xml:id="evtHighly_visible_landmark">
+                  <gloss>Highly visible landmark</gloss>
+               </category>
+               <category xml:id="evtHistorical_revisionism">
+                  <gloss>Historical revisionism</gloss>
+               </category>
+               <category xml:id="evtI_can_t_reach_it_PC_cannot_perform_this_action">
+                  <gloss>I can't reach it / PC cannot perform this action</gloss>
+               </category>
+               <category xml:id="evtImpassable_desert">
+                  <gloss>Impassable desert</gloss>
+               </category>
+               <category xml:id="evtIn-universe_game_clock">
+                  <gloss>In-universe game clock</gloss>
+               </category>
+               <category xml:id="evtIncompetent_guard_guard_animal">
+                  <gloss>Incompetent guard / guard animal</gloss>
+               </category>
+               <category xml:id="evtInconveniently-placed_conveyor_belt">
+                  <gloss>Inconveniently-placed conveyor belt</gloss>
+               </category>
+               <category xml:id="evtInside_a_computer_system">
+                  <gloss>Inside a computer system</gloss>
+               </category>
+               <category xml:id="evtInsurmountable_fence">
+                  <gloss>Insurmountable fence</gloss>
+               </category>
+               <category xml:id="evtIntercom_villainy_acousmatic_villain">
+                  <gloss>Intercom villainy / acousmatic villain</gloss>
+               </category>
+               <category xml:id="evtInvisible_wall">
+                  <gloss>Invisible wall</gloss>
+               </category>
+               <category xml:id="evtLaser_hallway">
+                  <gloss>Laser hallway</gloss>
+               </category>
+               <category xml:id="evtLevel_ate_world_made_of_food">
+                  <gloss>Level ate / world made of food</gloss>
+               </category>
+               <category xml:id="evtLevel_in_the_clouds_world_in_the_sky">
+                  <gloss>Level in the clouds / world in the sky</gloss>
+               </category>
+               <category xml:id="evtLocomotive_level_on_a_train">
+                  <gloss>Locomotive level / on a train</gloss>
+               </category>
+               <category xml:id="evtLow_culture_high_tech">
+                  <gloss>Low culture, high tech</gloss>
+               </category>
+               <category xml:id="evtMonsters_everywhere_swarms_hordes">
+                  <gloss>Monsters everywhere / swarms / hordes</gloss>
+               </category>
+               <category xml:id="evtNarrow_colour_palette_means_realistic">
+                  <gloss>Narrow colour palette means realistic</gloss>
+               </category>
+               <category xml:id="evtNew_weapon_target_range">
+                  <gloss>New weapon target range</gloss>
+               </category>
+               <category xml:id="evtNice_day_deadly_night">
+                  <gloss>Nice day, deadly night</gloss>
+               </category>
+               <category xml:id="evtNotice_this_shiny_thing">
+                  <gloss>Notice this / shiny thing</gloss>
+               </category>
+               <category xml:id="evtNPCs_are_irrelevant_are_decor">
+                  <gloss>NPCs are irrelevant / are decor</gloss>
+               </category>
+               <category xml:id="evtNPCs_repeating_dialogue">
+                  <gloss>NPCs repeating dialogue</gloss>
+               </category>
+               <category xml:id="evtOld_area_new_enemies">
+                  <gloss>Old area, new enemies</gloss>
+               </category>
+               <category xml:id="evtOnly_shop_in_town">
+                  <gloss>Only shop in town</gloss>
+               </category>
+               <category xml:id="evtOverride_command">
+                  <gloss>Override command</gloss>
+               </category>
+               <category xml:id="evtPawn_maker">
+                  <gloss>Pawn maker</gloss>
+               </category>
+               <category xml:id="evtPixel_hunt">
+                  <gloss>Pixel hunt</gloss>
+               </category>
+               <category xml:id="evtPoisonous_mushrooms_or_gas">
+                  <gloss>Poisonous mushrooms or gas</gloss>
+               </category>
+               <category xml:id="evtPressure_plate">
+                  <gloss>Pressure plate</gloss>
+               </category>
+               <category xml:id="evtReal-place_background">
+                  <gloss>Real-place background</gloss>
+               </category>
+               <category xml:id="evtRenovating_the_headquarters">
+                  <gloss>Renovating the headquarters</gloss>
+               </category>
+               <category xml:id="evtRespawning_enemies">
+                  <gloss>Respawning enemies</gloss>
+               </category>
+               <category xml:id="evtSaw_blades_of_death">
+                  <gloss>Saw blades of death</gloss>
+               </category>
+               <category xml:id="evtScenery_manifests_as_you_go">
+                  <gloss>Scenery manifests as you go</gloss>
+               </category>
+               <category xml:id="evtSecurity_blindspot">
+                  <gloss>Security blindspot</gloss>
+               </category>
+               <category xml:id="evtSlow_doors">
+                  <gloss>Slow doors</gloss>
+               </category>
+               <category xml:id="evtSongs_in_the_key_of_panic">
+                  <gloss>Songs in the key of panic</gloss>
+               </category>
+               <category xml:id="evtSound-coded_for_your_convenience">
+                  <gloss>Sound-coded for your convenience</gloss>
+               </category>
+               <category xml:id="evtSpikes_of_doom">
+                  <gloss>Spikes of doom</gloss>
+               </category>
+               <category xml:id="evtSprings_springs_everywhere_">
+                  <gloss>Springs, springs everywhere!</gloss>
+               </category>
+               <category xml:id="evtSteam_vent_obstacle">
+                  <gloss>Steam vent obstacle</gloss>
+               </category>
+               <category xml:id="evtStock_puzzle">
+                  <gloss>Stock puzzle</gloss>
+               </category>
+               <category xml:id="evtSuddenly-harmful_harmless_object">
+                  <gloss>Suddenly-harmful harmless object</gloss>
+               </category>
+               <category xml:id="evtSuspiciously_cracked_wall">
+                  <gloss>Suspiciously cracked wall</gloss>
+               </category>
+               <category xml:id="evtTemporary_platform">
+                  <gloss>Temporary platform</gloss>
+               </category>
+               <category xml:id="evtThere_are_no_tents_only_inns">
+                  <gloss>There are no tents, only inns</gloss>
+               </category>
+               <category xml:id="evtThriving_ghost_town_low_population">
+                  <gloss>Thriving ghost town / low population</gloss>
+               </category>
+               <category xml:id="evtTitle_theme_drop">
+                  <gloss>Title theme drop</gloss>
+               </category>
+               <category xml:id="evtUnguided_lab_tour">
+                  <gloss>Unguided lab tour</gloss>
+               </category>
+               <category xml:id="evtVice_city">
+                  <gloss>Vice city</gloss>
+               </category>
+               <category xml:id="evtVideo_game_cruelty_punishment">
+                  <gloss>Video game cruelty punishment</gloss>
+               </category>
+               <category xml:id="evtVideo_game_geography">
+                  <gloss>Video game geography</gloss>
+               </category>
+               <category xml:id="evtVideo_game_physics">
+                  <gloss>Video game physics</gloss>
+               </category>
+               <category xml:id="evtVideo_game_vista">
+                  <gloss>Video game vista</gloss>
+               </category>
+               <category xml:id="evtWeather_demands_the_right_gear">
+                  <gloss>Weather demands the right gear</gloss>
+               </category>
+               <category xml:id="evtWeather_effects_weather_gameplay_mechanic">
+                  <gloss>Weather effects / weather gameplay mechanic</gloss>
+               </category>
+               <category xml:id="evtWhat_the_hell_player_">
+                  <gloss>What the hell, player?</gloss>
+               </category>
+               <category xml:id="evtWho_forgot_the_lights_">
+                  <gloss>Who forgot the lights?</gloss>
+               </category>
+               <category xml:id="evtYour_door_was_open">
+                  <gloss>Your door was open</gloss>
+               </category>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
