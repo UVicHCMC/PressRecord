@@ -1159,7 +1159,9 @@
                <gloss>Engine</gloss>
                <desc>The software framework and/or development environment used to design the platform edition</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the engine.</desc>
-               <gloss>4A Engine</gloss>
+               <category xml:id="en4A_Engine">
+                  <gloss>4A Engine</gloss>
+               </category>
                <category xml:id="enA-FRAME_VR">
                   <gloss>A-FRAME (VR)</gloss>
                </category>
@@ -3430,6 +3432,242 @@
                </category>
                <category xml:id="gsWord_puzzle_crossword">
                   <gloss>Word puzzle / crossword</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxNarrativeGenre" n="6D">
+               <gloss>Narrative Genre</gloss>
+               <desc>The overall nature of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories</desc>
+               <desc>Use <q>abstract / no narrative</q> for abstract games and games without narratives or narrative elements.</desc>
+               <category xml:id="ngAbstract_no_narrative">
+                  <gloss>Abstract / no narrative</gloss>
+               </category>
+               <category xml:id="ngAction">
+                  <gloss>Action</gloss>
+               </category>
+               <category xml:id="ngAdventure">
+                  <gloss>Adventure</gloss>
+               </category>
+               <category xml:id="ngComedy">
+                  <gloss>Comedy</gloss>
+               </category>
+               <category xml:id="ngDocumentary">
+                  <gloss>Documentary</gloss>
+               </category>
+               <category xml:id="ngDrama">
+                  <gloss>Drama</gloss>
+               </category>
+               <category xml:id="ngEpic">
+                  <gloss>Epic</gloss>
+               </category>
+               <category xml:id="ngFantasy">
+                  <gloss>Fantasy</gloss>
+               </category>
+               <category xml:id="ngHistorical">
+                  <gloss>Historical</gloss>
+               </category>
+               <category xml:id="ngHorror">
+                  <gloss>Horror</gloss>
+               </category>
+               <category xml:id="ngMystery">
+                  <gloss>Mystery</gloss>
+               </category>
+               <category xml:id="ngNonsense">
+                  <gloss>Nonsense</gloss>
+               </category>
+               <category xml:id="ngRomance">
+                  <gloss>Romance</gloss>
+               </category>
+               <category xml:id="ngSatire">
+                  <gloss>Satire</gloss>
+               </category>
+               <category xml:id="ngScience_fiction">
+                  <gloss>Science fiction</gloss>
+               </category>
+               <category xml:id="ngSpeculative">
+                  <gloss>Speculative</gloss>
+               </category>
+               <category xml:id="ngThriller">
+                  <gloss>Thriller</gloss>
+               </category>
+               <category xml:id="ngWar">
+                  <gloss>War</gloss>
+               </category>
+               <category xml:id="ngWestern">
+                  <gloss>Western</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxNarrativeSubgenre" n="6E">
+               <gloss>Narrative Subgenre</gloss>
+               <desc>Patterns of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories</desc>
+               <desc>Use <q>abstract / no narrative</q> for abstract games and games without narratives or narrative elements.</desc>
+               <desc>Controlled vocabulary adapted, with additions, from Lee et al., <q>Controlled Vocabulary for Narrative Genre,</q> 2024 and Wikipedia, "List of Genres," 2026.</desc>
+               <category xml:id="nsgAbstract_no_narrative">
+                  <gloss>Abstract / no narrative</gloss>
+               </category>
+               <category xml:id="nsgAlternate_history">
+                  <gloss>Alternate history</gloss>
+               </category>
+               <category xml:id="nsgBait-and-switch">
+                  <gloss>Bait-and-switch</gloss>
+               </category>
+               <category xml:id="nsgBiography_memoir_autobiography">
+                  <gloss>Biography / memoir / autobiography</gloss>
+               </category>
+               <category xml:id="nsgBody_horror">
+                  <gloss>Body horror</gloss>
+               </category>
+               <category xml:id="nsgBurlesque">
+                  <gloss>Burlesque</gloss>
+               </category>
+               <category xml:id="nsgChildren_s">
+                  <gloss>Children's</gloss>
+               </category>
+               <category xml:id="nsgComing-of-age_Bildungsroman">
+                  <gloss>Coming-of-age / Bildungsroman</gloss>
+               </category>
+               <category xml:id="nsgCosmic_horror_eldritch_horror">
+                  <gloss>Cosmic horror / eldritch horror</gloss>
+               </category>
+               <category xml:id="nsgCrime_detective">
+                  <gloss>Crime / detective</gloss>
+               </category>
+               <category xml:id="nsgCyberpunk">
+                  <gloss>Cyberpunk</gloss>
+               </category>
+               <category xml:id="nsgDark_comedy">
+                  <gloss>Dark comedy</gloss>
+               </category>
+               <category xml:id="nsgDark_fantasy">
+                  <gloss>Dark fantasy</gloss>
+               </category>
+               <category xml:id="nsgFable">
+                  <gloss>Fable</gloss>
+               </category>
+               <category xml:id="nsgFamilial_epic">
+                  <gloss>Familial epic</gloss>
+               </category>
+               <category xml:id="nsgFolk_horror">
+                  <gloss>Folk horror</gloss>
+               </category>
+               <category xml:id="nsgFolklore_fairy_tale">
+                  <gloss>Folklore / fairy tale</gloss>
+               </category>
+               <category xml:id="nsgFound_footage_creepypasta">
+                  <gloss>Found footage / creepypasta</gloss>
+               </category>
+               <category xml:id="nsgGhost_story">
+                  <gloss>Ghost story</gloss>
+               </category>
+               <category xml:id="nsgHeist">
+                  <gloss>Heist</gloss>
+               </category>
+               <category xml:id="nsgHeroic_epic">
+                  <gloss>Heroic epic</gloss>
+               </category>
+               <category xml:id="nsgHeroic_fantasy_sword_and_sorcery">
+                  <gloss>Heroic fantasy / sword and sorcery</gloss>
+               </category>
+               <category xml:id="nsgHigh_fantasy">
+                  <gloss>High fantasy</gloss>
+               </category>
+               <category xml:id="nsgInstructional_pedagogical">
+                  <gloss>Instructional / pedagogical</gloss>
+               </category>
+               <category xml:id="nsgIsekai_portal_fantasy">
+                  <gloss>Isekai / portal fantasy</gloss>
+               </category>
+               <category xml:id="nsgLiterary_classic">
+                  <gloss>Literary / classic</gloss>
+               </category>
+               <category xml:id="nsgLove_story">
+                  <gloss>Love story</gloss>
+               </category>
+               <category xml:id="nsgLow_fantasy">
+                  <gloss>Low fantasy</gloss>
+               </category>
+               <category xml:id="nsgMelodrama">
+                  <gloss>Melodrama</gloss>
+               </category>
+               <category xml:id="nsgMetafiction">
+                  <gloss>Metafiction</gloss>
+               </category>
+               <category xml:id="nsgMilitary">
+                  <gloss>Military</gloss>
+               </category>
+               <category xml:id="nsgMonster_kaiju">
+                  <gloss>Monster / kaiju</gloss>
+               </category>
+               <category xml:id="nsgMyth_mythic">
+                  <gloss>Myth / mythic</gloss>
+               </category>
+               <category xml:id="nsgObservational_comedy">
+                  <gloss>Observational comedy</gloss>
+               </category>
+               <category xml:id="nsgParody_spoof">
+                  <gloss>Parody / spoof</gloss>
+               </category>
+               <category xml:id="nsgPeriod_piece">
+                  <gloss>Period piece</gloss>
+               </category>
+               <category xml:id="nsgPhysical_comedy">
+                  <gloss>Physical comedy</gloss>
+               </category>
+               <category xml:id="nsgPsychological">
+                  <gloss>Psychological</gloss>
+               </category>
+               <category xml:id="nsgReligious">
+                  <gloss>Religious</gloss>
+               </category>
+               <category xml:id="nsgRetropunk_steampunk_dieselpunk">
+                  <gloss>Retropunk / steampunk / dieselpunk</gloss>
+               </category>
+               <category xml:id="nsgRevisionist_Western">
+                  <gloss>Revisionist Western</gloss>
+               </category>
+               <category xml:id="nsgRomantic_comedy">
+                  <gloss>Romantic comedy</gloss>
+               </category>
+               <category xml:id="nsgShenmo">
+                  <gloss>Shenmo</gloss>
+               </category>
+               <category xml:id="nsgSitcom_situational_comedy">
+                  <gloss>Sitcom / situational comedy</gloss>
+               </category>
+               <category xml:id="nsgSlasher_horror">
+                  <gloss>Slasher horror</gloss>
+               </category>
+               <category xml:id="nsgSlice_of_life">
+                  <gloss>Slice of life</gloss>
+               </category>
+               <category xml:id="nsgSpace_opera_space_Western">
+                  <gloss>Space opera / space Western</gloss>
+               </category>
+               <category xml:id="nsgSpy_espionage">
+                  <gloss>Spy / espionage</gloss>
+               </category>
+               <category xml:id="nsgSuperhero">
+                  <gloss>Superhero</gloss>
+               </category>
+               <category xml:id="nsgSupernatural">
+                  <gloss>Supernatural</gloss>
+               </category>
+               <category xml:id="nsgSuspense">
+                  <gloss>Suspense</gloss>
+               </category>
+               <category xml:id="nsgVampire">
+                  <gloss>Vampire</gloss>
+               </category>
+               <category xml:id="nsgVariety_show">
+                  <gloss>Variety show</gloss>
+               </category>
+               <category xml:id="nsgWuxia">
+                  <gloss>Wuxia</gloss>
+               </category>
+               <category xml:id="nsgYoung_adult_teen_drama">
+                  <gloss>Young adult / teen drama</gloss>
+               </category>
+               <category xml:id="nsgZombie">
+                  <gloss>Zombie</gloss>
                </category>
             </taxonomy>
             <taxonomy xml:id="taxDimensionPerspective" n="6F">
