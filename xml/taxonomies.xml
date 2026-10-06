@@ -2,7 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxonomies">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxonomies"
+   xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:teix="http://www.tei-c.org/ns/Examples"
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   >
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10157,5 +10162,6 @@
          <head>Taxonomies for PressRecord</head>
          <p>All data is in the header.</p>
       </body>
+      
    </text>
 </TEI>

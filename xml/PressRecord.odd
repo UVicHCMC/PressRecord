@@ -38,25 +38,116 @@
          </div>
       </body>
       <back>
-         <!-- Custom namespace for this project with prefix pr specified in the root. -->
-         <schemaSpec ident="PressRecord" ns="http://hcmc.uvic.ca/ns/PressRecord">
-            <!-- We will use the tei module because it gets us useful datatypes. -->
+         <schemaSpec ident="PressRecord" source="tei:latest" status="draft" start="gameplayRecord"
+            ns="http://hcmc.uvic.ca/ns/PressRecord">
             <moduleRef key="tei"/>
-            <!-- This is the module for all our own elements. -->
-            <moduleSpec ident="pr">
-               <desc>Base module for all elements and attributes defined in this ODD.</desc>
+            <moduleSpec ident="PressRecord">
+               <desc>The core module containing all the PressRecord specifications.</desc>
             </moduleSpec>
+            
             <!-- Element specifications. -->
             
-            <!-- End element specifications. -->
+            <elementSpec ident="gameplayRecord" module="PressRecord">
+               <gloss>Record of a single gameplay recording</gloss>
+               <desc>This is the root element for a record in the schema.</desc>
+               <classes>
+                  <memberOf key="att.identifiable"/>
+               </classes>
+               <content>
+                  <sequence>
+                     <elementRef key="platformEdition"/>
+                     <textNode/>
+                  </sequence>
+               </content>
+            </elementSpec>
             
-            <!-- Attribute classes. -->
+            <elementSpec ident="platformEdition" module="PressRecord">
+               <gloss>Platform Edition Entity</gloss>
+               <desc><q>Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="title"/>
+                     <elementRef key="release"/>
+                  </sequence>
+               </content>
+               <remarks ident="platformEditionNotes">
+                  <p>The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, <title level="m">Journey</title> was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of <title level="m">Journey</title> include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</p>
+               </remarks>
+            </elementSpec>
             
-            <!-- End attribute classes. -->
+            <elementSpec ident="title" module="PressRecord">
+               <gloss>Title</gloss>
+               <desc>The title of whatever item forms the parent of the element.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
             
-            <!-- Schematron rules. -->
+            <elementSpec ident="release" module="PressRecord">
+               <gloss>Release</gloss>
+               <desc>The release includes the year and release type.</desc>
+               <content>
+                  <empty/>
+               </content>
+               <attList>
+                  <attDef ident="year" usage="req">
+                     <gloss>The year of release of this game edition</gloss>
+                     <datatype>
+                        <dataRef name="gYear"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="type" usage="req">
+                     <gloss>Type of release</gloss>
+                     <!-- DO NOT EDIT the following valList. This will 
+                          be constructed at build time from 
+                          the taxonomy with id taxReleaseType. -->
+                     <valList type="closed">
+                        <valItem ident="dummy"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
             
-            <!-- End Schematron rules. -->
+            <!-- Attribute class specifications. -->
+            
+            <classSpec ident="att.identifiable" type="atts" module="PressRecord">
+               <desc>Groups elements which may have an <att>xml:id</att> attribute.</desc>
+               <attList>
+                  <attDef ident="xml:id" usage="req">
+                     <gloss xml:lang="en">standard xml:id attribute</gloss>
+                     <datatype>
+                        <dataRef name="ID"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </classSpec>
+            
+            <!-- Schematron. -->
+            
+            <!--Global Schematron variables. -->
+            <constraintSpec ident="global.variables" scheme="schematron" mode="add">
+               <constraint>
+                  <sch:pattern>
+                     <sch:let name="spaceRegex" value="'(^\s)|(\s$)'"/>
+                     <sch:let name="docId" value="root(/)/pr:*/@xml:id"/>
+                     <sch:let name="docUri" value="document-uri(/)"/>
+                     <sch:let name="docIds" value="//pr:*[@xml:id]/@xml:id"/>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
+            
+            <constraintSpec scheme="schematron" ident="docNameSameAsRootId" mode="add">
+               <desc>All root elements must have an <att>xml:id</att> that matches the document filename.</desc>
+               <constraint>
+                  <sch:pattern>
+                     <sch:rule context="/pr:*">
+                        <sch:assert test="@xml:id and matches($docUri,concat('[/\\]',$docId,'.xml$'))"> ERROR: Document
+                           xml:id (<sch:value-of select="$docId"/>) does not match the document file
+                           name (<sch:value-of select="$docUri"/>). </sch:assert>
+                     </sch:rule>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
             
          </schemaSpec>
       </back>
