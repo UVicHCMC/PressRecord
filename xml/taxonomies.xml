@@ -9376,6 +9376,541 @@
                   <gloss>You wake up in a room / on a beach</gloss>
                </category>
             </taxonomy>
+            <taxonomy xml:id="taxGameStudiesTopic" n="7A">
+               <gloss>Game Studies Topic</gloss>
+               <desc>Area of Game Studies research, analysis, and discussion prompted by the gameplay footage</desc>
+               <desc>Definitions and sources for terms in this controlled vocabulary are provided in UVic’s Media Studies courses, including <q>Game Studies</q> (MDIA360).</desc>
+               <category xml:id="gstAction_as_a_medium_operator_and_machine_acts">
+                  <gloss>Action as a medium / operator and machine acts</gloss>
+               </category>
+               <category xml:id="gstAfrican_game_studies">
+                  <gloss>African game studies</gloss>
+               </category>
+               <category xml:id="gstAg_n_competition">
+                  <gloss>Agôn / competition</gloss>
+               </category>
+               <category xml:id="gstAlea_chance_fortune">
+                  <gloss>Alea / chance / fortune</gloss>
+               </category>
+               <category xml:id="gstAmerican_game_studies">
+                  <gloss>American game studies</gloss>
+               </category>
+               <category xml:id="gstAnalog_play_analog_game_studies">
+                  <gloss>Analog play / analog game studies</gloss>
+               </category>
+               <category xml:id="gstAnimals_and_nonhumans_in_games_posthumanism">
+                  <gloss>Animals and nonhumans in games / posthumanism</gloss>
+               </category>
+               <category xml:id="gstAnimation_and_animation_techniques">
+                  <gloss>Animation and animation techniques</gloss>
+               </category>
+               <category xml:id="gstAnonymity_aliases_and_privacy">
+                  <gloss>Anonymity, aliases, and privacy</gloss>
+               </category>
+               <category xml:id="gstAppropriation_cultural_appropriation">
+                  <gloss>Appropriation / cultural appropriation</gloss>
+               </category>
+               <category xml:id="gstArt_games_games_as_art">
+                  <gloss>Art games / games as art</gloss>
+               </category>
+               <category xml:id="gstArtificial_intelligence_AI_programming">
+                  <gloss>Artificial intelligence / AI programming</gloss>
+               </category>
+               <category xml:id="gstAsian_game_studies">
+                  <gloss>Asian game studies</gloss>
+               </category>
+               <category xml:id="gstAutomated_play_and_progress_idle_gaming">
+                  <gloss>Automated play and progress / idle gaming</gloss>
+               </category>
+               <category xml:id="gstAutotelic_play_autotelic_activity">
+                  <gloss>Autotelic play / autotelic activity</gloss>
+               </category>
+               <category xml:id="gstBalance_design_patterns_and_anti-patterns">
+                  <gloss>Balance, design patterns, and anti-patterns</gloss>
+               </category>
+               <category xml:id="gstBlack_game_studies">
+                  <gloss>Black game studies</gloss>
+               </category>
+               <category xml:id="gstCanadian_game_studies">
+                  <gloss>Canadian game studies</gloss>
+               </category>
+               <category xml:id="gstCapitalism_and_capitalist_logic_in_games">
+                  <gloss>Capitalism and capitalist logic in games</gloss>
+               </category>
+               <category xml:id="gstCards_and_card_design">
+                  <gloss>Cards and card design</gloss>
+               </category>
+               <category xml:id="gstCharacter_agency_NPC_agency">
+                  <gloss>Character agency / NPC agency</gloss>
+               </category>
+               <category xml:id="gstCharacter_art_and_design_character_models_and_physics">
+                  <gloss>Character art and design / character models and physics</gloss>
+               </category>
+               <category xml:id="gstCinematography_cinematics_and_cameras">
+                  <gloss>Cinematography, cinematics, and cameras</gloss>
+               </category>
+               <category xml:id="gstCisheteropatriarchy_in_games">
+                  <gloss>Cisheteropatriarchy in games</gloss>
+               </category>
+               <category xml:id="gstCode_of_conduct_community_guidelines_safeguarding">
+                  <gloss>Code of conduct / community guidelines / safeguarding</gloss>
+               </category>
+               <category xml:id="gstColonization_and_settler_colonialism_in_games">
+                  <gloss>Colonization and settler colonialism in games</gloss>
+               </category>
+               <category xml:id="gstComics_graphic_novels_and_games">
+                  <gloss>Comics, graphic novels, and games</gloss>
+               </category>
+               <category xml:id="gstCompletionism_100-percenting_games">
+                  <gloss>Completionism / 100-percenting games</gloss>
+               </category>
+               <category xml:id="gstContent_creation_gaming_content">
+                  <gloss>Content creation / gaming content</gloss>
+               </category>
+               <category xml:id="gstCooperative_and_interdependent_play">
+                  <gloss>Cooperative and interdependent play</gloss>
+               </category>
+               <category xml:id="gstCritical_play">
+                  <gloss>Critical play</gloss>
+               </category>
+               <category xml:id="gstCritical_race_theories_of_games_and_play">
+                  <gloss>Critical race theories of games and play</gloss>
+               </category>
+               <category xml:id="gstCursed_problems_in_games">
+                  <gloss>Cursed problems in games</gloss>
+               </category>
+               <category xml:id="gstCustomization_appearance_customization">
+                  <gloss>Customization / appearance customization</gloss>
+               </category>
+               <category xml:id="gstDeath_dying_and_necropolitics_in_games">
+                  <gloss>Death, dying, and necropolitics in games</gloss>
+               </category>
+               <category xml:id="gstDeckbuilding_and_resource_competition">
+                  <gloss>Deckbuilding and resource competition</gloss>
+               </category>
+               <category xml:id="gstDecolonizing_play">
+                  <gloss>Decolonizing play</gloss>
+               </category>
+               <category xml:id="gstDifficulty_failure_and_frustration_in_games">
+                  <gloss>Difficulty, failure, and frustration in games</gloss>
+               </category>
+               <category xml:id="gstDisability_game_studies">
+                  <gloss>Disability game studies</gloss>
+               </category>
+               <category xml:id="gstDopamine_games_compulsion_loops">
+                  <gloss>Dopamine games / compulsion loops</gloss>
+               </category>
+               <category xml:id="gstEcology_and_nature_in_games_playing_nature">
+                  <gloss>Ecology and nature in games / playing nature</gloss>
+               </category>
+               <category xml:id="gstEmpire_and_manifest_destiny_in_games">
+                  <gloss>Empire and manifest destiny in games</gloss>
+               </category>
+               <category xml:id="gstEnvironment_design_interactive_environments">
+                  <gloss>Environment design / interactive environments</gloss>
+               </category>
+               <category xml:id="gstEnvironmental_storytelling">
+                  <gloss>Environmental storytelling</gloss>
+               </category>
+               <category xml:id="gstEuropean_game_studies">
+                  <gloss>European game studies</gloss>
+               </category>
+               <category xml:id="gstExperience_design_UX_design">
+                  <gloss>Experience design / UX design</gloss>
+               </category>
+               <category xml:id="gstFair_play_moral_evaluation_of_play">
+                  <gloss>Fair play / moral evaluation of play</gloss>
+               </category>
+               <category xml:id="gstFan_games_fangames_mods_and_hacks">
+                  <gloss>Fan games / fangames / mods and hacks</gloss>
+               </category>
+               <category xml:id="gstFashion_hairstyles_and_accessories_in_games">
+                  <gloss>Fashion, hairstyles, and accessories in games</gloss>
+               </category>
+               <category xml:id="gstFilm_and_games_television_and_games">
+                  <gloss>Film and games / television and games</gloss>
+               </category>
+               <category xml:id="gstFlow_theory_flow_experiences">
+                  <gloss>Flow theory / flow experiences</gloss>
+               </category>
+               <category xml:id="gstGames_by_2SLGBTQI_developers">
+                  <gloss>Games by 2SLGBTQI+ developers</gloss>
+               </category>
+               <category xml:id="gstGames_by_Black_developers">
+                  <gloss>Games by Black developers</gloss>
+               </category>
+               <category xml:id="gstGames_by_disabled_developers">
+                  <gloss>Games by disabled developers</gloss>
+               </category>
+               <category xml:id="gstGames_by_gender-diverse_developers">
+                  <gloss>Games by gender-diverse developers</gloss>
+               </category>
+               <category xml:id="gstGames_by_Indigenous_developers">
+                  <gloss>Games by Indigenous developers</gloss>
+               </category>
+               <category xml:id="gstGames_by_oppressed_or_marginalized_groups">
+                  <gloss>Games by oppressed or marginalized groups</gloss>
+               </category>
+               <category xml:id="gstGames_by_racialized_groups_and_people_of_colour">
+                  <gloss>Games by racialized groups and people of colour</gloss>
+               </category>
+               <category xml:id="gstGames_by_women_and_femme_developers">
+                  <gloss>Games by women and femme developers</gloss>
+               </category>
+               <category xml:id="gstGames_from_the_Global_South">
+                  <gloss>Games from the Global South</gloss>
+               </category>
+               <category xml:id="gstGamification_gamblification_monetization_exploitationware">
+                  <gloss>Gamification / gamblification / monetization / exploitationware</gloss>
+               </category>
+               <category xml:id="gstGender_and_sexuality_studies_of_games">
+                  <gloss>Gender and sexuality studies of games</gloss>
+               </category>
+               <category xml:id="gstGenre_uptake_genre_knowledge_genre_anarchy">
+                  <gloss>Genre uptake / genre knowledge / genre anarchy</gloss>
+               </category>
+               <category xml:id="gstGentrification_of_video_games">
+                  <gloss>Gentrification of video games</gloss>
+               </category>
+               <category xml:id="gstGeography_of_video_games_and_virtual_spaces">
+                  <gloss>Geography of video games and virtual spaces</gloss>
+               </category>
+               <category xml:id="gstGlitch_art_glitches_exploits">
+                  <gloss>Glitch art / glitches / exploits</gloss>
+               </category>
+               <category xml:id="gstHistory_in_games_historical_representations">
+                  <gloss>History in games / historical representations</gloss>
+               </category>
+               <category xml:id="gstHomophobia_in_games">
+                  <gloss>Homophobia in games</gloss>
+               </category>
+               <category xml:id="gstIlinx_vertigo">
+                  <gloss>Ilinx / vertigo</gloss>
+               </category>
+               <category xml:id="gstImplicit_and_explicit_tutorialization">
+                  <gloss>Implicit and explicit tutorialization</gloss>
+               </category>
+               <category xml:id="gstInclusive_design_access_needs">
+                  <gloss>Inclusive design / access needs</gloss>
+               </category>
+               <category xml:id="gstIndie_games_independent_and_self-published_games">
+                  <gloss>Indie games / independent and self-published games</gloss>
+               </category>
+               <category xml:id="gstIndigenous_game_studies_sovereign_games">
+                  <gloss>Indigenous game studies / sovereign games</gloss>
+               </category>
+               <category xml:id="gstInteraction_design_computers_as_theatre">
+                  <gloss>Interaction design / computers as theatre</gloss>
+               </category>
+               <category xml:id="gstInterface_design_UI_design">
+                  <gloss>Interface design / UI design</gloss>
+               </category>
+               <category xml:id="gstIntersectional_feminism_intersectionality_in_games">
+                  <gloss>Intersectional feminism / intersectionality in games</gloss>
+               </category>
+               <category xml:id="gstJoy_politics_of_joy">
+                  <gloss>Joy / politics of joy</gloss>
+               </category>
+               <category xml:id="gstLabour_studies_of_play_playbour_games_and_work">
+                  <gloss>Labour studies of play / playbour / games and work</gloss>
+               </category>
+               <category xml:id="gstLeisure_studies_of_games_and_play_games_and_hobbies">
+                  <gloss>Leisure studies of games and play / games and hobbies</gloss>
+               </category>
+               <category xml:id="gstLevel_design_possibility_space">
+                  <gloss>Level design / possibility space</gloss>
+               </category>
+               <category xml:id="gstLibrary_of_agency_agency_as_art">
+                  <gloss>Library of agency / agency as art</gloss>
+               </category>
+               <category xml:id="gstLiterary_games_electronic_literature">
+                  <gloss>Literary games / electronic literature</gloss>
+               </category>
+               <category xml:id="gstLive_play_live_performance_livestreaming">
+                  <gloss>Live play / live performance / livestreaming</gloss>
+               </category>
+               <category xml:id="gstLocalization_culturalization_translation">
+                  <gloss>Localization / culturalization / translation</gloss>
+               </category>
+               <category xml:id="gstLudomusicology_music_and_original_soundtracks">
+                  <gloss>Ludomusicology / music and original soundtracks</gloss>
+               </category>
+               <category xml:id="gstLudonarrative_dissonance">
+                  <gloss>Ludonarrative dissonance</gloss>
+               </category>
+               <category xml:id="gstLudonarrative_resonance">
+                  <gloss>Ludonarrative resonance</gloss>
+               </category>
+               <category xml:id="gstMetagames_and_cheating_playing_it_right_playing_it_wrong">
+                  <gloss>Metagames and cheating / playing it right, playing it wrong</gloss>
+               </category>
+               <category xml:id="gstMetalepsis_and_diegetic_boundaries_in_games">
+                  <gloss>Metalepsis and diegetic boundaries in games</gloss>
+               </category>
+               <category xml:id="gstMimetic_communication_in_games">
+                  <gloss>Mimetic communication in games</gloss>
+               </category>
+               <category xml:id="gstMobile_gaming_handheld_gaming">
+                  <gloss>Mobile gaming / handheld gaming</gloss>
+               </category>
+               <category xml:id="gstMoral_panic_third-person_effects_of_games">
+                  <gloss>Moral panic / third-person effects of games</gloss>
+               </category>
+               <category xml:id="gstMotion_capture_kinesthetics_in_games">
+                  <gloss>Motion capture / kinesthetics in games</gloss>
+               </category>
+               <category xml:id="gstMotivation_clear_and_attainable_outcomes">
+                  <gloss>Motivation / clear and attainable outcomes</gloss>
+               </category>
+               <category xml:id="gstMundanity_and_the_everyday_in_games">
+                  <gloss>Mundanity and the everyday in games</gloss>
+               </category>
+               <category xml:id="gstNarrative_design_writing_pacing_and_dialogue">
+                  <gloss>Narrative design / writing, pacing, and dialogue</gloss>
+               </category>
+               <category xml:id="gstNeoliberalism_in_games_management_games">
+                  <gloss>Neoliberalism in games / management games</gloss>
+               </category>
+               <category xml:id="gstNon-English_games_not_originally_written_in_English">
+                  <gloss>Non-English games / not originally written in English</gloss>
+               </category>
+               <category xml:id="gstNonverbal_communication_in_games">
+                  <gloss>Nonverbal communication in games</gloss>
+               </category>
+               <category xml:id="gstOceanic_game_studies_Australian_game_studies">
+                  <gloss>Oceanic game studies / Australian game studies</gloss>
+               </category>
+               <category xml:id="gstOptimization_theorcrafting_statistical_thinking">
+                  <gloss>Optimization / theorcrafting / statistical thinking</gloss>
+               </category>
+               <category xml:id="gstPaidia_playfulness">
+                  <gloss>Paidia / playfulness</gloss>
+               </category>
+               <category xml:id="gstParagames_self-imposed_challenges_making_your_own_fun">
+                  <gloss>Paragames / self-imposed challenges / making your own fun</gloss>
+               </category>
+               <category xml:id="gstPedagogy_games_as_teachers_learning_from_games">
+                  <gloss>Pedagogy / games as teachers / learning from games</gloss>
+               </category>
+               <category xml:id="gstPerformance_dance_rhythm_and_motion_controls">
+                  <gloss>Performance, dance, rhythm, and motion controls</gloss>
+               </category>
+               <category xml:id="gstPlatform_studies_game_engines">
+                  <gloss>Platform studies / game engines</gloss>
+               </category>
+               <category xml:id="gstPlay_spaces_horizons_of_intent_and_action">
+                  <gloss>Play spaces / horizons of intent and action</gloss>
+               </category>
+               <category xml:id="gstPlayer-agnostic_design">
+                  <gloss>Player-agnostic design</gloss>
+               </category>
+               <category xml:id="gstPlayer-antagonistic_design">
+                  <gloss>Player-antagonistic design</gloss>
+               </category>
+               <category xml:id="gstPlayer-centric_design">
+                  <gloss>Player-centric design</gloss>
+               </category>
+               <category xml:id="gstPlayer_agency_player_as_author_emergent_gameplay">
+                  <gloss>Player agency / player as author / emergent gameplay</gloss>
+               </category>
+               <category xml:id="gstPlayer_two_designed_identity">
+                  <gloss>Player two / designed identity</gloss>
+               </category>
+               <category xml:id="gstPlayframes_affordances_conventions_customs_and_parameters">
+                  <gloss>Playframes / affordances, conventions, customs, and parameters</gloss>
+               </category>
+               <category xml:id="gstPlaystyles_expressive_mechanics_player_personality">
+                  <gloss>Playstyles / expressive mechanics / player personality</gloss>
+               </category>
+               <category xml:id="gstPlaying_with_feelings_rehearsing_feelings">
+                  <gloss>Playing with feelings / rehearsing feelings</gloss>
+               </category>
+               <category xml:id="gstPoetics_poetic_play_poetic_games">
+                  <gloss>Poetics / poetic play / poetic games</gloss>
+               </category>
+               <category xml:id="gstPower_fantasies_escapism_in_games">
+                  <gloss>Power fantasies / escapism in games</gloss>
+               </category>
+               <category xml:id="gstPreservation_collections_and_emulations">
+                  <gloss>Preservation / collections and emulations</gloss>
+               </category>
+               <category xml:id="gstPrimary_mechanics_consistent_verbs">
+                  <gloss>Primary mechanics / consistent verbs</gloss>
+               </category>
+               <category xml:id="gstPrivilege_of_play_toxic_geek_masculinity">
+                  <gloss>Privilege of play / toxic geek masculinity</gloss>
+               </category>
+               <category xml:id="gstProcedural_rhetoric_procedural_literacy">
+                  <gloss>Procedural rhetoric / procedural literacy</gloss>
+               </category>
+               <category xml:id="gstPuzzle_design_secrets_and_hidden_information_decoding_games">
+                  <gloss>Puzzle design / secrets and hidden information / decoding games</gloss>
+               </category>
+               <category xml:id="gstQueer_game_studies_queergaming">
+                  <gloss>Queer game studies / queergaming</gloss>
+               </category>
+               <category xml:id="gstRacism_in_games">
+                  <gloss>Racism in games</gloss>
+               </category>
+               <category xml:id="gstRandomization_random_number_generators">
+                  <gloss>Randomization / random number generators</gloss>
+               </category>
+               <category xml:id="gstReading_games_visual_novels">
+                  <gloss>Reading games / visual novels</gloss>
+               </category>
+               <category xml:id="gstRealism_in_games_photorealism_mixed_realism">
+                  <gloss>Realism in games / photorealism / mixed realism</gloss>
+               </category>
+               <category xml:id="gstReligion_in_games_playing_with_religion">
+                  <gloss>Religion in games / playing with religion</gloss>
+               </category>
+               <category xml:id="gstRemaking_and_remastering_games">
+                  <gloss>Remaking and remastering games</gloss>
+               </category>
+               <category xml:id="gstRemediation_adaptation_and_homage_in_games">
+                  <gloss>Remediation, adaptation, and homage in games</gloss>
+               </category>
+               <category xml:id="gstReplayability_replay_value_quality_of_life_improvements">
+                  <gloss>Replayability / replay value / quality of life improvements</gloss>
+               </category>
+               <category xml:id="gstResources_and_resource_extraction_in_games">
+                  <gloss>Resources and resource extraction in games</gloss>
+               </category>
+               <category xml:id="gstRoleplay_mimicry_theatre_of_the_mind_shared_fantasies">
+                  <gloss>Roleplay / mimicry / theatre of the mind / shared fantasies</gloss>
+               </category>
+               <category xml:id="gstSecondary_mechanics_occasional_verbs">
+                  <gloss>Secondary mechanics / occasional verbs</gloss>
+               </category>
+               <category xml:id="gstSelf-determination_theory_in_games">
+                  <gloss>Self-determination theory in games</gloss>
+               </category>
+               <category xml:id="gstSexism_and_misogyny_in_games">
+                  <gloss>Sexism and misogyny in games</gloss>
+               </category>
+               <category xml:id="gstSexuality_romance_love_affection_and_erotics_in_games">
+                  <gloss>Sexuality, romance, love, affection, and erotics in games</gloss>
+               </category>
+               <category xml:id="gstShared_pulse_or_shared_affect_in_gaming">
+                  <gloss>Shared pulse or shared affect in gaming</gloss>
+               </category>
+               <category xml:id="gstSimulation_fidelity_of_connection_in_games">
+                  <gloss>Simulation / fidelity of connection in games</gloss>
+               </category>
+               <category xml:id="gstSituational_game_design_immediate_and_anticipatory_play">
+                  <gloss>Situational game design / immediate and anticipatory play</gloss>
+               </category>
+               <category xml:id="gstSocial_comfort_social_gaming">
+                  <gloss>Social comfort / social gaming</gloss>
+               </category>
+               <category xml:id="gstSocial_learning_theory_in_games">
+                  <gloss>Social learning theory in games</gloss>
+               </category>
+               <category xml:id="gstSound_design_sound_art_soundscapes_Foley">
+                  <gloss>Sound design / sound art / soundscapes / Foley</gloss>
+               </category>
+               <category xml:id="gstSports_esports_and_sports_video_games">
+                  <gloss>Sports, esports, and sports video games</gloss>
+               </category>
+               <category xml:id="gstStereotypes_and_tokenism_in_games">
+                  <gloss>Stereotypes and tokenism in games</gloss>
+               </category>
+               <category xml:id="gstSystem_agency_framework_agency">
+                  <gloss>System agency / framework agency</gloss>
+               </category>
+               <category xml:id="gstTask_communication_and_productivity_in_games">
+                  <gloss>Task communication and productivity in games</gloss>
+               </category>
+               <category xml:id="gstToxicity_hate_and_harassment_in_games">
+                  <gloss>Toxicity, hate, and harassment in games</gloss>
+               </category>
+               <category xml:id="gstTraining_or_disciplining_players">
+                  <gloss>Training or disciplining players</gloss>
+               </category>
+               <category xml:id="gstTransphobia_and_transmisogyny_in_games">
+                  <gloss>Transphobia and transmisogyny in games</gloss>
+               </category>
+               <category xml:id="gstWhiteness_and_white_supremacy_in_games">
+                  <gloss>Whiteness and white supremacy in games</gloss>
+               </category>
+               <category xml:id="gstWorldbuilding_and_worldviews">
+                  <gloss>Worldbuilding and worldviews</gloss>
+               </category>
+               <category xml:id="gstVisual_design_visual_art_graphic_design">
+                  <gloss>Visual design / visual art / graphic design</gloss>
+               </category>
+               <category xml:id="gstVoice_acting_voice_performance_voice-over">
+                  <gloss>Voice acting / voice performance / voice-over</gloss>
+               </category>
+               <category xml:id="gstXenophobia_in_games">
+                  <gloss>Xenophobia in games</gloss>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="taxMediaStudiesTopic" n="7B">
+               <gloss>Media Studies Topic</gloss>
+               <desc>Area of Media Studies research, analysis, and discussion prompted by the gameplay footage</desc>
+               <desc>This controlled vocabulary corresponds with primary topics taught in MDIA200, <q>Media in the 21st Century,</q> at UVic.</desc>
+               <category xml:id="mstActs_and_senses_of_communication">
+                  <gloss>Acts and senses of communication</gloss>
+               </category>
+               <category xml:id="mstAudio">
+                  <gloss>Audio</gloss>
+               </category>
+               <category xml:id="mstCommunities_and_cultures">
+                  <gloss>Communities and cultures</gloss>
+               </category>
+               <category xml:id="mstFandoms">
+                  <gloss>Fandoms</gloss>
+               </category>
+               <category xml:id="mstForms_and_models_of_communication">
+                  <gloss>Forms and models of communication</gloss>
+               </category>
+               <category xml:id="mstImages">
+                  <gloss>Images</gloss>
+               </category>
+               <category xml:id="mstInterfaces">
+                  <gloss>Interfaces</gloss>
+               </category>
+               <category xml:id="mstMeaning_and_semiotics">
+                  <gloss>Meaning and semiotics</gloss>
+               </category>
+               <category xml:id="mstMeans_and_levels_of_communication">
+                  <gloss>Means and levels of communication</gloss>
+               </category>
+               <category xml:id="mstMedia_aesthetics">
+                  <gloss>Media aesthetics</gloss>
+               </category>
+               <category xml:id="mstMedia_effects">
+                  <gloss>Media effects</gloss>
+               </category>
+               <category xml:id="mstNarrative_and_genre">
+                  <gloss>Narrative and genre</gloss>
+               </category>
+               <category xml:id="mstNoise_and_miscommunication">
+                  <gloss>Noise and miscommunication</gloss>
+               </category>
+               <category xml:id="mstOwnership_effects_and_regulation">
+                  <gloss>Ownership effects and regulation</gloss>
+               </category>
+               <category xml:id="mstPreservation">
+                  <gloss>Preservation</gloss>
+               </category>
+               <category xml:id="mstRepresentation_and_intersectionality">
+                  <gloss>Representation and intersectionality</gloss>
+               </category>
+               <category xml:id="mstRhetoric_and_persuasion">
+                  <gloss>Rhetoric and persuasion</gloss>
+               </category>
+               <category xml:id="mstText">
+                  <gloss>Text</gloss>
+               </category>
+               <category xml:id="mstUnderstanding_media">
+                  <gloss>Understanding media</gloss>
+               </category>
+               <category xml:id="mstVideo">
+                  <gloss>Video</gloss>
+               </category>
+            </taxonomy>
          </classDecl>
       </encodingDesc>
    </teiHeader>
