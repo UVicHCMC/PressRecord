@@ -3,14 +3,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
-   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
-   xmlns:tei="http://www.tei-c.org/ns/1.0"
-   xmlns:teix="http://www.tei-c.org/ns/Examples"
-   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xml:lang="en"
-   >
+     xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:teix="http://www.tei-c.org/ns/Examples"
+     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+     xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,15 +37,15 @@
          </div>
       </body>
       <back>
-         <schemaSpec ident="PressRecord" source="tei:latest" status="draft" start="gameplayRecord"
-            ns="http://hcmc.uvic.ca/ns/PressRecord">
+         <schemaSpec ident="PressRecord"
+                     status="draft"
+                     start="gameplayRecord"
+                     ns="http://hcmc.uvic.ca/ns/PressRecord">
             <moduleRef key="tei"/>
             <moduleSpec ident="PressRecord">
                <desc>The core module containing all the PressRecord specifications.</desc>
             </moduleSpec>
-            
             <!-- Element specifications. -->
-            
             <elementSpec ident="gameplayRecord" module="PressRecord">
                <gloss>Record of a single gameplay recording</gloss>
                <desc>This is the root element for a record in the schema.</desc>
@@ -60,10 +59,10 @@
                   </sequence>
                </content>
             </elementSpec>
-            
             <elementSpec ident="platformEdition" module="PressRecord">
                <gloss>Platform Edition Entity</gloss>
-               <desc><q>Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
+               <desc>
+                  <q>Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game</q> (Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
                <content>
                   <sequence>
                      <elementRef key="title"/>
@@ -74,7 +73,6 @@
                   <p>The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, <title level="m">Journey</title> was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of <title level="m">Journey</title> include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</p>
                </remarks>
             </elementSpec>
-            
             <elementSpec ident="title" module="PressRecord">
                <gloss>Title</gloss>
                <desc>The title of whatever item forms the parent of the element.</desc>
@@ -82,7 +80,6 @@
                   <textNode/>
                </content>
             </elementSpec>
-            
             <elementSpec ident="release" module="PressRecord">
                <gloss>Release</gloss>
                <desc>The release includes the year and release type.</desc>
@@ -102,14 +99,53 @@
                           be constructed at build time from 
                           the taxonomy with id taxReleaseType. -->
                      <valList type="closed">
-                        <valItem ident="dummy"/>
+                        <valItem ident="rtAlpha">
+                           <gloss>Alpha</gloss>
+                        </valItem>
+                        <valItem ident="rtBeta">
+                           <gloss>Beta</gloss>
+                        </valItem>
+                        <valItem ident="rtDemo">
+                           <gloss>Demo</gloss>
+                        </valItem>
+                        <valItem ident="rtDownloadable">
+                           <gloss>Downloadable content (DLC)</gloss>
+                        </valItem>
+                        <valItem ident="rtEarlyAccess">
+                           <gloss>Early access</gloss>
+                        </valItem>
+                        <valItem ident="rtEmulation">
+                           <gloss>Emulation</gloss>
+                        </valItem>
+                        <valItem ident="rtExpansion">
+                           <gloss>Expansion</gloss>
+                        </valItem>
+                        <valItem ident="rtFanGame">
+                           <gloss>Fan game</gloss>
+                        </valItem>
+                        <valItem ident="rtInitOrOrigRelease">
+                           <gloss>Initial release / original release</gloss>
+                        </valItem>
+                        <valItem ident="rtPort">
+                           <gloss>Port</gloss>
+                        </valItem>
+                        <valItem ident="rtReboot">
+                           <gloss>Reboot</gloss>
+                        </valItem>
+                        <valItem ident="rtRemake">
+                           <gloss>Remake</gloss>
+                        </valItem>
+                        <valItem ident="rtRemaster">
+                           <gloss>Remaster</gloss>
+                        </valItem>
+                        <valItem ident="rtUnfinished">
+                           <gloss>Unfinished</gloss>
+                        </valItem>
                      </valList>
                   </attDef>
                </attList>
             </elementSpec>
-            
             <!-- Attribute class specifications. -->
-            
             <classSpec ident="att.identifiable" type="atts" module="PressRecord">
                <desc>Groups elements which may have an <att>xml:id</att> attribute.</desc>
                <attList>
@@ -121,9 +157,7 @@
                   </attDef>
                </attList>
             </classSpec>
-            
             <!-- Schematron. -->
-            
             <!--Global Schematron variables. -->
             <constraintSpec ident="global.variables" scheme="schematron" mode="add">
                <constraint>
@@ -135,7 +169,6 @@
                   </sch:pattern>
                </constraint>
             </constraintSpec>
-            
             <constraintSpec scheme="schematron" ident="docNameSameAsRootId" mode="add">
                <desc>All root elements must have an <att>xml:id</att> that matches the document filename.</desc>
                <constraint>
@@ -148,7 +181,6 @@
                   </sch:pattern>
                </constraint>
             </constraintSpec>
-            
          </schemaSpec>
       </back>
    </text>

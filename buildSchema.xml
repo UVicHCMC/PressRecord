@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project basedir="." default="all" name="Build ODD file and schema">
+  
+  <description>
+    This build process incorporates the taxonomy into the ODD file, for
+    linking purposes, and builds the schema and rng for the project -- adapted from MAJW.
+  </description>
+  
+  <property name="echo.separator" value="************************************************"/>
+  <!-- Note: following properties are passed as parameters via Oxygen:
+      -${pd}: current project directory (i.e. where the PressRecord.xpr file lives)
+      -${teiPlugin}: Location of the TEI plugin framework.
+  -->
+  
+  <!-- Project directory. Directory vars DO NOT include final slashes. -->
+  <property name="projDir" value="${basedir}"/>
+  
+  <property name="stylesheetLocation" value="${basedir}/tei/"/>
+  
+  <property name="defaultSource" value="${stylesheetLocation}/p5subset.xml"/>
+  
+  <import file="${stylesheetLocation}/common/teianttasks.xml"/>
+  
+  <property name="odd2oddxsl" value="${stylesheetLocation}/odds/odd2odd.xsl"/>
+  
+  <!-- Write that xslt first and then activate target -->
+  <target name="taxonomiesToODD">
+    <echo>${echo.separator}</echo>
+    <echo>Incorporate taxonomy in ODD file...</echo>
+    <echo>${echo.separator}</echo>
+
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="${basedir}/lib/saxon-he-12.jar" failonerror="true" dir="${basedir}">
+      <arg value="-s:${basedir}/sch/PressRecord.odd"/>
+      <arg value="-xsl:${basedir}/xsl/master_expand_odd.xsl"/>
+      <arg value="-o:${basedir}/sch/PressRecord.odd_temp"/>
+      <arg value="projDir=${basedir}"/>
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg value="projDir=${basedir}/"/>
+    </java>
+    
+    <move file="${basedir}/sch/PressRecord.odd_temp" tofile="${basedir}/sch/PressRecord.odd" overwrite="true"/>
+    
+  </target> 
+  
+  <target name="ODDToSchema">
+    <echo>${echo.separator}</echo>
+    <echo>Create schema from ODD file...</echo>
+    <echo>${echo.separator}</echo>
+    
+    <xslt force="yes" style="${stylesheetLocation}/odds/odd2odd.xsl" in="${basedir}/sch/PressRecord.odd" out="${basedir}/sch/PressRecord.odd.processedodd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl">
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+      </factory>
+      <param name="lang" expression="${lang}" if="lang"/>
+      <param name="defaultSource" expression="${defaultSource}" if="defaultSource"/>
+      <param name="selectedSchema" expression="${selectedSchema}" if="selectedSchema"/>
+      <param name="verbose" expression="${verbose}" if="verbose"/>
+    </xslt>
+    <buildgeneric type="relaxng" xsl="${stylesheetLocation}/profiles/tei/rng/to.xsl" in="${basedir}/sch/PressRecord.odd.processedodd" out="${basedir}/sch/PressRecord.rng"/>
+  </target> 
+  
+  <target name="ODDToDocumentation">
+    <echo>${echo.separator}</echo>
+    <echo>*Create documentation from ODD file.*</echo>
+    <echo>${echo.separator}</echo>
+    
+    <xslt force="yes" style="${stylesheetLocation}/odds/odd2lite.xsl" in="${basedir}/sch/PressRecord.odd.processedodd" out="${basedir}/sch/PressRecord.lite.odd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl">
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+      </factory>
+      <param name="lang" expression="${lang}" if="lang"/>
+      <param name="defaultSource" expression="${defaultSource}" if="defaultSource"/>
+      <param name="selectedSchema" expression="${selectedSchema}" if="selectedSchema"/>
+      <param name="verbose" expression="${verbose}" if="verbose"/>
+    </xslt>
+
+    <buildgeneric type="relaxng" xsl="${stylesheetLocation}/profiles/tei/html5/to.xsl" in="${basedir}/sch/PressRecord.lite.odd" out="${basedir}/documentation/PressRecord.html">
+    </buildgeneric>
+<!--   The result from the above transformation is horribly invalid. We do some tweaks using XSLT. -->
+    
+    <!--<xslt force="yes" style="${basedir}/xsl/master_spiff_up_documentation.xsl" in="${basedir}/documentation/PressRecord.html" out="${basedir}/documentation/PressRecord.html_temp">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+    <move file="${basedir}/documentation/PressRecord.html_temp" tofile="${basedir}/documentation/PressRecord.html"/>-->
+  </target> 
+  
+  <target name="clean">
+    <echo>${echo.separator}</echo>
+    <echo>*Clean up temp files.*</echo>
+    <echo>${echo.separator}</echo>
+    <delete dir="${basedir}/sch">
+      <include name="*.lite.odd"/>
+      <include name="*.processedodd"/>
+    </delete>
+  </target>
+  
+  <target name="all">
+    <echo message="Building schemas and documentation..."/>
+    <antcall target="taxonomiesToODD"/>
+    <antcall target="ODDToSchema"/>
+    <antcall target="extractSchematron"/>
+    <antcall target="compileSchematron"/>
+    <antcall target="ODDToDocumentation"/>
+    <antcall target="clean"/>
+  </target>
+  
+</project>
