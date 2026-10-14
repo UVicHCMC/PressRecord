@@ -231,7 +231,7 @@
                         <rng:value><xsl:value-of select="normalize-space(string(tei:gloss))"/></rng:value>
                         <!-- If there is a desc element, include it for the OxygenXML editor popup -->
                         <xsl:if test="tei:desc[1]">
-                          <xsl:element name="a:documentation" namespace="http://relaxng.org/ns/compatibility/annotations/1.0">
+                          <xsl:element name="documentation" namespace="http://relaxng.org/ns/compatibility/annotations/1.0">
                             <xsl:sequence select="tei:desc[1]/node()"/>
                           </xsl:element>
                         </xsl:if>
