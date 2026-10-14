@@ -5,11 +5,483 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://hcmc.uvic.ca/ns/PressRecord"><!--
-Schema generated from ODD source 2026-10-07T19:02:29Z. . 
+Schema generated from ODD source 2026-10-14T21:04:27Z. . 
 TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
   
 --><!--[https://creativecommons.org/licenses/by-nc-sa/4.0/] Attribution-NonCommercial-ShareAlike 4.0 International-->
+   <define name="countryCodes">
+      <choice>
+         <value>Afghanistan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Country of Afghanistan.</a:documentation>
+         <value>Albania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Algeria</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Andorra</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Angola</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Antigua and Barbuda</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Argentina</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Armenia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Australia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Austria</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Azerbaijan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bahamas</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bahrain</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bangladesh</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Barbados</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Belarus</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Belgium</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Belize</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Benin</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bermuda</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bhutan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bolivia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bosnia and Herzegovina</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Botswana</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Brazil</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Brunei</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Bulgaria</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Burkina Faso</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Burundi</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Cambodia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Cameroon</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Cape Verde</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Central African Republic</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Chad</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Chile</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>China</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Colombia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Comoros</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Congo, Democratic Republic of the</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Congo, Republic of the</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Costa Rica</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Croatia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Cuba</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Curacao</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Cyprus</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Czech Republic</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Denmark</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Djibouti</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Dominica</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Dominican Republic</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>East Timor</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ecuador</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Egypt</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>El Salvador</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Equatorial Guinea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Eritrea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Estonia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Eswatini</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ethiopia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Fiji</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Finland</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>France</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Gabon</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Gambia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Georgia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Germany</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ghana</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Greece</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Grenada</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Guatemala</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Guinea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Guinea-Bissau</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Guyana</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Haiti</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Honduras</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Hungary</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Iceland</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>India</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Indonesia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Iran</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Iraq</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ireland</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Israel</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Italy</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ivory Coast</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Jamaica</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Japan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Jordan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kazakhstan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kenya</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kiribati</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kosovo</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kuwait</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Kyrgyzstan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Laos</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Latvia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Lebanon</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Lesotho</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Liberia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Libya</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Liechtenstein</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Lithuania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Luxembourg</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Madagascar</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Malawi</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Malaysia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Maldives</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mali</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Malta</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Marshall Islands</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mauritania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mauritius</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mexico</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Micronesia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Moldova</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Monaco</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mongolia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Montenegro</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Morocco</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mozambique</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Myanmar</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Namibia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Nauru</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Nepal</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Netherlands</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>New Zealand</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Nicaragua</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Niger</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Nigeria</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>North Korea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>North Macedonia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Norway</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Oman</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Pakistan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Palau</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Palestine</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Panama</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Papua New Guinea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Paraguay</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Peru</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Philippines</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Poland</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Portugal</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Puerto Rico</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Qatar</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Romania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Russia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Rwanda</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Saint Kitts and Nevis</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Saint Lucia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Saint Vincent and the Grenadines</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Samoa</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>San Marino</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Saudi Arabia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Senegal</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Serbia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Seychelles</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Sierra Leone</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Singapore</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Slovakia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Slovenia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Solomon Islands</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Somalia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>South Africa</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>South Korea</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>South Sudan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Spain</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Sri Lanka</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Sudan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Suriname</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Sweden</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Switzerland</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Syria</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>São Tomé and Príncipe</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Taiwan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Tajikistan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Tanzania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Thailand</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Togo</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Tonga</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Trinidad and Tobago</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Tunisia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Turkey</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Turkmenistan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Tuvalu</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Uganda</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Ukraine</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>United Arab Emirates</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>United Kingdom</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>United States</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Uruguay</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Uzbekistan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Vanuatu</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Vatican City</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Venezuela</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Vietnam</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Yemen</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Zambia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Zimbabwe</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+      </choice>
+   </define>
+   <define name="developerLocationAdditionalCodes">
+      <choice>
+         <value>Canada / Alberta</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / British Columbia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Manitoba</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / New Brunswick</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Newfoundland and Labrador</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Northwest Territories</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Nova Scotia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Nunavut</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Ontario</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Prince Edward Island</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Quebec</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Saskatchewan</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Canada / Yukon</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+      </choice>
+   </define>
+   <define name="locationAdditionalCodes">
+      <choice>
+         <value>Africa</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Antarctica</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Asia</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Earth</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Europe</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Fictional</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Jupiter</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mars</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Mercury</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Neptune</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>North America</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Oceania</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Saturn</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>South America</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Unspecified</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Uranus</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <value>Venus</value>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+      </choice>
+   </define>
    <define name="model.nameLike.agent">
       <notAllowed/>
    </define>
@@ -766,12 +1238,299 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          <ref name="model.nameLike_sequenceRepeatable"/>
       </oneOrMore>
    </define>
+   <define name="platform">
+      <element name="platform">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform) The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="engine">
+      <element name="engine">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Engine) The software framework and/or development environment used to design the platform edition</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="developerLocation">
+      <element name="developerLocation">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developer’s Location) The geographic location of the platform edition’s developer(s)</a:documentation>
+         <choice>
+            <ref name="countryCodes"/>
+            <ref name="developerLocationAdditionalCodes"/>
+         </choice>
+      </element>
+   </define>
+   <define name="publisher">
+      <element name="publisher">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher) The publisher name as free text, classified by the Publisher Class vocabulary in @type.</a:documentation>
+         <text/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher class) </a:documentation>
+            <choice>
+               <value>pclAA</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AA) </a:documentation>
+               <value>pclAAA</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AAA) </a:documentation>
+               <value>pclB</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(B) </a:documentation>
+               <value>pclIII</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(III) </a:documentation>
+               <value>pclIndie</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Indie) </a:documentation>
+               <value>pclLicensed_game</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Licensed game) </a:documentation>
+               <value>pclSelf-published</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Self-published) </a:documentation>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="commentary">
+      <element name="commentary">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Commentary) The type of player commentary, if any, included in the gameplay footage of the platform edition</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="chat">
+      <element name="chat">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Chat) The type of chat, if any, included in the gameplay footage of the platform edition</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="recordStatus">
+      <element name="recordStatus">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata Record Status) Communicates whether the metadata record for the gampeplay file is complete</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="inputDevice">
+      <element name="inputDevice">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Input Device) The equipment used to play the platform edition while the video was recorded (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="connectivity">
+      <element name="connectivity">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Connectivity) The number of players in the gameplay footage of the platform edition (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="numPlayers">
+      <element name="numPlayers">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Number of Players) The number of players in the gameplay footage of the platform edition (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="gameplayMode">
+      <element name="gameplayMode">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay Mode) A distinct configuration of the platform edition’s mechanics and gameplay in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="accessibility">
+      <element name="accessibility">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Accessibility) A configuration or appearance of the platform edition’s accessibility features in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="typeOfPlay">
+      <element name="typeOfPlay">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Type of Play) How players relate socially to each other and the game in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="gameplayGenre">
+      <element name="gameplayGenre">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay Genre) The overall nature of . . . interactivity in the gameplay footage based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="gameplaySubgenre">
+      <element name="gameplaySubgenre">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay Subgenre) Patterns of interactivity appearing in the gameplay footage based on [the platform edition’s] objectives, types of rules, distinctive characteristics, modes of action, and manners of gameplay (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="narrativeGenre">
+      <element name="narrativeGenre">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Narrative Genre) The overall nature of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="narrativeSubgenre">
+      <element name="narrativeSubgenre">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Narrative Subgenre) Patterns of storytelling in the gameplay footage based on how the platform edition tells, plots, and arranges stories</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="dimensionPerspective">
+      <element name="dimensionPerspective">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Dimension and Perspective) The intended perception of the depth of the represented entities in the gameplay footage and [t]he [graphical projection, camera, and/or point of view] from which the player experiences the gameplay (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="location">
+      <element name="location">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Location) The planet, continent, and/or country appearing the gameplay footage</a:documentation>
+         <choice>
+            <ref name="countryCodes"/>
+            <ref name="locationAdditionalCodes"/>
+         </choice>
+      </element>
+   </define>
+   <define name="timePeriod">
+      <element name="timePeriod">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Time Period) The general time period in which the gameplay footage is set</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="biome">
+      <element name="biome">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Biome) The ecological community type appearing in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="builtEnv">
+      <element name="builtEnv">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Built Environment) An artificial physical feature or edifice appearing in the gameplay footage that’s typically meant to surround, structure, and/or guide the diegetic activities of characters in the platform edition</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="transport">
+      <element name="transport">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Means of Transport) A means of conveyance or travel from one place to another appearing in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="items">
+      <element name="items">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Items) Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, Item (game terminology), 2026)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="atmosphere">
+      <element name="atmosphere">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Atmosphere) The pervading [mood] or tone of the world appearing in the gameplay footage; it evokes or recalls a certain emotion or state of mind (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="playerCharacter">
+      <element name="playerCharacter">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Player Character) A character in the gameplay footage whose actions are controlled by the player</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="nonPlayerCharacter">
+      <element name="nonPlayerCharacter">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non-Player Character) A character in the gameplay footage whose actions are not controlled by the player</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="mechanics">
+      <element name="mechanics">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mechanics) A method or verb players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="timekeeping">
+      <element name="timekeeping">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Timekeeping) How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and games</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="progression">
+      <element name="progression">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Progression) How, as demonstrated by the footage, the platform edition allows players to advance, acknowledges their attempts to advance, or affords them with a sense of progress, achievement, or productivity (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="theme">
+      <element name="theme">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Theme) A common thread, motif, subject, or idea that recurs in the gameplay footage (Getty 2004; Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="assets">
+      <element name="assets">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Assets) Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="style">
+      <element name="style">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Style) The predominant and recognizable [artistic tendencies] and appearance of the platform edition as demonstrated by the gameplay footage (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="interface">
+      <element name="interface">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Interface) The means by which players interact or communicate with the game and each other in the gameplay footage; also, how the game prompts and transforms input into output in the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="experience">
+      <element name="experience">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Experience) An emotion, feeling, or range of emotions and feelings experienced by the player when the gameplay footage was recorded</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="transaction">
+      <element name="transaction">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Transaction) Purchases and forms of monetization that appear in, or are indexed by, the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="metagaming">
+      <element name="metagaming">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metagaming) Acts of play appearing in the gamemplay footage that involve or consider resources that are beyond the scope or control of what players . . . collectively consider to be the right and correct game (Carter et al. 2012)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="gameplayTrope">
+      <element name="gameplayTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay Trope) A generally recognizable [gameplay] device or convention [appearing in the footage]. [Gameplay] tropes rely on culturally mediated expectations to expedite the development of [mechanics, action, agency, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="environmentTrope">
+      <element name="environmentTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Environment Trope) A generally recognizable [worldbuilding] device or [environment design] convention [appearing in the footage]. [Environment] tropes rely on culturally mediated expectations to expedite the development of [atmospheres and experiences as well as the traversal of biomes, built environments, and locations]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="progressionTrope">
+      <element name="progressionTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Progression Trope) A generally recognizable [progression] device or [level design] convention [appearing in the footage]. [Progression] tropes rely on culturally mediated expectations to expedite [advancement, acknowledge attempts to advance, or afford players with a sense of progress, achievement, or productivity]. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations (Lee et al., VGMS 4.2, 2024).</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="narrativeTrope">
+      <element name="narrativeTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Narrative Trope) A generally recognizable narrative device or [storytelling] convention [appearing in the footage]. [Narrative] tropes rely on culturally mediated expectations to expedite the development of [stories, plots, beats, arcs, experiences, and] events. When overused or oversimplified, tropes often come at the expense of fair and inclusive representations (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="gameStudiesTopic">
+      <element name="gameStudiesTopic">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Game Studies Topic) Area of Game Studies research, analysis, and discussion prompted by the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
+   <define name="mediaStudiesTopic">
+      <element name="mediaStudiesTopic">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Media Studies Topic) Area of Media Studies research, analysis, and discussion prompted by the gameplay footage</a:documentation>
+         <rng:empty xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+      </element>
+   </define>
    <define name="gameplayRecord">
       <element name="gameplayRecord">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Record of a single gameplay recording) This is the root element for a record in the schema.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay record) A metadata record describing one gameplay recording.</a:documentation>
          <group>
             <ref name="platformEdition"/>
-            <text/>
+            <ref name="gameplayFile"/>
+            <ref name="gameplaySettings"/>
+            <ref name="gameplayFootage"/>
+            <ref name="gameplayInstruction"/>
          </group>
          <ref name="att.identifiable.attributes"/>
          <empty/>
@@ -779,16 +1538,297 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
    </define>
    <define name="platformEdition">
       <element name="platformEdition">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform Edition Entity) Denotes a particular instantiation of a video game. An edition may be a particular release of a game that is in some way different than another release of the same game (Lee et al., VGMS 4.2, 2024)</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition) Groups the platform edition metadata fields.</a:documentation>
          <group>
             <ref name="title"/>
             <ref name="release"/>
+            <oneOrMore>
+               <ref name="platform"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <ref name="engine"/>
+            </zeroOrMore>
+            <ref name="developer"/>
+            <oneOrMore>
+               <ref name="developerLocation"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="publisher"/>
+            </oneOrMore>
+            <optional>
+               <ref name="platformEditionNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayFile">
+      <element name="gameplayFile">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file) Groups the gameplay file metadata fields.</a:documentation>
+         <group>
+            <ref name="clipTitle"/>
+            <ref name="clipLength"/>
+            <ref name="dateRecorded"/>
+            <oneOrMore>
+               <ref name="commentary"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="chat"/>
+            </oneOrMore>
+            <ref name="gameplayAttribution"/>
+            <ref name="metadataAttribution"/>
+            <ref name="recordStatus"/>
+            <ref name="filename"/>
+            <optional>
+               <ref name="gameplayFileNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplaySettings">
+      <element name="gameplaySettings">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings) Groups the gameplay settings metadata fields.</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="inputDevice"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="connectivity"/>
+            </oneOrMore>
+            <ref name="numPlayers"/>
+            <oneOrMore>
+               <ref name="gameplayMode"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="language"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="accessibility"/>
+            </oneOrMore>
+            <optional>
+               <ref name="mods"/>
+            </optional>
+            <optional>
+               <ref name="gameplaySettingsNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayFootage">
+      <element name="gameplayFootage">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage) Groups the gameplay footage metadata fields.</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="typeOfPlay"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="gameplayGenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="gameplaySubgenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="narrativeGenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="narrativeSubgenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="dimensionPerspective"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="location"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="timePeriod"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="biome"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="builtEnv"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="transport"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="items"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="atmosphere"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="playerCharacter"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="nonPlayerCharacter"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="mechanics"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="timekeeping"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="progression"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="theme"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="assets"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="style"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="interface"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="experience"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="transaction"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="metagaming"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <ref name="gameplayTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="environmentTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="progressionTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="narrativeTrope"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="characterTrope"/>
+            </optional>
+            <ref name="contentWarning"/>
+            <optional>
+               <ref name="gameplayFootageNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayInstruction">
+      <element name="gameplayInstruction">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction) Groups the gameplay instruction metadata fields.</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="gameStudiesTopic"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="mediaStudiesTopic"/>
+            </oneOrMore>
+            <optional>
+               <ref name="gameplayInstructionNote"/>
+            </optional>
          </group>
       </element>
    </define>
    <define name="title">
       <element name="title">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Title) The title of whatever item forms the parent of the element.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Title) Free-text title.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="developer">
+      <element name="developer">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developer) Free-text developer.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="platformEditionNote">
+      <element name="platformEditionNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition note) Free-text platform edition note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="clipTitle">
+      <element name="clipTitle">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Clip title) Free-text clip title.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="clipLength">
+      <element name="clipLength">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Clip length) Free-text clip length.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="dateRecorded">
+      <element name="dateRecorded">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Date recorded) Free-text date recorded.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayAttribution">
+      <element name="gameplayAttribution">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay attribution) Free-text gameplay attribution.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="metadataAttribution">
+      <element name="metadataAttribution">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata attribution) Free-text metadata attribution.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="filename">
+      <element name="filename">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Filename) Free-text filename.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayFileNote">
+      <element name="gameplayFileNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file note) Free-text gameplay file note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="language">
+      <element name="language">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Language) Free-text language.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="mods">
+      <element name="mods">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mods) Free-text mods.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplaySettingsNote">
+      <element name="gameplaySettingsNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings note) Free-text gameplay settings note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="characterTrope">
+      <element name="characterTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Character trope) Free-text character trope.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="contentWarning">
+      <element name="contentWarning">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Content warning) Free-text content warning.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayFootageNote">
+      <element name="gameplayFootageNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage note) Free-text gameplay footage note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayInstructionNote">
+      <element name="gameplayInstructionNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction note) Free-text gameplay instruction note.</a:documentation>
          <text/>
       </element>
    </define>
@@ -855,6 +1895,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="tei"
            uri="http://www.tei-c.org/ns/1.0"/>
@@ -863,6 +1904,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="xs"
            uri="http://www.w3.org/2001/XMLSchema"/>
@@ -871,6 +1913,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="rng"
            uri="http://relaxng.org/ns/structure/1.0"/>
@@ -879,6 +1922,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="rna"
            uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -887,6 +1931,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="sch"
            uri="http://purl.oclc.org/dsdl/schematron"/>
@@ -895,28 +1940,75 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
            xmlns:rng="http://relaxng.org/ns/structure/1.0"
            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
            xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
            prefix="sch1x"
            uri="http://www.ascc.net/xml/schematron"/>
+   <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+           xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+           prefix="pr"
+           uri="http://hcmc.uvic.ca/ns/PressRecord"/>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <sch:let name="spaceRegex" value="'(^\s)|(\s$)'"/>
       <sch:let name="docId" value="root(/)/pr:*/@xml:id"/>
-      <sch:let name="docUri" value="document-uri(/)"/>
+      <sch:let name="docUri" value="(document-uri(/), base-uri(/))[1]"/>
       <sch:let name="docIds" value="//pr:*[@xml:id]/@xml:id"/>
    </sch:pattern>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <sch:rule context="/pr:*">
-         <sch:assert test="@xml:id and matches($docUri,concat('[/\\]',$docId,'.xml$'))"> ERROR: Document
+         <sch:assert test="@xml:id and tokenize($docUri, '[/\\]')[last()] eq (string($docId) || '.xml')"> ERROR: Document
                            xml:id (<sch:value-of select="$docId"/>) does not match the document file
                            name (<sch:value-of select="$docUri"/>). </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <sch:rule context="/pr:gameplayRecord">
+         <sch:assert test="matches(@xml:id, '^game_[0-9]{5}$')">[<sch:value-of select="@xml:id"/>]: PROBLEM: xml:id must use game_ followed by five digits.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <sch:rule context="pr:gameplayFile/pr:clipLength">
+         <sch:assert test="matches(string(.), '^[0-9]{2}:[0-5][0-9]$')">[<sch:value-of select="$docId"/>]: PROBLEM: clipLength must use MM:SS, with minutes 00–99 and seconds 00–59.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:pr="http://hcmc.uvic.ca/ns/PressRecord"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <sch:rule context="pr:gameplayFile/pr:dateRecorded">
+         <sch:assert test="matches(string(.), '^[0-9]{4}-[0-9]{2}-[0-9]{2}$') and string(.) castable as xs:date">[<sch:value-of select="$docId"/>]: PROBLEM: dateRecorded must be a valid date in YYYY-MM-DD format.</sch:assert>
       </sch:rule>
    </sch:pattern>
 </grammar>

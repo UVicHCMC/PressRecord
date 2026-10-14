@@ -352,7 +352,7 @@
     <attribute name="type"/>
     <sequential>
       <echo level="info">XSLT generate @{type} files</echo>
-      <xslt force="yes" style="@{xsl}" in="@{in}" out="@{out}" classpathref="classpath">
+      <xslt classpath="${basedir}/lib/saxon-he-12.jar" force="yes" style="@{xsl}" in="@{in}" out="@{out}" classpathref="classpath">
         <xmlcatalog>
           <catalogpath>
             <pathelement location="$catalogfile"/>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template">
+   <platformEdition>
+      <title></title>
+      <release year="" type=""/>
+      <platform></platform>
+      <engine></engine>
+      <developer></developer>
+      <developerLocation></developerLocation>
+      <publisher type=""></publisher>
+      <platformEditionNote></platformEditionNote>
+   </platformEdition>
+   <gameplayFile>
+      <clipTitle></clipTitle>
+      <clipLength></clipLength>
+      <dateRecorded></dateRecorded>
+      <commentary></commentary>
+      <chat></chat>
+      <gameplayAttribution></gameplayAttribution>
+      <metadataAttribution></metadataAttribution>
+      <recordStatus></recordStatus>
+      <filename></filename>
+      <gameplayFileNote></gameplayFileNote>
+   </gameplayFile>
+   <gameplaySettings>
+      <inputDevice></inputDevice>
+      <connectivity></connectivity>
+      <numPlayers></numPlayers>
+      <gameplayMode></gameplayMode>
+      <language></language>
+      <accessibility></accessibility>
+      <mods></mods>
+      <gameplaySettingsNote></gameplaySettingsNote>
+   </gameplaySettings>
+   <gameplayFootage>
+      <typeOfPlay></typeOfPlay>
+      <gameplayGenre></gameplayGenre>
+      <gameplaySubgenre></gameplaySubgenre>
+      <narrativeGenre></narrativeGenre>
+      <narrativeSubgenre></narrativeSubgenre>
+      <dimensionPerspective></dimensionPerspective>
+      <location></location>
+      <timePeriod></timePeriod>
+      <biome></biome>
+      <builtEnv></builtEnv>
+      <transport></transport>
+      <items></items>
+      <atmosphere></atmosphere>
+      <playerCharacter></playerCharacter>
+      <nonPlayerCharacter></nonPlayerCharacter>
+      <mechanics></mechanics>
+      <timekeeping></timekeeping>
+      <progression></progression>
+      <theme></theme>
+      <assets></assets>
+      <style></style>
+      <interface></interface>
+      <experience></experience>
+      <transaction></transaction>
+      <metagaming></metagaming>
+      <gameplayTrope></gameplayTrope>
+      <environmentTrope></environmentTrope>
+      <progressionTrope></progressionTrope>
+      <narrativeTrope></narrativeTrope>
+      <characterTrope></characterTrope>
+      <contentWarning></contentWarning>
+      <gameplayFootageNote></gameplayFootageNote>
+   </gameplayFootage>
+   <gameplayInstruction>
+      <gameStudiesTopic></gameStudiesTopic>
+      <mediaStudiesTopic></mediaStudiesTopic>
+      <gameplayInstructionNote></gameplayInstructionNote>
+   </gameplayInstruction>
+</gameplayRecord>

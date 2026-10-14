@@ -26,6 +26,811 @@
                PressRecord project.</p>
          </projectDesc>
          <classDecl>
+            <taxonomy xml:id="taxCountries">
+               <gloss>Countries</gloss>
+               <desc>Shared country vocabulary for developer locations and gameplay locations.</desc>
+
+               <category xml:id="countryAfghanistan">
+                  <gloss>Afghanistan</gloss>
+                  <desc>Country of Afghanistan.</desc>
+               </category>
+
+               <category xml:id="countryAlbania">
+                  <gloss>Albania</gloss>
+               </category>
+
+               <category xml:id="countryAlgeria">
+                  <gloss>Algeria</gloss>
+               </category>
+
+               <category xml:id="countryAndorra">
+                  <gloss>Andorra</gloss>
+               </category>
+
+               <category xml:id="countryAngola">
+                  <gloss>Angola</gloss>
+               </category>
+
+               <category xml:id="countryAntigua_and_Barbuda">
+                  <gloss>Antigua and Barbuda</gloss>
+               </category>
+
+               <category xml:id="countryArgentina">
+                  <gloss>Argentina</gloss>
+               </category>
+
+               <category xml:id="countryArmenia">
+                  <gloss>Armenia</gloss>
+               </category>
+
+               <category xml:id="countryAustralia">
+                  <gloss>Australia</gloss>
+               </category>
+
+               <category xml:id="countryAustria">
+                  <gloss>Austria</gloss>
+               </category>
+
+               <category xml:id="countryAzerbaijan">
+                  <gloss>Azerbaijan</gloss>
+               </category>
+
+               <category xml:id="countryBahamas">
+                  <gloss>Bahamas</gloss>
+               </category>
+
+               <category xml:id="countryBahrain">
+                  <gloss>Bahrain</gloss>
+               </category>
+
+               <category xml:id="countryBangladesh">
+                  <gloss>Bangladesh</gloss>
+               </category>
+
+               <category xml:id="countryBarbados">
+                  <gloss>Barbados</gloss>
+               </category>
+
+               <category xml:id="countryBelarus">
+                  <gloss>Belarus</gloss>
+               </category>
+
+               <category xml:id="countryBelgium">
+                  <gloss>Belgium</gloss>
+               </category>
+
+               <category xml:id="countryBelize">
+                  <gloss>Belize</gloss>
+               </category>
+
+               <category xml:id="countryBenin">
+                  <gloss>Benin</gloss>
+               </category>
+
+               <category xml:id="countryBermuda">
+                  <gloss>Bermuda</gloss>
+               </category>
+
+               <category xml:id="countryBhutan">
+                  <gloss>Bhutan</gloss>
+               </category>
+
+               <category xml:id="countryBolivia">
+                  <gloss>Bolivia</gloss>
+               </category>
+
+               <category xml:id="countryBosnia_and_Herzegovina">
+                  <gloss>Bosnia and Herzegovina</gloss>
+               </category>
+
+               <category xml:id="countryBotswana">
+                  <gloss>Botswana</gloss>
+               </category>
+
+               <category xml:id="countryBrazil">
+                  <gloss>Brazil</gloss>
+               </category>
+
+               <category xml:id="countryBrunei">
+                  <gloss>Brunei</gloss>
+               </category>
+
+               <category xml:id="countryBulgaria">
+                  <gloss>Bulgaria</gloss>
+               </category>
+
+               <category xml:id="countryBurkina_Faso">
+                  <gloss>Burkina Faso</gloss>
+               </category>
+
+               <category xml:id="countryBurundi">
+                  <gloss>Burundi</gloss>
+               </category>
+
+               <category xml:id="countryCambodia">
+                  <gloss>Cambodia</gloss>
+               </category>
+
+               <category xml:id="countryCameroon">
+                  <gloss>Cameroon</gloss>
+               </category>
+
+               <category xml:id="countryCanada">
+                  <gloss>Canada</gloss>
+               </category>
+
+               <category xml:id="countryCape_Verde">
+                  <gloss>Cape Verde</gloss>
+               </category>
+
+               <category xml:id="countryCentral_African_Republic">
+                  <gloss>Central African Republic</gloss>
+               </category>
+
+               <category xml:id="countryChad">
+                  <gloss>Chad</gloss>
+               </category>
+
+               <category xml:id="countryChile">
+                  <gloss>Chile</gloss>
+               </category>
+
+               <category xml:id="countryChina">
+                  <gloss>China</gloss>
+               </category>
+
+               <category xml:id="countryColombia">
+                  <gloss>Colombia</gloss>
+               </category>
+
+               <category xml:id="countryComoros">
+                  <gloss>Comoros</gloss>
+               </category>
+
+               <category xml:id="countryCongo_Republic_of_the">
+                  <gloss>Congo, Republic of the</gloss>
+               </category>
+
+               <category xml:id="countryCongo_Democratic_Republic_of_the">
+                  <gloss>Congo, Democratic Republic of the</gloss>
+               </category>
+
+               <category xml:id="countryCosta_Rica">
+                  <gloss>Costa Rica</gloss>
+               </category>
+
+               <category xml:id="countryCroatia">
+                  <gloss>Croatia</gloss>
+               </category>
+
+               <category xml:id="countryCuba">
+                  <gloss>Cuba</gloss>
+               </category>
+
+               <category xml:id="countryCuracao">
+                  <gloss>Curacao</gloss>
+               </category>
+
+               <category xml:id="countryCyprus">
+                  <gloss>Cyprus</gloss>
+               </category>
+
+               <category xml:id="countryCzech_Republic">
+                  <gloss>Czech Republic</gloss>
+               </category>
+
+               <category xml:id="countryDenmark">
+                  <gloss>Denmark</gloss>
+               </category>
+
+               <category xml:id="countryDjibouti">
+                  <gloss>Djibouti</gloss>
+               </category>
+
+               <category xml:id="countryDominica">
+                  <gloss>Dominica</gloss>
+               </category>
+
+               <category xml:id="countryDominican_Republic">
+                  <gloss>Dominican Republic</gloss>
+               </category>
+
+               <category xml:id="countryEast_Timor">
+                  <gloss>East Timor</gloss>
+               </category>
+
+               <category xml:id="countryEcuador">
+                  <gloss>Ecuador</gloss>
+               </category>
+
+               <category xml:id="countryEgypt">
+                  <gloss>Egypt</gloss>
+               </category>
+
+               <category xml:id="countryEl_Salvador">
+                  <gloss>El Salvador</gloss>
+               </category>
+
+               <category xml:id="countryEquatorial_Guinea">
+                  <gloss>Equatorial Guinea</gloss>
+               </category>
+
+               <category xml:id="countryEritrea">
+                  <gloss>Eritrea</gloss>
+               </category>
+
+               <category xml:id="countryEstonia">
+                  <gloss>Estonia</gloss>
+               </category>
+
+               <category xml:id="countryEswatini">
+                  <gloss>Eswatini</gloss>
+               </category>
+
+               <category xml:id="countryEthiopia">
+                  <gloss>Ethiopia</gloss>
+               </category>
+
+               <category xml:id="countryFiji">
+                  <gloss>Fiji</gloss>
+               </category>
+
+               <category xml:id="countryFinland">
+                  <gloss>Finland</gloss>
+               </category>
+
+               <category xml:id="countryFrance">
+                  <gloss>France</gloss>
+               </category>
+
+               <category xml:id="countryGabon">
+                  <gloss>Gabon</gloss>
+               </category>
+
+               <category xml:id="countryGambia">
+                  <gloss>Gambia</gloss>
+               </category>
+
+               <category xml:id="countryGeorgia">
+                  <gloss>Georgia</gloss>
+               </category>
+
+               <category xml:id="countryGermany">
+                  <gloss>Germany</gloss>
+               </category>
+
+               <category xml:id="countryGhana">
+                  <gloss>Ghana</gloss>
+               </category>
+
+               <category xml:id="countryGreece">
+                  <gloss>Greece</gloss>
+               </category>
+
+               <category xml:id="countryGrenada">
+                  <gloss>Grenada</gloss>
+               </category>
+
+               <category xml:id="countryGuatemala">
+                  <gloss>Guatemala</gloss>
+               </category>
+
+               <category xml:id="countryGuinea">
+                  <gloss>Guinea</gloss>
+               </category>
+
+               <category xml:id="countryGuinea-Bissau">
+                  <gloss>Guinea-Bissau</gloss>
+               </category>
+
+               <category xml:id="countryGuyana">
+                  <gloss>Guyana</gloss>
+               </category>
+
+               <category xml:id="countryHaiti">
+                  <gloss>Haiti</gloss>
+               </category>
+
+               <category xml:id="countryHonduras">
+                  <gloss>Honduras</gloss>
+               </category>
+
+               <category xml:id="countryHungary">
+                  <gloss>Hungary</gloss>
+               </category>
+
+               <category xml:id="countryIceland">
+                  <gloss>Iceland</gloss>
+               </category>
+
+               <category xml:id="countryIndia">
+                  <gloss>India</gloss>
+               </category>
+
+               <category xml:id="countryIndonesia">
+                  <gloss>Indonesia</gloss>
+               </category>
+
+               <category xml:id="countryIran">
+                  <gloss>Iran</gloss>
+               </category>
+
+               <category xml:id="countryIraq">
+                  <gloss>Iraq</gloss>
+               </category>
+
+               <category xml:id="countryIreland">
+                  <gloss>Ireland</gloss>
+               </category>
+
+               <category xml:id="countryIsrael">
+                  <gloss>Israel</gloss>
+               </category>
+
+               <category xml:id="countryItaly">
+                  <gloss>Italy</gloss>
+               </category>
+
+               <category xml:id="countryIvory_Coast">
+                  <gloss>Ivory Coast</gloss>
+               </category>
+
+               <category xml:id="countryJamaica">
+                  <gloss>Jamaica</gloss>
+               </category>
+
+               <category xml:id="countryJapan">
+                  <gloss>Japan</gloss>
+               </category>
+
+               <category xml:id="countryJordan">
+                  <gloss>Jordan</gloss>
+               </category>
+
+               <category xml:id="countryKazakhstan">
+                  <gloss>Kazakhstan</gloss>
+               </category>
+
+               <category xml:id="countryKenya">
+                  <gloss>Kenya</gloss>
+               </category>
+
+               <category xml:id="countryKiribati">
+                  <gloss>Kiribati</gloss>
+               </category>
+
+               <category xml:id="countryKosovo">
+                  <gloss>Kosovo</gloss>
+               </category>
+
+               <category xml:id="countryKuwait">
+                  <gloss>Kuwait</gloss>
+               </category>
+
+               <category xml:id="countryKyrgyzstan">
+                  <gloss>Kyrgyzstan</gloss>
+               </category>
+
+               <category xml:id="countryLaos">
+                  <gloss>Laos</gloss>
+               </category>
+
+               <category xml:id="countryLatvia">
+                  <gloss>Latvia</gloss>
+               </category>
+
+               <category xml:id="countryLebanon">
+                  <gloss>Lebanon</gloss>
+               </category>
+
+               <category xml:id="countryLesotho">
+                  <gloss>Lesotho</gloss>
+               </category>
+
+               <category xml:id="countryLiberia">
+                  <gloss>Liberia</gloss>
+               </category>
+
+               <category xml:id="countryLibya">
+                  <gloss>Libya</gloss>
+               </category>
+
+               <category xml:id="countryLiechtenstein">
+                  <gloss>Liechtenstein</gloss>
+               </category>
+
+               <category xml:id="countryLithuania">
+                  <gloss>Lithuania</gloss>
+               </category>
+
+               <category xml:id="countryLuxembourg">
+                  <gloss>Luxembourg</gloss>
+               </category>
+
+               <category xml:id="countryMadagascar">
+                  <gloss>Madagascar</gloss>
+               </category>
+
+               <category xml:id="countryMalawi">
+                  <gloss>Malawi</gloss>
+               </category>
+
+               <category xml:id="countryMalaysia">
+                  <gloss>Malaysia</gloss>
+               </category>
+
+               <category xml:id="countryMaldives">
+                  <gloss>Maldives</gloss>
+               </category>
+
+               <category xml:id="countryMali">
+                  <gloss>Mali</gloss>
+               </category>
+
+               <category xml:id="countryMalta">
+                  <gloss>Malta</gloss>
+               </category>
+
+               <category xml:id="countryMarshall_Islands">
+                  <gloss>Marshall Islands</gloss>
+               </category>
+
+               <category xml:id="countryMauritania">
+                  <gloss>Mauritania</gloss>
+               </category>
+
+               <category xml:id="countryMauritius">
+                  <gloss>Mauritius</gloss>
+               </category>
+
+               <category xml:id="countryMexico">
+                  <gloss>Mexico</gloss>
+               </category>
+
+               <category xml:id="countryMicronesia">
+                  <gloss>Micronesia</gloss>
+               </category>
+
+               <category xml:id="countryMoldova">
+                  <gloss>Moldova</gloss>
+               </category>
+
+               <category xml:id="countryMonaco">
+                  <gloss>Monaco</gloss>
+               </category>
+
+               <category xml:id="countryMongolia">
+                  <gloss>Mongolia</gloss>
+               </category>
+
+               <category xml:id="countryMontenegro">
+                  <gloss>Montenegro</gloss>
+               </category>
+
+               <category xml:id="countryMorocco">
+                  <gloss>Morocco</gloss>
+               </category>
+
+               <category xml:id="countryMozambique">
+                  <gloss>Mozambique</gloss>
+               </category>
+
+               <category xml:id="countryMyanmar">
+                  <gloss>Myanmar</gloss>
+               </category>
+
+               <category xml:id="countryNamibia">
+                  <gloss>Namibia</gloss>
+               </category>
+
+               <category xml:id="countryNauru">
+                  <gloss>Nauru</gloss>
+               </category>
+
+               <category xml:id="countryNepal">
+                  <gloss>Nepal</gloss>
+               </category>
+
+               <category xml:id="countryNetherlands">
+                  <gloss>Netherlands</gloss>
+               </category>
+
+               <category xml:id="countryNew_Zealand">
+                  <gloss>New Zealand</gloss>
+               </category>
+
+               <category xml:id="countryNicaragua">
+                  <gloss>Nicaragua</gloss>
+               </category>
+
+               <category xml:id="countryNiger">
+                  <gloss>Niger</gloss>
+               </category>
+
+               <category xml:id="countryNigeria">
+                  <gloss>Nigeria</gloss>
+               </category>
+
+               <category xml:id="countryNorth_Korea">
+                  <gloss>North Korea</gloss>
+               </category>
+
+               <category xml:id="countryNorth_Macedonia">
+                  <gloss>North Macedonia</gloss>
+               </category>
+
+               <category xml:id="countryNorway">
+                  <gloss>Norway</gloss>
+               </category>
+
+               <category xml:id="countryOman">
+                  <gloss>Oman</gloss>
+               </category>
+
+               <category xml:id="countryPakistan">
+                  <gloss>Pakistan</gloss>
+               </category>
+
+               <category xml:id="countryPalau">
+                  <gloss>Palau</gloss>
+               </category>
+
+               <category xml:id="countryPalestine">
+                  <gloss>Palestine</gloss>
+               </category>
+
+               <category xml:id="countryPanama">
+                  <gloss>Panama</gloss>
+               </category>
+
+               <category xml:id="countryPapua_New_Guinea">
+                  <gloss>Papua New Guinea</gloss>
+               </category>
+
+               <category xml:id="countryParaguay">
+                  <gloss>Paraguay</gloss>
+               </category>
+
+               <category xml:id="countryPeru">
+                  <gloss>Peru</gloss>
+               </category>
+
+               <category xml:id="countryPhilippines">
+                  <gloss>Philippines</gloss>
+               </category>
+
+               <category xml:id="countryPoland">
+                  <gloss>Poland</gloss>
+               </category>
+
+               <category xml:id="countryPortugal">
+                  <gloss>Portugal</gloss>
+               </category>
+
+               <category xml:id="countryPuerto_Rico">
+                  <gloss>Puerto Rico</gloss>
+               </category>
+
+               <category xml:id="countryQatar">
+                  <gloss>Qatar</gloss>
+               </category>
+
+               <category xml:id="countryRomania">
+                  <gloss>Romania</gloss>
+               </category>
+
+               <category xml:id="countryRussia">
+                  <gloss>Russia</gloss>
+               </category>
+
+               <category xml:id="countryRwanda">
+                  <gloss>Rwanda</gloss>
+               </category>
+
+               <category xml:id="countrySaint_Kitts_and_Nevis">
+                  <gloss>Saint Kitts and Nevis</gloss>
+               </category>
+
+               <category xml:id="countrySaint_Lucia">
+                  <gloss>Saint Lucia</gloss>
+               </category>
+
+               <category xml:id="countrySaint_Vincent_and_the_Grenadines">
+                  <gloss>Saint Vincent and the Grenadines</gloss>
+               </category>
+
+               <category xml:id="countrySamoa">
+                  <gloss>Samoa</gloss>
+               </category>
+
+               <category xml:id="countrySan_Marino">
+                  <gloss>San Marino</gloss>
+               </category>
+
+               <category xml:id="countryS_o_Tom_and_Pr_ncipe">
+                  <gloss>São Tomé and Príncipe</gloss>
+               </category>
+
+               <category xml:id="countrySaudi_Arabia">
+                  <gloss>Saudi Arabia</gloss>
+               </category>
+
+               <category xml:id="countrySenegal">
+                  <gloss>Senegal</gloss>
+               </category>
+
+               <category xml:id="countrySerbia">
+                  <gloss>Serbia</gloss>
+               </category>
+
+               <category xml:id="countrySeychelles">
+                  <gloss>Seychelles</gloss>
+               </category>
+
+               <category xml:id="countrySierra_Leone">
+                  <gloss>Sierra Leone</gloss>
+               </category>
+
+               <category xml:id="countrySingapore">
+                  <gloss>Singapore</gloss>
+               </category>
+
+               <category xml:id="countrySlovakia">
+                  <gloss>Slovakia</gloss>
+               </category>
+
+               <category xml:id="countrySlovenia">
+                  <gloss>Slovenia</gloss>
+               </category>
+
+               <category xml:id="countrySolomon_Islands">
+                  <gloss>Solomon Islands</gloss>
+               </category>
+
+               <category xml:id="countrySomalia">
+                  <gloss>Somalia</gloss>
+               </category>
+
+               <category xml:id="countrySouth_Africa">
+                  <gloss>South Africa</gloss>
+               </category>
+
+               <category xml:id="countrySouth_Korea">
+                  <gloss>South Korea</gloss>
+               </category>
+
+               <category xml:id="countrySouth_Sudan">
+                  <gloss>South Sudan</gloss>
+               </category>
+
+               <category xml:id="countrySpain">
+                  <gloss>Spain</gloss>
+               </category>
+
+               <category xml:id="countrySri_Lanka">
+                  <gloss>Sri Lanka</gloss>
+               </category>
+
+               <category xml:id="countrySudan">
+                  <gloss>Sudan</gloss>
+               </category>
+
+               <category xml:id="countrySuriname">
+                  <gloss>Suriname</gloss>
+               </category>
+
+               <category xml:id="countrySweden">
+                  <gloss>Sweden</gloss>
+               </category>
+
+               <category xml:id="countrySwitzerland">
+                  <gloss>Switzerland</gloss>
+               </category>
+
+               <category xml:id="countrySyria">
+                  <gloss>Syria</gloss>
+               </category>
+
+               <category xml:id="countryTaiwan">
+                  <gloss>Taiwan</gloss>
+               </category>
+
+               <category xml:id="countryTajikistan">
+                  <gloss>Tajikistan</gloss>
+               </category>
+
+               <category xml:id="countryTanzania">
+                  <gloss>Tanzania</gloss>
+               </category>
+
+               <category xml:id="countryThailand">
+                  <gloss>Thailand</gloss>
+               </category>
+
+               <category xml:id="countryTogo">
+                  <gloss>Togo</gloss>
+               </category>
+
+               <category xml:id="countryTonga">
+                  <gloss>Tonga</gloss>
+               </category>
+
+               <category xml:id="countryTrinidad_and_Tobago">
+                  <gloss>Trinidad and Tobago</gloss>
+               </category>
+
+               <category xml:id="countryTunisia">
+                  <gloss>Tunisia</gloss>
+               </category>
+
+               <category xml:id="countryTurkey">
+                  <gloss>Turkey</gloss>
+               </category>
+
+               <category xml:id="countryTurkmenistan">
+                  <gloss>Turkmenistan</gloss>
+               </category>
+
+               <category xml:id="countryTuvalu">
+                  <gloss>Tuvalu</gloss>
+               </category>
+
+               <category xml:id="countryUganda">
+                  <gloss>Uganda</gloss>
+               </category>
+
+               <category xml:id="countryUkraine">
+                  <gloss>Ukraine</gloss>
+               </category>
+
+               <category xml:id="countryUnited_Arab_Emirates">
+                  <gloss>United Arab Emirates</gloss>
+               </category>
+
+               <category xml:id="countryUnited_Kingdom">
+                  <gloss>United Kingdom</gloss>
+               </category>
+
+               <category xml:id="countryUnited_States">
+                  <gloss>United States</gloss>
+               </category>
+
+               <category xml:id="countryUruguay">
+                  <gloss>Uruguay</gloss>
+               </category>
+
+               <category xml:id="countryUzbekistan">
+                  <gloss>Uzbekistan</gloss>
+               </category>
+
+               <category xml:id="countryVanuatu">
+                  <gloss>Vanuatu</gloss>
+               </category>
+
+               <category xml:id="countryVatican_City">
+                  <gloss>Vatican City</gloss>
+               </category>
+
+               <category xml:id="countryVenezuela">
+                  <gloss>Venezuela</gloss>
+               </category>
+
+               <category xml:id="countryVietnam">
+                  <gloss>Vietnam</gloss>
+               </category>
+
+               <category xml:id="countryYemen">
+                  <gloss>Yemen</gloss>
+               </category>
+
+               <category xml:id="countryZambia">
+                  <gloss>Zambia</gloss>
+               </category>
+
+               <category xml:id="countryZimbabwe">
+                  <gloss>Zimbabwe</gloss>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="taxReleaseType" n="3C">
                <gloss>Release Type</gloss>
                <desc> The platform edition’s release type as assigned by its developer, publisher,
@@ -1693,105 +2498,10 @@
             <taxonomy xml:id="taxDeveloperLocation" n="3G">
                <gloss>Developer’s Location</gloss>
                <desc>The geographic location of the platform edition’s developer(s)</desc>
+               <desc>Use the shared Countries taxonomy for countries. This taxonomy supplies the Canadian province and territory terms.</desc>
                <desc>Select the country for all developers except those in Canada.</desc>
                <desc>For developers in Canada, select the country and province or territory: for example, Canada / British Columbia.</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website, title screen, and/or credits sequence to confirm the developer’s location.</desc>
-               <category xml:id="dlAfghanistan">
-                  <gloss>Afghanistan</gloss>
-               </category>
-               <category xml:id="dlAlbania">
-                  <gloss>Albania</gloss>
-               </category>
-               <category xml:id="dlAlgeria">
-                  <gloss>Algeria</gloss>
-               </category>
-               <category xml:id="dlAndorra">
-                  <gloss>Andorra</gloss>
-               </category>
-               <category xml:id="dlAngola">
-                  <gloss>Angola</gloss>
-               </category>
-               <category xml:id="dlAntigua_and_Barbuda">
-                  <gloss>Antigua and Barbuda</gloss>
-               </category>
-               <category xml:id="dlArgentina">
-                  <gloss>Argentina</gloss>
-               </category>
-               <category xml:id="dlArmenia">
-                  <gloss>Armenia</gloss>
-               </category>
-               <category xml:id="dlAustralia">
-                  <gloss>Australia</gloss>
-               </category>
-               <category xml:id="dlAustria">
-                  <gloss>Austria</gloss>
-               </category>
-               <category xml:id="dlAzerbaijan">
-                  <gloss>Azerbaijan</gloss>
-               </category>
-               <category xml:id="dlBahamas">
-                  <gloss>Bahamas</gloss>
-               </category>
-               <category xml:id="dlBahrain">
-                  <gloss>Bahrain</gloss>
-               </category>
-               <category xml:id="dlBangladesh">
-                  <gloss>Bangladesh</gloss>
-               </category>
-               <category xml:id="dlBarbados">
-                  <gloss>Barbados</gloss>
-               </category>
-               <category xml:id="dlBelarus">
-                  <gloss>Belarus</gloss>
-               </category>
-               <category xml:id="dlBelgium">
-                  <gloss>Belgium</gloss>
-               </category>
-               <category xml:id="dlBelize">
-                  <gloss>Belize</gloss>
-               </category>
-               <category xml:id="dlBenin">
-                  <gloss>Benin</gloss>
-               </category>
-               <category xml:id="dlBermuda">
-                  <gloss>Bermuda</gloss>
-               </category>
-               <category xml:id="dlBhutan">
-                  <gloss>Bhutan</gloss>
-               </category>
-               <category xml:id="dlBolivia">
-                  <gloss>Bolivia</gloss>
-               </category>
-               <category xml:id="dlBosnia_and_Herzegovina">
-                  <gloss>Bosnia and Herzegovina</gloss>
-               </category>
-               <category xml:id="dlBotswana">
-                  <gloss>Botswana</gloss>
-               </category>
-               <category xml:id="dlBrazil">
-                  <gloss>Brazil</gloss>
-               </category>
-               <category xml:id="dlBrunei">
-                  <gloss>Brunei</gloss>
-               </category>
-               <category xml:id="dlBulgaria">
-                  <gloss>Bulgaria</gloss>
-               </category>
-               <category xml:id="dlBurkina_Faso">
-                  <gloss>Burkina Faso</gloss>
-               </category>
-               <category xml:id="dlBurundi">
-                  <gloss>Burundi</gloss>
-               </category>
-               <category xml:id="dlCambodia">
-                  <gloss>Cambodia</gloss>
-               </category>
-               <category xml:id="dlCameroon">
-                  <gloss>Cameroon</gloss>
-               </category>
-               <category xml:id="dlCanada">
-                  <gloss>Canada</gloss>
-               </category>
                <category xml:id="dlCanada_Alberta">
                   <gloss>Canada / Alberta</gloss>
                </category>
@@ -1830,510 +2540,6 @@
                </category>
                <category xml:id="dlCanada_Yukon">
                   <gloss>Canada / Yukon</gloss>
-               </category>
-               <category xml:id="dlCape_Verde">
-                  <gloss>Cape Verde</gloss>
-               </category>
-               <category xml:id="dlCentral_African_Republic">
-                  <gloss>Central African Republic</gloss>
-               </category>
-               <category xml:id="dlChad">
-                  <gloss>Chad</gloss>
-               </category>
-               <category xml:id="dlChile">
-                  <gloss>Chile</gloss>
-               </category>
-               <category xml:id="dlChina">
-                  <gloss>China</gloss>
-               </category>
-               <category xml:id="dlColombia">
-                  <gloss>Colombia</gloss>
-               </category>
-               <category xml:id="dlComoros">
-                  <gloss>Comoros</gloss>
-               </category>
-               <category xml:id="dlCongo_Republic_of_the">
-                  <gloss>Congo, Republic of the</gloss>
-               </category>
-               <category xml:id="dlCongo_Democratic_Republic_of_the">
-                  <gloss>Congo, Democratic Republic of the</gloss>
-               </category>
-               <category xml:id="dlCosta_Rica">
-                  <gloss>Costa Rica</gloss>
-               </category>
-               <category xml:id="dlCroatia">
-                  <gloss>Croatia</gloss>
-               </category>
-               <category xml:id="dlCuba">
-                  <gloss>Cuba</gloss>
-               </category>
-               <category xml:id="dlCuracao">
-                  <gloss>Curacao</gloss>
-               </category>
-               <category xml:id="dlCyprus">
-                  <gloss>Cyprus</gloss>
-               </category>
-               <category xml:id="dlCzech_Republic">
-                  <gloss>Czech Republic</gloss>
-               </category>
-               <category xml:id="dlDenmark">
-                  <gloss>Denmark</gloss>
-               </category>
-               <category xml:id="dlDjibouti">
-                  <gloss>Djibouti</gloss>
-               </category>
-               <category xml:id="dlDominica">
-                  <gloss>Dominica</gloss>
-               </category>
-               <category xml:id="dlDominican_Republic">
-                  <gloss>Dominican Republic</gloss>
-               </category>
-               <category xml:id="dlEast_Timor">
-                  <gloss>East Timor</gloss>
-               </category>
-               <category xml:id="dlEcuador">
-                  <gloss>Ecuador</gloss>
-               </category>
-               <category xml:id="dlEgypt">
-                  <gloss>Egypt</gloss>
-               </category>
-               <category xml:id="dlEl_Salvador">
-                  <gloss>El Salvador</gloss>
-               </category>
-               <category xml:id="dlEquatorial_Guinea">
-                  <gloss>Equatorial Guinea</gloss>
-               </category>
-               <category xml:id="dlEritrea">
-                  <gloss>Eritrea</gloss>
-               </category>
-               <category xml:id="dlEstonia">
-                  <gloss>Estonia</gloss>
-               </category>
-               <category xml:id="dlEswatini">
-                  <gloss>Eswatini</gloss>
-               </category>
-               <category xml:id="dlEthiopia">
-                  <gloss>Ethiopia</gloss>
-               </category>
-               <category xml:id="dlFiji">
-                  <gloss>Fiji</gloss>
-               </category>
-               <category xml:id="dlFinland">
-                  <gloss>Finland</gloss>
-               </category>
-               <category xml:id="dlFrance">
-                  <gloss>France</gloss>
-               </category>
-               <category xml:id="dlGabon">
-                  <gloss>Gabon</gloss>
-               </category>
-               <category xml:id="dlGambia">
-                  <gloss>Gambia</gloss>
-               </category>
-               <category xml:id="dlGeorgia">
-                  <gloss>Georgia</gloss>
-               </category>
-               <category xml:id="dlGermany">
-                  <gloss>Germany</gloss>
-               </category>
-               <category xml:id="dlGhana">
-                  <gloss>Ghana</gloss>
-               </category>
-               <category xml:id="dlGreece">
-                  <gloss>Greece</gloss>
-               </category>
-               <category xml:id="dlGrenada">
-                  <gloss>Grenada</gloss>
-               </category>
-               <category xml:id="dlGuatemala">
-                  <gloss>Guatemala</gloss>
-               </category>
-               <category xml:id="dlGuinea">
-                  <gloss>Guinea</gloss>
-               </category>
-               <category xml:id="dlGuinea-Bissau">
-                  <gloss>Guinea-Bissau</gloss>
-               </category>
-               <category xml:id="dlGuyana">
-                  <gloss>Guyana</gloss>
-               </category>
-               <category xml:id="dlHaiti">
-                  <gloss>Haiti</gloss>
-               </category>
-               <category xml:id="dlHonduras">
-                  <gloss>Honduras</gloss>
-               </category>
-               <category xml:id="dlHungary">
-                  <gloss>Hungary</gloss>
-               </category>
-               <category xml:id="dlIceland">
-                  <gloss>Iceland</gloss>
-               </category>
-               <category xml:id="dlIndia">
-                  <gloss>India</gloss>
-               </category>
-               <category xml:id="dlIndonesia">
-                  <gloss>Indonesia</gloss>
-               </category>
-               <category xml:id="dlIran">
-                  <gloss>Iran</gloss>
-               </category>
-               <category xml:id="dlIraq">
-                  <gloss>Iraq</gloss>
-               </category>
-               <category xml:id="dlIreland">
-                  <gloss>Ireland</gloss>
-               </category>
-               <category xml:id="dlIsrael">
-                  <gloss>Israel</gloss>
-               </category>
-               <category xml:id="dlItaly">
-                  <gloss>Italy</gloss>
-               </category>
-               <category xml:id="dlIvory_Coast">
-                  <gloss>Ivory Coast</gloss>
-               </category>
-               <category xml:id="dlJamaica">
-                  <gloss>Jamaica</gloss>
-               </category>
-               <category xml:id="dlJapan">
-                  <gloss>Japan</gloss>
-               </category>
-               <category xml:id="dlJordan">
-                  <gloss>Jordan</gloss>
-               </category>
-               <category xml:id="dlKazakhstan">
-                  <gloss>Kazakhstan</gloss>
-               </category>
-               <category xml:id="dlKenya">
-                  <gloss>Kenya</gloss>
-               </category>
-               <category xml:id="dlKiribati">
-                  <gloss>Kiribati</gloss>
-               </category>
-               <category xml:id="dlKosovo">
-                  <gloss>Kosovo</gloss>
-               </category>
-               <category xml:id="dlKuwait">
-                  <gloss>Kuwait</gloss>
-               </category>
-               <category xml:id="dlKyrgyzstan">
-                  <gloss>Kyrgyzstan</gloss>
-               </category>
-               <category xml:id="dlLaos">
-                  <gloss>Laos</gloss>
-               </category>
-               <category xml:id="dlLatvia">
-                  <gloss>Latvia</gloss>
-               </category>
-               <category xml:id="dlLebanon">
-                  <gloss>Lebanon</gloss>
-               </category>
-               <category xml:id="dlLesotho">
-                  <gloss>Lesotho</gloss>
-               </category>
-               <category xml:id="dlLiberia">
-                  <gloss>Liberia</gloss>
-               </category>
-               <category xml:id="dlLibya">
-                  <gloss>Libya</gloss>
-               </category>
-               <category xml:id="dlLiechtenstein">
-                  <gloss>Liechtenstein</gloss>
-               </category>
-               <category xml:id="dlLithuania">
-                  <gloss>Lithuania</gloss>
-               </category>
-               <category xml:id="dlLuxembourg">
-                  <gloss>Luxembourg</gloss>
-               </category>
-               <category xml:id="dlMadagascar">
-                  <gloss>Madagascar</gloss>
-               </category>
-               <category xml:id="dlMalawi">
-                  <gloss>Malawi</gloss>
-               </category>
-               <category xml:id="dlMalaysia">
-                  <gloss>Malaysia</gloss>
-               </category>
-               <category xml:id="dlMaldives">
-                  <gloss>Maldives</gloss>
-               </category>
-               <category xml:id="dlMali">
-                  <gloss>Mali</gloss>
-               </category>
-               <category xml:id="dlMalta">
-                  <gloss>Malta</gloss>
-               </category>
-               <category xml:id="dlMarshall_Islands">
-                  <gloss>Marshall Islands</gloss>
-               </category>
-               <category xml:id="dlMauritania">
-                  <gloss>Mauritania</gloss>
-               </category>
-               <category xml:id="dlMauritius">
-                  <gloss>Mauritius</gloss>
-               </category>
-               <category xml:id="dlMexico">
-                  <gloss>Mexico</gloss>
-               </category>
-               <category xml:id="dlMicronesia">
-                  <gloss>Micronesia</gloss>
-               </category>
-               <category xml:id="dlMoldova">
-                  <gloss>Moldova</gloss>
-               </category>
-               <category xml:id="dlMonaco">
-                  <gloss>Monaco</gloss>
-               </category>
-               <category xml:id="dlMongolia">
-                  <gloss>Mongolia</gloss>
-               </category>
-               <category xml:id="dlMontenegro">
-                  <gloss>Montenegro</gloss>
-               </category>
-               <category xml:id="dlMorocco">
-                  <gloss>Morocco</gloss>
-               </category>
-               <category xml:id="dlMozambique">
-                  <gloss>Mozambique</gloss>
-               </category>
-               <category xml:id="dlMyanmar">
-                  <gloss>Myanmar</gloss>
-               </category>
-               <category xml:id="dlNamibia">
-                  <gloss>Namibia</gloss>
-               </category>
-               <category xml:id="dlNauru">
-                  <gloss>Nauru</gloss>
-               </category>
-               <category xml:id="dlNepal">
-                  <gloss>Nepal</gloss>
-               </category>
-               <category xml:id="dlNetherlands">
-                  <gloss>Netherlands</gloss>
-               </category>
-               <category xml:id="dlNew_Zealand">
-                  <gloss>New Zealand</gloss>
-               </category>
-               <category xml:id="dlNicaragua">
-                  <gloss>Nicaragua</gloss>
-               </category>
-               <category xml:id="dlNiger">
-                  <gloss>Niger</gloss>
-               </category>
-               <category xml:id="dlNigeria">
-                  <gloss>Nigeria</gloss>
-               </category>
-               <category xml:id="dlNorth_Korea">
-                  <gloss>North Korea</gloss>
-               </category>
-               <category xml:id="dlNorth_Macedonia">
-                  <gloss>North Macedonia</gloss>
-               </category>
-               <category xml:id="dlNorway">
-                  <gloss>Norway</gloss>
-               </category>
-               <category xml:id="dlOman">
-                  <gloss>Oman</gloss>
-               </category>
-               <category xml:id="dlPakistan">
-                  <gloss>Pakistan</gloss>
-               </category>
-               <category xml:id="dlPalau">
-                  <gloss>Palau</gloss>
-               </category>
-               <category xml:id="dlPalestine">
-                  <gloss>Palestine</gloss>
-               </category>
-               <category xml:id="dlPanama">
-                  <gloss>Panama</gloss>
-               </category>
-               <category xml:id="dlPapua_New_Guinea">
-                  <gloss>Papua New Guinea</gloss>
-               </category>
-               <category xml:id="dlParaguay">
-                  <gloss>Paraguay</gloss>
-               </category>
-               <category xml:id="dlPeru">
-                  <gloss>Peru</gloss>
-               </category>
-               <category xml:id="dlPhilippines">
-                  <gloss>Philippines</gloss>
-               </category>
-               <category xml:id="dlPoland">
-                  <gloss>Poland</gloss>
-               </category>
-               <category xml:id="dlPortugal">
-                  <gloss>Portugal</gloss>
-               </category>
-               <category xml:id="dlPuerto_Rico">
-                  <gloss>Puerto Rico</gloss>
-               </category>
-               <category xml:id="dlQatar">
-                  <gloss>Qatar</gloss>
-               </category>
-               <category xml:id="dlRomania">
-                  <gloss>Romania</gloss>
-               </category>
-               <category xml:id="dlRussia">
-                  <gloss>Russia</gloss>
-               </category>
-               <category xml:id="dlRwanda">
-                  <gloss>Rwanda</gloss>
-               </category>
-               <category xml:id="dlSaint_Kitts_and_Nevis">
-                  <gloss>Saint Kitts and Nevis</gloss>
-               </category>
-               <category xml:id="dlSaint_Lucia">
-                  <gloss>Saint Lucia</gloss>
-               </category>
-               <category xml:id="dlSaint_Vincent_and_the_Grenadines">
-                  <gloss>Saint Vincent and the Grenadines</gloss>
-               </category>
-               <category xml:id="dlSamoa">
-                  <gloss>Samoa</gloss>
-               </category>
-               <category xml:id="dlSan_Marino">
-                  <gloss>San Marino</gloss>
-               </category>
-               <category xml:id="dlS_o_Tom_and_Pr_ncipe">
-                  <gloss>São Tomé and Príncipe</gloss>
-               </category>
-               <category xml:id="dlSaudi_Arabia">
-                  <gloss>Saudi Arabia</gloss>
-               </category>
-               <category xml:id="dlSenegal">
-                  <gloss>Senegal</gloss>
-               </category>
-               <category xml:id="dlSerbia">
-                  <gloss>Serbia</gloss>
-               </category>
-               <category xml:id="dlSeychelles">
-                  <gloss>Seychelles</gloss>
-               </category>
-               <category xml:id="dlSierra_Leone">
-                  <gloss>Sierra Leone</gloss>
-               </category>
-               <category xml:id="dlSingapore">
-                  <gloss>Singapore</gloss>
-               </category>
-               <category xml:id="dlSlovakia">
-                  <gloss>Slovakia</gloss>
-               </category>
-               <category xml:id="dlSlovenia">
-                  <gloss>Slovenia</gloss>
-               </category>
-               <category xml:id="dlSolomon_Islands">
-                  <gloss>Solomon Islands</gloss>
-               </category>
-               <category xml:id="dlSomalia">
-                  <gloss>Somalia</gloss>
-               </category>
-               <category xml:id="dlSouth_Africa">
-                  <gloss>South Africa</gloss>
-               </category>
-               <category xml:id="dlSouth_Korea">
-                  <gloss>South Korea</gloss>
-               </category>
-               <category xml:id="dlSouth_Sudan">
-                  <gloss>South Sudan</gloss>
-               </category>
-               <category xml:id="dlSpain">
-                  <gloss>Spain</gloss>
-               </category>
-               <category xml:id="dlSri_Lanka">
-                  <gloss>Sri Lanka</gloss>
-               </category>
-               <category xml:id="dlSudan">
-                  <gloss>Sudan</gloss>
-               </category>
-               <category xml:id="dlSuriname">
-                  <gloss>Suriname</gloss>
-               </category>
-               <category xml:id="dlSweden">
-                  <gloss>Sweden</gloss>
-               </category>
-               <category xml:id="dlSwitzerland">
-                  <gloss>Switzerland</gloss>
-               </category>
-               <category xml:id="dlSyria">
-                  <gloss>Syria</gloss>
-               </category>
-               <category xml:id="dlTaiwan">
-                  <gloss>Taiwan</gloss>
-               </category>
-               <category xml:id="dlTajikistan">
-                  <gloss>Tajikistan</gloss>
-               </category>
-               <category xml:id="dlTanzania">
-                  <gloss>Tanzania</gloss>
-               </category>
-               <category xml:id="dlThailand">
-                  <gloss>Thailand</gloss>
-               </category>
-               <category xml:id="dlTogo">
-                  <gloss>Togo</gloss>
-               </category>
-               <category xml:id="dlTonga">
-                  <gloss>Tonga</gloss>
-               </category>
-               <category xml:id="dlTrinidad_and_Tobago">
-                  <gloss>Trinidad and Tobago</gloss>
-               </category>
-               <category xml:id="dlTunisia">
-                  <gloss>Tunisia</gloss>
-               </category>
-               <category xml:id="dlTurkey">
-                  <gloss>Turkey</gloss>
-               </category>
-               <category xml:id="dlTurkmenistan">
-                  <gloss>Turkmenistan</gloss>
-               </category>
-               <category xml:id="dlTuvalu">
-                  <gloss>Tuvalu</gloss>
-               </category>
-               <category xml:id="dlUganda">
-                  <gloss>Uganda</gloss>
-               </category>
-               <category xml:id="dlUkraine">
-                  <gloss>Ukraine</gloss>
-               </category>
-               <category xml:id="dlUnited_Arab_Emirates">
-                  <gloss>United Arab Emirates</gloss>
-               </category>
-               <category xml:id="dlUnited_Kingdom">
-                  <gloss>United Kingdom</gloss>
-               </category>
-               <category xml:id="dlUnited_States">
-                  <gloss>United States</gloss>
-               </category>
-               <category xml:id="dlUruguay">
-                  <gloss>Uruguay</gloss>
-               </category>
-               <category xml:id="dlUzbekistan">
-                  <gloss>Uzbekistan</gloss>
-               </category>
-               <category xml:id="dlVanuatu">
-                  <gloss>Vanuatu</gloss>
-               </category>
-               <category xml:id="dlVatican_City">
-                  <gloss>Vatican City</gloss>
-               </category>
-               <category xml:id="dlVenezuela">
-                  <gloss>Venezuela</gloss>
-               </category>
-               <category xml:id="dlVietnam">
-                  <gloss>Vietnam</gloss>
-               </category>
-               <category xml:id="dlYemen">
-                  <gloss>Yemen</gloss>
-               </category>
-               <category xml:id="dlZambia">
-                  <gloss>Zambia</gloss>
-               </category>
-               <category xml:id="dlZimbabwe">
-                  <gloss>Zimbabwe</gloss>
                </category>
             </taxonomy>
             <taxonomy xml:id="taxPublisherClass" n="3I">
@@ -3767,202 +3973,23 @@
             <taxonomy xml:id="taxLocation" n="6G">
                <gloss>Location</gloss>
                <desc>The planet, continent, and/or country appearing the gameplay footage</desc>
+               <desc>Use the shared Countries taxonomy for countries. This taxonomy supplies additional location terms.</desc>
                <desc>Select <q>Fictional</q> if the location is imaginary (that is, it originated in the video game or its franchise).</desc>
                <desc>Select <q>Unspecified</q> when the location (such as <q>outer space</q>) is vague or cannot be determined.</desc>
                <desc>Note that gameplay footage may combine actual and fictional locations: for example, the town of Tigland in Canada on Earth. It may also combine actual and unspecified locations: <q>somewhere on Earth,</q> for instance.</desc>
                <desc>Use the <q>Gameplay Footage Note</q> to include a more specific location, such as an actual city or fictional town appearing in the gameplay footage.</desc>
                <desc>Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to confirm the location.</desc>
-               <category xml:id="lcAfghanistan">
-                  <gloss>Afghanistan</gloss>
-               </category>
                <category xml:id="lcAfrica">
                   <gloss>Africa</gloss>
-               </category>
-               <category xml:id="lcAlbania">
-                  <gloss>Albania</gloss>
-               </category>
-               <category xml:id="lcAlgeria">
-                  <gloss>Algeria</gloss>
-               </category>
-               <category xml:id="lcAndorra">
-                  <gloss>Andorra</gloss>
-               </category>
-               <category xml:id="lcAngola">
-                  <gloss>Angola</gloss>
                </category>
                <category xml:id="lcAntarctica">
                   <gloss>Antarctica</gloss>
                </category>
-               <category xml:id="lcAntigua_and_Barbuda">
-                  <gloss>Antigua and Barbuda</gloss>
-               </category>
-               <category xml:id="lcArgentina">
-                  <gloss>Argentina</gloss>
-               </category>
-               <category xml:id="lcArmenia">
-                  <gloss>Armenia</gloss>
-               </category>
                <category xml:id="lcAsia">
                   <gloss>Asia</gloss>
                </category>
-               <category xml:id="lcAustralia">
-                  <gloss>Australia</gloss>
-               </category>
-               <category xml:id="lcAustria">
-                  <gloss>Austria</gloss>
-               </category>
-               <category xml:id="lcAzerbaijan">
-                  <gloss>Azerbaijan</gloss>
-               </category>
-               <category xml:id="lcBahamas">
-                  <gloss>Bahamas</gloss>
-               </category>
-               <category xml:id="lcBahrain">
-                  <gloss>Bahrain</gloss>
-               </category>
-               <category xml:id="lcBangladesh">
-                  <gloss>Bangladesh</gloss>
-               </category>
-               <category xml:id="lcBarbados">
-                  <gloss>Barbados</gloss>
-               </category>
-               <category xml:id="lcBelarus">
-                  <gloss>Belarus</gloss>
-               </category>
-               <category xml:id="lcBelgium">
-                  <gloss>Belgium</gloss>
-               </category>
-               <category xml:id="lcBelize">
-                  <gloss>Belize</gloss>
-               </category>
-               <category xml:id="lcBenin">
-                  <gloss>Benin</gloss>
-               </category>
-               <category xml:id="lcBermuda">
-                  <gloss>Bermuda</gloss>
-               </category>
-               <category xml:id="lcBhutan">
-                  <gloss>Bhutan</gloss>
-               </category>
-               <category xml:id="lcBolivia">
-                  <gloss>Bolivia</gloss>
-               </category>
-               <category xml:id="lcBosnia_and_Herzegovina">
-                  <gloss>Bosnia and Herzegovina</gloss>
-               </category>
-               <category xml:id="lcBotswana">
-                  <gloss>Botswana</gloss>
-               </category>
-               <category xml:id="lcBrazil">
-                  <gloss>Brazil</gloss>
-               </category>
-               <category xml:id="lcBrunei">
-                  <gloss>Brunei</gloss>
-               </category>
-               <category xml:id="lcBulgaria">
-                  <gloss>Bulgaria</gloss>
-               </category>
-               <category xml:id="lcBurkina_Faso">
-                  <gloss>Burkina Faso</gloss>
-               </category>
-               <category xml:id="lcBurundi">
-                  <gloss>Burundi</gloss>
-               </category>
-               <category xml:id="lcCambodia">
-                  <gloss>Cambodia</gloss>
-               </category>
-               <category xml:id="lcCameroon">
-                  <gloss>Cameroon</gloss>
-               </category>
-               <category xml:id="lcCanada">
-                  <gloss>Canada</gloss>
-               </category>
-               <category xml:id="lcCape_Verde">
-                  <gloss>Cape Verde</gloss>
-               </category>
-               <category xml:id="lcCentral_African_Republic">
-                  <gloss>Central African Republic</gloss>
-               </category>
-               <category xml:id="lcChad">
-                  <gloss>Chad</gloss>
-               </category>
-               <category xml:id="lcChile">
-                  <gloss>Chile</gloss>
-               </category>
-               <category xml:id="lcChina">
-                  <gloss>China</gloss>
-               </category>
-               <category xml:id="lcColombia">
-                  <gloss>Colombia</gloss>
-               </category>
-               <category xml:id="lcComoros">
-                  <gloss>Comoros</gloss>
-               </category>
-               <category xml:id="lcCongo_Republic_of_the">
-                  <gloss>Congo, Republic of the</gloss>
-               </category>
-               <category xml:id="lcCongo_Democratic_Republic_of_the">
-                  <gloss>Congo, Democratic Republic of the</gloss>
-               </category>
-               <category xml:id="lcCosta_Rica">
-                  <gloss>Costa Rica</gloss>
-               </category>
-               <category xml:id="lcCroatia">
-                  <gloss>Croatia</gloss>
-               </category>
-               <category xml:id="lcCuba">
-                  <gloss>Cuba</gloss>
-               </category>
-               <category xml:id="lcCuracao">
-                  <gloss>Curacao</gloss>
-               </category>
-               <category xml:id="lcCyprus">
-                  <gloss>Cyprus</gloss>
-               </category>
-               <category xml:id="lcCzech_Republic">
-                  <gloss>Czech Republic</gloss>
-               </category>
-               <category xml:id="lcDenmark">
-                  <gloss>Denmark</gloss>
-               </category>
-               <category xml:id="lcDjibouti">
-                  <gloss>Djibouti</gloss>
-               </category>
-               <category xml:id="lcDominica">
-                  <gloss>Dominica</gloss>
-               </category>
-               <category xml:id="lcDominican_Republic">
-                  <gloss>Dominican Republic</gloss>
-               </category>
                <category xml:id="lcEarth">
                   <gloss>Earth</gloss>
-               </category>
-               <category xml:id="lcEast_Timor">
-                  <gloss>East Timor</gloss>
-               </category>
-               <category xml:id="lcEcuador">
-                  <gloss>Ecuador</gloss>
-               </category>
-               <category xml:id="lcEgypt">
-                  <gloss>Egypt</gloss>
-               </category>
-               <category xml:id="lcEl_Salvador">
-                  <gloss>El Salvador</gloss>
-               </category>
-               <category xml:id="lcEquatorial_Guinea">
-                  <gloss>Equatorial Guinea</gloss>
-               </category>
-               <category xml:id="lcEritrea">
-                  <gloss>Eritrea</gloss>
-               </category>
-               <category xml:id="lcEstonia">
-                  <gloss>Estonia</gloss>
-               </category>
-               <category xml:id="lcEswatini">
-                  <gloss>Eswatini</gloss>
-               </category>
-               <category xml:id="lcEthiopia">
-                  <gloss>Ethiopia</gloss>
                </category>
                <category xml:id="lcEurope">
                   <gloss>Europe</gloss>
@@ -3970,422 +3997,29 @@
                <category xml:id="lcFictional">
                   <gloss>Fictional</gloss>
                </category>
-               <category xml:id="lcFiji">
-                  <gloss>Fiji</gloss>
-               </category>
-               <category xml:id="lcFinland">
-                  <gloss>Finland</gloss>
-               </category>
-               <category xml:id="lcFrance">
-                  <gloss>France</gloss>
-               </category>
-               <category xml:id="lcGabon">
-                  <gloss>Gabon</gloss>
-               </category>
-               <category xml:id="lcGambia">
-                  <gloss>Gambia</gloss>
-               </category>
-               <category xml:id="lcGeorgia">
-                  <gloss>Georgia</gloss>
-               </category>
-               <category xml:id="lcGermany">
-                  <gloss>Germany</gloss>
-               </category>
-               <category xml:id="lcGhana">
-                  <gloss>Ghana</gloss>
-               </category>
-               <category xml:id="lcGreece">
-                  <gloss>Greece</gloss>
-               </category>
-               <category xml:id="lcGrenada">
-                  <gloss>Grenada</gloss>
-               </category>
-               <category xml:id="lcGuatemala">
-                  <gloss>Guatemala</gloss>
-               </category>
-               <category xml:id="lcGuinea">
-                  <gloss>Guinea</gloss>
-               </category>
-               <category xml:id="lcGuinea-Bissau">
-                  <gloss>Guinea-Bissau</gloss>
-               </category>
-               <category xml:id="lcGuyana">
-                  <gloss>Guyana</gloss>
-               </category>
-               <category xml:id="lcHaiti">
-                  <gloss>Haiti</gloss>
-               </category>
-               <category xml:id="lcHonduras">
-                  <gloss>Honduras</gloss>
-               </category>
-               <category xml:id="lcHungary">
-                  <gloss>Hungary</gloss>
-               </category>
-               <category xml:id="lcIceland">
-                  <gloss>Iceland</gloss>
-               </category>
-               <category xml:id="lcIndia">
-                  <gloss>India</gloss>
-               </category>
-               <category xml:id="lcIndonesia">
-                  <gloss>Indonesia</gloss>
-               </category>
-               <category xml:id="lcIran">
-                  <gloss>Iran</gloss>
-               </category>
-               <category xml:id="lcIraq">
-                  <gloss>Iraq</gloss>
-               </category>
-               <category xml:id="lcIreland">
-                  <gloss>Ireland</gloss>
-               </category>
-               <category xml:id="lcIsrael">
-                  <gloss>Israel</gloss>
-               </category>
-               <category xml:id="lcItaly">
-                  <gloss>Italy</gloss>
-               </category>
-               <category xml:id="lcIvory_Coast">
-                  <gloss>Ivory Coast</gloss>
-               </category>
-               <category xml:id="lcJamaica">
-                  <gloss>Jamaica</gloss>
-               </category>
-               <category xml:id="lcJapan">
-                  <gloss>Japan</gloss>
-               </category>
-               <category xml:id="lcJordan">
-                  <gloss>Jordan</gloss>
-               </category>
                <category xml:id="lcJupiter">
                   <gloss>Jupiter</gloss>
-               </category>
-               <category xml:id="lcKazakhstan">
-                  <gloss>Kazakhstan</gloss>
-               </category>
-               <category xml:id="lcKenya">
-                  <gloss>Kenya</gloss>
-               </category>
-               <category xml:id="lcKiribati">
-                  <gloss>Kiribati</gloss>
-               </category>
-               <category xml:id="lcKosovo">
-                  <gloss>Kosovo</gloss>
-               </category>
-               <category xml:id="lcKuwait">
-                  <gloss>Kuwait</gloss>
-               </category>
-               <category xml:id="lcKyrgyzstan">
-                  <gloss>Kyrgyzstan</gloss>
-               </category>
-               <category xml:id="lcLaos">
-                  <gloss>Laos</gloss>
-               </category>
-               <category xml:id="lcLatvia">
-                  <gloss>Latvia</gloss>
-               </category>
-               <category xml:id="lcLebanon">
-                  <gloss>Lebanon</gloss>
-               </category>
-               <category xml:id="lcLesotho">
-                  <gloss>Lesotho</gloss>
-               </category>
-               <category xml:id="lcLiberia">
-                  <gloss>Liberia</gloss>
-               </category>
-               <category xml:id="lcLibya">
-                  <gloss>Libya</gloss>
-               </category>
-               <category xml:id="lcLiechtenstein">
-                  <gloss>Liechtenstein</gloss>
-               </category>
-               <category xml:id="lcLithuania">
-                  <gloss>Lithuania</gloss>
-               </category>
-               <category xml:id="lcLuxembourg">
-                  <gloss>Luxembourg</gloss>
-               </category>
-               <category xml:id="lcMadagascar">
-                  <gloss>Madagascar</gloss>
-               </category>
-               <category xml:id="lcMalawi">
-                  <gloss>Malawi</gloss>
-               </category>
-               <category xml:id="lcMalaysia">
-                  <gloss>Malaysia</gloss>
-               </category>
-               <category xml:id="lcMaldives">
-                  <gloss>Maldives</gloss>
-               </category>
-               <category xml:id="lcMali">
-                  <gloss>Mali</gloss>
-               </category>
-               <category xml:id="lcMalta">
-                  <gloss>Malta</gloss>
                </category>
                <category xml:id="lcMars">
                   <gloss>Mars</gloss>
                </category>
-               <category xml:id="lcMarshall_Islands">
-                  <gloss>Marshall Islands</gloss>
-               </category>
-               <category xml:id="lcMauritania">
-                  <gloss>Mauritania</gloss>
-               </category>
-               <category xml:id="lcMauritius">
-                  <gloss>Mauritius</gloss>
-               </category>
                <category xml:id="lcMercury">
                   <gloss>Mercury</gloss>
-               </category>
-               <category xml:id="lcMexico">
-                  <gloss>Mexico</gloss>
-               </category>
-               <category xml:id="lcMicronesia">
-                  <gloss>Micronesia</gloss>
-               </category>
-               <category xml:id="lcMoldova">
-                  <gloss>Moldova</gloss>
-               </category>
-               <category xml:id="lcMonaco">
-                  <gloss>Monaco</gloss>
-               </category>
-               <category xml:id="lcMongolia">
-                  <gloss>Mongolia</gloss>
-               </category>
-               <category xml:id="lcMontenegro">
-                  <gloss>Montenegro</gloss>
-               </category>
-               <category xml:id="lcMorocco">
-                  <gloss>Morocco</gloss>
-               </category>
-               <category xml:id="lcMozambique">
-                  <gloss>Mozambique</gloss>
-               </category>
-               <category xml:id="lcMyanmar">
-                  <gloss>Myanmar</gloss>
-               </category>
-               <category xml:id="lcNamibia">
-                  <gloss>Namibia</gloss>
-               </category>
-               <category xml:id="lcNauru">
-                  <gloss>Nauru</gloss>
-               </category>
-               <category xml:id="lcNepal">
-                  <gloss>Nepal</gloss>
                </category>
                <category xml:id="lcNeptune">
                   <gloss>Neptune</gloss>
                </category>
-               <category xml:id="lcNetherlands">
-                  <gloss>Netherlands</gloss>
-               </category>
-               <category xml:id="lcNew_Zealand">
-                  <gloss>New Zealand</gloss>
-               </category>
-               <category xml:id="lcNicaragua">
-                  <gloss>Nicaragua</gloss>
-               </category>
-               <category xml:id="lcNiger">
-                  <gloss>Niger</gloss>
-               </category>
-               <category xml:id="lcNigeria">
-                  <gloss>Nigeria</gloss>
-               </category>
                <category xml:id="lcNorth_America">
                   <gloss>North America</gloss>
-               </category>
-               <category xml:id="lcNorth_Korea">
-                  <gloss>North Korea</gloss>
-               </category>
-               <category xml:id="lcNorth_Macedonia">
-                  <gloss>North Macedonia</gloss>
-               </category>
-               <category xml:id="lcNorway">
-                  <gloss>Norway</gloss>
                </category>
                <category xml:id="lcOceania">
                   <gloss>Oceania</gloss>
                </category>
-               <category xml:id="lcOman">
-                  <gloss>Oman</gloss>
-               </category>
-               <category xml:id="lcPakistan">
-                  <gloss>Pakistan</gloss>
-               </category>
-               <category xml:id="lcPalau">
-                  <gloss>Palau</gloss>
-               </category>
-               <category xml:id="lcPalestine">
-                  <gloss>Palestine</gloss>
-               </category>
-               <category xml:id="lcPanama">
-                  <gloss>Panama</gloss>
-               </category>
-               <category xml:id="lcPapua_New_Guinea">
-                  <gloss>Papua New Guinea</gloss>
-               </category>
-               <category xml:id="lcParaguay">
-                  <gloss>Paraguay</gloss>
-               </category>
-               <category xml:id="lcPeru">
-                  <gloss>Peru</gloss>
-               </category>
-               <category xml:id="lcPhilippines">
-                  <gloss>Philippines</gloss>
-               </category>
-               <category xml:id="lcPoland">
-                  <gloss>Poland</gloss>
-               </category>
-               <category xml:id="lcPortugal">
-                  <gloss>Portugal</gloss>
-               </category>
-               <category xml:id="lcPuerto_Rico">
-                  <gloss>Puerto Rico</gloss>
-               </category>
-               <category xml:id="lcQatar">
-                  <gloss>Qatar</gloss>
-               </category>
-               <category xml:id="lcRomania">
-                  <gloss>Romania</gloss>
-               </category>
-               <category xml:id="lcRussia">
-                  <gloss>Russia</gloss>
-               </category>
-               <category xml:id="lcRwanda">
-                  <gloss>Rwanda</gloss>
-               </category>
-               <category xml:id="lcSaint_Kitts_and_Nevis">
-                  <gloss>Saint Kitts and Nevis</gloss>
-               </category>
-               <category xml:id="lcSaint_Lucia">
-                  <gloss>Saint Lucia</gloss>
-               </category>
-               <category xml:id="lcSaint_Vincent_and_the_Grenadines">
-                  <gloss>Saint Vincent and the Grenadines</gloss>
-               </category>
-               <category xml:id="lcSamoa">
-                  <gloss>Samoa</gloss>
-               </category>
-               <category xml:id="lcSan_Marino">
-                  <gloss>San Marino</gloss>
-               </category>
-               <category xml:id="lcS_o_Tom_and_Pr_ncipe">
-                  <gloss>São Tomé and Príncipe</gloss>
-               </category>
                <category xml:id="lcSaturn">
                   <gloss>Saturn</gloss>
                </category>
-               <category xml:id="lcSaudi_Arabia">
-                  <gloss>Saudi Arabia</gloss>
-               </category>
-               <category xml:id="lcSenegal">
-                  <gloss>Senegal</gloss>
-               </category>
-               <category xml:id="lcSerbia">
-                  <gloss>Serbia</gloss>
-               </category>
-               <category xml:id="lcSeychelles">
-                  <gloss>Seychelles</gloss>
-               </category>
-               <category xml:id="lcSierra_Leone">
-                  <gloss>Sierra Leone</gloss>
-               </category>
-               <category xml:id="lcSingapore">
-                  <gloss>Singapore</gloss>
-               </category>
-               <category xml:id="lcSlovakia">
-                  <gloss>Slovakia</gloss>
-               </category>
-               <category xml:id="lcSlovenia">
-                  <gloss>Slovenia</gloss>
-               </category>
-               <category xml:id="lcSolomon_Islands">
-                  <gloss>Solomon Islands</gloss>
-               </category>
-               <category xml:id="lcSomalia">
-                  <gloss>Somalia</gloss>
-               </category>
-               <category xml:id="lcSouth_Africa">
-                  <gloss>South Africa</gloss>
-               </category>
                <category xml:id="lcSouth_America">
                   <gloss>South America</gloss>
-               </category>
-               <category xml:id="lcSouth_Korea">
-                  <gloss>South Korea</gloss>
-               </category>
-               <category xml:id="lcSouth_Sudan">
-                  <gloss>South Sudan</gloss>
-               </category>
-               <category xml:id="lcSpain">
-                  <gloss>Spain</gloss>
-               </category>
-               <category xml:id="lcSri_Lanka">
-                  <gloss>Sri Lanka</gloss>
-               </category>
-               <category xml:id="lcSudan">
-                  <gloss>Sudan</gloss>
-               </category>
-               <category xml:id="lcSuriname">
-                  <gloss>Suriname</gloss>
-               </category>
-               <category xml:id="lcSweden">
-                  <gloss>Sweden</gloss>
-               </category>
-               <category xml:id="lcSwitzerland">
-                  <gloss>Switzerland</gloss>
-               </category>
-               <category xml:id="lcSyria">
-                  <gloss>Syria</gloss>
-               </category>
-               <category xml:id="lcTaiwan">
-                  <gloss>Taiwan</gloss>
-               </category>
-               <category xml:id="lcTajikistan">
-                  <gloss>Tajikistan</gloss>
-               </category>
-               <category xml:id="lcTanzania">
-                  <gloss>Tanzania</gloss>
-               </category>
-               <category xml:id="lcThailand">
-                  <gloss>Thailand</gloss>
-               </category>
-               <category xml:id="lcTogo">
-                  <gloss>Togo</gloss>
-               </category>
-               <category xml:id="lcTonga">
-                  <gloss>Tonga</gloss>
-               </category>
-               <category xml:id="lcTrinidad_and_Tobago">
-                  <gloss>Trinidad and Tobago</gloss>
-               </category>
-               <category xml:id="lcTunisia">
-                  <gloss>Tunisia</gloss>
-               </category>
-               <category xml:id="lcTurkey">
-                  <gloss>Turkey</gloss>
-               </category>
-               <category xml:id="lcTurkmenistan">
-                  <gloss>Turkmenistan</gloss>
-               </category>
-               <category xml:id="lcTuvalu">
-                  <gloss>Tuvalu</gloss>
-               </category>
-               <category xml:id="lcUganda">
-                  <gloss>Uganda</gloss>
-               </category>
-               <category xml:id="lcUkraine">
-                  <gloss>Ukraine</gloss>
-               </category>
-               <category xml:id="lcUnited_Arab_Emirates">
-                  <gloss>United Arab Emirates</gloss>
-               </category>
-               <category xml:id="lcUnited_Kingdom">
-                  <gloss>United Kingdom</gloss>
-               </category>
-               <category xml:id="lcUnited_States">
-                  <gloss>United States</gloss>
                </category>
                <category xml:id="lcUnspecified">
                   <gloss>Unspecified</gloss>
@@ -4393,35 +4027,8 @@
                <category xml:id="lcUranus">
                   <gloss>Uranus</gloss>
                </category>
-               <category xml:id="lcUruguay">
-                  <gloss>Uruguay</gloss>
-               </category>
-               <category xml:id="lcUzbekistan">
-                  <gloss>Uzbekistan</gloss>
-               </category>
-               <category xml:id="lcVanuatu">
-                  <gloss>Vanuatu</gloss>
-               </category>
-               <category xml:id="lcVatican_City">
-                  <gloss>Vatican City</gloss>
-               </category>
-               <category xml:id="lcVenezuela">
-                  <gloss>Venezuela</gloss>
-               </category>
                <category xml:id="lcVenus">
                   <gloss>Venus</gloss>
-               </category>
-               <category xml:id="lcVietnam">
-                  <gloss>Vietnam</gloss>
-               </category>
-               <category xml:id="lcYemen">
-                  <gloss>Yemen</gloss>
-               </category>
-               <category xml:id="lcZambia">
-                  <gloss>Zambia</gloss>
-               </category>
-               <category xml:id="lcZimbabwe">
-                  <gloss>Zimbabwe</gloss>
                </category>
             </taxonomy>
             <taxonomy xml:id="taxTimePeriod" n="6H">
@@ -6418,7 +6025,6 @@
                <desc>This element will typically be repeated.</desc>
                <desc>Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution, including pacing), and gamification (achievements or trophies) (Brazie 2024).</desc>
                <desc>Controlled vocabulary with nine beats adapted from Laws 2010 and environmental storytelling from Jenkins 2002.</desc>
-               <!-- TODO... -->
                <category xml:id="prgAchievement_trophy_badge">
                   <gloss>Achievement / trophy / badge</gloss>
                </category>

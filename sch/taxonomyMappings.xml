@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyMappings xmlns="http://hcmc.uvic.ca/ns/PressRecord"
+  ruleSource="https://uvicpraxis.github.io/metadata.html" extracted="2026-10-13">
+  <sharedVocabularies>
+    <!-- For country entries only, preserve the suffix when replacing either of the prefixes from the original schema.  -->
+    <sharedVocabulary taxonomy="taxCountries" dataSpec="countryCodes"
+      oldDeveloperLocationPrefix="dl" oldLocationPrefix="lc" canonicalPrefix="country"/>
+  </sharedVocabularies>
+  <!-- [R] = minOccurs 1 and  [+] = maxOccurs unbounded. -->
+  <fields>
+    <field taxonomy="taxReleaseType" element="release" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="1" existing="true"/>
+    <field taxonomy="taxPlatform" element="platform" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxEngine" element="engine" parent="platformEdition" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="platformEdition" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries" additionalDataSpec="developerLocationAdditionalCodes"/>
+    <field taxonomy="taxPublisherClass" element="publisher" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxCommentary" element="commentary" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxChat" element="chat" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxRecordStatus" element="recordStatus" parent="gameplayFile" minOccurs="1" maxOccurs="1"/>
+    <field taxonomy="taxInputDevice" element="inputDevice" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxConnectivity" element="connectivity" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxNumPlayers" element="numPlayers" parent="gameplaySettings" minOccurs="1" maxOccurs="1"/>
+    <field taxonomy="taxGameplayMode" element="gameplayMode" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxAccessibility" element="accessibility" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTypeOfPlay" element="typeOfPlay" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxGameplayGenre" element="gameplayGenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxGameplaySubgenre" element="gameplaySubgenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxNarrativeGenre" element="narrativeGenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxNarrativeSubgenre" element="narrativeSubgenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxDimensionPerspective" element="dimensionPerspective" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxLocation" element="location" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries" additionalDataSpec="locationAdditionalCodes"/>
+    <field taxonomy="taxTimePeriod" element="timePeriod" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxBiome" element="biome" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxBuiltEnv" element="builtEnv" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTransport" element="transport" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxItems" element="items" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxAtmosphere" element="atmosphere" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxPlayerCharacter" element="playerCharacter" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxNonPlayerCharacter" element="nonPlayerCharacter" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxMechanics" element="mechanics" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTimekeeping" element="timekeeping" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxProgression" element="progression" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTheme" element="theme" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxAssets" element="assets" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxStyle" element="style" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxInterface" element="interface" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxExperience" element="experience" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTransaction" element="transaction" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxMetagaming" element="metagaming" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxGameplayTrope" element="gameplayTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxEnvironmentTrope" element="environmentTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxProgressionTrope" element="progressionTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxNarrativeTrope" element="narrativeTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxGameStudiesTopic" element="gameStudiesTopic" parent="gameplayInstruction" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxMediaStudiesTopic" element="mediaStudiesTopic" parent="gameplayInstruction" minOccurs="1" maxOccurs="unbounded"/>
+  </fields>
+</taxonomyMappings>

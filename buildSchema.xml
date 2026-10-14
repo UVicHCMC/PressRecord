@@ -23,31 +23,30 @@
   
   <property name="odd2oddxsl" value="${stylesheetLocation}/odds/odd2odd.xsl"/>
   
-  <!-- Write that xslt first and then activate target -->
   <target name="taxonomiesToODD">
     <echo>${echo.separator}</echo>
-    <echo>Incorporate taxonomy in ODD file...</echo>
+    <echo>Generate taxonomy specifications and values in the ODD file...</echo>
     <echo>${echo.separator}</echo>
 
     <java fork="true" classname="net.sf.saxon.Transform" classpath="${basedir}/lib/saxon-he-12.jar" failonerror="true" dir="${basedir}">
       <arg value="-s:${basedir}/sch/PressRecord.odd"/>
       <arg value="-xsl:${basedir}/xsl/master_expand_odd.xsl"/>
       <arg value="-o:${basedir}/sch/PressRecord.odd_temp"/>
-      <arg value="projDir=${basedir}"/>
-      <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg value="projDir=${basedir}/"/>
     </java>
+
+    <xmlvalidate file="${basedir}/sch/PressRecord.odd_temp" lenient="true" warn="false"/>
     
     <move file="${basedir}/sch/PressRecord.odd_temp" tofile="${basedir}/sch/PressRecord.odd" overwrite="true"/>
     
-  </target> 
+  </target>
   
-  <target name="ODDToSchema">
+  <target name="ODDToSchema" depends="taxonomiesToODD">
     <echo>${echo.separator}</echo>
     <echo>Create schema from ODD file...</echo>
     <echo>${echo.separator}</echo>
     
-    <xslt force="yes" style="${stylesheetLocation}/odds/odd2odd.xsl" in="${basedir}/sch/PressRecord.odd" out="${basedir}/sch/PressRecord.odd.processedodd">
+    <xslt classpath="${basedir}/lib/saxon-he-12.jar" force="yes" style="${stylesheetLocation}/odds/odd2odd.xsl" in="${basedir}/sch/PressRecord.odd" out="${basedir}/sch/PressRecord.odd.processedodd">
       <factory name="net.sf.saxon.TransformerFactoryImpl">
         <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
       </factory>
@@ -59,12 +58,12 @@
     <buildgeneric type="relaxng" xsl="${stylesheetLocation}/profiles/tei/rng/to.xsl" in="${basedir}/sch/PressRecord.odd.processedodd" out="${basedir}/sch/PressRecord.rng"/>
   </target> 
   
-  <target name="ODDToDocumentation">
+  <target name="ODDToDocumentation" depends="ODDToSchema">
     <echo>${echo.separator}</echo>
     <echo>*Create documentation from ODD file.*</echo>
     <echo>${echo.separator}</echo>
     
-    <xslt force="yes" style="${stylesheetLocation}/odds/odd2lite.xsl" in="${basedir}/sch/PressRecord.odd.processedodd" out="${basedir}/sch/PressRecord.lite.odd">
+    <xslt classpath="${basedir}/lib/saxon-he-12.jar" force="yes" style="${stylesheetLocation}/odds/odd2lite.xsl" in="${basedir}/sch/PressRecord.odd.processedodd" out="${basedir}/sch/PressRecord.lite.odd">
       <factory name="net.sf.saxon.TransformerFactoryImpl">
         <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
       </factory>
@@ -95,11 +94,6 @@
   </target>
   
   <target name="all">
-    <echo message="Building schemas and documentation..."/>
-    <antcall target="taxonomiesToODD"/>
-    <antcall target="ODDToSchema"/>
-    <antcall target="extractSchematron"/>
-    <antcall target="compileSchematron"/>
     <antcall target="ODDToDocumentation"/>
     <antcall target="clean"/>
   </target>
