@@ -64,7 +64,7 @@
     <xsl:variable name="newFields" as="element(pr:field)+"
       select="$fields[not(@existing eq 'true')]"/>
     <xsl:variable name="datatypeNames" as="xs:string*"
-      select="($shared/@dataSpec/string(), $fields/@additionalDataSpec/string(), $newFields[not(@attribute or @sharedVocabulary)]/(@element || 'Values'))"/>
+      select="$shared/@dataSpec/string()"/>
     <xsl:variable name="ids" as="xs:string*"
       select="$taxonomiesInSource/tei:category/@xml:id/string()"/>
 
@@ -131,9 +131,6 @@
     <xsl:if test="exists($fields[@sharedVocabulary][not(@sharedVocabulary = $shared/@taxonomy)])">
       <xsl:message terminate="yes">[mappings]: PROBLEM: a field references an undeclared shared vocabulary.</xsl:message>
     </xsl:if>
-    <xsl:if test="exists($fields[@sharedVocabulary][not(@additionalDataSpec)])">
-      <xsl:message terminate="yes">[mappings]: PROBLEM: a field using a shared vocabulary must declare its additional dataSpec.</xsl:message>
-    </xsl:if>
     <xsl:if test="exists($schema/*[self::tei:dataSpec or self::tei:macroSpec][@ident = $datatypeNames][not(preceding-sibling::comment()[contains(., 'DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE')][1] and following-sibling::comment()[contains(., 'END OF SECTION GENERATED FROM TAXONOMIES.XML FILE')][1])])">
       <xsl:message terminate="yes">PROBLEM: a generated datatype name collides with an authored ODD declaration.</xsl:message>
     </xsl:if>
@@ -186,34 +183,6 @@
         </xsl:call-template>
       </dataSpec>
     </xsl:for-each>
-    <xsl:for-each select="$mappingsDocument/pr:taxonomyMappings/pr:fields/pr:field[@sharedVocabulary]">
-      <xsl:variable name="taxonomy" as="element(tei:taxonomy)"
-        select="$taxonomies//tei:taxonomy[@xml:id eq current()/@taxonomy]"/>
-      <dataSpec ident="{@additionalDataSpec}" module="PressRecord">
-        <xsl:sequence select="$taxonomy/tei:desc"/>
-        <xsl:call-template name="hcmc:makeTextValList">
-          <xsl:with-param name="categories" select="$taxonomy/tei:category"/>
-        </xsl:call-template>
-      </dataSpec>
-    </xsl:for-each>
-    <xsl:for-each select="$mappingsDocument/pr:taxonomyMappings/pr:fields/pr:field[not(@existing eq 'true' or @attribute or @sharedVocabulary)]">
-      <xsl:variable name="taxonomy" as="element(tei:taxonomy)"
-        select="$taxonomies//taxonomy[@xml:id eq current()/@taxonomy]"/>
-      <dataSpec ident="{@element || 'Values'}" module="PressRecord">
-        <!-- Copy over any pre-existing desc element from the taxonomies.xml file -->
-        <xsl:choose>
-          <xsl:when test="$taxonomy/tei:desc">
-            <xsl:sequence select="$taxonomy/tei:desc"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <desc>Controlled text values for <xsl:sequence select="$taxonomy/gloss/node()"/>.</desc>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:call-template name="hcmc:makeTextValList">
-          <xsl:with-param name="categories" select="$taxonomy/category"/>
-        </xsl:call-template>
-      </dataSpec>
-    </xsl:for-each>
   </xsl:template>
 
   <xd:doc>
@@ -235,10 +204,7 @@
           </xsl:when>
           <xsl:otherwise>
             <xsl:sequence select="$taxonomy/gloss"/>
-            <!-- If there is a desc element in the taxonomy, include it as the description -->
-            <xsl:if test="$taxonomy/desc[1]">
-              <desc><xsl:sequence select="$taxonomy/desc[1]/node()"/></desc>
-            </xsl:if>
+            <xsl:sequence select="$taxonomy/tei:desc"/>
           </xsl:otherwise>
         </xsl:choose>
         <xsl:choose>
@@ -259,21 +225,29 @@
                 <xsl:when test="$field/@sharedVocabulary">
                   <rng:choice>
                     <rng:ref name="{$mappingsDocument/pr:taxonomyMappings/pr:sharedVocabularies/pr:sharedVocabulary[@taxonomy eq $field/@sharedVocabulary]/@dataSpec}"/>
-                    <rng:ref name="{$field/@additionalDataSpec}"/>
+                    <rng:choice>
+                      <xsl:for-each select="$taxonomy/category">
+                        <xsl:sort select="lower-case(normalize-space(string(gloss)))"/>
+                        <rng:value><xsl:value-of select="normalize-space(string(tei:gloss))"/></rng:value>
+                        <!-- If there is a desc element, include it for the OxygenXML editor popup -->
+                        <xsl:if test="tei:desc[1]">
+                          <xsl:element name="a:documentation" namespace="http://relaxng.org/ns/compatibility/annotations/1.0">
+                            <xsl:sequence select="tei:desc[1]/node()"/>
+                          </xsl:element>
+                        </xsl:if>
+                      </xsl:for-each>
+                    </rng:choice>
                   </rng:choice>
                 </xsl:when>
-                <xsl:otherwise><dataRef key="{$field/@element || 'Values'}"/></xsl:otherwise>
+                <xsl:otherwise>
+                  <xsl:call-template name="hcmc:makeTextValList">
+                    <xsl:with-param name="categories" select="$taxonomy/category"/>
+                  </xsl:call-template>
+                </xsl:otherwise>
               </xsl:choose>
             </content>
           </xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="count($taxonomy/tei:desc) gt 1">
-          <remarks ident="{$field/@element}TaxonomyNotes">
-            <xsl:for-each select="$taxonomy/tei:desc[position() gt 1]">
-              <p><xsl:sequence select="node()"/></p>
-            </xsl:for-each>
-          </remarks>
-        </xsl:if>
       </elementSpec>
     </xsl:for-each>
   </xsl:template>

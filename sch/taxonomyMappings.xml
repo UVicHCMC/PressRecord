@@ -11,7 +11,7 @@
     <field taxonomy="taxReleaseType" element="release" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="1" existing="true"/>
     <field taxonomy="taxPlatform" element="platform" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxEngine" element="engine" parent="platformEdition" minOccurs="0" maxOccurs="unbounded"/>
-    <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="platformEdition" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries" additionalDataSpec="developerLocationAdditionalCodes"/>
+    <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="platformEdition" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries"/>
     <field taxonomy="taxPublisherClass" element="publisher" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxCommentary" element="commentary" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxChat" element="chat" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
@@ -27,7 +27,7 @@
     <field taxonomy="taxNarrativeGenre" element="narrativeGenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxNarrativeSubgenre" element="narrativeSubgenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxDimensionPerspective" element="dimensionPerspective" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxLocation" element="location" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries" additionalDataSpec="locationAdditionalCodes"/>
+    <field taxonomy="taxLocation" element="location" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries"/>
     <field taxonomy="taxTimePeriod" element="timePeriod" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxBiome" element="biome" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxBuiltEnv" element="builtEnv" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
