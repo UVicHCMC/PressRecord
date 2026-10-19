@@ -4,7 +4,7 @@
 <gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template">
    <platformEdition>
       <title></title>
-      <releaseYear>1989</releaseYear>
+      <releaseYear></releaseYear>
       <releaseType></releaseType>
       <platform></platform>
       <engine></engine>
