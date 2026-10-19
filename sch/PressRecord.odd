@@ -35,7 +35,6 @@
    <text>
       <body>
          <div>
-            <p>For now, we've built a relatively flat taxonomy with each item in the Gameplay Metadata Schema receiving its own element. We may want to convert some of the elements to attributes for easier XML editing later.</p>
             <p>Documentation coming soon</p>
          </div>
       </body>
@@ -152,7 +151,7 @@
                      <elementRef key="progressionTrope" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="narrativeTrope" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="characterTrope" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="contentWarning" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="contentWarning" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="gameplayFootageNote" minOccurs="0" maxOccurs="1"/>
                   </sequence>
                </content>

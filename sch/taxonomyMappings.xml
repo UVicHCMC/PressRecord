@@ -8,19 +8,19 @@
   </sharedVocabularies>
   <!-- [R] = minOccurs 1 and  [+] = maxOccurs unbounded. -->
   <fields>
-    <field taxonomy="taxReleaseType" element="releaseType" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxReleaseType" element="release" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxPlatform" element="platform" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxEngine" element="engine" parent="platformEdition" minOccurs="0" maxOccurs="unbounded"/>
-    <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="platformEdition" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries"/>
-    <field taxonomy="taxPublisherClass" element="publisher" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxCommentary" element="commentary" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxChat" element="chat" parent="gameplayFile" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxRecordStatus" element="recordStatus" parent="gameplayFile" minOccurs="1" maxOccurs="1"/>
+    <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="developer" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries"/>
+    <!--<field taxonomy="taxPublisherClass" element="publisher" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/> [Replaced by type element in publisher class]-->
+    <field taxonomy="taxCommentary" element="commentary" parent="gameplayFile" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxChat" element="chat" parent="gameplayFile" minOccurs="0" maxOccurs="unbounded"/>
+    <!-- <field taxonomy="taxRecordStatus" element="recordStatus" parent="gameplayFile" minOccurs="1" maxOccurs="1"/> [Replaced with status in root element]-->
     <field taxonomy="taxInputDevice" element="inputDevice" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxConnectivity" element="connectivity" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxNumPlayers" element="numPlayers" parent="gameplaySettings" minOccurs="1" maxOccurs="1"/>
     <field taxonomy="taxGameplayMode" element="gameplayMode" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxAccessibility" element="accessibility" parent="gameplaySettings" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxAccessibility" element="accessibility" parent="gameplaySettings" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxTypeOfPlay" element="typeOfPlay" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxGameplayGenre" element="gameplayGenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxGameplaySubgenre" element="gameplaySubgenre" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
@@ -31,12 +31,12 @@
     <field taxonomy="taxTimePeriod" element="timePeriod" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxBiome" element="biome" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxBuiltEnv" element="builtEnv" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxTransport" element="transport" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxItems" element="items" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTransport" element="transport" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxItems" element="items" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxAtmosphere" element="atmosphere" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxPlayerCharacter" element="playerCharacter" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxNonPlayerCharacter" element="nonPlayerCharacter" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxMechanics" element="mechanics" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxPlayerCharacter" element="playerCharacter" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxNonPlayerCharacter" element="nonPlayerCharacter" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
+    <field taxonomy="taxMechanics" element="mechanics" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxTimekeeping" element="timekeeping" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxProgression" element="progression" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxTheme" element="theme" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
@@ -44,7 +44,7 @@
     <field taxonomy="taxStyle" element="style" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxInterface" element="interface" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxExperience" element="experience" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
-    <field taxonomy="taxTransaction" element="transaction" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
+    <field taxonomy="taxTransaction" element="transaction" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxMetagaming" element="metagaming" parent="gameplayFootage" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxGameplayTrope" element="gameplayTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxEnvironmentTrope" element="environmentTrope" parent="gameplayFootage" minOccurs="0" maxOccurs="unbounded"/>
