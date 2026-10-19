@@ -61,8 +61,6 @@
       select="$sourceOdd//tei:schemaSpec[@ident eq 'PressRecord']"/>
     <xsl:variable name="shared" as="element(pr:sharedVocabulary)+"
       select="$mappingsDocument/pr:taxonomyMappings/pr:sharedVocabularies/pr:sharedVocabulary"/>
-    <xsl:variable name="newFields" as="element(pr:field)+"
-      select="$fields[not(@existing eq 'true')]"/>
     <xsl:variable name="datatypeNames" as="xs:string*"
       select="$shared/@dataSpec/string()"/>
     <xsl:variable name="ids" as="xs:string*"
@@ -74,14 +72,14 @@
     <xsl:if test="count($sourceOdd//tei:schemaSpec[@ident eq 'PressRecord']) ne 1">
       <xsl:message terminate="yes">PROBLEM: expected exactly one PressRecord schemaSpec.</xsl:message>
     </xsl:if>
-    <xsl:if test="count($schema/tei:elementSpec[@ident eq 'gameplayRecord']) ne 1 or count($schema/tei:elementSpec[@ident eq 'platformEdition']) ne 1 or count($schema/tei:elementSpec[@ident eq 'title']) ne 1 or count($schema/tei:elementSpec[@ident eq 'release']) ne 1">
+    <xsl:if test="count($schema/tei:elementSpec[@ident eq 'gameplayRecord']) ne 1 or count($schema/tei:elementSpec[@ident eq 'platformEdition']) ne 1 or count($schema/tei:elementSpec[@ident eq 'title']) ne 1 or count($schema/tei:elementSpec[@ident eq 'releaseYear']) ne 1">
       <xsl:message terminate="yes">PROBLEM: a required hand-authored record elementSpec is missing or duplicated.</xsl:message>
     </xsl:if>
     <xsl:if test="count($schema/tei:moduleSpec[@ident eq 'PressRecord']) ne 1">
       <xsl:message terminate="yes">PROBLEM: expected exactly one PressRecord moduleSpec insertion point.</xsl:message>
     </xsl:if>
-    <xsl:if test="count($schema/tei:elementSpec[@ident eq 'release']/tei:attList/tei:attDef[@ident eq 'year'][@usage eq 'req']) ne 1 or count($schema/tei:elementSpec[@ident eq 'release']/tei:attList/tei:attDef[@ident eq 'type'][@usage eq 'req']) ne 1">
-      <xsl:message terminate="yes">PROBLEM: release must retain required @year and @type attributes.</xsl:message>
+    <xsl:if test="count($schema/elementSpec[@ident eq 'releaseYear']/content/dataRef[@name eq 'gYear']) ne 1">
+      <xsl:message terminate="yes">PROBLEM: releaseYear must retain its gYear datatype.</xsl:message>
     </xsl:if>
     <xsl:if test="count($fields/@taxonomy) ne count(distinct-values($fields/@taxonomy))">
       <xsl:message terminate="yes">[mappings]: PROBLEM: taxonomy mappings contain duplicate taxonomy IDs.</xsl:message>
@@ -89,10 +87,7 @@
     <xsl:if test="count($shared/@taxonomy) ne count(distinct-values($shared/@taxonomy)) or count($datatypeNames) ne count(distinct-values($datatypeNames))">
       <xsl:message terminate="yes">[mappings]: PROBLEM: shared vocabulary declarations contain duplicate IDs.</xsl:message>
     </xsl:if>
-    <xsl:if test="count($fields[@existing eq 'true']) ne 1">
-      <xsl:message terminate="yes">[mappings]: PROBLEM: exactly one existing vocabulary field is required.</xsl:message>
-    </xsl:if>
-    <xsl:if test="count($newFields/@element) ne count(distinct-values($newFields/@element))">
+    <xsl:if test="count($fields/@element) ne count(distinct-values($fields/@element))">
       <xsl:message terminate="yes">[mappings]: PROBLEM: taxonomy mappings contain duplicate element names.</xsl:message>
     </xsl:if>
     <xsl:if test="exists($fields[not(@taxonomy = $taxonomiesInSource/@xml:id)])">
@@ -119,12 +114,6 @@
         <xsl:message terminate="yes">[mappings]: PROBLEM: each mapped field must occur once in its authored parent content model.</xsl:message>
       </xsl:if>
     </xsl:for-each>
-    <xsl:if test="exists($fields[@existing eq 'true'][not(@taxonomy eq 'taxReleaseType' and @element eq 'release' and @attribute eq 'type')])">
-      <xsl:message terminate="yes">[mappings]: PROBLEM: the existing-field exception must map taxReleaseType to release/@type.</xsl:message>
-    </xsl:if>
-    <xsl:if test="exists($fields[not(@existing eq 'true')][@taxonomy eq 'taxReleaseType'])">
-      <xsl:message terminate="yes">[mappings]: PROBLEM: taxReleaseType must use the existing release/@type attribute.</xsl:message>
-    </xsl:if>
     <xsl:if test="exists($shared[not(@taxonomy = $taxonomiesInSource/@xml:id)])">
       <xsl:message terminate="yes">[mappings]: PROBLEM: a shared vocabulary reference is unresolved.</xsl:message>
     </xsl:if>
@@ -140,10 +129,10 @@
     <xsl:if test="exists($taxonomiesInSource/tei:category[not(@xml:id) or not(tei:gloss)])">
       <xsl:message terminate="yes">[taxonomies]: PROBLEM: each category must have an ID and gloss.</xsl:message>
     </xsl:if>
-    <xsl:if test="exists($newFields[not(@taxonomy = $taxonomiesInSource/@xml:id)])">
+    <xsl:if test="exists($fields[not(@taxonomy = $taxonomiesInSource/@xml:id)])">
       <xsl:message terminate="yes">[mappings]: PROBLEM: a generated field taxonomy is unresolved.</xsl:message>
     </xsl:if>
-    <xsl:if test="exists($schema/tei:elementSpec[@ident = $newFields/@element][not(preceding-sibling::comment()[contains(., 'DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE')][1] and following-sibling::comment()[contains(., 'END OF SECTION GENERATED FROM TAXONOMIES.XML FILE')][1])])">
+    <xsl:if test="exists($schema/tei:elementSpec[@ident = $fields/@element][not(preceding-sibling::comment()[contains(., 'DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE')][1] and following-sibling::comment()[contains(., 'END OF SECTION GENERATED FROM TAXONOMIES.XML FILE')][1])])">
       <xsl:message terminate="yes">PROBLEM: a generated element name collides with a hand-authored elementSpec.</xsl:message>
     </xsl:if>
     <xsl:if test="count($schema/comment()[contains(., 'DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE')]) ne count($schema/comment()[contains(., 'END OF SECTION GENERATED FROM TAXONOMIES.XML FILE')]) or count($schema/comment()[contains(., 'DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE')]) gt 1">
@@ -164,8 +153,8 @@
   </xd:doc>
   <xsl:template name="hcmc:generateManagedRegion">
     <xsl:comment> DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE </xsl:comment>
-    <xsl:call-template name="hcmc:generateSharedDataSpecs"/>
     <xsl:call-template name="hcmc:generateElements"/>
+    <xsl:call-template name="hcmc:generateSharedDataSpecs"/>
     <xsl:comment> END OF SECTION GENERATED FROM TAXONOMIES.XML FILE </xsl:comment>
   </xsl:template>
 
@@ -192,7 +181,7 @@
     <xd:return>Element specifications for mapped field taxonomies.</xd:return>
   </xd:doc>
   <xsl:template name="hcmc:generateElements">
-    <xsl:for-each select="$mappingsDocument/pr:taxonomyMappings/pr:fields/pr:field[not(@existing eq 'true')]">
+    <xsl:for-each select="$mappingsDocument/pr:taxonomyMappings/pr:fields/pr:field">
       <xsl:variable name="field" as="element(pr:field)" select="."/>
       <xsl:variable name="taxonomy" as="element(tei:taxonomy)"
         select="$taxonomies//tei:taxonomy[@xml:id eq $field/@taxonomy]"/>
@@ -304,7 +293,7 @@
   </xsl:template>
 
   <xd:doc>
-    <xd:desc>Replaces the previously generated region or inserts it after the PressRecord module declaration.</xd:desc>
+    <xd:desc>Places authored declarations first, followed by generated elements and shared datatypes.</xd:desc>
   </xd:doc>
   <xsl:template match="tei:schemaSpec[@ident eq 'PressRecord']" mode="identity">
     <xsl:copy>
@@ -317,15 +306,8 @@
           <xsl:otherwise><xsl:apply-templates select="." mode="identity"/></xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
+      <xsl:call-template name="hcmc:generateManagedRegion"/>
     </xsl:copy>
-  </xsl:template>
-
-  <xd:doc>
-    <xd:desc>Emits a generated region after the project module declaration.</xd:desc>
-  </xd:doc>
-  <xsl:template match="tei:moduleSpec[@ident eq 'PressRecord']" mode="identity">
-    <xsl:next-match/>
-    <xsl:call-template name="hcmc:generateManagedRegion"/>
   </xsl:template>
 
   <xd:doc>
@@ -339,18 +321,6 @@
       <xsl:attribute name="minOccurs" select="$field/@minOccurs"/>
       <xsl:attribute name="maxOccurs" select="$field/@maxOccurs"/>
       <xsl:apply-templates select="node()" mode="identity"/>
-    </xsl:copy>
-  </xsl:template>
-
-  <xd:doc>
-    <xd:desc>Special template for the release element because it combines two taxonomy fields: Release Type and Release Year.</xd:desc>
-  </xd:doc>
-  <xsl:template match="tei:elementSpec[@ident eq 'release']/tei:attList/tei:attDef[@ident eq 'type']/tei:valList" mode="identity">
-    <xsl:copy>
-      <xsl:apply-templates select="@*" mode="identity"/>
-      <xsl:call-template name="hcmc:makeValItems">
-        <xsl:with-param name="categories" select="$taxonomies//tei:taxonomy[@xml:id eq 'taxReleaseType']/tei:category"/>
-      </xsl:call-template>
     </xsl:copy>
   </xsl:template>
 

@@ -35,6 +35,7 @@
    <text>
       <body>
          <div>
+            <p>For now, we've built a relatively flat taxonomy with each item in the Gameplay Metadata Schema receiving its own element. We may want to convert some of the elements to attributes for easier XML editing later.</p>
             <p>Documentation coming soon</p>
          </div>
       </body>
@@ -47,214 +48,346 @@
             <moduleSpec ident="PressRecord">
                <desc>The core PressRecord module.</desc>
             </moduleSpec>
+            <!-- Element specifications. -->
+            <elementSpec ident="gameplayRecord" module="PressRecord">
+               <gloss>Gameplay record</gloss>
+               <desc>A metadata record describing one gameplay recording.</desc>
+               <classes>
+                  <memberOf key="att.identifiable"/>
+               </classes>
+               <content>
+                  <sequence>
+                     <elementRef key="platformEdition" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayFile" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplaySettings" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayFootage" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayInstruction" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="platformEdition" module="PressRecord">
+               <gloss>Platform edition</gloss>
+               <desc>Groups the platform edition metadata fields.</desc>
+               <desc>The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, <title level="m">Journey</title> was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of <title level="m">Journey</title> include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="title" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="releaseYear" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="releaseType" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="platform" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="engine" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="developer" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="developerLocation" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="publisher" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="platformEditionNote" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayFile" module="PressRecord">
+               <gloss>Gameplay file</gloss>
+               <desc>Groups the gameplay file metadata fields.</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="clipTitle" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="clipLength" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="dateRecorded" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="commentary" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="chat" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplayAttribution" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="metadataAttribution" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="recordStatus" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="filename" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayFileNote" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplaySettings" module="PressRecord">
+               <gloss>Gameplay settings</gloss>
+               <desc>Groups the gameplay settings metadata fields.</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="inputDevice" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="connectivity" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="numPlayers" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayMode" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="accessibility" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="mods" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="gameplaySettingsNote" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayFootage" module="PressRecord">
+               <gloss>Gameplay footage</gloss>
+               <desc>Groups the gameplay footage metadata fields.</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="typeOfPlay" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplayGenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplaySubgenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="narrativeGenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="narrativeSubgenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="dimensionPerspective" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="location" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="timePeriod" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="biome" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="builtEnv" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="transport" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="items" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="atmosphere" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="playerCharacter" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="nonPlayerCharacter" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="mechanics" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="timekeeping" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="progression" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="theme" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="assets" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="style" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="interface" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="experience" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="transaction" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="metagaming" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplayTrope" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="environmentTrope" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="progressionTrope" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="narrativeTrope" minOccurs="0" maxOccurs="unbounded"/>
+                     <elementRef key="characterTrope" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="contentWarning" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayFootageNote" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayInstruction" module="PressRecord">
+               <gloss>Gameplay instruction</gloss>
+               <desc>Groups the gameplay instruction metadata fields.</desc>
+               <content>
+                  <sequence>
+                     <elementRef key="gameStudiesTopic" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="mediaStudiesTopic" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplayInstructionNote" minOccurs="0" maxOccurs="1"/>
+                  </sequence>
+               </content>
+            </elementSpec>
+            <elementSpec ident="title" module="PressRecord">
+               <gloss>Title</gloss>
+               <desc>Free-text title.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="developer" module="PressRecord">
+               <gloss>Developer</gloss>
+               <desc>Free-text developer.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="platformEditionNote" module="PressRecord">
+               <gloss>Platform edition note</gloss>
+               <desc>Free-text platform edition note.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="clipTitle" module="PressRecord">
+               <gloss>Clip title</gloss>
+               <desc>Free-text clip title.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="clipLength" module="PressRecord">
+               <gloss>Clip length</gloss>
+               <desc>Free-text clip length.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="dateRecorded" module="PressRecord">
+               <gloss>Date recorded</gloss>
+               <desc>Free-text date recorded.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayAttribution" module="PressRecord">
+               <gloss>Gameplay attribution</gloss>
+               <desc>Free-text gameplay attribution.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="metadataAttribution" module="PressRecord">
+               <gloss>Metadata attribution</gloss>
+               <desc>Free-text metadata attribution.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="filename" module="PressRecord">
+               <gloss>Filename</gloss>
+               <desc>Free-text filename.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayFileNote" module="PressRecord">
+               <gloss>Gameplay file note</gloss>
+               <desc>Free-text gameplay file note.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="language" module="PressRecord">
+               <gloss>Language</gloss>
+               <desc>Free-text language.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="mods" module="PressRecord">
+               <gloss>Mods</gloss>
+               <desc>Free-text mods.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplaySettingsNote" module="PressRecord">
+               <gloss>Gameplay settings note</gloss>
+               <desc>Free-text gameplay settings note.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="characterTrope" module="PressRecord">
+               <gloss>Character trope</gloss>
+               <desc>Free-text character trope.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="contentWarning" module="PressRecord">
+               <gloss>Content warning</gloss>
+               <desc>Free-text content warning.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayFootageNote" module="PressRecord">
+               <gloss>Gameplay footage note</gloss>
+               <desc>Free-text gameplay footage note.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="gameplayInstructionNote" module="PressRecord">
+               <gloss>Gameplay instruction note</gloss>
+               <desc>Free-text gameplay instruction note.</desc>
+               <content>
+                  <textNode/>
+               </content>
+            </elementSpec>
+            <elementSpec ident="releaseYear" module="PressRecord">
+               <gloss>Release year</gloss>
+               <desc>The year of release of this game edition.</desc>
+               <content>
+                  <dataRef name="gYear"/>
+               </content>
+            </elementSpec>
+            <!-- Attribute class specifications. -->
+            <classSpec ident="att.identifiable" type="atts" module="PressRecord">
+               <desc>Groups elements which may have an <att>xml:id</att> attribute.</desc>
+               <attList>
+                  <attDef ident="xml:id" usage="req">
+                     <gloss xml:lang="en">standard xml:id attribute</gloss>
+                     <datatype>
+                        <dataRef name="ID"/>
+                     </datatype>
+                  </attDef>
+               </attList>
+            </classSpec>
+            <!-- Schematron. -->
+            <!--Global Schematron variables. -->
+            <constraintSpec ident="global.variables" scheme="schematron" mode="add">
+               <constraint>
+                  <sch:ns prefix="pr" uri="http://hcmc.uvic.ca/ns/PressRecord"/>
+                  <sch:pattern>
+                     <sch:let name="spaceRegex" value="'(^\s)|(\s$)'"/>
+                     <sch:let name="docId" value="root(/)/pr:*/@xml:id"/>
+                     <sch:let name="docUri" value="(document-uri(/), base-uri(/))[1]"/>
+                     <sch:let name="docIds" value="//pr:*[@xml:id]/@xml:id"/>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="schematron" ident="docNameSameAsRootId" mode="add">
+               <desc>All root elements must have an <att>xml:id</att> that matches the document filename.</desc>
+               <constraint>
+                  <sch:pattern>
+                     <sch:rule context="/pr:*">
+                        <sch:assert test="@xml:id and tokenize($docUri, '[/\\]')[last()] eq (string($docId) || '.xml')"> ERROR: Document
+                           xml:id (<sch:value-of select="$docId"/>) does not match the document file
+                           name (<sch:value-of select="$docUri"/>). </sch:assert>
+                     </sch:rule>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec ident="recordIdFormat" scheme="schematron" mode="add">
+               <desc>Footage IDs use a game_ prefix followed by five digits.</desc>
+               <constraint>
+                  <sch:pattern>
+                     <sch:rule context="/pr:gameplayRecord">
+                        <sch:assert test="matches(@xml:id, '^game_[0-9]{5}$')">[<sch:value-of select="@xml:id"/>]: PROBLEM: xml:id must use game_ followed by five digits.</sch:assert>
+                     </sch:rule>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec ident="clipLengthFormat" scheme="schematron" mode="add">
+               <desc>Clip lengths use two-digit minutes and seconds.</desc>
+               <constraint>
+                  <sch:pattern>
+                     <sch:rule context="pr:gameplayFile/pr:clipLength">
+                        <sch:assert test="matches(string(.), '^[0-9]{2}:[0-5][0-9]$')">[<sch:value-of select="$docId"/>]: PROBLEM: clipLength must use MM:SS, with minutes 00–99 and seconds 00–59.</sch:assert>
+                     </sch:rule>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec ident="dateRecordedFormat" scheme="schematron" mode="add">
+               <desc>Recording dates use YYYY-MM-DD and must be real calendar dates.</desc>
+               <constraint>
+                  <sch:pattern>
+                     <sch:rule context="pr:gameplayFile/pr:dateRecorded">
+                        <sch:assert test="matches(string(.), '^[0-9]{4}-[0-9]{2}-[0-9]{2}$') and string(.) castable as xs:date">[<sch:value-of select="$docId"/>]: PROBLEM: dateRecorded must be a valid date in YYYY-MM-DD format.</sch:assert>
+                     </sch:rule>
+                  </sch:pattern>
+               </constraint>
+            </constraintSpec>
             <!-- DO NOT EDIT THE VALUES HERE. THEY ARE GENERATED FROM THE TAXONOMIES.XML FILE -->
-            <dataSpec ident="countryCodes" module="PressRecord">
-               <desc>Shared country vocabulary for developer locations and gameplay locations.</desc>
-               <valList type="closed">
-                  <valItem ident="Afghanistan">
-                     <desc>Country of Afghanistan.</desc>
-                  </valItem>
-                  <valItem ident="Albania"/>
-                  <valItem ident="Algeria"/>
-                  <valItem ident="Andorra"/>
-                  <valItem ident="Angola"/>
-                  <valItem ident="Antigua and Barbuda"/>
-                  <valItem ident="Argentina"/>
-                  <valItem ident="Armenia"/>
-                  <valItem ident="Australia"/>
-                  <valItem ident="Austria"/>
-                  <valItem ident="Azerbaijan"/>
-                  <valItem ident="Bahamas"/>
-                  <valItem ident="Bahrain"/>
-                  <valItem ident="Bangladesh"/>
-                  <valItem ident="Barbados"/>
-                  <valItem ident="Belarus"/>
-                  <valItem ident="Belgium"/>
-                  <valItem ident="Belize"/>
-                  <valItem ident="Benin"/>
-                  <valItem ident="Bermuda"/>
-                  <valItem ident="Bhutan"/>
-                  <valItem ident="Bolivia"/>
-                  <valItem ident="Bosnia and Herzegovina"/>
-                  <valItem ident="Botswana"/>
-                  <valItem ident="Brazil"/>
-                  <valItem ident="Brunei"/>
-                  <valItem ident="Bulgaria"/>
-                  <valItem ident="Burkina Faso"/>
-                  <valItem ident="Burundi"/>
-                  <valItem ident="Cambodia"/>
-                  <valItem ident="Cameroon"/>
-                  <valItem ident="Canada"/>
-                  <valItem ident="Cape Verde"/>
-                  <valItem ident="Central African Republic"/>
-                  <valItem ident="Chad"/>
-                  <valItem ident="Chile"/>
-                  <valItem ident="China"/>
-                  <valItem ident="Colombia"/>
-                  <valItem ident="Comoros"/>
-                  <valItem ident="Congo, Democratic Republic of the"/>
-                  <valItem ident="Congo, Republic of the"/>
-                  <valItem ident="Costa Rica"/>
-                  <valItem ident="Croatia"/>
-                  <valItem ident="Cuba"/>
-                  <valItem ident="Curacao"/>
-                  <valItem ident="Cyprus"/>
-                  <valItem ident="Czech Republic"/>
-                  <valItem ident="Denmark"/>
-                  <valItem ident="Djibouti"/>
-                  <valItem ident="Dominica"/>
-                  <valItem ident="Dominican Republic"/>
-                  <valItem ident="East Timor"/>
-                  <valItem ident="Ecuador"/>
-                  <valItem ident="Egypt"/>
-                  <valItem ident="El Salvador"/>
-                  <valItem ident="Equatorial Guinea"/>
-                  <valItem ident="Eritrea"/>
-                  <valItem ident="Estonia"/>
-                  <valItem ident="Eswatini"/>
-                  <valItem ident="Ethiopia"/>
-                  <valItem ident="Fiji"/>
-                  <valItem ident="Finland"/>
-                  <valItem ident="France"/>
-                  <valItem ident="Gabon"/>
-                  <valItem ident="Gambia"/>
-                  <valItem ident="Georgia"/>
-                  <valItem ident="Germany"/>
-                  <valItem ident="Ghana"/>
-                  <valItem ident="Greece"/>
-                  <valItem ident="Grenada"/>
-                  <valItem ident="Guatemala"/>
-                  <valItem ident="Guinea"/>
-                  <valItem ident="Guinea-Bissau"/>
-                  <valItem ident="Guyana"/>
-                  <valItem ident="Haiti"/>
-                  <valItem ident="Honduras"/>
-                  <valItem ident="Hungary"/>
-                  <valItem ident="Iceland"/>
-                  <valItem ident="India"/>
-                  <valItem ident="Indonesia"/>
-                  <valItem ident="Iran"/>
-                  <valItem ident="Iraq"/>
-                  <valItem ident="Ireland"/>
-                  <valItem ident="Israel"/>
-                  <valItem ident="Italy"/>
-                  <valItem ident="Ivory Coast"/>
-                  <valItem ident="Jamaica"/>
-                  <valItem ident="Japan"/>
-                  <valItem ident="Jordan"/>
-                  <valItem ident="Kazakhstan"/>
-                  <valItem ident="Kenya"/>
-                  <valItem ident="Kiribati"/>
-                  <valItem ident="Kosovo"/>
-                  <valItem ident="Kuwait"/>
-                  <valItem ident="Kyrgyzstan"/>
-                  <valItem ident="Laos"/>
-                  <valItem ident="Latvia"/>
-                  <valItem ident="Lebanon"/>
-                  <valItem ident="Lesotho"/>
-                  <valItem ident="Liberia"/>
-                  <valItem ident="Libya"/>
-                  <valItem ident="Liechtenstein"/>
-                  <valItem ident="Lithuania"/>
-                  <valItem ident="Luxembourg"/>
-                  <valItem ident="Madagascar"/>
-                  <valItem ident="Malawi"/>
-                  <valItem ident="Malaysia"/>
-                  <valItem ident="Maldives"/>
-                  <valItem ident="Mali"/>
-                  <valItem ident="Malta"/>
-                  <valItem ident="Marshall Islands"/>
-                  <valItem ident="Mauritania"/>
-                  <valItem ident="Mauritius"/>
-                  <valItem ident="Mexico"/>
-                  <valItem ident="Micronesia"/>
-                  <valItem ident="Moldova"/>
-                  <valItem ident="Monaco"/>
-                  <valItem ident="Mongolia"/>
-                  <valItem ident="Montenegro"/>
-                  <valItem ident="Morocco"/>
-                  <valItem ident="Mozambique"/>
-                  <valItem ident="Myanmar"/>
-                  <valItem ident="Namibia"/>
-                  <valItem ident="Nauru"/>
-                  <valItem ident="Nepal"/>
-                  <valItem ident="Netherlands"/>
-                  <valItem ident="New Zealand"/>
-                  <valItem ident="Nicaragua"/>
-                  <valItem ident="Niger"/>
-                  <valItem ident="Nigeria"/>
-                  <valItem ident="North Korea"/>
-                  <valItem ident="North Macedonia"/>
-                  <valItem ident="Norway"/>
-                  <valItem ident="Oman"/>
-                  <valItem ident="Pakistan"/>
-                  <valItem ident="Palau"/>
-                  <valItem ident="Palestine"/>
-                  <valItem ident="Panama"/>
-                  <valItem ident="Papua New Guinea"/>
-                  <valItem ident="Paraguay"/>
-                  <valItem ident="Peru"/>
-                  <valItem ident="Philippines"/>
-                  <valItem ident="Poland"/>
-                  <valItem ident="Portugal"/>
-                  <valItem ident="Puerto Rico"/>
-                  <valItem ident="Qatar"/>
-                  <valItem ident="Romania"/>
-                  <valItem ident="Russia"/>
-                  <valItem ident="Rwanda"/>
-                  <valItem ident="Saint Kitts and Nevis"/>
-                  <valItem ident="Saint Lucia"/>
-                  <valItem ident="Saint Vincent and the Grenadines"/>
-                  <valItem ident="Samoa"/>
-                  <valItem ident="San Marino"/>
-                  <valItem ident="Saudi Arabia"/>
-                  <valItem ident="Senegal"/>
-                  <valItem ident="Serbia"/>
-                  <valItem ident="Seychelles"/>
-                  <valItem ident="Sierra Leone"/>
-                  <valItem ident="Singapore"/>
-                  <valItem ident="Slovakia"/>
-                  <valItem ident="Slovenia"/>
-                  <valItem ident="Solomon Islands"/>
-                  <valItem ident="Somalia"/>
-                  <valItem ident="South Africa"/>
-                  <valItem ident="South Korea"/>
-                  <valItem ident="South Sudan"/>
-                  <valItem ident="Spain"/>
-                  <valItem ident="Sri Lanka"/>
-                  <valItem ident="Sudan"/>
-                  <valItem ident="Suriname"/>
-                  <valItem ident="Sweden"/>
-                  <valItem ident="Switzerland"/>
-                  <valItem ident="Syria"/>
-                  <valItem ident="São Tomé and Príncipe"/>
-                  <valItem ident="Taiwan"/>
-                  <valItem ident="Tajikistan"/>
-                  <valItem ident="Tanzania"/>
-                  <valItem ident="Thailand"/>
-                  <valItem ident="Togo"/>
-                  <valItem ident="Tonga"/>
-                  <valItem ident="Trinidad and Tobago"/>
-                  <valItem ident="Tunisia"/>
-                  <valItem ident="Turkey"/>
-                  <valItem ident="Turkmenistan"/>
-                  <valItem ident="Tuvalu"/>
-                  <valItem ident="Uganda"/>
-                  <valItem ident="Ukraine"/>
-                  <valItem ident="United Arab Emirates"/>
-                  <valItem ident="United Kingdom"/>
-                  <valItem ident="United States"/>
-                  <valItem ident="Uruguay"/>
-                  <valItem ident="Uzbekistan"/>
-                  <valItem ident="Vanuatu"/>
-                  <valItem ident="Vatican City"/>
-                  <valItem ident="Venezuela"/>
-                  <valItem ident="Vietnam"/>
-                  <valItem ident="Yemen"/>
-                  <valItem ident="Zambia"/>
-                  <valItem ident="Zimbabwe"/>
-               </valList>
-            </dataSpec>
+            <elementSpec ident="releaseType" module="PressRecord">
+               <gloss>Release Type</gloss>
+               <desc> The platform edition’s release type as assigned by its developer, publisher,
+                  and/or distributor </desc>
+               <desc>Encoders will use existing scholarship, MobyGames, Wikipedia, Steam, and/or
+                  fansites to confirm the release type if it was not assigned by the developer,
+                  publisher, and/or distributor.</desc>
+               <content>
+                  <valList type="closed">
+                     <valItem ident="Alpha"/>
+                     <valItem ident="Beta"/>
+                     <valItem ident="Demo"/>
+                     <valItem ident="Downloadable content (DLC)"/>
+                     <valItem ident="Early access"/>
+                     <valItem ident="Emulation"/>
+                     <valItem ident="Expansion"/>
+                     <valItem ident="Fan game"/>
+                     <valItem ident="Initial release / original release"/>
+                     <valItem ident="Port"/>
+                     <valItem ident="Reboot"/>
+                     <valItem ident="Remake"/>
+                     <valItem ident="Remaster"/>
+                     <valItem ident="Unfinished"/>
+                  </valList>
+               </content>
+            </elementSpec>
             <elementSpec ident="platform" module="PressRecord">
                <gloss>Platform</gloss>
                <desc>The operating system, device, computer, console, and/or service on which the
@@ -3605,377 +3738,214 @@
                   </valList>
                </content>
             </elementSpec>
+            <dataSpec ident="countryCodes" module="PressRecord">
+               <desc>Shared country vocabulary for developer locations and gameplay locations.</desc>
+               <valList type="closed">
+                  <valItem ident="Afghanistan">
+                     <desc>Country of Afghanistan.</desc>
+                  </valItem>
+                  <valItem ident="Albania"/>
+                  <valItem ident="Algeria"/>
+                  <valItem ident="Andorra"/>
+                  <valItem ident="Angola"/>
+                  <valItem ident="Antigua and Barbuda"/>
+                  <valItem ident="Argentina"/>
+                  <valItem ident="Armenia"/>
+                  <valItem ident="Australia"/>
+                  <valItem ident="Austria"/>
+                  <valItem ident="Azerbaijan"/>
+                  <valItem ident="Bahamas"/>
+                  <valItem ident="Bahrain"/>
+                  <valItem ident="Bangladesh"/>
+                  <valItem ident="Barbados"/>
+                  <valItem ident="Belarus"/>
+                  <valItem ident="Belgium"/>
+                  <valItem ident="Belize"/>
+                  <valItem ident="Benin"/>
+                  <valItem ident="Bermuda"/>
+                  <valItem ident="Bhutan"/>
+                  <valItem ident="Bolivia"/>
+                  <valItem ident="Bosnia and Herzegovina"/>
+                  <valItem ident="Botswana"/>
+                  <valItem ident="Brazil"/>
+                  <valItem ident="Brunei"/>
+                  <valItem ident="Bulgaria"/>
+                  <valItem ident="Burkina Faso"/>
+                  <valItem ident="Burundi"/>
+                  <valItem ident="Cambodia"/>
+                  <valItem ident="Cameroon"/>
+                  <valItem ident="Canada"/>
+                  <valItem ident="Cape Verde"/>
+                  <valItem ident="Central African Republic"/>
+                  <valItem ident="Chad"/>
+                  <valItem ident="Chile"/>
+                  <valItem ident="China"/>
+                  <valItem ident="Colombia"/>
+                  <valItem ident="Comoros"/>
+                  <valItem ident="Congo, Democratic Republic of the"/>
+                  <valItem ident="Congo, Republic of the"/>
+                  <valItem ident="Costa Rica"/>
+                  <valItem ident="Croatia"/>
+                  <valItem ident="Cuba"/>
+                  <valItem ident="Curacao"/>
+                  <valItem ident="Cyprus"/>
+                  <valItem ident="Czech Republic"/>
+                  <valItem ident="Denmark"/>
+                  <valItem ident="Djibouti"/>
+                  <valItem ident="Dominica"/>
+                  <valItem ident="Dominican Republic"/>
+                  <valItem ident="East Timor"/>
+                  <valItem ident="Ecuador"/>
+                  <valItem ident="Egypt"/>
+                  <valItem ident="El Salvador"/>
+                  <valItem ident="Equatorial Guinea"/>
+                  <valItem ident="Eritrea"/>
+                  <valItem ident="Estonia"/>
+                  <valItem ident="Eswatini"/>
+                  <valItem ident="Ethiopia"/>
+                  <valItem ident="Fiji"/>
+                  <valItem ident="Finland"/>
+                  <valItem ident="France"/>
+                  <valItem ident="Gabon"/>
+                  <valItem ident="Gambia"/>
+                  <valItem ident="Georgia"/>
+                  <valItem ident="Germany"/>
+                  <valItem ident="Ghana"/>
+                  <valItem ident="Greece"/>
+                  <valItem ident="Grenada"/>
+                  <valItem ident="Guatemala"/>
+                  <valItem ident="Guinea"/>
+                  <valItem ident="Guinea-Bissau"/>
+                  <valItem ident="Guyana"/>
+                  <valItem ident="Haiti"/>
+                  <valItem ident="Honduras"/>
+                  <valItem ident="Hungary"/>
+                  <valItem ident="Iceland"/>
+                  <valItem ident="India"/>
+                  <valItem ident="Indonesia"/>
+                  <valItem ident="Iran"/>
+                  <valItem ident="Iraq"/>
+                  <valItem ident="Ireland"/>
+                  <valItem ident="Israel"/>
+                  <valItem ident="Italy"/>
+                  <valItem ident="Ivory Coast"/>
+                  <valItem ident="Jamaica"/>
+                  <valItem ident="Japan"/>
+                  <valItem ident="Jordan"/>
+                  <valItem ident="Kazakhstan"/>
+                  <valItem ident="Kenya"/>
+                  <valItem ident="Kiribati"/>
+                  <valItem ident="Kosovo"/>
+                  <valItem ident="Kuwait"/>
+                  <valItem ident="Kyrgyzstan"/>
+                  <valItem ident="Laos"/>
+                  <valItem ident="Latvia"/>
+                  <valItem ident="Lebanon"/>
+                  <valItem ident="Lesotho"/>
+                  <valItem ident="Liberia"/>
+                  <valItem ident="Libya"/>
+                  <valItem ident="Liechtenstein"/>
+                  <valItem ident="Lithuania"/>
+                  <valItem ident="Luxembourg"/>
+                  <valItem ident="Madagascar"/>
+                  <valItem ident="Malawi"/>
+                  <valItem ident="Malaysia"/>
+                  <valItem ident="Maldives"/>
+                  <valItem ident="Mali"/>
+                  <valItem ident="Malta"/>
+                  <valItem ident="Marshall Islands"/>
+                  <valItem ident="Mauritania"/>
+                  <valItem ident="Mauritius"/>
+                  <valItem ident="Mexico"/>
+                  <valItem ident="Micronesia"/>
+                  <valItem ident="Moldova"/>
+                  <valItem ident="Monaco"/>
+                  <valItem ident="Mongolia"/>
+                  <valItem ident="Montenegro"/>
+                  <valItem ident="Morocco"/>
+                  <valItem ident="Mozambique"/>
+                  <valItem ident="Myanmar"/>
+                  <valItem ident="Namibia"/>
+                  <valItem ident="Nauru"/>
+                  <valItem ident="Nepal"/>
+                  <valItem ident="Netherlands"/>
+                  <valItem ident="New Zealand"/>
+                  <valItem ident="Nicaragua"/>
+                  <valItem ident="Niger"/>
+                  <valItem ident="Nigeria"/>
+                  <valItem ident="North Korea"/>
+                  <valItem ident="North Macedonia"/>
+                  <valItem ident="Norway"/>
+                  <valItem ident="Oman"/>
+                  <valItem ident="Pakistan"/>
+                  <valItem ident="Palau"/>
+                  <valItem ident="Palestine"/>
+                  <valItem ident="Panama"/>
+                  <valItem ident="Papua New Guinea"/>
+                  <valItem ident="Paraguay"/>
+                  <valItem ident="Peru"/>
+                  <valItem ident="Philippines"/>
+                  <valItem ident="Poland"/>
+                  <valItem ident="Portugal"/>
+                  <valItem ident="Puerto Rico"/>
+                  <valItem ident="Qatar"/>
+                  <valItem ident="Romania"/>
+                  <valItem ident="Russia"/>
+                  <valItem ident="Rwanda"/>
+                  <valItem ident="Saint Kitts and Nevis"/>
+                  <valItem ident="Saint Lucia"/>
+                  <valItem ident="Saint Vincent and the Grenadines"/>
+                  <valItem ident="Samoa"/>
+                  <valItem ident="San Marino"/>
+                  <valItem ident="Saudi Arabia"/>
+                  <valItem ident="Senegal"/>
+                  <valItem ident="Serbia"/>
+                  <valItem ident="Seychelles"/>
+                  <valItem ident="Sierra Leone"/>
+                  <valItem ident="Singapore"/>
+                  <valItem ident="Slovakia"/>
+                  <valItem ident="Slovenia"/>
+                  <valItem ident="Solomon Islands"/>
+                  <valItem ident="Somalia"/>
+                  <valItem ident="South Africa"/>
+                  <valItem ident="South Korea"/>
+                  <valItem ident="South Sudan"/>
+                  <valItem ident="Spain"/>
+                  <valItem ident="Sri Lanka"/>
+                  <valItem ident="Sudan"/>
+                  <valItem ident="Suriname"/>
+                  <valItem ident="Sweden"/>
+                  <valItem ident="Switzerland"/>
+                  <valItem ident="Syria"/>
+                  <valItem ident="São Tomé and Príncipe"/>
+                  <valItem ident="Taiwan"/>
+                  <valItem ident="Tajikistan"/>
+                  <valItem ident="Tanzania"/>
+                  <valItem ident="Thailand"/>
+                  <valItem ident="Togo"/>
+                  <valItem ident="Tonga"/>
+                  <valItem ident="Trinidad and Tobago"/>
+                  <valItem ident="Tunisia"/>
+                  <valItem ident="Turkey"/>
+                  <valItem ident="Turkmenistan"/>
+                  <valItem ident="Tuvalu"/>
+                  <valItem ident="Uganda"/>
+                  <valItem ident="Ukraine"/>
+                  <valItem ident="United Arab Emirates"/>
+                  <valItem ident="United Kingdom"/>
+                  <valItem ident="United States"/>
+                  <valItem ident="Uruguay"/>
+                  <valItem ident="Uzbekistan"/>
+                  <valItem ident="Vanuatu"/>
+                  <valItem ident="Vatican City"/>
+                  <valItem ident="Venezuela"/>
+                  <valItem ident="Vietnam"/>
+                  <valItem ident="Yemen"/>
+                  <valItem ident="Zambia"/>
+                  <valItem ident="Zimbabwe"/>
+               </valList>
+            </dataSpec>
             <!-- END OF SECTION GENERATED FROM TAXONOMIES.XML FILE -->
-            <!-- Element specifications. -->
-            <elementSpec ident="gameplayRecord" module="PressRecord">
-               <gloss>Gameplay record</gloss>
-               <desc>A metadata record describing one gameplay recording.</desc>
-               <classes>
-                  <memberOf key="att.identifiable"/>
-               </classes>
-               <content>
-                  <sequence>
-                     <elementRef key="platformEdition" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayFile" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplaySettings" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayFootage" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayInstruction" minOccurs="1" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="platformEdition" module="PressRecord">
-               <gloss>Platform edition</gloss>
-               <desc>Groups the platform edition metadata fields.</desc>
-               <desc>The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, <title level="m">Journey</title> was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of <title level="m">Journey</title> include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</desc>
-               <content>
-                  <sequence>
-                     <elementRef key="title" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="release" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="platform" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="engine" minOccurs="0" maxOccurs="unbounded"/>
-                     <elementRef key="developer" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="developerLocation" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="publisher" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="platformEditionNote" minOccurs="0" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayFile" module="PressRecord">
-               <gloss>Gameplay file</gloss>
-               <desc>Groups the gameplay file metadata fields.</desc>
-               <content>
-                  <sequence>
-                     <elementRef key="clipTitle" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="clipLength" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="dateRecorded" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="commentary" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="chat" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplayAttribution" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="metadataAttribution" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="recordStatus" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="filename" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayFileNote" minOccurs="0" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplaySettings" module="PressRecord">
-               <gloss>Gameplay settings</gloss>
-               <desc>Groups the gameplay settings metadata fields.</desc>
-               <content>
-                  <sequence>
-                     <elementRef key="inputDevice" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="connectivity" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="numPlayers" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayMode" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="accessibility" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="mods" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="gameplaySettingsNote" minOccurs="0" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayFootage" module="PressRecord">
-               <gloss>Gameplay footage</gloss>
-               <desc>Groups the gameplay footage metadata fields.</desc>
-               <content>
-                  <sequence>
-                     <elementRef key="typeOfPlay" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplayGenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplaySubgenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="narrativeGenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="narrativeSubgenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="dimensionPerspective" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="location" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="timePeriod" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="biome" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="builtEnv" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="transport" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="items" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="atmosphere" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="playerCharacter" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="nonPlayerCharacter" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="mechanics" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="timekeeping" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="progression" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="theme" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="assets" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="style" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="interface" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="experience" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="transaction" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="metagaming" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplayTrope" minOccurs="0" maxOccurs="unbounded"/>
-                     <elementRef key="environmentTrope" minOccurs="0" maxOccurs="unbounded"/>
-                     <elementRef key="progressionTrope" minOccurs="0" maxOccurs="unbounded"/>
-                     <elementRef key="narrativeTrope" minOccurs="0" maxOccurs="unbounded"/>
-                     <elementRef key="characterTrope" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="contentWarning" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="gameplayFootageNote" minOccurs="0" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayInstruction" module="PressRecord">
-               <gloss>Gameplay instruction</gloss>
-               <desc>Groups the gameplay instruction metadata fields.</desc>
-               <content>
-                  <sequence>
-                     <elementRef key="gameStudiesTopic" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="mediaStudiesTopic" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplayInstructionNote" minOccurs="0" maxOccurs="1"/>
-                  </sequence>
-               </content>
-            </elementSpec>
-            <elementSpec ident="title" module="PressRecord">
-               <gloss>Title</gloss>
-               <desc>Free-text title.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="developer" module="PressRecord">
-               <gloss>Developer</gloss>
-               <desc>Free-text developer.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="platformEditionNote" module="PressRecord">
-               <gloss>Platform edition note</gloss>
-               <desc>Free-text platform edition note.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="clipTitle" module="PressRecord">
-               <gloss>Clip title</gloss>
-               <desc>Free-text clip title.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="clipLength" module="PressRecord">
-               <gloss>Clip length</gloss>
-               <desc>Free-text clip length.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="dateRecorded" module="PressRecord">
-               <gloss>Date recorded</gloss>
-               <desc>Free-text date recorded.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayAttribution" module="PressRecord">
-               <gloss>Gameplay attribution</gloss>
-               <desc>Free-text gameplay attribution.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="metadataAttribution" module="PressRecord">
-               <gloss>Metadata attribution</gloss>
-               <desc>Free-text metadata attribution.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="filename" module="PressRecord">
-               <gloss>Filename</gloss>
-               <desc>Free-text filename.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayFileNote" module="PressRecord">
-               <gloss>Gameplay file note</gloss>
-               <desc>Free-text gameplay file note.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="language" module="PressRecord">
-               <gloss>Language</gloss>
-               <desc>Free-text language.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="mods" module="PressRecord">
-               <gloss>Mods</gloss>
-               <desc>Free-text mods.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplaySettingsNote" module="PressRecord">
-               <gloss>Gameplay settings note</gloss>
-               <desc>Free-text gameplay settings note.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="characterTrope" module="PressRecord">
-               <gloss>Character trope</gloss>
-               <desc>Free-text character trope.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="contentWarning" module="PressRecord">
-               <gloss>Content warning</gloss>
-               <desc>Free-text content warning.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayFootageNote" module="PressRecord">
-               <gloss>Gameplay footage note</gloss>
-               <desc>Free-text gameplay footage note.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="gameplayInstructionNote" module="PressRecord">
-               <gloss>Gameplay instruction note</gloss>
-               <desc>Free-text gameplay instruction note.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="release" module="PressRecord">
-               <gloss>Release</gloss>
-               <desc>The release includes the year and release type.</desc>
-               <content>
-                  <empty/>
-               </content>
-               <attList>
-                  <attDef ident="year" usage="req">
-                     <gloss>The year of release of this game edition</gloss>
-                     <datatype>
-                        <dataRef name="gYear"/>
-                     </datatype>
-                  </attDef>
-                  <attDef ident="type" usage="req">
-                     <gloss>Type of release</gloss>
-                     <!-- DO NOT EDIT the following valList. This will 
-                          be constructed at build time from 
-                          the taxonomy with id taxReleaseType. -->
-                     <valList type="closed">
-                        <valItem ident="rtAlpha">
-                           <gloss>Alpha</gloss>
-                        </valItem>
-                        <valItem ident="rtBeta">
-                           <gloss>Beta</gloss>
-                        </valItem>
-                        <valItem ident="rtDemo">
-                           <gloss>Demo</gloss>
-                        </valItem>
-                        <valItem ident="rtDownloadable">
-                           <gloss>Downloadable content (DLC)</gloss>
-                        </valItem>
-                        <valItem ident="rtEarlyAccess">
-                           <gloss>Early access</gloss>
-                        </valItem>
-                        <valItem ident="rtEmulation">
-                           <gloss>Emulation</gloss>
-                        </valItem>
-                        <valItem ident="rtExpansion">
-                           <gloss>Expansion</gloss>
-                        </valItem>
-                        <valItem ident="rtFanGame">
-                           <gloss>Fan game</gloss>
-                        </valItem>
-                        <valItem ident="rtInitOrOrigRelease">
-                           <gloss>Initial release / original release</gloss>
-                        </valItem>
-                        <valItem ident="rtPort">
-                           <gloss>Port</gloss>
-                        </valItem>
-                        <valItem ident="rtReboot">
-                           <gloss>Reboot</gloss>
-                        </valItem>
-                        <valItem ident="rtRemake">
-                           <gloss>Remake</gloss>
-                        </valItem>
-                        <valItem ident="rtRemaster">
-                           <gloss>Remaster</gloss>
-                        </valItem>
-                        <valItem ident="rtUnfinished">
-                           <gloss>Unfinished</gloss>
-                        </valItem>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <!-- Attribute class specifications. -->
-            <classSpec ident="att.identifiable" type="atts" module="PressRecord">
-               <desc>Groups elements which may have an <att>xml:id</att> attribute.</desc>
-               <attList>
-                  <attDef ident="xml:id" usage="req">
-                     <gloss xml:lang="en">standard xml:id attribute</gloss>
-                     <datatype>
-                        <dataRef name="ID"/>
-                     </datatype>
-                  </attDef>
-               </attList>
-            </classSpec>
-            <!-- Schematron. -->
-            <!--Global Schematron variables. -->
-            <constraintSpec ident="global.variables" scheme="schematron" mode="add">
-               <constraint>
-                  <sch:ns prefix="pr" uri="http://hcmc.uvic.ca/ns/PressRecord"/>
-                  <sch:pattern>
-                     <sch:let name="spaceRegex" value="'(^\s)|(\s$)'"/>
-                     <sch:let name="docId" value="root(/)/pr:*/@xml:id"/>
-                     <sch:let name="docUri" value="(document-uri(/), base-uri(/))[1]"/>
-                     <sch:let name="docIds" value="//pr:*[@xml:id]/@xml:id"/>
-                  </sch:pattern>
-               </constraint>
-            </constraintSpec>
-            <constraintSpec scheme="schematron" ident="docNameSameAsRootId" mode="add">
-               <desc>All root elements must have an <att>xml:id</att> that matches the document filename.</desc>
-               <constraint>
-                  <sch:pattern>
-                     <sch:rule context="/pr:*">
-                        <sch:assert test="@xml:id and tokenize($docUri, '[/\\]')[last()] eq (string($docId) || '.xml')"> ERROR: Document
-                           xml:id (<sch:value-of select="$docId"/>) does not match the document file
-                           name (<sch:value-of select="$docUri"/>). </sch:assert>
-                     </sch:rule>
-                  </sch:pattern>
-               </constraint>
-            </constraintSpec>
-            <constraintSpec ident="recordIdFormat" scheme="schematron" mode="add">
-               <desc>Footage IDs use a game_ prefix followed by five digits.</desc>
-               <constraint>
-                  <sch:pattern>
-                     <sch:rule context="/pr:gameplayRecord">
-                        <sch:assert test="matches(@xml:id, '^game_[0-9]{5}$')">[<sch:value-of select="@xml:id"/>]: PROBLEM: xml:id must use game_ followed by five digits.</sch:assert>
-                     </sch:rule>
-                  </sch:pattern>
-               </constraint>
-            </constraintSpec>
-            <constraintSpec ident="clipLengthFormat" scheme="schematron" mode="add">
-               <desc>Clip lengths use two-digit minutes and seconds.</desc>
-               <constraint>
-                  <sch:pattern>
-                     <sch:rule context="pr:gameplayFile/pr:clipLength">
-                        <sch:assert test="matches(string(.), '^[0-9]{2}:[0-5][0-9]$')">[<sch:value-of select="$docId"/>]: PROBLEM: clipLength must use MM:SS, with minutes 00–99 and seconds 00–59.</sch:assert>
-                     </sch:rule>
-                  </sch:pattern>
-               </constraint>
-            </constraintSpec>
-            <constraintSpec ident="dateRecordedFormat" scheme="schematron" mode="add">
-               <desc>Recording dates use YYYY-MM-DD and must be real calendar dates.</desc>
-               <constraint>
-                  <sch:pattern>
-                     <sch:rule context="pr:gameplayFile/pr:dateRecorded">
-                        <sch:assert test="matches(string(.), '^[0-9]{4}-[0-9]{2}-[0-9]{2}$') and string(.) castable as xs:date">[<sch:value-of select="$docId"/>]: PROBLEM: dateRecorded must be a valid date in YYYY-MM-DD format.</sch:assert>
-                     </sch:rule>
-                  </sch:pattern>
-               </constraint>
-            </constraintSpec>
          </schemaSpec>
       </back>
    </text>

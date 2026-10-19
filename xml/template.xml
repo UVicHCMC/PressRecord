@@ -4,12 +4,14 @@
 <gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template">
    <platformEdition>
       <title></title>
-      <release year="" type=""/>
+      <releaseYear>1989</releaseYear>
+      <releaseType></releaseType>
       <platform></platform>
       <engine></engine>
       <developer></developer>
       <developerLocation></developerLocation>
-      <publisher type=""></publisher>
+      <publisher></publisher>
+      <publisherClass></publisherClass>
       <platformEditionNote></platformEditionNote>
    </platformEdition>
    <gameplayFile>

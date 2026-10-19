@@ -8,7 +8,7 @@
   </sharedVocabularies>
   <!-- [R] = minOccurs 1 and  [+] = maxOccurs unbounded. -->
   <fields>
-    <field taxonomy="taxReleaseType" element="release" attribute="type" parent="platformEdition" minOccurs="1" maxOccurs="1" existing="true"/>
+    <field taxonomy="taxReleaseType" element="releaseType" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxPlatform" element="platform" parent="platformEdition" minOccurs="1" maxOccurs="unbounded"/>
     <field taxonomy="taxEngine" element="engine" parent="platformEdition" minOccurs="0" maxOccurs="unbounded"/>
     <field taxonomy="taxDeveloperLocation" element="developerLocation" parent="platformEdition" minOccurs="1" maxOccurs="unbounded" sharedVocabulary="taxCountries"/>
