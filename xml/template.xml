@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template">
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status="">
    <platformEdition>
       <title></title>
-      <releaseYear></releaseYear>
-      <releaseType></releaseType>
+      <release type="" year=""/>
       <platform></platform>
       <engine></engine>
       <developer></developer>
       <developerLocation></developerLocation>
-      <publisher></publisher>
-      <publisherClass></publisherClass>
+      <publisher type=""></publisher>
       <platformEditionNote></platformEditionNote>
    </platformEdition>
-   <gameplayFile>
+   <gameplayFile length="" date="">
       <clipTitle></clipTitle>
-      <clipLength></clipLength>
-      <dateRecorded></dateRecorded>
       <commentary></commentary>
       <chat></chat>
       <gameplayAttribution></gameplayAttribution>
       <metadataAttribution></metadataAttribution>
-      <recordStatus></recordStatus>
-      <filename></filename>
+      <filename></filename> <!--Video clip filename. Must match the XML file name except for the extension--> 
       <gameplayFileNote></gameplayFileNote>
    </gameplayFile>
    <gameplaySettings>
       <inputDevice></inputDevice>
       <connectivity></connectivity>
-      <numPlayers></numPlayers>
+      <numPlayers></numPlayers> <!-- Must be a number OR either '11-50' or '51 or more' -->
       <gameplayMode></gameplayMode>
       <language></language>
       <accessibility></accessibility>
