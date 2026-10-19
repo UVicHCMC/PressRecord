@@ -1,73 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status="">
+<!-- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<!-- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status=""> <!-- use status to record the metadata record status -->
    <platformEdition>
       <title></title>
-      <release type="" year=""/>
-      <platform></platform>
-      <engine></engine>
-      <developer></developer>
-      <developerLocation></developerLocation>
-      <publisher type=""></publisher>
+      <release type="" year=""/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
+      <platforms>
+         <platform></platform>
+      </platforms>
+      <engines>
+         <engine></engine>
+      </engines>
+      <developers>
+         <developer></developer>
+         <developerLocation></developerLocation>
+      </developers>
+      <publishers>
+         <publisher type=""></publisher>
+      </publishers>
       <platformEditionNote></platformEditionNote>
    </platformEdition>
-   <gameplayFile length="" date="">
+   <gameplayFile length="" date=""> <!-- Clip length and date recorded-->
       <clipTitle></clipTitle>
-      <commentary></commentary>
-      <chat></chat>
+      <commentaryTypes>
+         <commentaryType></commentaryType>
+      </commentaryTypes>
+      <chatTypes>
+         <chatType></chatType>
+      </chatTypes>
       <gameplayAttribution></gameplayAttribution>
       <metadataAttribution></metadataAttribution>
-      <filename></filename> <!--Video clip filename. Must match the XML file name except for the extension--> 
+      <filename></filename> <!--Video clip filename. Must match the XML file name except for the file type/extension--> 
       <gameplayFileNote></gameplayFileNote>
    </gameplayFile>
    <gameplaySettings>
-      <inputDevice></inputDevice>
-      <connectivity></connectivity>
+      <inputDevices>
+         <inputDevice></inputDevice>
+      </inputDevices>
+      <connectivityTypes>
+         <connectivityType></connectivityType>
+      </connectivityTypes>
       <numPlayers></numPlayers> <!-- Must be a number OR either '11-50' or '51 or more' -->
-      <gameplayMode></gameplayMode>
+      <gameplayModes>
+         <gameplayMode></gameplayMode>
+      </gameplayModes>
       <language></language>
-      <accessibility></accessibility>
+      <accessibilityFeatures>
+         <accessibilityFeature></accessibilityFeature>
+      </accessibilityFeatures>
       <mods></mods>
       <gameplaySettingsNote></gameplaySettingsNote>
    </gameplaySettings>
    <gameplayFootage>
-      <typeOfPlay></typeOfPlay>
-      <gameplayGenre></gameplayGenre>
-      <gameplaySubgenre></gameplaySubgenre>
-      <narrativeGenre></narrativeGenre>
-      <narrativeSubgenre></narrativeSubgenre>
-      <dimensionPerspective></dimensionPerspective>
-      <location></location>
-      <timePeriod></timePeriod>
-      <biome></biome>
-      <builtEnv></builtEnv>
-      <transport></transport>
-      <items></items>
-      <atmosphere></atmosphere>
-      <playerCharacter></playerCharacter>
-      <nonPlayerCharacter></nonPlayerCharacter>
-      <mechanics></mechanics>
-      <timekeeping></timekeeping>
-      <progression></progression>
-      <theme></theme>
-      <assets></assets>
-      <style></style>
-      <interface></interface>
-      <experience></experience>
-      <transaction></transaction>
-      <metagaming></metagaming>
-      <gameplayTrope></gameplayTrope>
-      <environmentTrope></environmentTrope>
-      <progressionTrope></progressionTrope>
-      <narrativeTrope></narrativeTrope>
-      <characterTrope></characterTrope>
+      <playTypes>
+         <playType></playType>
+      </playTypes>
+      <gameplayGenres>
+         <gameplayGenre></gameplayGenre>
+         <gameplaySubgenre></gameplaySubgenre>
+      </gameplayGenres>
+      <narrativeGenres>
+         <narrativeGenre></narrativeGenre>
+         <narrativeSubgenre></narrativeSubgenre>
+      </narrativeGenres>
+      <dimensionsPerspectives>
+         <dimensionPerspective></dimensionPerspective>
+      </dimensionsPerspectives>
+      <locations>
+         <location></location>
+      </locations>
+      <timePeriods>
+         <timePeriod></timePeriod>
+      </timePeriods>
+      <biomes>
+         <biome></biome>
+      </biomes>
+      <builtEnvs>
+         <builtEnv></builtEnv>
+      </builtEnvs>
+      <transportModes>
+         <transportMode></transportMode>
+      </transportModes>
+      <items>
+         <item></item>
+      </items>
+      <atmospheres>
+         <atmosphere></atmosphere>
+      </atmospheres>
+      <playerCharacters>
+         <playerCharacter></playerCharacter>
+      </playerCharacters>
+      <nonPlayerCharacters>
+         <nonPlayerCharacter></nonPlayerCharacter>
+      </nonPlayerCharacters>
+      <mechanics>
+         <mechanic></mechanic>
+      </mechanics>
+      <timekeepingTypes>
+         <timekeepingType></timekeepingType>
+      </timekeepingTypes>
+      <progressionTypes>
+         <progressionType></progressionType>
+      </progressionTypes>
+      <themes>
+         <theme></theme>
+      </themes>
+      <assets>
+         <asset></asset>
+      </assets>
+      <styles>
+         <style></style>
+      </styles>
+      <interfaces>
+         <interface></interface>
+      </interfaces>
+      <experiences>
+         <experience></experience>
+      </experiences>
+      <transactions>
+         <transaction></transaction>
+      </transactions>
+      <metagamingTypes>
+         <metagamingType></metagamingType>
+      </metagamingTypes>
+      <tropes>
+         <gameplayTrope></gameplayTrope>
+         <environmentTrope></environmentTrope>
+         <progressionTrope></progressionTrope>
+         <narrativeTrope></narrativeTrope>
+         <characterTrope></characterTrope>
+      </tropes>
       <contentWarning></contentWarning>
       <gameplayFootageNote></gameplayFootageNote>
    </gameplayFootage>
    <gameplayInstruction>
-      <gameStudiesTopic></gameStudiesTopic>
-      <mediaStudiesTopic></mediaStudiesTopic>
+      <gameStudiesTopics>
+         <gameStudiesTopic></gameStudiesTopic>
+      </gameStudiesTopics>
+      <mediaStudiesTopics>
+         <mediaStudiesTopic></mediaStudiesTopic>
+      </mediaStudiesTopics>
       <gameplayInstructionNote></gameplayInstructionNote>
    </gameplayInstruction>
 </gameplayRecord>
