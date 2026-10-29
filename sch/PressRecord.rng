@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://hcmc.uvic.ca/ns/PressRecord"><!--
-Schema generated from ODD source 2026-10-14T23:09:39Z. . 
+Schema generated from ODD source 2026-10-29T21:27:30Z. . 
 TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
   
@@ -1170,6 +1170,650 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          <ref name="model.nameLike_sequenceRepeatable"/>
       </oneOrMore>
    </define>
+   <define name="gameplayRecord">
+      <element name="gameplayRecord">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay record) A metadata record describing one gameplay recording.</a:documentation>
+         <group>
+            <ref name="platformEdition"/>
+            <ref name="gameplayFile"/>
+            <ref name="gameplaySettings"/>
+            <ref name="gameplayFootage"/>
+            <ref name="gameplayInstruction"/>
+         </group>
+         <ref name="att.identifiable.attributes"/>
+         <attribute name="status">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata Record Status) Communicates whether the metadata record for the gampeplay file is completeA gameplay file may appear in the Gameplay Footage Collection even if its metadata record is incomplete.</a:documentation>
+            <choice>
+               <value>Complete</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>Incomplete</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="platformEdition">
+      <element name="platformEdition">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition) Groups the platform edition metadata fields.The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, Journey was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of Journey include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</a:documentation>
+         <group>
+            <ref name="title"/>
+            <ref name="release"/>
+            <ref name="platforms"/>
+            <optional>
+               <ref name="engines"/>
+            </optional>
+            <ref name="developers"/>
+            <ref name="publishers"/>
+            <optional>
+               <ref name="platformEditionNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayFile">
+      <element name="gameplayFile">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file) Groups the gameplay file metadata fields.</a:documentation>
+         <group>
+            <ref name="clipTitle"/>
+            <optional>
+               <ref name="commentaryTypes"/>
+            </optional>
+            <optional>
+               <ref name="chatTypes"/>
+            </optional>
+            <ref name="gameplayAttribution"/>
+            <ref name="metadataAttribution"/>
+            <ref name="filename"/>
+            <optional>
+               <ref name="gameplayFileNote"/>
+            </optional>
+         </group>
+         <attribute name="length">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The clip length in MM:SS format.</a:documentation>
+            <data type="token"/>
+         </attribute>
+         <attribute name="date">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The recording date in YYYY-MM-DD format.</a:documentation>
+            <data type="date"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="gameplaySettings">
+      <element name="gameplaySettings">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings) Groups the gameplay settings metadata fields.</a:documentation>
+         <group>
+            <ref name="inputDevices"/>
+            <ref name="connectivityTypes"/>
+            <ref name="numPlayers"/>
+            <ref name="gameplayModes"/>
+            <oneOrMore>
+               <ref name="language"/>
+            </oneOrMore>
+            <optional>
+               <ref name="accessibilityFeatures"/>
+            </optional>
+            <optional>
+               <ref name="mods"/>
+            </optional>
+            <optional>
+               <ref name="gameplaySettingsNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayFootage">
+      <element name="gameplayFootage">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage) Groups the gameplay footage metadata fields.</a:documentation>
+         <group>
+            <ref name="playTypes"/>
+            <ref name="gameplayGenres"/>
+            <ref name="narrativeGenres"/>
+            <ref name="dimensionsPerspectives"/>
+            <ref name="locations"/>
+            <ref name="timePeriods"/>
+            <ref name="biomes"/>
+            <ref name="builtEnvs"/>
+            <optional>
+               <ref name="transportModes"/>
+            </optional>
+            <optional>
+               <ref name="items"/>
+            </optional>
+            <ref name="atmospheres"/>
+            <optional>
+               <ref name="playerCharacters"/>
+            </optional>
+            <optional>
+               <ref name="nonPlayerCharacters"/>
+            </optional>
+            <optional>
+               <ref name="mechanics"/>
+            </optional>
+            <ref name="timekeepingTypes"/>
+            <ref name="progressionTypes"/>
+            <ref name="themes"/>
+            <ref name="assets"/>
+            <ref name="styles"/>
+            <ref name="interfaces"/>
+            <ref name="experiences"/>
+            <optional>
+               <ref name="transactions"/>
+            </optional>
+            <ref name="metagamingTypes"/>
+            <optional>
+               <ref name="tropes"/>
+            </optional>
+            <optional>
+               <ref name="contentWarning"/>
+            </optional>
+            <optional>
+               <ref name="gameplayFootageNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameplayInstruction">
+      <element name="gameplayInstruction">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction) Groups the gameplay instruction metadata fields.</a:documentation>
+         <group>
+            <ref name="gameStudiesTopics"/>
+            <ref name="mediaStudiesTopics"/>
+            <optional>
+               <ref name="gameplayInstructionNote"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="title">
+      <element name="title">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Title) Free-text title.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="developer">
+      <element name="developer">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developer) Free-text developer.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="platformEditionNote">
+      <element name="platformEditionNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition note) Free-text platform edition note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="clipTitle">
+      <element name="clipTitle">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Clip title) Free-text clip title.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayAttribution">
+      <element name="gameplayAttribution">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay attribution) Free-text gameplay attribution.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="metadataAttribution">
+      <element name="metadataAttribution">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata attribution) Free-text metadata attribution.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="filename">
+      <element name="filename">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Filename) Free-text filename.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayFileNote">
+      <element name="gameplayFileNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file note) Free-text gameplay file note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="language">
+      <element name="language">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Language) Free-text language.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="mods">
+      <element name="mods">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mods) Free-text mods.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplaySettingsNote">
+      <element name="gameplaySettingsNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings note) Free-text gameplay settings note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="characterTrope">
+      <element name="characterTrope">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Character trope) Free-text character trope.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="contentWarning">
+      <element name="contentWarning">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Content warning) Free-text content warning.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayFootageNote">
+      <element name="gameplayFootageNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage note) Free-text gameplay footage note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="gameplayInstructionNote">
+      <element name="gameplayInstructionNote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction note) Free-text gameplay instruction note.</a:documentation>
+         <text/>
+      </element>
+   </define>
+   <define name="platforms">
+      <element name="platforms">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platforms) Groups the platforms metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="platform"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="engines">
+      <element name="engines">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Engines) Groups the engines metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="engine"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="developers">
+      <element name="developers">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developers) Groups the developers metadata fields.</a:documentation>
+         <group>
+            <ref name="developer"/>
+            <oneOrMore>
+               <ref name="developerLocation"/>
+            </oneOrMore>
+         </group>
+      </element>
+   </define>
+   <define name="publishers">
+      <element name="publishers">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publishers) Groups the publishers metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="publisher"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="commentaryTypes">
+      <element name="commentaryTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Commentary types) Groups the commentary types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="commentaryType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="chatTypes">
+      <element name="chatTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Chat types) Groups the chat types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="chatType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="inputDevices">
+      <element name="inputDevices">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Input devices) Groups the input devices metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="inputDevice"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="connectivityTypes">
+      <element name="connectivityTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Connectivity types) Groups the connectivity types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="connectivityType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="gameplayModes">
+      <element name="gameplayModes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay modes) Groups the gameplay modes metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="gameplayMode"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="accessibilityFeatures">
+      <element name="accessibilityFeatures">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Accessibility features) Groups the accessibility features metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="accessibilityFeature"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="playTypes">
+      <element name="playTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Play types) Groups the play types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="playType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="gameplayGenres">
+      <element name="gameplayGenres">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay genres) Groups the gameplay genres metadata fields.</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="gameplayGenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="gameplaySubgenre"/>
+            </oneOrMore>
+         </group>
+      </element>
+   </define>
+   <define name="narrativeGenres">
+      <element name="narrativeGenres">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Narrative genres) Groups the narrative genres metadata fields.</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="narrativeGenre"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="narrativeSubgenre"/>
+            </oneOrMore>
+         </group>
+      </element>
+   </define>
+   <define name="dimensionsPerspectives">
+      <element name="dimensionsPerspectives">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Dimensions perspectives) Groups the dimensions perspectives metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="dimensionPerspective"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="locations">
+      <element name="locations">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Locations) Groups the locations metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="location"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="timePeriods">
+      <element name="timePeriods">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Time periods) Groups the time periods metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="timePeriod"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="biomes">
+      <element name="biomes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Biomes) Groups the biomes metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="biome"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="builtEnvs">
+      <element name="builtEnvs">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Built envs) Groups the built envs metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="builtEnv"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="transportModes">
+      <element name="transportModes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Transport modes) Groups the transport modes metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="transportMode"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="items">
+      <element name="items">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Items) Groups the items metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="item"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="atmospheres">
+      <element name="atmospheres">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Atmospheres) Groups the atmospheres metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="atmosphere"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="playerCharacters">
+      <element name="playerCharacters">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Player characters) Groups the player characters metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="playerCharacter"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="nonPlayerCharacters">
+      <element name="nonPlayerCharacters">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non player characters) Groups the non player characters metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="nonPlayerCharacter"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="mechanics">
+      <element name="mechanics">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mechanics) Groups the mechanics metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="mechanic"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="timekeepingTypes">
+      <element name="timekeepingTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Timekeeping types) Groups the timekeeping types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="timekeepingType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="progressionTypes">
+      <element name="progressionTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Progression types) Groups the progression types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="progressionType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="themes">
+      <element name="themes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Themes) Groups the themes metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="theme"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="assets">
+      <element name="assets">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Assets) Groups the assets metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="asset"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="styles">
+      <element name="styles">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Styles) Groups the styles metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="style"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="interfaces">
+      <element name="interfaces">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Interfaces) Groups the interfaces metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="interface"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="experiences">
+      <element name="experiences">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Experiences) Groups the experiences metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="experience"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="transactions">
+      <element name="transactions">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Transactions) Groups the transactions metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="transaction"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="metagamingTypes">
+      <element name="metagamingTypes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metagaming types) Groups the metagaming types metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="metagamingType"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="tropes">
+      <element name="tropes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Tropes) Groups the tropes metadata fields.</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="gameplayTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="environmentTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="progressionTrope"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="narrativeTrope"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="characterTrope"/>
+            </optional>
+         </group>
+      </element>
+   </define>
+   <define name="gameStudiesTopics">
+      <element name="gameStudiesTopics">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Game studies topics) Groups the game studies topics metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="gameStudiesTopic"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="mediaStudiesTopics">
+      <element name="mediaStudiesTopics">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Media studies topics) Groups the media studies topics metadata fields.</a:documentation>
+         <oneOrMore>
+            <ref name="mediaStudiesTopic"/>
+         </oneOrMore>
+      </element>
+   </define>
+   <define name="release">
+      <element name="release">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Release) The edition's release year and one or more release types.</a:documentation>
+         <empty/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Release Type) The platform edition’s release type as assigned by its developer, publisher, and/or distributor Encoders will use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the release type if it was not assigned by the developer, publisher, and/or distributor.Use one or more whitespace-separated taxonomy IDs.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <choice>
+                     <value>rtAlpha</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Alpha) </a:documentation>
+                     <value>rtBeta</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Beta) </a:documentation>
+                     <value>rtDemo</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Demo) </a:documentation>
+                     <value>rtDownloadable</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Downloadable content (DLC)) </a:documentation>
+                     <value>rtEarlyAccess</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Early access) </a:documentation>
+                     <value>rtEmulation</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Emulation) </a:documentation>
+                     <value>rtExpansion</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Expansion) </a:documentation>
+                     <value>rtFanGame</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Fan game) </a:documentation>
+                     <value>rtInitOrOrigRelease</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Initial release / original release) </a:documentation>
+                     <value>rtPort</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Port) </a:documentation>
+                     <value>rtReboot</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Reboot) </a:documentation>
+                     <value>rtRemake</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Remake) </a:documentation>
+                     <value>rtRemaster</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Remaster) </a:documentation>
+                     <value>rtUnfinished</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Unfinished) </a:documentation>
+                  </choice>
+               </oneOrMore>
+            </list>
+         </attribute>
+         <attribute name="year">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The year of release of this game edition.</a:documentation>
+            <data type="gYear"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="publisher">
+      <element name="publisher">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher) The publisher name as free text, classified by Publisher Class in @type.</a:documentation>
+         <text/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher Class) The size, profile, and/or budget of the publisher and, in some cases, the developer, tooThis element rarely needs to be repeated. Exceptions include cases where the platform edition is both indie and self-published.Use existing scholarship, MobyGames, Wikipedia, Steam, and/or fansites to confirm the publisher class.</a:documentation>
+            <choice>
+               <value>pclAA</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AA) </a:documentation>
+               <value>pclAAA</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AAA) </a:documentation>
+               <value>pclB</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(B) </a:documentation>
+               <value>pclIII</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(III) </a:documentation>
+               <value>pclIndie</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Indie) </a:documentation>
+               <value>pclLicensed_game</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Licensed game) </a:documentation>
+               <value>pclSelf-published</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Self-published) </a:documentation>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="att.identifiable.attributes">
+      <ref name="att.identifiable.attribute.xmlid"/>
+   </define>
+   <define name="att.identifiable.attribute.xmlid">
+      <attribute name="xml:id">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(standard xml:id attribute) </a:documentation>
+         <data type="ID"/>
+      </attribute>
+   </define>
    <define name="platform">
       <element name="platform">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform) The operating system, device, computer, console, and/or service on which the platform edition was played and recorded (Lee et al., VGMS 4.2, 2024)Controlled vocabulary adapted, with minor changes, from Poff and Atari 2025</a:documentation>
@@ -2275,34 +2919,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="publisher">
-      <element name="publisher">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher) The publisher name as free text, classified by the Publisher Class vocabulary in @type.</a:documentation>
-         <text/>
-         <attribute name="type">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Publisher class) </a:documentation>
-            <choice>
-               <value>pclAA</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AA) </a:documentation>
-               <value>pclAAA</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(AAA) </a:documentation>
-               <value>pclB</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(B) </a:documentation>
-               <value>pclIII</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(III) </a:documentation>
-               <value>pclIndie</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Indie) </a:documentation>
-               <value>pclLicensed_game</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Licensed game) </a:documentation>
-               <value>pclSelf-published</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Self-published) </a:documentation>
-            </choice>
-         </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="commentary">
-      <element name="commentary">
+   <define name="commentaryType">
+      <element name="commentaryType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Commentary) The type of player commentary, if any, included in the gameplay footage of the platform editionCommentary is reflective, and it typically addresses the video’s audience.Select No commentary if the footage contains no commentary.</a:documentation>
          <choice>
             <value>Avatar / VTubing</value>
@@ -2320,8 +2938,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="chat">
-      <element name="chat">
+   <define name="chatType">
+      <element name="chatType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Chat) The type of chat, if any, included in the gameplay footage of the platform editionChat typically occurs between players; however, in cases such as livestreams, it may also occur between players and audiences.Select No chat if the footage contains no chat.</a:documentation>
          <choice>
             <value>Emotes</value>
@@ -2333,17 +2951,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <value>Video chat</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Voice chat</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-         </choice>
-      </element>
-   </define>
-   <define name="recordStatus">
-      <element name="recordStatus">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata Record Status) Communicates whether the metadata record for the gampeplay file is completeA gameplay file may appear in the Gameplay Footage Collection even if its metadata record is incomplete.</a:documentation>
-         <choice>
-            <value>Complete</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Incomplete</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
          </choice>
       </element>
@@ -2399,8 +3006,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="connectivity">
-      <element name="connectivity">
+   <define name="connectivityType">
+      <element name="connectivityType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Connectivity) The number of players in the gameplay footage of the platform edition (Lee et al., VGMS 4.2, 2024)Select Offline if there were no online or networked components.</a:documentation>
          <choice>
             <value>Cloud gaming / gaming on demand</value>
@@ -2426,30 +3033,13 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
       <element name="numPlayers">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Number of Players) The number of players in the gameplay footage of the platform edition (Lee et al., VGMS 4.2, 2024)</a:documentation>
          <choice>
-            <value>1 player</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>10 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>11-50 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>2 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>3 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>4 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>5 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>51 or more players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>6 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>7 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>8 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>9 players</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <data type="positiveInteger"/>
+            <choice>
+               <value>11-50</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>51 or more</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
          </choice>
       </element>
    </define>
@@ -2512,8 +3102,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="accessibility">
-      <element name="accessibility">
+   <define name="accessibilityFeature">
+      <element name="accessibilityFeature">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Accessibility) A configuration or appearance of the platform edition’s accessibility features in the gameplay footageSelect No accessibility features if none appears in the gameplay footage.</a:documentation>
          <choice>
             <value>Alternate inputs</value>
@@ -2645,8 +3235,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="typeOfPlay">
-      <element name="typeOfPlay">
+   <define name="playType">
+      <element name="playType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Type of Play) How players relate socially to each other and the game in the gameplay footage</a:documentation>
          <choice>
             <value>Asymmetrical multiplayer</value>
@@ -3523,8 +4113,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="transport">
-      <element name="transport">
+   <define name="transportMode">
+      <element name="transportMode">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Means of Transport) A means of conveyance or travel from one place to another appearing in the gameplay footageSelect No means of transport if the footage contains no means of conveyance or travel.Controlled vocabulary (adapted, with changes and additions, from Poff and Atari 2025 and Lee et al., Controlled Vocabulary for Setting, 2024.</a:documentation>
          <choice>
             <value>Airplane</value>
@@ -3648,8 +4238,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="items">
-      <element name="items">
+   <define name="item">
+      <element name="item">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Items) Types of consumables, equipment, progression items, crafting materials, currencies, and valuables appearing in the gameplay footage (Wikipedia, Item (game terminology), 2026)Select No items if the footage contains no items.</a:documentation>
          <choice>
             <value>Accessory</value>
@@ -4360,8 +4950,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="mechanics">
-      <element name="mechanics">
+   <define name="mechanic">
+      <element name="mechanic">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mechanics) A method or verb players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., VGMS 4.2, 2024)This element will typically be repeated.Select “No mechanic” if a mechanic is not used in the gameplay footage.Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to substantiate metadata about the mechanics.Controlled vocabulary adapted, with changes and additions, from BoardGameGeek n.d. and Lee et al., Controlled Vocabulary for Mechanics, 2024.</a:documentation>
          <choice>
             <value>Accelerating</value>
@@ -4635,8 +5225,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="timekeeping">
-      <element name="timekeeping">
+   <define name="timekeepingType">
+      <element name="timekeepingType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Timekeeping) How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and gamesTwo terms for this element (meditative / zen and “persistent”) are defined here to avoid confusion.Select meditative / zen if the game tr[ies] to calm or relax players. These types of games often have no goals and players can’t do anything wrong inside the game (Poff and Atari 2025).Select persistent if the game’s mechanics continue even when the player is not playing the game. Either the game state is simulated on a remote server or the changes over time are calculated when the player returns to playing (ibid).Don’t select meditative / zen or persistent if they do not apply to the gameplay footage.Controlled vocabulary adapted from Poff and Atari 2025.</a:documentation>
          <choice>
             <value>Meditative / zen</value>
@@ -4650,8 +5240,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="progression">
-      <element name="progression">
+   <define name="progressionType">
+      <element name="progressionType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Progression) How, as demonstrated by the footage, the platform edition allows players to advance, acknowledges their attempts to advance, or affords them with a sense of progress, achievement, or productivity (Lee et al., VGMS 4.2, 2024)This element will typically be repeated.Forms or systems include horizontal progression (unlocking options), vertical progression (earning upgrades), player progression (developing skills and knowledge), character progression (levelling and new abilities), world progression (new levels, locations, and enemies), journey / mission progression (tasks or quests to be completed), narrative progression (from exposition to resolution, including pacing), and gamification (achievements or trophies) (Brazie 2024).Controlled vocabulary with nine beats adapted from Laws 2010 and environmental storytelling from Jenkins 2002.</a:documentation>
          <choice>
             <value>Achievement / trophy / badge</value>
@@ -5278,8 +5868,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="assets">
-      <element name="assets">
+   <define name="asset">
+      <element name="asset">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Assets) Audio, visual, and functional elements, including individual pieces of content, appearing in the gameplay footageThis element will typically be repeated.Controlled vocabulary informed by game assets available at itch.io</a:documentation>
          <choice>
             <value>3D models</value>
@@ -5835,8 +6425,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="metagaming">
-      <element name="metagaming">
+   <define name="metagamingType">
+      <element name="metagamingType">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metagaming) Acts of play appearing in the gamemplay footage that involve or consider resources that are beyond the scope or control of what players . . . collectively consider to be the right and correct game (Carter et al. 2012)Select Orthogame (no observable meta) if the footage contains no observable or deliberate metagaming.The Current meta option applies to the meta as of the date of play and recording.Controlled vocabulary informed by Carter et al. 2012 and Boluk &amp; LeMieux 2017; adapted, with changes and additions, from TV Tropes 2026.</a:documentation>
          <choice>
             <value>Advanced movement technique</value>
@@ -7176,369 +7766,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
-   <define name="gameplayRecord">
-      <element name="gameplayRecord">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay record) A metadata record describing one gameplay recording.</a:documentation>
-         <group>
-            <ref name="platformEdition"/>
-            <ref name="gameplayFile"/>
-            <ref name="gameplaySettings"/>
-            <ref name="gameplayFootage"/>
-            <ref name="gameplayInstruction"/>
-         </group>
-         <ref name="att.identifiable.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="platformEdition">
-      <element name="platformEdition">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition) Groups the platform edition metadata fields.The platform edition played and recorded for the Gameplay Footage Collection may or may not correspond with the game’s initial release. For instance, Journey was initially released on PlayStation 3 in 2012. That release was the game’s first platform edition. Other platform editions of Journey include iPad (2019), iPhone (2019), PlayStation 4 (2015), and Windows (2019). These four platform editions (later releases) are ports of the 2012 platform edition (the initial release).</a:documentation>
-         <group>
-            <ref name="title"/>
-            <ref name="release"/>
-            <oneOrMore>
-               <ref name="platform"/>
-            </oneOrMore>
-            <zeroOrMore>
-               <ref name="engine"/>
-            </zeroOrMore>
-            <ref name="developer"/>
-            <oneOrMore>
-               <ref name="developerLocation"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="publisher"/>
-            </oneOrMore>
-            <optional>
-               <ref name="platformEditionNote"/>
-            </optional>
-         </group>
-      </element>
-   </define>
-   <define name="gameplayFile">
-      <element name="gameplayFile">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file) Groups the gameplay file metadata fields.</a:documentation>
-         <group>
-            <ref name="clipTitle"/>
-            <ref name="clipLength"/>
-            <ref name="dateRecorded"/>
-            <oneOrMore>
-               <ref name="commentary"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="chat"/>
-            </oneOrMore>
-            <ref name="gameplayAttribution"/>
-            <ref name="metadataAttribution"/>
-            <ref name="recordStatus"/>
-            <ref name="filename"/>
-            <optional>
-               <ref name="gameplayFileNote"/>
-            </optional>
-         </group>
-      </element>
-   </define>
-   <define name="gameplaySettings">
-      <element name="gameplaySettings">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings) Groups the gameplay settings metadata fields.</a:documentation>
-         <group>
-            <oneOrMore>
-               <ref name="inputDevice"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="connectivity"/>
-            </oneOrMore>
-            <ref name="numPlayers"/>
-            <oneOrMore>
-               <ref name="gameplayMode"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="language"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="accessibility"/>
-            </oneOrMore>
-            <optional>
-               <ref name="mods"/>
-            </optional>
-            <optional>
-               <ref name="gameplaySettingsNote"/>
-            </optional>
-         </group>
-      </element>
-   </define>
-   <define name="gameplayFootage">
-      <element name="gameplayFootage">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage) Groups the gameplay footage metadata fields.</a:documentation>
-         <group>
-            <oneOrMore>
-               <ref name="typeOfPlay"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="gameplayGenre"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="gameplaySubgenre"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="narrativeGenre"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="narrativeSubgenre"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="dimensionPerspective"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="location"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="timePeriod"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="biome"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="builtEnv"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="transport"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="items"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="atmosphere"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="playerCharacter"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="nonPlayerCharacter"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="mechanics"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="timekeeping"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="progression"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="theme"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="assets"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="style"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="interface"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="experience"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="transaction"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="metagaming"/>
-            </oneOrMore>
-            <zeroOrMore>
-               <ref name="gameplayTrope"/>
-            </zeroOrMore>
-            <zeroOrMore>
-               <ref name="environmentTrope"/>
-            </zeroOrMore>
-            <zeroOrMore>
-               <ref name="progressionTrope"/>
-            </zeroOrMore>
-            <zeroOrMore>
-               <ref name="narrativeTrope"/>
-            </zeroOrMore>
-            <optional>
-               <ref name="characterTrope"/>
-            </optional>
-            <ref name="contentWarning"/>
-            <optional>
-               <ref name="gameplayFootageNote"/>
-            </optional>
-         </group>
-      </element>
-   </define>
-   <define name="gameplayInstruction">
-      <element name="gameplayInstruction">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction) Groups the gameplay instruction metadata fields.</a:documentation>
-         <group>
-            <oneOrMore>
-               <ref name="gameStudiesTopic"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="mediaStudiesTopic"/>
-            </oneOrMore>
-            <optional>
-               <ref name="gameplayInstructionNote"/>
-            </optional>
-         </group>
-      </element>
-   </define>
-   <define name="title">
-      <element name="title">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Title) Free-text title.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="developer">
-      <element name="developer">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developer) Free-text developer.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="platformEditionNote">
-      <element name="platformEditionNote">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Platform edition note) Free-text platform edition note.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="clipTitle">
-      <element name="clipTitle">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Clip title) Free-text clip title.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="clipLength">
-      <element name="clipLength">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Clip length) Free-text clip length.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="dateRecorded">
-      <element name="dateRecorded">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Date recorded) Free-text date recorded.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="gameplayAttribution">
-      <element name="gameplayAttribution">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay attribution) Free-text gameplay attribution.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="metadataAttribution">
-      <element name="metadataAttribution">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Metadata attribution) Free-text metadata attribution.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="filename">
-      <element name="filename">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Filename) Free-text filename.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="gameplayFileNote">
-      <element name="gameplayFileNote">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay file note) Free-text gameplay file note.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="language">
-      <element name="language">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Language) Free-text language.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="mods">
-      <element name="mods">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Mods) Free-text mods.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="gameplaySettingsNote">
-      <element name="gameplaySettingsNote">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay settings note) Free-text gameplay settings note.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="characterTrope">
-      <element name="characterTrope">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Character trope) Free-text character trope.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="contentWarning">
-      <element name="contentWarning">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Content warning) Free-text content warning.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="gameplayFootageNote">
-      <element name="gameplayFootageNote">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay footage note) Free-text gameplay footage note.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="gameplayInstructionNote">
-      <element name="gameplayInstructionNote">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay instruction note) Free-text gameplay instruction note.</a:documentation>
-         <text/>
-      </element>
-   </define>
-   <define name="release">
-      <element name="release">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Release) The release includes the year and release type.</a:documentation>
-         <empty/>
-         <attribute name="year">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The year of release of this game edition) </a:documentation>
-            <data type="gYear"/>
-         </attribute>
-         <attribute name="type">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Type of release) </a:documentation>
-            <choice>
-               <value>rtAlpha</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Alpha) </a:documentation>
-               <value>rtBeta</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Beta) </a:documentation>
-               <value>rtDemo</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Demo) </a:documentation>
-               <value>rtDownloadable</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Downloadable content (DLC)) </a:documentation>
-               <value>rtEarlyAccess</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Early access) </a:documentation>
-               <value>rtEmulation</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Emulation) </a:documentation>
-               <value>rtExpansion</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Expansion) </a:documentation>
-               <value>rtFanGame</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Fan game) </a:documentation>
-               <value>rtInitOrOrigRelease</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Initial release / original release) </a:documentation>
-               <value>rtPort</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Port) </a:documentation>
-               <value>rtReboot</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Reboot) </a:documentation>
-               <value>rtRemake</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Remake) </a:documentation>
-               <value>rtRemaster</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Remaster) </a:documentation>
-               <value>rtUnfinished</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Unfinished) </a:documentation>
-            </choice>
-         </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="att.identifiable.attributes">
-      <ref name="att.identifiable.attribute.xmlid"/>
-   </define>
-   <define name="att.identifiable.attribute.xmlid">
-      <attribute name="xml:id">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(standard xml:id attribute) </a:documentation>
-         <data type="ID"/>
-      </attribute>
-   </define>
    <start>
       <choice>
          <ref name="gameplayRecord"/>
@@ -7639,8 +7866,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
                 xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-      <sch:rule context="/pr:gameplayRecord">
-         <sch:assert test="matches(@xml:id, '^game_[0-9]{5}$')">[<sch:value-of select="@xml:id"/>]: PROBLEM: xml:id must use game_ followed by five digits.</sch:assert>
+      <sch:rule context="pr:gameplayFile">
+         <sch:assert test="matches(string(@length), '^[0-9]{2}:[0-5][0-9]$')">[<sch:value-of select="$docId"/>]: PROBLEM: gameplayFile/@length must use MM:SS, with minutes 00–99 and seconds 00–59.</sch:assert>
       </sch:rule>
    </sch:pattern>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
@@ -7650,8 +7877,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
                 xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-      <sch:rule context="pr:gameplayFile/pr:clipLength">
-         <sch:assert test="matches(string(.), '^[0-9]{2}:[0-5][0-9]$')">[<sch:value-of select="$docId"/>]: PROBLEM: clipLength must use MM:SS, with minutes 00–99 and seconds 00–59.</sch:assert>
+      <sch:rule context="pr:gameplayFile">
+         <sch:assert test="matches(string(@date), '^[0-9]{4}-[0-9]{2}-[0-9]{2}$') and string(@date) castable as xs:date">[<sch:value-of select="$docId"/>]: PROBLEM: gameplayFile/@date must be a valid date in YYYY-MM-DD format.</sch:assert>
       </sch:rule>
    </sch:pattern>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
@@ -7661,8 +7888,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
                 xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-      <sch:rule context="pr:gameplayFile/pr:dateRecorded">
-         <sch:assert test="matches(string(.), '^[0-9]{4}-[0-9]{2}-[0-9]{2}$') and string(.) castable as xs:date">[<sch:value-of select="$docId"/>]: PROBLEM: dateRecorded must be a valid date in YYYY-MM-DD format.</sch:assert>
+      <sch:rule context="pr:gameplayFile/pr:filename">
+         <sch:assert test="matches(string(.), '^' || string($docId) || '\.[^./\\]+$')">[<sch:value-of select="$docId"/>]: PROBLEM: filename must match the record ID followed by a video file extension.</sch:assert>
       </sch:rule>
    </sch:pattern>
 </grammar>
