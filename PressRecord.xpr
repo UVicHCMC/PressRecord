@@ -16,7 +16,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>PressRecord TEI-XML</String>
+                                    <String>PressRecord XML</String>
                                 </field>
                                 <field name="schemaDescriptor">
                                     <docTypeSchema>
@@ -154,16 +154,16 @@
                                     <String-array/>
                                 </field>
                                 <field name="description">
-                                    <String>PressRecord TEI-XML</String>
+                                    <String>PressRecord XML</String>
                                 </field>
                                 <field name="doctypeRules">
                                     <documentTypeRule-array>
                                         <documentTypeRule>
                                             <field name="namespace">
-                                                <String>http://www.tei-c.org/ns/1.0</String>
+                                                <String>http://hcmc.uvic.ca/ns/PressRecord</String>
                                             </field>
                                             <field name="rootElem">
-                                                <String>TEI</String>
+                                                <String>gameplayRecord</String>
                                             </field>
                                             <field name="fileName">
                                                 <String>*.xml</String>
@@ -190,10 +190,72 @@
                                     <scenario-array/>
                                 </field>
                                 <field name="validationScenarios">
-                                    <validationScenario-array/>
+                                    <validationScenario-array>
+                                        <validationScenario>
+                                            <field name="pairs">
+                                                <list>
+                                                    <validationUnit>
+                                                        <field name="validationType">
+                                                            <validationUnitType>
+                                                                <field name="validationInputType">
+                                                                    <String>text/xml</String>
+                                                                </field>
+                                                            </validationUnitType>
+                                                        </field>
+                                                        <field name="url">
+                                                            <String>${currentFileURL}</String>
+                                                        </field>
+                                                        <field name="validationEngine">
+                                                            <validationEngine>
+                                                                <field name="engineType">
+                                                                    <String>&lt;Default engine></String>
+                                                                </field>
+                                                                <field name="allowsAutomaticValidation">
+                                                                    <Boolean>true</Boolean>
+                                                                </field>
+                                                            </validationEngine>
+                                                        </field>
+                                                        <field name="allowAutomaticValidation">
+                                                            <Boolean>true</Boolean>
+                                                        </field>
+                                                        <field name="extensions">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="validationSchema">
+                                                            <validationUnitSchema>
+                                                                <field name="dtdSchemaPublicID">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="schematronPhase">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="type">
+                                                                    <Integer>6</Integer>
+                                                                </field>
+                                                                <field name="uri">
+                                                                    <String>${pdu}/sch/PressRecord.rng</String>
+                                                                </field>
+                                                            </validationUnitSchema>
+                                                        </field>
+                                                        <field name="validationAdvancedSettings">
+                                                            <null/>
+                                                        </field>
+                                                    </validationUnit>
+                                                </list>
+                                            </field>
+                                            <field name="type">
+                                                <String>Validation_scenario</String>
+                                            </field>
+                                            <field name="name">
+                                                <String>PressRecord TEI-XML</String>
+                                            </field>
+                                        </validationScenario>
+                                    </validationScenario-array>
                                 </field>
                                 <field name="defaultValidationScenarios">
-                                    <null/>
+                                    <list>
+                                        <String>PressRecord TEI-XML</String>
+                                    </list>
                                 </field>
                                 <field name="defaultTransformationScenarios">
                                     <null/>
@@ -507,6 +569,26 @@
                     <entry>
                         <String>validation.scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xml/data/Despelote%20-%20Copy.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>PressRecord Schema Validation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>xml/data/Despelote.xml</String>
