@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status=""> <!-- use status to record the metadata record status -->
    <platformEdition>
       <title></title>

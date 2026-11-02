@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
- <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+  
 <gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="testfile" status="Incomplete"> <!-- use status to record the metadata record status -->
    <platformEdition>
       <title>Test File</title>
@@ -12,6 +11,7 @@
       </platforms>
       <engines>
          <engine>Unity</engine>
+         <engine>Codea</engine>
       </engines>
       <developers>
          <developer>BestGames Development</developer>
