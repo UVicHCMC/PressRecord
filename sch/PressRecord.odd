@@ -304,7 +304,7 @@
                <gloss>Developers</gloss>
                <desc>Groups the developers metadata fields.</desc>
                <content>
-                  <sequence>
+                  <sequence minOccurs="1" maxOccurs="unbounded">
                      <elementRef key="developer" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="developerLocation" minOccurs="1" maxOccurs="unbounded"/>
                   </sequence>
@@ -370,9 +370,9 @@
                <gloss>Gameplay genres</gloss>
                <desc>Groups the gameplay genres metadata fields.</desc>
                <content>
-                  <sequence>
+                  <sequence minOccurs="1" maxOccurs="unbounded">
                      <elementRef key="gameplayGenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="gameplaySubgenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="gameplaySubgenre" minOccurs="0" maxOccurs="unbounded"/>
                   </sequence>
                </content>
             </elementSpec>
@@ -380,9 +380,9 @@
                <gloss>Narrative genres</gloss>
                <desc>Groups the narrative genres metadata fields.</desc>
                <content>
-                  <sequence>
+                  <sequence minOccurs="1" maxOccurs="unbounded">
                      <elementRef key="narrativeGenre" minOccurs="1" maxOccurs="unbounded"/>
-                     <elementRef key="narrativeSubgenre" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="narrativeSubgenre" minOccurs="0" maxOccurs="unbounded"/>
                   </sequence>
                </content>
             </elementSpec>

@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://hcmc.uvic.ca/ns/PressRecord"><!--
-Schema generated from ODD source 2026-10-29T21:27:30Z. . 
-TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
-TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
+Schema generated from ODD source 2026-11-02T19:38:17Z. . 
+TEI Edition: P5 Version 4.12.0. Last updated on 28th July 2026, revision 113e933e2 
+TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0/ 
   
 --><!--[https://creativecommons.org/licenses/by-nc-sa/4.0/] Attribution-NonCommercial-ShareAlike 4.0 International-->
    <define name="countryCodes">
@@ -1435,12 +1435,12 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
    <define name="developers">
       <element name="developers">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Developers) Groups the developers metadata fields.</a:documentation>
-         <group>
+         <oneOrMore>
             <ref name="developer"/>
             <oneOrMore>
                <ref name="developerLocation"/>
             </oneOrMore>
-         </group>
+         </oneOrMore>
       </element>
    </define>
    <define name="publishers">
@@ -1510,27 +1510,27 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
    <define name="gameplayGenres">
       <element name="gameplayGenres">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Gameplay genres) Groups the gameplay genres metadata fields.</a:documentation>
-         <group>
+         <oneOrMore>
             <oneOrMore>
                <ref name="gameplayGenre"/>
             </oneOrMore>
-            <oneOrMore>
+            <zeroOrMore>
                <ref name="gameplaySubgenre"/>
-            </oneOrMore>
-         </group>
+            </zeroOrMore>
+         </oneOrMore>
       </element>
    </define>
    <define name="narrativeGenres">
       <element name="narrativeGenres">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Narrative genres) Groups the narrative genres metadata fields.</a:documentation>
-         <group>
+         <oneOrMore>
             <oneOrMore>
                <ref name="narrativeGenre"/>
             </oneOrMore>
-            <oneOrMore>
+            <zeroOrMore>
                <ref name="narrativeSubgenre"/>
-            </oneOrMore>
-         </group>
+            </zeroOrMore>
+         </oneOrMore>
       </element>
    </define>
    <define name="dimensionsPerspectives">

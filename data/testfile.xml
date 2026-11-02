@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+ <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="testfile" status="Incomplete"> <!-- use status to record the metadata record status -->
+   <platformEdition>
+      <title>Test File</title>
+      <release type="rtDemo rtAlpha" year="2026"/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
+      <platforms>
+         <platform>Windows</platform>
+         <platform>macOS</platform>
+         <platform>Nintendo Switch</platform>
+      </platforms>
+      <engines>
+         <engine>Unity</engine>
+      </engines>
+      <developers>
+         <developer>BestGames Development</developer>
+         <developerLocation>Canada / British Columbia</developerLocation>
+         <developer>SecondBestGames Development</developer>
+         <developerLocation>Canada / British Columbia</developerLocation>
+      </developers>
+      <publishers>
+         <publisher type="pclAAA">AAA Publishing</publisher>
+         <publisher type="pclAA">AA Publishing</publisher>
+      </publishers>
+      <platformEditionNote></platformEditionNote>
+   </platformEdition>
+   <gameplayFile length="05:03" date="2026-11-02"> <!-- Clip length (MM:SS) and date recorded -->
+      <clipTitle></clipTitle>
+      <commentaryTypes>
+         <commentaryType>Avatar / VTubing</commentaryType>
+         <commentaryType>Captions / subtitles</commentaryType>
+      </commentaryTypes>
+      <chatTypes>
+         <chatType>Text chat</chatType>
+      </chatTypes>
+      <gameplayAttribution>BestGamePlayer</gameplayAttribution>
+      <metadataAttribution>BestMetadataRecorder</metadataAttribution>
+      <filename>testfile.mp4</filename> <!--Video clip filename. Must match the XML file name except for the file type/extension--> 
+      <gameplayFileNote></gameplayFileNote>
+   </gameplayFile>
+   <gameplaySettings>
+      <inputDevices>
+         <inputDevice>Keyboard</inputDevice>
+         <inputDevice>Mouse</inputDevice>
+      </inputDevices>
+      <connectivityTypes>
+         <connectivityType>Offline</connectivityType>
+      </connectivityTypes>
+      <numPlayers>11-50</numPlayers> <!-- Must be a number OR either '11-50' or '51 or more' -->
+      <gameplayModes>
+         <gameplayMode>Story / campaign</gameplayMode>
+      </gameplayModes>
+      <language>English</language>
+      <!--<accessibilityFeatures>
+         <accessibilityFeature></accessibilityFeature>
+      </accessibilityFeatures>-->
+      <mods></mods>
+      <gameplaySettingsNote></gameplaySettingsNote>
+   </gameplaySettings>
+   <gameplayFootage>
+      <playTypes>
+         <playType>Collaborative</playType>
+         <playType>Asymmetrical multiplayer</playType>
+      </playTypes>
+      <gameplayGenres>
+         <gameplayGenre>Simulation</gameplayGenre>
+         <gameplaySubgenre>City building / construction sim</gameplaySubgenre>
+         <gameplaySubgenre>Business sim / tycoon</gameplaySubgenre>
+         <gameplayGenre>Social</gameplayGenre>
+      </gameplayGenres>
+      <narrativeGenres>
+         <narrativeGenre>Historical</narrativeGenre>
+         <narrativeSubgenre>Slice of life</narrativeSubgenre>
+         <narrativeGenre>Adventure</narrativeGenre>
+      </narrativeGenres>
+      <dimensionsPerspectives>
+         <dimensionPerspective>3rd-person / third-person</dimensionPerspective>
+         <dimensionPerspective>2.5D</dimensionPerspective>
+      </dimensionsPerspectives>
+      <locations>
+         <location>Japan</location>
+         <location>Canada</location>
+      </locations>
+      <timePeriods>
+         <timePeriod>Contemporary</timePeriod>
+      </timePeriods>
+      <biomes>
+         <biome>Beach / island</biome>
+         <biome>Cave / subterranean</biome>
+      </biomes>
+      <builtEnvs>
+         <builtEnv>Farm / farmhouse</builtEnv>
+         <builtEnv>Mine</builtEnv>
+      </builtEnvs>
+      <transportModes>
+         <transportMode>Boat / sailboat / steamboat / yacht</transportMode>
+         <transportMode>Canoe / kayak</transportMode>
+      </transportModes>
+      <items>
+         <item>Collectible</item>
+         <item>Book</item>
+      </items>
+      <atmospheres>
+         <atmosphere>Beautiful</atmosphere>
+         <atmosphere>Hopeful</atmosphere>
+      </atmospheres>
+      <playerCharacters>
+         <playerCharacter>Adult</playerCharacter>
+         <playerCharacter>Canadian</playerCharacter>
+      </playerCharacters>
+      <nonPlayerCharacters>
+         <nonPlayerCharacter>Canadian</nonPlayerCharacter>
+         <nonPlayerCharacter>Child</nonPlayerCharacter>
+      </nonPlayerCharacters>
+      <mechanics>
+         <mechanic>Building</mechanic>
+         <mechanic>Dancing</mechanic>
+      </mechanics>
+      <timekeepingTypes>
+         <timekeepingType>Real-time</timekeepingType>
+      </timekeepingTypes>
+      <progressionTypes>
+         <progressionType>Achievement / trophy / badge</progressionType>
+         <progressionType>Checkpoint</progressionType>
+      </progressionTypes>
+      <themes>
+         <theme>Aging</theme>
+         <theme>Urban / rural</theme>
+      </themes>
+      <assets>
+         <asset>3D models</asset>
+         <asset>Free-form animation</asset>
+      </assets>
+      <styles>
+         <style>Cartoon / anime</style>
+         <style>Cel shaded / toon shaded</style>
+      </styles>
+      <interfaces>
+         <interface>Buying and trading screen</interface>
+         <interface>Ability list screen or overlay</interface>
+      </interfaces>
+      <experiences>
+         <experience>Awe / wonder</experience>
+         <experience>Better as a Let's Play</experience>
+      </experiences>
+      <transactions>
+         <transaction>Advertising</transaction>
+         <transaction>Free-to-play</transaction>
+      </transactions>
+      <metagamingTypes>
+         <metagamingType>Orthogame (no observable meta)</metagamingType>
+      </metagamingTypes>
+      <tropes>
+         <gameplayTrope>No such thing as drowning</gameplayTrope>
+         <gameplayTrope>Adventurer is you</gameplayTrope>
+         <environmentTrope>Abandoned ship / abandoned means of transport</environmentTrope>
+         <environmentTrope>Adventure-friendly world</environmentTrope>
+         <progressionTrope>Ability required to proceed</progressionTrope>
+         <progressionTrope>Anti-idling</progressionTrope>
+         <narrativeTrope>Bring help back / bring news back</narrativeTrope>
+         <narrativeTrope>Coming-out story</narrativeTrope>
+         <characterTrope>Quirky</characterTrope>
+      </tropes>
+      <!--<contentWarning></contentWarning>-->
+      <!--<gameplayFootageNote></gameplayFootageNote>-->
+   </gameplayFootage>
+   <gameplayInstruction>
+      <gameStudiesTopics>
+         <gameStudiesTopic>Art games / games as art</gameStudiesTopic>
+         <gameStudiesTopic>Asian game studies</gameStudiesTopic>
+      </gameStudiesTopics>
+      <mediaStudiesTopics>
+         <mediaStudiesTopic>Acts and senses of communication</mediaStudiesTopic>
+         <mediaStudiesTopic>Images</mediaStudiesTopic>
+      </mediaStudiesTopics>
+      <!--<gameplayInstructionNote></gameplayInstructionNote>-->
+   </gameplayInstruction>
+</gameplayRecord>
