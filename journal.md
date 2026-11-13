@@ -2,6 +2,10 @@
 
 Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://uvicpraxis.github.io/pressrecord.html) project. 
 
+## 13 Nov 2026: Jentery 
+
+I collected our first batch of gameplay videos and applied a naming convention to each file. They are now available for description. 
+
 ## 12 Nov 2026: Jentery 
 
 I modified schemaRevisions.md for ease of use. I also uploaded PDF and MD copies of the schema, created an RA workflow document, created 01pass and 02pass subfolders for the XML records, and cloned this repo. 
