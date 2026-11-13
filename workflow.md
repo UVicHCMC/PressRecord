@@ -2,7 +2,7 @@
 
 This document is for RAs who are completing XML records for gameplay videos in the Press Record collection. 
 
-1. Before you get started, open the schema so you can search the metadata elements and their controlled vocabularies as you're completing XML records: https://github.com/UVicHCMC/PressRecord/blob/dev/sch/gameplayMetadataSchema22Sept26V1.md (Markdown file) or https://github.com/UVicHCMC/PressRecord/blob/dev/sch/gameplayMetadataSchema22Sept26V1.pdf (PDF file).
+1. Before you get started, open the schema so you can search the metadata elements and their controlled vocabularies while you're completing XML records: https://github.com/UVicHCMC/PressRecord/blob/dev/sch/gameplayMetadataSchema22Sept26V1.md (Markdown file) or https://github.com/UVicHCMC/PressRecord/blob/dev/sch/gameplayMetadataSchema22Sept26V1.pdf (PDF file).
 2. Select an XML file from https://github.com/UVicHCMC/PressRecord/tree/dev/xml/data/01pass. You will conduct a "second pass" on this file.
 3. Move that XML file to https://github.com/UVicHCMC/PressRecord/tree/dev/xml/data/02pass.
 4. Find the corresponding gameplay file in https://hcmc.uvic.ca/~pressrecord/gameplay/. It will have the same filename as the XML file, except it'll be a video file (MP4). 
