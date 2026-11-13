@@ -1082,6 +1082,8 @@ Definition: The equipment used to play the platform edition while the video was 
 
 **Suggestions**: 
 
+1. Add "Handheld console"
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with minor changes, from Wikipedia, "Game Controller," 2026)</summary>
 <ul>
@@ -1976,6 +1978,8 @@ Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advert
 
 **Suggestions**: 
 
+1. Add decades from 1800 forward (1800s, 1810s . . . 2010s, 2020s)
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024)</summary>
 <ul>
@@ -2261,6 +2265,8 @@ The controlled vocabulary for this element avoids duplicating options included i
 
 **Suggestions**: 
 
+1. Add "Crowded" and/or "Busy" 
+
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Mood," 2024)</summary>
 <ul>
@@ -2468,6 +2474,10 @@ Use the "Gameplay Footage Note" to further describe the non-player character(s).
 Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer's official website, and/or the platform edition's official website to substantiate metadata about non-player characters.
 
 **Corrections**: 
+
+1. Drop "PC" from "Non-binary PC"
+2. Drop "PC" from "Nonhuman PC"
+3. Drop "PC" from "North American PC"
 
 **Suggestions**: 
 
@@ -3547,6 +3557,8 @@ See [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideoGameTropes) for
 **Corrections**: 
 
 **Suggestions**: 
+
+1. Add "Pettable animals" 
 
 <details>
 <summary><i>controlled vocabulary</i> (adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Tropes," 2024, and TV Tropes 2026)</summary>
