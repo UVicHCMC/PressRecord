@@ -4,7 +4,7 @@ Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://
 
 ## 12 Nov 2026: Jentery 
 
-I added some corrections and suggestions to the schema. 
+I added some corrections and suggestions to the schema. I also uploaded PDF and MD copies of the schema, created an RA workflow document, and created 01pass and 02pass subfolders for the XML records. 
 
 ## 2 Nov 2026: Jentery
 
