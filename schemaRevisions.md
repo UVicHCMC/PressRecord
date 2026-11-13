@@ -2,13 +2,13 @@
 
 Add corrections and your suggestions to this document as you complete XML records. 
 
-## Corrections 
+## Corrections (Pending) 
 
 1. Drop "PC" from "Non-binary PC" in CV for 6N, "Non-Player Character." 
 2. Drop "PC" from "Nonhuman PC" in CV for 6N, "Non-Player Character." 
 3. Drop "PC" from "North American PC" in CV for 6N, "Non-Player Character." 
 
-## Suggestions 
+## Suggestions (Pending) 
 
 1. Add "Handheld console" to the CV for 5A, "Input Device."
 2. Add decades from 1800 forward (1800s, 1810s . . . 2010s, 2020s) to the CV for 6H, "Time Period."
