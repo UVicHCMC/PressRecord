@@ -2,6 +2,10 @@
 
 Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://uvicpraxis.github.io/pressrecord.html) project. 
 
+## 15 Nov 2026: Jentery 
+
+Added norwoodSuite2017MissDavisPiano00012.xml. Our first XML record! 
+
 ## 13 Nov 2026: Jentery 
 
 I collected our first batch of gameplay videos and applied a naming convention to each file. They are now available for description. 
