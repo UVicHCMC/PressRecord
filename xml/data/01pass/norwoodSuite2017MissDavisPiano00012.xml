@@ -7,6 +7,7 @@
       <release type="rtInitOrOrigRelease" year="2017"/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
       <platforms>
          <platform>Windows</platform>
+         <platform>Steam</platform>
       </platforms>
       <engines>
          <engine>Unity</engine>
@@ -19,7 +20,7 @@
       <publishers>
          <publisher type="pclIndie">Alliance</publisher>
       </publishers>
-      <platformEditionNote>Music by Archie Pelago. Cosmo D Studios are based in Brooklyn, NY.</platformEditionNote>
+      <platformEditionNote>Music by Archie Pelago. Cosmo D Studios are based in Brooklyn, NY. The game is inspired by psychogeography, the Catskills, the Hotel Chelsea, Glenn Gould, and La Monte Young’s Dream House, and it's reminiscent of Twin Peaks, The Shining, Gone Home, Dear Esther, Thief, and Soma.</platformEditionNote>
    </platformEdition>
    <gameplayFile length="03:17" date="2026-05-04"> <!-- Clip length (MM:SS) and date recorded -->
       <clipTitle>Visiting Miss Davis's Music History Class, Playing the Piano, and Pressing the "Do Not Touch" Button</clipTitle>
@@ -50,7 +51,7 @@
       </gameplayModes>
       <language>English</language>
       <accessibilityFeatures>
-         <accessibilityFeature></accessibilityFeature>
+         <accessibilityFeature>Visually indicated interactive object</accessibilityFeature>
       </accessibilityFeatures>
       <mods></mods>
       <gameplaySettingsNote></gameplaySettingsNote>
@@ -68,8 +69,7 @@
       </gameplayGenres>
       <narrativeGenres>
          <narrativeGenre>Adventure</narrativeGenre>
-         <narrativeGenre>Mystery</narrativeGenre>
-         <narrativeSubgenre>Slice of life</narrativeSubgenre>
+         <narrativeGenre>Mystery</narrativeGenre>         <narrativeSubgenre>Psychological</narrativeSubgenre>
       </narrativeGenres>
       <dimensionsPerspectives>
          <dimensionPerspective>1st-person / first-person</dimensionPerspective>
@@ -160,6 +160,7 @@
       <tropes>
          <gameplayTrope>Adventurer is you</gameplayTrope>
          <environmentTrope>Video game vista</environmentTrope>
+        <environmentTrope>Adventure-friendly world</environmentTrope>
          <progressionTrope>Only smart people may pass</progressionTrope>
          <progressionTrope>Dev is smarter than me</progressionTrope>
          <narrativeTrope>Player and protagonist integration</narrativeTrope>
@@ -167,7 +168,7 @@
          <characterTrope></characterTrope>
       </tropes>
       <contentWarning></contentWarning>
-      <gameplayFootageNote>This scene occurs during the game's Eighth Tableau. The game is inspired by the Catskills, psychogeography, and La Monte Young’s Dream House and corresponds with Twin Peaks, The Shining, Gone Home, and Soma.</gameplayFootageNote>
+      <gameplayFootageNote>This scene occurs during the game's Eighth Tableau. The following NPCs appear in the footage: Miss Davis (gendered female in lore), Betsy (gendered female in lore), and Ellie (gendered female in lore). </gameplayFootageNote>
    </gameplayFootage>
    <gameplayInstruction>
       <gameStudiesTopics>
@@ -179,11 +180,15 @@
          <gameStudiesTopic>Puzzle design / secrets and hidden information / decoding games</gameStudiesTopic>
          <gameStudiesTopic>History in games / historical representations</gameStudiesTopic>
          <gameStudiesTopic>Level design / possibility space</gameStudiesTopic>
+         <gameStudiesTopic>Player-agnostic design</gameStudiesTopic>
+         <gameStudiesTopic>American game studies</gameStudiesTopic>
       </gameStudiesTopics>
       <mediaStudiesTopics>
-         <mediaStudiesTopic>Audio</mediaStudiesTopic>
+ <mediaStudiesTopic>Audio</mediaStudiesTopic>
+         <mediaStudiesTopic>Images</mediaStudiesTopic>
          <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
          <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>
+         <mediaStudiesTopic>Rhetoric and persuasion</mediaStudiesTopic>
       </mediaStudiesTopics>
       <gameplayInstructionNote>Greg Heffernan is a New York University Steinhardt alumnus.</gameplayInstructionNote>
    </gameplayInstruction>
