@@ -52,9 +52,11 @@
       <language>English</language>
       <accessibilityFeatures>
          <accessibilityFeature>Visually indicated interactive object</accessibilityFeature>
+         <accessibilityFeature>Visually indicated speech</accessibilityFeature>
+         <accessibilityFeature>Text highlighing</accessibilityFeature>
       </accessibilityFeatures>
       <mods></mods>
-      <gameplaySettingsNote></gameplaySettingsNote>
+      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects meant to replicate speech.</gameplaySettingsNote>
    </gameplaySettings>
    <gameplayFootage>
       <playTypes>
@@ -62,6 +64,7 @@
       </playTypes>
       <gameplayGenres>
          <gameplayGenre>Adventure / story-driven</gameplayGenre>
+         <gameplayGenre>Puzzle</gameplayGenre>
          <gameplaySubgenre>Walking sim</gameplaySubgenre>
          <gameplaySubgenre>Graphic adventure</gameplaySubgenre>
          <gameplaySubgenre>Cryptic puzzle</gameplaySubgenre>
@@ -69,13 +72,15 @@
       </gameplayGenres>
       <narrativeGenres>
          <narrativeGenre>Adventure</narrativeGenre>
-         <narrativeGenre>Mystery</narrativeGenre>         <narrativeSubgenre>Psychological</narrativeSubgenre>
+         <narrativeGenre>Mystery</narrativeGenre>
+         <narrativeSubgenre>Psychological</narrativeSubgenre>
       </narrativeGenres>
       <dimensionsPerspectives>
          <dimensionPerspective>1st-person / first-person</dimensionPerspective>
+         <dimensionPerspective>3D</dimensionPerspective>
       </dimensionsPerspectives>
       <locations>
-         <location></location>
+         <location>Fictional</location>
       </locations>
       <timePeriods>
          <timePeriod>Fictional</timePeriod>
