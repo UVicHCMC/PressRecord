@@ -2,6 +2,10 @@
 
 Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://uvicpraxis.github.io/pressrecord.html) project. 
 
+## 16 Nov 2026: 
+
+IT, MR, and I worked on three *Norwood Suite* files in the HCMC today. We also documented more corrections and suggestions for the schema. We need to resolve Git issues next week. 
+
 ## 15 Nov 2026: Jentery 
 
 Added norwoodSuite2017MissDavisPiano00012.xml. Our first XML record! 
