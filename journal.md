@@ -2,6 +2,10 @@
 
 Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://uvicpraxis.github.io/pressrecord.html) project. 
 
+## 19 Nov 2026: Jentery 
+
+Updated the ODD with "explicit" and "implicit" tags for the NPC and PC elements. 
+
 ## 18 Nov 2026: Jentery
 
 Updated the ODD with corrections and suggestions. 
