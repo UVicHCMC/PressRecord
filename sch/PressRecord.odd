@@ -448,12 +448,26 @@
                <content>
                   <elementRef key="playerCharacter" minOccurs="1" maxOccurs="unbounded"/>
                </content>
+                </elementSpec>
+            <elementSpec ident="playerCharacterNames" module="PressRecord">
+               <gloss>Player character names</gloss>
+               <desc>Free-text language.</desc>
+               <content>
+                  <textNode/>
+               </content>
             </elementSpec>
             <elementSpec ident="nonPlayerCharacters" module="PressRecord">
                <gloss>Non player characters</gloss>
                <desc>Groups the non player characters metadata fields.</desc>
                <content>
                   <elementRef key="nonPlayerCharacter" minOccurs="1" maxOccurs="unbounded"/>
+               </content>
+            </elementSpec>
+              <elementSpec ident="nonPlayerCharacterNames" module="PressRecord">
+               <gloss>Non player character names</gloss>
+               <desc>Free-text language.</desc>
+               <content>
+                  <textNode/>
                </content>
             </elementSpec>
             <elementSpec ident="mechanics" module="PressRecord">
@@ -1368,6 +1382,7 @@
                      <valItem ident="Exercise accessory"/>
                      <valItem ident="Fishing rod"/>
                      <valItem ident="Gamepad / joypad"/>
+                     <valItem ident="Handheld console"/>
                      <valItem ident="Joystick"/>
                      <valItem ident="Keyboard"/>
                      <valItem ident="Light gun"/>
@@ -1512,7 +1527,7 @@
                      <valItem ident="Symbol-based chat"/>
                      <valItem ident="Tank controls"/>
                      <valItem ident="Text chat"/>
-                     <valItem ident="Text highlighing"/>
+                     <valItem ident="Text highlighting"/>
                      <valItem ident="Thalassophobia mode"/>
                      <valItem ident="Visually indicated interactive object"/>
                      <valItem ident="Visually indicated movement"/>
@@ -1634,8 +1649,7 @@
                      <valItem ident="Fumblecore"/>
                      <valItem ident="Gambling / gambling elements"/>
                      <valItem ident="Game show"/>
-                     <valItem ident="Gashapon"/>
-                     <valItem ident="Genetics"/>
+                     <valItem ident="Gacha"/>
                      <valItem ident="God game"/>
                      <valItem ident="Golf"/>
                      <valItem ident="Government sim"/>
@@ -1926,6 +1940,30 @@
                <desc>Controlled vocabulary adapted, with changes and additions, from Lee et al., "Controlled Vocabulary for Setting," 2024</desc>
                <content>
                   <valList type="closed">
+                     <valItem ident="1800s"/>
+                     <valItem ident="1810s"/>
+                     <valItem ident="1820s"/>
+                     <valItem ident="1830s"/>
+                     <valItem ident="1840s"/>
+                     <valItem ident="1850s"/>
+                     <valItem ident="1860s"/>
+                     <valItem ident="1870s"/>
+                     <valItem ident="1880s"/>
+                     <valItem ident="1890s"/>
+                     <valItem ident="1900s"/>
+                     <valItem ident="1910s"/>
+                     <valItem ident="1920s"/>
+                     <valItem ident="1930s"/>
+                     <valItem ident="1940s"/>
+                     <valItem ident="1950s"/>
+                     <valItem ident="1960s"/>
+                     <valItem ident="1970s"/>
+                     <valItem ident="1980s"/>
+                     <valItem ident="1990s"/>
+                     <valItem ident="2000s"/>
+                     <valItem ident="2010s"/>
+                     <valItem ident="2020s"/>
+                     <valItem ident="2030s"/>
                      <valItem ident="Axial Age"/>
                      <valItem ident="Bronze Age"/>
                      <valItem ident="Classical antiquity"/>
@@ -2192,6 +2230,7 @@
                      <valItem ident="Bold"/>
                      <valItem ident="Bright"/>
                      <valItem ident="Brittle"/>
+                     <valItem ident="Busy"/>
                      <valItem ident="Captivating"/>
                      <valItem ident="Cozy"/>
                      <valItem ident="Creative"/>
@@ -2246,12 +2285,16 @@
                      <valItem ident="Agender"/>
                      <valItem ident="Amnesiac"/>
                      <valItem ident="Aromantic"/>
+                     <valItem ident="Artificer"/>
+                     <valItem ident="Artist"/>
                      <valItem ident="Asexual"/>
                      <valItem ident="Asian"/>
                      <valItem ident="Assimilator"/>
                      <valItem ident="Australian / from Oceania"/>
                      <valItem ident="Autistic"/>
                      <valItem ident="Avatar"/>
+                     <valItem ident="Barbarian"/>
+                     <valItem ident="Bard"/>
                      <valItem ident="Bisexual"/>
                      <valItem ident="Black"/>
                      <valItem ident="Blank slate / cipher"/>
@@ -2260,6 +2303,7 @@
                      <valItem ident="Builder"/>
                      <valItem ident="Canadian"/>
                      <valItem ident="Child"/>
+                     <valItem ident="Cleric"/>
                      <valItem ident="Collector"/>
                      <valItem ident="Colonizer / settler"/>
                      <valItem ident="Customizable age"/>
@@ -2272,13 +2316,17 @@
                      <valItem ident="Customizable species"/>
                      <valItem ident="Deaf"/>
                      <valItem ident="Demisexual"/>
+                     <valItem ident="Demon"/>
+                     <valItem ident="Demon Hunter"/>
                      <valItem ident="Disabled"/>
                      <valItem ident="Dragon"/>
+                     <valItem ident="Druid"/>
                      <valItem ident="Elder"/>
                      <valItem ident="Entitled"/>
                      <valItem ident="European"/>
                      <valItem ident="Female"/>
                      <valItem ident="Fictional species"/>
+                     <valItem ident="Fighter / warrior"/>
                      <valItem ident="Fundamentalist"/>
                      <valItem ident="Gay"/>
                      <valItem ident="Gender non-conforming"/>
@@ -2298,11 +2346,14 @@
                      <valItem ident="Knight"/>
                      <valItem ident="Lesbian"/>
                      <valItem ident="Librarian / archivist"/>
-                     <valItem ident="Magic user"/>
+                     <valItem ident="Mage / magic user"/>
                      <valItem ident="Male"/>
                      <valItem ident="Matriarch"/>
+                     <valItem ident="Messenger"/>
                      <valItem ident="Migrant"/>
                      <valItem ident="Monster"/>
+                     <valItem ident="Monk"/>
+                     <valItem ident="Musician"/>
                      <valItem ident="Neurodivergent"/>
                      <valItem ident="No player character"/>
                      <valItem ident="Non-binary"/>
@@ -2314,6 +2365,7 @@
                      <valItem ident="Outlaw"/>
                      <valItem ident="Overlord / conqueror"/>
                      <valItem ident="Overpowered"/>
+                     <valItem ident="Paladin"/>
                      <valItem ident="Pansexual"/>
                      <valItem ident="Parent / guardian"/>
                      <valItem ident="Party member"/>
@@ -2333,6 +2385,7 @@
                      <valItem ident="Pirate"/>
                      <valItem ident="Poor"/>
                      <valItem ident="Pregnant"/>
+                     <valItem ident="Priest"/>
                      <valItem ident="Queer"/>
                      <valItem ident="Racialized"/>
                      <valItem ident="Ranger"/>
@@ -2341,26 +2394,35 @@
                      <valItem ident="Robot / android / automaton"/>
                      <valItem ident="Rogue / assassin"/>
                      <valItem ident="Royalty"/>
+                     <valItem ident="Scholar / academic"/>
+                     <valItem ident="Shaman"/>
                      <valItem ident="Shapeshifter"/>
                      <valItem ident="Shopkeeper"/>
+                     <valItem ident="Sorcerer"/>
                      <valItem ident="South American"/>
                      <valItem ident="Spy / spymaster"/>
                      <valItem ident="Stranger / visitor"/>
                      <valItem ident="Strong"/>
                      <valItem ident="Student"/>
                      <valItem ident="Tank"/>
+                     <valItem ident="Teacher / tutor"/>
                      <valItem ident="Teenager"/>
                      <valItem ident="Trans"/>
+                     <valItem ident="Treasure hunter"/>
                      <valItem ident="Twin"/>
                      <valItem ident="Two-spirit"/>
                      <valItem ident="Undead"/>
+                     <valItem ident="Vampire"/>
                      <valItem ident="Villager"/>
                      <valItem ident="Villain"/>
                      <valItem ident="Visually-impaired"/>
                      <valItem ident="War veteran / commander"/>
+                     <valItem ident="Warden / custodian"/>
+                     <valItem ident="Warlock"/>
                      <valItem ident="Weak"/>
                      <valItem ident="Wealthy"/>
                      <valItem ident="White"/>
+                     <valItem ident="Wizard"/>
                   </valList>
                </content>
             </elementSpec>
@@ -2380,11 +2442,15 @@
                      <valItem ident="Agender"/>
                      <valItem ident="Amnesiac"/>
                      <valItem ident="Aromantic"/>
+                     <valItem ident="Artificer"/>
+                     <valItem ident="Artist"/>
                      <valItem ident="Asexual"/>
                      <valItem ident="Asian"/>
                      <valItem ident="Assimilator"/>
                      <valItem ident="Australian / from Oceania"/>
                      <valItem ident="Autistic"/>
+                     <valItem ident="Barbarian"/>
+                     <valItem ident="Bard"/>
                      <valItem ident="Bisexual"/>
                      <valItem ident="Black"/>
                      <valItem ident="Blacksmith"/>
@@ -2394,14 +2460,19 @@
                      <valItem ident="Builder"/>
                      <valItem ident="Canadian"/>
                      <valItem ident="Child"/>
+                     <valItem ident="Cleric"/>
                      <valItem ident="Collector"/>
                      <valItem ident="Colonizer / settler"/>
                      <valItem ident="Companion / buddy"/>
+                     <valItem ident="Crowd"/>
                      <valItem ident="Customizable"/>
                      <valItem ident="Deaf"/>
                      <valItem ident="Demisexual"/>
+                     <valItem ident="Demon"/>
+                     <valItem ident="Demon Hunter"/>
                      <valItem ident="Disabled"/>
                      <valItem ident="Dragon"/>
+                     <valItem ident="Druid"/>
                      <valItem ident="Elder"/>
                      <valItem ident="Enemy / hostile"/>
                      <valItem ident="Entitled"/>
@@ -2409,6 +2480,7 @@
                      <valItem ident="Familiar"/>
                      <valItem ident="Female"/>
                      <valItem ident="Fictional species"/>
+                     <valItem ident="Fighter / warrior"/>
                      <valItem ident="Friendly / not hostile"/>
                      <valItem ident="Fundamentalist"/>
                      <valItem ident="Gay"/>
@@ -2431,17 +2503,20 @@
                      <valItem ident="Knight"/>
                      <valItem ident="Lesbian"/>
                      <valItem ident="Librarian / archivist"/>
-                     <valItem ident="Magic user"/>
+                     <valItem ident="Mage / magic user"/>
                      <valItem ident="Male"/>
                      <valItem ident="Matriarch"/>
+                     <valItem ident="Messenger"/>
                      <valItem ident="Migrant"/>
                      <valItem ident="Monster"/>
+                     <valItem ident="Monk"/>
+                     <valItem ident="Musician"/>
                      <valItem ident="Neurodivergent"/>
                      <valItem ident="No non-player character"/>
-                     <valItem ident="Non-binary PC"/>
+                     <valItem ident="Non-binary"/>
                      <valItem ident="Non-corporeal"/>
-                     <valItem ident="Nonhuman PC"/>
-                     <valItem ident="North American PC"/>
+                     <valItem ident="Nonhuman"/>
+                     <valItem ident="North American"/>
                      <valItem ident="NPC can die"/>
                      <valItem ident="NPC cannot die"/>
                      <valItem ident="NPC has black or brown hair"/>
@@ -2457,6 +2532,7 @@
                      <valItem ident="Outlaw"/>
                      <valItem ident="Overlord / conqueror"/>
                      <valItem ident="Overpowered"/>
+                     <valItem ident="Paladin"/>
                      <valItem ident="Pansexual"/>
                      <valItem ident="Parent / guardian"/>
                      <valItem ident="Party member"/>
@@ -2474,6 +2550,7 @@
                      <valItem ident="Pirate"/>
                      <valItem ident="Poor"/>
                      <valItem ident="Pregnant"/>
+                     <valItem ident="Priest"/>
                      <valItem ident="Protagonist"/>
                      <valItem ident="Queer"/>
                      <valItem ident="Racialized"/>
@@ -2483,25 +2560,34 @@
                      <valItem ident="Robot / android / automaton"/>
                      <valItem ident="Rogue / assassin"/>
                      <valItem ident="Royalty"/>
+                     <valItem ident="Scholar / academic"/>
+                     <valItem ident="Shaman"/>
                      <valItem ident="Shapeshifter"/>
                      <valItem ident="Shopkeeper"/>
+                     <valItem ident="Sorcerer"/>
                      <valItem ident="South American"/>
                      <valItem ident="Spy / spymaster"/>
                      <valItem ident="Stranger / visitor"/>
                      <valItem ident="Strong"/>
                      <valItem ident="Student"/>
                      <valItem ident="Tank"/>
+                     <valItem ident="Teacher / tutor"/>
                      <valItem ident="Teenager"/>
                      <valItem ident="Trans"/>
+                     <valItem ident="Treasure hunter"/>
                      <valItem ident="Twin"/>
                      <valItem ident="Two-spirit"/>
                      <valItem ident="Undead"/>
+                     <valItem ident="Vampire"/>
                      <valItem ident="Villain"/>
                      <valItem ident="Visually-impaired"/>
                      <valItem ident="War veteran / commander"/>
+                     <valItem ident="Warden / custodian"/>
+                     <valItem ident="Warlock"/>
                      <valItem ident="Weak"/>
                      <valItem ident="Wealthy"/>
                      <valItem ident="White"/>
+                     <valItem ident="Wizard"/>
                      <valItem ident="Zombie"/>
                   </valList>
                </content>
@@ -2541,7 +2627,7 @@
                      <valItem ident="Climbing"/>
                      <valItem ident="Closing"/>
                      <valItem ident="Collecting"/>
-                     <valItem ident="Communicating noverbally"/>
+                     <valItem ident="Communicating nonverbally"/>
                      <valItem ident="Communicating verbally"/>
                      <valItem ident="Cooking / making food"/>
                      <valItem ident="Crafting"/>
@@ -2655,16 +2741,17 @@
             <elementSpec ident="timekeepingType" module="PressRecord">
                <gloss>Timekeeping</gloss>
                <desc>How the platform edition handles the passage of time in the gameplay footage; approaches to timekeeping inevitably influence narrative pacing as well as the timing and rhythm of both players and games</desc>
-               <desc>Two terms for this element (<q>meditative / zen</q> and “persistent”) are defined here to avoid confusion.</desc>
-               <desc>Select <q>meditative / zen</q> if the game <q>tr[ies] to calm or relax players. These types of games often have no goals and players can’t do anything wrong inside the game</q> (Poff and Atari 2025).</desc>
-               <desc>Select <q>persistent</q> if the game’s <q>mechanics continue even when the player is not playing the game. Either the game state is simulated on a remote server or the changes over time are calculated when the player returns to playing</q> (ibid).</desc>
-               <desc>Don’t select <q>meditative / zen</q> or <q>persistent</q> if they do not apply to the gameplay footage.</desc>
                <desc>Controlled vocabulary adapted from Poff and Atari 2025.</desc>
                <content>
                   <valList type="closed">
-                     <valItem ident="Meditative / zen"/>
-                     <valItem ident="Persistent"/>
+                     <valItem ident="Event-driven clock"/>
+                     <valItem ident="In-universe clock"/>
+                     <valItem ident="Matches"/>
                      <valItem ident="Real-time"/>
+                     <valItem ident="Rounds"/>
+                     <valItem ident="Runs"/>
+                     <valItem ident="System clock / persistent"/>
+                     <valItem ident="Time manipulation"/>
                      <valItem ident="Turn-based"/>
                   </valList>
                </content>
@@ -3435,6 +3522,7 @@
                      <valItem ident="Optional party member"/>
                      <valItem ident="Overheating"/>
                      <valItem ident="Personality mechanic"/>
+                     <valItem ident="Pettable animal"/>
                      <valItem ident="Power equals rarity / hard-to-acquire item"/>
                      <valItem ident="Power-up motif"/>
                      <valItem ident="Purely aesthetic customization"/>

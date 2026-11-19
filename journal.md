@@ -2,7 +2,11 @@
 
 Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://uvicpraxis.github.io/pressrecord.html) project. 
 
-## 16 Nov 2026: 
+## 18 Nov 2026: Jentery
+
+Updated the ODD with corrections and suggestions. 
+
+## 16 Nov 2026: Jentery 
 
 IT, MR, and I worked on three *Norwood Suite* files in the HCMC today. We also documented more corrections and suggestions for the schema. We need to resolve Git issues next week. 
 
