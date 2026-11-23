@@ -99,8 +99,8 @@
                      <elementRef key="clipTitle" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="commentaryTypes" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="chatTypes" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="gameplayAttribution" minOccurs="1" maxOccurs="1"/>
-                     <elementRef key="metadataAttribution" minOccurs="1" maxOccurs="1"/>
+                     <elementRef key="gameplayAttribution" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="metadataAttribution" minOccurs="1" maxOccurs="unbounded"/>
                      <elementRef key="filename" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="gameplayFileNote" minOccurs="0" maxOccurs="1"/>
                   </sequence>
