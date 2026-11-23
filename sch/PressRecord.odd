@@ -153,7 +153,9 @@
                      <elementRef key="items" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="atmospheres" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="playerCharacters" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="playerCharacterNames" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="nonPlayerCharacters" minOccurs="0" maxOccurs="1"/>
+                     <elementRef key="nonPlayerCharacterNames" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="mechanics" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="timekeepingTypes" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="progressionTypes" minOccurs="1" maxOccurs="1"/>
