@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="norwoodSuite2017TalkingToTheBand00014" status="Complete"> <!-- use status to record the metadata record status -->
+   <platformEdition>
+      <title>Norwood Suite, The</title>
+      <release type="rtInitOrOrigRelease" year="2017"/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
+      <platforms>
+         <platform>Windows</platform>
+         <platform>Steam</platform>
+      </platforms>
+      <engines>
+         <engine>Unity</engine>
+      </engines>
+      <developers>
+         <developer>Cosmo D Studios</developer>
+         <developerLocation>United States</developerLocation>
+         <developer>Greg Heffernan</developer>
+         <developerLocation>United States</developerLocation>
+      </developers>
+      <publishers>
+         <publisher type="pclIndie">Alliance</publisher>
+      </publishers>
+      <platformEditionNote>Music by Archie Pelago. Cosmo D Studios are based in Brooklyn, NY. The game is inspired by psychogeography, the Catskills, the Hotel Chelsea, Glenn Gould, and La Monte Young’s Dream House, and it's reminiscent of Twin Peaks, The Shining, Gone Home, Dear Esther, Thief, and Soma.</platformEditionNote>
+   </platformEdition>
+   <gameplayFile length="03:11" date="2026-05-05"> <!-- Clip length (MM:SS) and date recorded -->
+      <clipTitle>Talking to the Band about Touring, PR, and Their Fans</clipTitle>
+      <commentaryTypes>
+         <commentaryType>No commentary</commentaryType>
+      </commentaryTypes>
+      <chatTypes>
+         <chatType>No chat</chatType>
+      </chatTypes>
+      <gameplayAttribution>Reg Kachanoski</gameplayAttribution>
+      <metadataAttribution>Reg Kachanoski</metadataAttribution>
+      <metadataAttribution>Maya Roddick</metadataAttribution>
+      <metadataAttribution>Jentery Sayers</metadataAttribution>
+      <metadataAttribution>Izzy Tobias</metadataAttribution>
+      <filename>norwoodSuite2017TalkingToTheBand00014.mp4</filename> <!--Video clip filename. Must match the XML file name except for the file type/extension--> 
+      <gameplayFileNote></gameplayFileNote>
+   </gameplayFile>
+   <gameplaySettings>
+      <inputDevices>
+         <inputDevice>Mouse</inputDevice>
+         <inputDevice>Keyboard</inputDevice>
+      </inputDevices>
+      <connectivityTypes>
+         <connectivityType>Offline</connectivityType>
+      </connectivityTypes>
+      <numPlayers>1</numPlayers> <!-- Must be a number OR either '11-50' or '51 or more' -->
+      <gameplayModes>
+         <gameplayMode>Default</gameplayMode>
+      </gameplayModes>
+      <language>English</language>
+      <accessibilityFeatures>
+         <accessibilityFeature>Text highlighting</accessibilityFeature>
+         <accessibilityFeature>Visually indicated interactive object</accessibilityFeature>
+         <accessibilityFeature>Visually indicated speech</accessibilityFeature>
+      </accessibilityFeatures>
+      <mods></mods>
+      <gameplaySettingsNote></gameplaySettingsNote>
+   </gameplaySettings>
+   <gameplayFootage>
+      <playTypes>
+         <playType>Single-player</playType>
+      </playTypes>
+      <gameplayGenres>
+         <gameplayGenre>Adventure / story-driven</gameplayGenre>
+         <gameplaySubgenre>Walking sim</gameplaySubgenre>
+         <gameplaySubgenre>Graphic adventure</gameplaySubgenre>
+         <gameplaySubgenre>Cryptic puzzle</gameplaySubgenre>
+      </gameplayGenres>
+      <narrativeGenres>
+         <narrativeGenre>Adventure</narrativeGenre>
+         <narrativeGenre>Mystery</narrativeGenre>
+         <narrativeSubgenre>Psychological</narrativeSubgenre>
+      </narrativeGenres>
+      <dimensionsPerspectives>
+         <dimensionPerspective>1st-person / first-person</dimensionPerspective>
+         <dimensionPerspective>3D</dimensionPerspective>
+         <dimensionPerspective>Camera zoom / scaling</dimensionPerspective>
+      </dimensionsPerspectives>
+      <locations>
+         <location>Fictional</location>
+      </locations>
+      <timePeriods>
+         <timePeriod>Fictional</timePeriod>
+      </timePeriods>
+      <biomes>
+         <biome>Mountains</biome>
+      </biomes>
+      <builtEnvs>
+         <builtEnv>Hotel / inn</builtEnv>
+         <builtEnv>Mansion / palace</builtEnv>
+      </builtEnvs>
+      <transportModes>
+         <transportMode>Walking</transportMode>
+      </transportModes>
+      <items>
+         <item></item>
+      </items>
+      <atmospheres>
+         <atmosphere>Creative</atmosphere>
+      </atmospheres>
+      <playerCharacters>
+         <playerCharacter>PC cannot die (implicit)</playerCharacter>
+         <playerCharacter>Blank slate / cipher (implicit)</playerCharacter>
+         <playerCharacter>Stranger / visitor (explicit)</playerCharacter>
+      </playerCharacters>
+      <playerCharacterNames></playerCharacterNames>
+      <nonPlayerCharacters>
+         <nonPlayerCharacter>Male (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Female (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Racialized (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>White (implicit)</nonPlayerCharacter>
+      </nonPlayerCharacters>
+      <nonPlayerCharacterNames>Jeff</nonPlayerCharacterNames>
+      <mechanics>
+         <mechanic>Eavesdropping</mechanic>
+         <mechanic>Talking / speaking</mechanic>
+         <mechanic>Communicating verbally</mechanic>
+         <mechanic>Exploring</mechanic>
+         <mechanic>Wandering</mechanic>
+         <mechanic>Fetching</mechanic>
+      </mechanics>
+      <timekeepingTypes>
+         <timekeepingType>Event-driven clock</timekeepingType>
+      </timekeepingTypes>
+      <progressionTypes>
+         <progressionType>Embedded story</progressionType>
+         <progressionType>Evoked story</progressionType>
+         <progressionType>Act structure</progressionType>
+      </progressionTypes>
+      <themes>
+         <theme>Art and creativity</theme>
+         <theme>Chaos / order</theme>    
+         <theme>Holiday / vacation</theme> 
+         <theme>Secrecy</theme> 
+      </themes>
+      <assets>
+         <asset>3D models</asset>
+         <asset>Character dialogue / speech</asset>
+         <asset>Ambient sound / soundscape</asset>
+         <asset>Visual art / drawings</asset>
+         <asset>Level art</asset>
+         <asset>Fonts / typography</asset>
+      </assets>
+      <styles>
+         <style>Surrealism</style>
+         <style>Avant-garde</style>
+         <style>Stylized 3D</style>
+      </styles>
+      <interfaces>
+         <interface>Pickup prompt (contextual)</interface>
+         <interface>Button prompt (contextual)</interface>
+      </interfaces>
+      <experiences>
+         <experience>Confusion</experience>
+         <experience>Curiosity</experience>
+      </experiences>
+      <transactions>
+         <transaction>No transaction</transaction>
+      </transactions>
+      <metagamingTypes>
+         <metagamingType>Testing the system</metagamingType>
+      </metagamingTypes>
+      <tropes>
+         <gameplayTrope>Adventurer is you</gameplayTrope>
+         <environmentTrope>Adventure-friendly world</environmentTrope>
+         <progressionTrope>Dev is smarter than me</progressionTrope>
+         <progressionTrope>Fetch quest</progressionTrope>
+         <narrativeTrope>Player and protagonist integration</narrativeTrope>
+         <narrativeTrope>NPC has their own adventure or story</narrativeTrope>
+         <characterTrope></characterTrope>
+      </tropes>
+      <contentWarning></contentWarning>
+      <gameplayFootageNote>This scene occurs near the beginning of the game, before its First Tableau. The following NPCs appear in the footage: Dottie (gendered female in lore), Sandro (gendered male in lore), Chef Bruce (gendered male in lore), Clem (gendered female in lore), and Nadia Boulanger (gendered female in lore). 
+      </gameplayFootageNote>
+   </gameplayFootage>
+   <gameplayInstruction>
+      <gameStudiesTopics>
+         <gameStudiesTopic>Worldbuilding and worldviews</gameStudiesTopic>
+         <gameStudiesTopic>Visual design / visual art / graphic design</gameStudiesTopic>
+         <gameStudiesTopic>Sound design / sound art / soundscapes / Foley</gameStudiesTopic>
+         <gameStudiesTopic>Art games / games as art</gameStudiesTopic>
+         <gameStudiesTopic>Environment design / interactive environments</gameStudiesTopic>
+         <gameStudiesTopic>Puzzle design / secrets and hidden information / decoding games</gameStudiesTopic>
+         <gameStudiesTopic>History in games / historical representations</gameStudiesTopic>
+         <gameStudiesTopic>Level design / possibility space</gameStudiesTopic>
+         <gameStudiesTopic>Player-agnostic design</gameStudiesTopic>
+         <gameStudiesTopic>American game studies</gameStudiesTopic>
+         <gameStudiesTopic>Character agency / NPC agency</gameStudiesTopic>
+      </gameStudiesTopics>
+      <mediaStudiesTopics>        <mediaStudiesTopic>Audio</mediaStudiesTopic>
+         <mediaStudiesTopic>Images</mediaStudiesTopic>
+         <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
+         <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>
+         <mediaStudiesTopic>Rhetoric and persuasion</mediaStudiesTopic>
+      </mediaStudiesTopics>
+      <gameplayInstructionNote>Greg Heffernan is a New York University Steinhardt alumnus.</gameplayInstructionNote>
+   </gameplayInstruction>
+</gameplayRecord>
