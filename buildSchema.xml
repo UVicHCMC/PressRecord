@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project basedir="." default="all" name="Build ODD file and schema">
+<project basedir="." default="all" name="Build schema and documentation from ODD">
   
   <description>
-    This build process incorporates the taxonomy into the ODD file, for
-    linking purposes, and builds the schema and rng for the project -- adapted from MAJW.
+    This build process converts the directly edited PressRecord ODD into
+    a RELAX NG schema and HTML documentation without modifying the source ODD.
   </description>
   
   <property name="echo.separator" value="************************************************"/>
@@ -23,25 +23,7 @@
   
   <property name="odd2oddxsl" value="${stylesheetLocation}/odds/odd2odd.xsl"/>
   
-  <target name="taxonomiesToODD">
-    <echo>${echo.separator}</echo>
-    <echo>Generate taxonomy specifications and values in the ODD file...</echo>
-    <echo>${echo.separator}</echo>
-
-    <java fork="true" classname="net.sf.saxon.Transform" classpath="${basedir}/lib/saxon-he-12.jar" failonerror="true" dir="${basedir}">
-      <arg value="-s:${basedir}/sch/PressRecord.odd"/>
-      <arg value="-xsl:${basedir}/xsl/master_expand_odd.xsl"/>
-      <arg value="-o:${basedir}/sch/PressRecord.odd_temp"/>
-      <arg value="projDir=${basedir}/"/>
-    </java>
-
-    <xmlvalidate file="${basedir}/sch/PressRecord.odd_temp" lenient="true" warn="false"/>
-    
-    <move file="${basedir}/sch/PressRecord.odd_temp" tofile="${basedir}/sch/PressRecord.odd" overwrite="true"/>
-    
-  </target>
-  
-  <target name="ODDToSchema" depends="taxonomiesToODD">
+  <target name="ODDToSchema">
     <echo>${echo.separator}</echo>
     <echo>Create schema from ODD file...</echo>
     <echo>${echo.separator}</echo>
