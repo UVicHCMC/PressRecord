@@ -5,7 +5,7 @@ Jentery, RAs, and the HCMC maintain this journal for the [Press Record](https://
 
 ## 25 Nov 2026: Jentery 
 
-I updated workflow.md and the XML template. I also started using SSH to push gameplay videos to our UVic server space, and I completed all eight XML records for the *Norwood Suite*. 
+I updated workflow.md, schemaRevisions.md, the ODD, and the XML template. I also started using SSH to push gameplay videos to our UVic server space, and I completed all eight XML records for the *Norwood Suite*. 
 
 ## 23 Nov 2026: Jentery
 

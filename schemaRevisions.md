@@ -30,6 +30,11 @@ Add corrections and your suggestions to this document as you complete XML record
 7. Add two new elements: "Player Character Names" and "Non-Player Character Names." Use text input field. (made on 18 Nov 2026)
 8. Redraft language and the CV for 6Q, "Timekeeping." (made on 18 Nov 2026)
 9. Add "implicit" and "explicit" tags to the CVs for 6N, "Player Character," and 6O, "Non-Player Character."
+10. Add "innkeeper" alongside "shopkeeper" in the CV for 6O, "Non-Player Character." (made on 25 Nov 2026)
+11. Change "Dialogue menu / speech screen" to  "Dialogue / dialogue menu / speech screen" in the CV for "Interfaces." (made on 25 Nov 2026)
+12. Add "Silent protagonist / heroic mime" to the CV for "Narrative Trope." (made on 25 Nov 2026)
+13. Add "Looking / staring," "Listening," and "Reading / skimming" to the CV for "Mechanics." (made on 25 Nov 2026)
+14. Add "Chef / cook" to the CVs for "PC" and "NPC" (made on 25 Nov 2026)
 
 ## Suggestions (Committed to DOCX/PDF)
 

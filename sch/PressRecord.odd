@@ -153,9 +153,7 @@
                      <elementRef key="items" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="atmospheres" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="playerCharacters" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="playerCharacterNames" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="nonPlayerCharacters" minOccurs="0" maxOccurs="1"/>
-                     <elementRef key="nonPlayerCharacterNames" minOccurs="0" maxOccurs="unbounded"/>
                      <elementRef key="mechanics" minOccurs="0" maxOccurs="1"/>
                      <elementRef key="timekeepingTypes" minOccurs="1" maxOccurs="1"/>
                      <elementRef key="progressionTypes" minOccurs="1" maxOccurs="1"/>
@@ -448,28 +446,20 @@
                <gloss>Player characters</gloss>
                <desc>Groups the player characters metadata fields.</desc>
                <content>
+                 <sequence minOccurs="1" maxOccurs="unbounded">
                   <elementRef key="playerCharacter" minOccurs="1" maxOccurs="unbounded"/>
+                  <elementRef key="playerCharacterNames" minOccurs="1" maxOccurs="unbounded"/>
+                  </sequence>
                </content>
                 </elementSpec>
-            <elementSpec ident="playerCharacterNames" module="PressRecord">
-               <gloss>Player character names</gloss>
-               <desc>Free-text language.</desc>
-               <content>
-                  <textNode/>
-               </content>
-            </elementSpec>
             <elementSpec ident="nonPlayerCharacters" module="PressRecord">
                <gloss>Non player characters</gloss>
-               <desc>Groups the non player characters metadata fields.</desc>
+               <desc>Groups the player characters metadata fields.</desc>
                <content>
-                  <elementRef key="nonPlayerCharacter" minOccurs="1" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-              <elementSpec ident="nonPlayerCharacterNames" module="PressRecord">
-               <gloss>Non player character names</gloss>
-               <desc>Free-text language.</desc>
-               <content>
-                  <textNode/>
+                  <sequence minOccurs="1" maxOccurs="unbounded">
+                     <elementRef key="nonPlayerCharacter" minOccurs="1" maxOccurs="unbounded"/>
+                     <elementRef key="nonPlayerCharacterNames" minOccurs="1" maxOccurs="unbounded"/>
+                  </sequence>
                </content>
             </elementSpec>
             <elementSpec ident="mechanics" module="PressRecord">
@@ -2329,7 +2319,9 @@
                      <valItem ident="Builder (explicit)"/>
                      <valItem ident="Builder (implicit)"/>
                      <valItem ident="Canadian (explicit)"/>
-                      <valItem ident="Canadian (implicit)"/>
+                     <valItem ident="Canadian (implicit)"/>
+                     <valItem ident="Chef / cook (explicit)"/>
+                     <valItem ident="Chef / cook (implicit)"/>
                      <valItem ident="Child (explicit)"/>
                      <valItem ident="Child (implicit)"/>
                      <valItem ident="Cleric (explicit)"/>
@@ -2519,8 +2511,8 @@
                      <valItem ident="Shaman (implicit)"/>
                      <valItem ident="Shapeshifter (explicit)"/>
                      <valItem ident="Shapeshifter (implicit)"/>
-                     <valItem ident="Shopkeeper (explicit)"/>
-                     <valItem ident="Shopkeeper (implicit)"/>
+                     <valItem ident="Shopkeeper / innkeeper (explicit)"/>
+                     <valItem ident="Shopkeeper/ innkeeper (implicit)"/>
                      <valItem ident="Single (explicit)"/>
                      <valItem ident="Single (implicit)"/>
                      <valItem ident="Sorcerer (explicit)"/>
@@ -2578,6 +2570,13 @@
                   </valList>
                </content>
             </elementSpec>
+              <elementSpec ident="playerCharacterNames" module="PressRecord">
+              <gloss>Player Character Names</gloss>
+              <desc>Free-text names of player characters.</desc>
+              <content>
+                <textNode/>
+              </content>
+              </elementSpec>
             <elementSpec ident="nonPlayerCharacter" module="PressRecord">
                <gloss>Non-Player Character</gloss>
                <desc>A character in the gameplay footage whose actions are not controlled by the player</desc>
@@ -2637,6 +2636,8 @@
                      <valItem ident="Builder (implicit)"/>
                      <valItem ident="Canadian (explicit)"/>
                      <valItem ident="Canadian (implicit)"/>
+                   <valItem ident="Chef / cook (explicit)"/>
+                     <valItem ident="Chef / cook (implicit)"/>
                      <valItem ident="Child (explicit)"/>
                      <valItem ident="Child (implicit)"/>
                      <valItem ident="Cleric (explicit)"/>
@@ -2851,8 +2852,8 @@
                      <valItem ident="Shaman (implicit)"/>
                      <valItem ident="Shapeshifter (explicit)"/>
                      <valItem ident="Shapeshifter (implicit)"/>
-                     <valItem ident="Shopkeeper (explicit)"/>
-                     <valItem ident="Shopkeeper (implicit)"/>
+                     <valItem ident="Shopkeeper / innkeeper (explicit)"/>
+                     <valItem ident="Shopkeeper/ innkeeper (implicit)"/>
                      <valItem ident="Single (explicit)"/>
                      <valItem ident="Single (implicit)"/>
                      <valItem ident="Sorcerer (explicit)"/>
@@ -2908,6 +2909,13 @@
                   </valList>
                </content>
             </elementSpec>
+              <elementSpec ident="nonPlayerCharacterNames" module="PressRecord">
+              <gloss>Non-player Character Names</gloss>
+              <desc>Free-text names of non-player characters.</desc>
+              <content>
+                <textNode/>
+              </content>
+              </elementSpec>
             <elementSpec ident="mechanic" module="PressRecord">
                <gloss>Mechanics</gloss>
                <desc>A method or <q>verb</q> players use to interact with the state of the platform edition as it appears in the gameplay footage (Sicart 2015; Lee et al., <q>VGMS 4.2,</q> 2024)</desc>
@@ -2988,7 +2996,9 @@
                      <valItem ident="Inputting text"/>
                      <valItem ident="Investigating"/>
                      <valItem ident="Jumping"/>
+                     <valItem ident="Listening"/>
                      <valItem ident="Locking"/>
+                     <valItem ident="Looking / staring"/>
                      <valItem ident="Looting"/>
                      <valItem ident="Managing"/>
                      <valItem ident="Matching"/>
@@ -3011,6 +3021,7 @@
                      <valItem ident="Pushing"/>
                      <valItem ident="Racing"/>
                      <valItem ident="Raising creatures"/>
+                     <valItem ident="Reading / skimming"/>
                      <valItem ident="Releasing"/>
                      <valItem ident="Researching"/>
                      <valItem ident="Rewinding"/>
@@ -3553,7 +3564,7 @@
                      <valItem ident="Crafting menu / screen"/>
                      <valItem ident="Credits sequence / screen"/>
                      <valItem ident="Decals and liveries menu"/>
-                     <valItem ident="Dialogue menu / speech screen"/>
+                     <valItem ident="Dialogue / dialogue menu / speech screen"/>
                      <valItem ident="Difficulty select screen"/>
                      <valItem ident="Equipping / loadout menu"/>
                      <valItem ident="Gallery / gallery menu"/>
@@ -4231,6 +4242,7 @@
                      <valItem ident="Seal the breach"/>
                      <valItem ident="Sell what you love / I ran out of cash"/>
                      <valItem ident="Significant wardrobe change"/>
+                     <valItem ident="Silent protagonist / heroic mime"/>
                      <valItem ident="Static role, exchangeable character"/>
                      <valItem ident="Superpowers for a day"/>
                      <valItem ident="This is the final battle speech"/>

@@ -57,7 +57,7 @@
          <accessibilityFeature>Text highlighting</accessibilityFeature>
       </accessibilityFeatures>
       <mods></mods>
-      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects replicate speech.</gameplaySettingsNote>
+      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects mimic speech.</gameplaySettingsNote>
    </gameplaySettings>
    <gameplayFootage>
       <playTypes>
@@ -108,29 +108,31 @@
          <playerCharacter>PC cannot be customized (implicit)</playerCharacter>
          <playerCharacter>Blank slate / cipher (implicit)</playerCharacter>
          <playerCharacter>Stranger / visitor (explicit)</playerCharacter>
+         <playerCharacterNames>Nameless</playerCharacterNames>
       </playerCharacters>
-      <playerCharacterNames>Nameless</playerCharacterNames>
       <nonPlayerCharacters>
          <nonPlayerCharacter>Male (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Female (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Racialized (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>White (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Adult (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Shopkeeper / innkeeper (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Chef / cook (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Friendly / not hostile (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacterNames>Dottie</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Sandro</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Chef Bruce</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Clem</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Nadia Boulanger</nonPlayerCharacterNames>
       </nonPlayerCharacters>
-      <nonPlayerCharacterNames>Dottie</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Sandro</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Chef Bruce</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Clem</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Nadia Boulanger</nonPlayerCharacterNames>
       <mechanics>
          <mechanic>Eavesdropping</mechanic>
-         <mechanic>Talking / speaking</mechanic>
-         <mechanic>Communicating verbally</mechanic>
          <mechanic>Exploring</mechanic>
          <mechanic>Wandering</mechanic>
          <mechanic>Fetching</mechanic>
          <mechanic>Opening</mechanic>
          <mechanic>Solving puzzles</mechanic>
+         <mechanic>Reading / skimming</mechanic>
       </mechanics>
       <timekeepingTypes>
          <timekeepingType>Event-driven clock</timekeepingType>
@@ -138,7 +140,7 @@
       </timekeepingTypes>
       <progressionTypes>
          <progressionType>Embedded story</progressionType>
-         <progressionType>Evoked story</progressionType>
+         <progressionType>Enacted story</progressionType>
          <progressionType>Act structure</progressionType>
          <progressionType>Achievement / trophy / badge</progressionType>
       </progressionTypes>
@@ -164,7 +166,7 @@
       <interfaces>
          <interface>Progress notification / feature unlocked</interface>
          <interface>Pickup prompt (contextual)</interface>
-
+         <interface>Dialogue / dialogue menu / speech screen</interface>
       </interfaces>
       <experiences>
          <experience>Confusion</experience>
@@ -183,11 +185,12 @@
          <progressionTrope>Fetch quest</progressionTrope>
          <progressionTrope>Locked door</progressionTrope>
          <narrativeTrope>Player and protagonist integration</narrativeTrope>
+         <narrativeTrope>Silent protagonist / heroic mime</narrativeTrope>
          <narrativeTrope>NPC has their own adventure or story</narrativeTrope>
          <characterTrope></characterTrope>
       </tropes>
       <contentWarning></contentWarning>
-      <gameplayFootageNote>The act structure is technically a tableau structure, and this scene occurs near the beginning of the game, before its First Tableau.
+      <gameplayFootageNote>The act structure is technically a tableau structure, and this scene occurs near the beginning of the game, before its First Tableau. Talking / speaking to Dottie and Sandro is implied. The player character isn't heard during the conversation, and no text is shown to verbally communicate their speech.
       </gameplayFootageNote>
    </gameplayFootage>
    <gameplayInstruction>
@@ -204,7 +207,8 @@
          <gameStudiesTopic>American game studies</gameStudiesTopic>
          <gameStudiesTopic>Character agency / NPC agency</gameStudiesTopic>
       </gameStudiesTopics>
-      <mediaStudiesTopics>        <mediaStudiesTopic>Audio</mediaStudiesTopic>
+      <mediaStudiesTopics>        
+         <mediaStudiesTopic>Audio</mediaStudiesTopic>
          <mediaStudiesTopic>Images</mediaStudiesTopic>
          <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
          <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>

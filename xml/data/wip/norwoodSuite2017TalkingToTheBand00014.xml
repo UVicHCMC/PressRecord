@@ -8,6 +8,7 @@
       <platforms>
          <platform>Windows</platform>
          <platform>Steam</platform>
+         <!-- the game was played via Steam on a Windows machine --> 
       </platforms>
       <engines>
          <engine>Unity</engine>
@@ -53,12 +54,11 @@
       </gameplayModes>
       <language>English</language>
       <accessibilityFeatures>
-         <accessibilityFeature>Text highlighting</accessibilityFeature>
-         <accessibilityFeature>Visually indicated interactive object</accessibilityFeature>
+         <accessibilityFeature>Text highlighting</accessibilityFeature>         
          <accessibilityFeature>Visually indicated speech</accessibilityFeature>
       </accessibilityFeatures>
       <mods></mods>
-      <gameplaySettingsNote></gameplaySettingsNote>
+      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects mimic speech.</gameplaySettingsNote>
    </gameplaySettings>
    <gameplayFootage>
       <playTypes>
@@ -68,7 +68,7 @@
          <gameplayGenre>Adventure / story-driven</gameplayGenre>
          <gameplaySubgenre>Walking sim</gameplaySubgenre>
          <gameplaySubgenre>Graphic adventure</gameplaySubgenre>
-         <gameplaySubgenre>Cryptic puzzle</gameplaySubgenre>
+         <gameplaySubgenre>Immersive sim</gameplaySubgenre>
       </gameplayGenres>
       <narrativeGenres>
          <narrativeGenre>Adventure</narrativeGenre>
@@ -78,7 +78,6 @@
       <dimensionsPerspectives>
          <dimensionPerspective>1st-person / first-person</dimensionPerspective>
          <dimensionPerspective>3D</dimensionPerspective>
-         <dimensionPerspective>Camera zoom / scaling</dimensionPerspective>
       </dimensionsPerspectives>
       <locations>
          <location>Fictional</location>
@@ -97,43 +96,44 @@
          <transportMode>Walking</transportMode>
       </transportModes>
       <items>
-         <item></item>
+         <item>No items</item>
       </items>
       <atmospheres>
          <atmosphere>Creative</atmosphere>
       </atmospheres>
       <playerCharacters>
          <playerCharacter>PC cannot die (implicit)</playerCharacter>
+         <playerCharacter>PC cannot be customized (implicit)</playerCharacter>
          <playerCharacter>Blank slate / cipher (implicit)</playerCharacter>
          <playerCharacter>Stranger / visitor (explicit)</playerCharacter>
-      </playerCharacters>
-      <playerCharacterNames></playerCharacterNames>
+         <playerCharacterNames>Nameless</playerCharacterNames>
+      </playerCharacters>  
       <nonPlayerCharacters>
          <nonPlayerCharacter>Male (implicit)</nonPlayerCharacter>
-         <nonPlayerCharacter>Female (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Racialized (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>White (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Musician (explicit)</nonPlayerCharacter> 
+         <nonPlayerCharacter>Adult (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Disabled (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Friendly / not hostile (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacterNames>Jeremy</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Dave</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Mike</nonPlayerCharacterNames>
       </nonPlayerCharacters>
-      <nonPlayerCharacterNames>Jeff</nonPlayerCharacterNames>
       <mechanics>
-         <mechanic>Eavesdropping</mechanic>
-         <mechanic>Talking / speaking</mechanic>
-         <mechanic>Communicating verbally</mechanic>
-         <mechanic>Exploring</mechanic>
-         <mechanic>Wandering</mechanic>
-         <mechanic>Fetching</mechanic>
+         <mechanic>Listening</mechanic>
+         <mechanic>Looking / staring</mechanic>
       </mechanics>
       <timekeepingTypes>
          <timekeepingType>Event-driven clock</timekeepingType>
+         <timekeepingType>Real-time</timekeepingType>
       </timekeepingTypes>
       <progressionTypes>
-         <progressionType>Embedded story</progressionType>
-         <progressionType>Evoked story</progressionType>
+         <progressionType>Enacted story</progressionType>
          <progressionType>Act structure</progressionType>
       </progressionTypes>
       <themes>
          <theme>Art and creativity</theme>
-         <theme>Chaos / order</theme>    
          <theme>Holiday / vacation</theme> 
          <theme>Secrecy</theme> 
       </themes>
@@ -142,7 +142,6 @@
          <asset>Character dialogue / speech</asset>
          <asset>Ambient sound / soundscape</asset>
          <asset>Visual art / drawings</asset>
-         <asset>Level art</asset>
          <asset>Fonts / typography</asset>
       </assets>
       <styles>
@@ -150,10 +149,8 @@
          <style>Avant-garde</style>
          <style>Stylized 3D</style>
       </styles>
-      <interfaces>
-         <interface>Pickup prompt (contextual)</interface>
-         <interface>Button prompt (contextual)</interface>
-      </interfaces>
+      <interface>Dialogue / dialogue menu / speech screen<interface>
+      </interface>
       <experiences>
          <experience>Confusion</experience>
          <experience>Curiosity</experience>
@@ -165,37 +162,30 @@
          <metagamingType>Testing the system</metagamingType>
       </metagamingTypes>
       <tropes>
-         <gameplayTrope>Adventurer is you</gameplayTrope>
          <environmentTrope>Adventure-friendly world</environmentTrope>
-         <progressionTrope>Dev is smarter than me</progressionTrope>
-         <progressionTrope>Fetch quest</progressionTrope>
          <narrativeTrope>Player and protagonist integration</narrativeTrope>
+         <narrativeTrope>Silent protagonist / heroic mime</narrativeTrope>
          <narrativeTrope>NPC has their own adventure or story</narrativeTrope>
          <characterTrope></characterTrope>
       </tropes>
       <contentWarning></contentWarning>
-      <gameplayFootageNote>This scene occurs near the beginning of the game, before its First Tableau. The following NPCs appear in the footage: Dottie (gendered female in lore), Sandro (gendered male in lore), Chef Bruce (gendered male in lore), Clem (gendered female in lore), and Nadia Boulanger (gendered female in lore). 
-      </gameplayFootageNote>
+         <gameplayFootageNote>The act structure is technically a tableau structure, and this scene occurs near the beginning of the game, before its First Tableau.</gameplayFootageNote>
    </gameplayFootage>
    <gameplayInstruction>
       <gameStudiesTopics>
-         <gameStudiesTopic>Worldbuilding and worldviews</gameStudiesTopic>
          <gameStudiesTopic>Visual design / visual art / graphic design</gameStudiesTopic>
          <gameStudiesTopic>Sound design / sound art / soundscapes / Foley</gameStudiesTopic>
          <gameStudiesTopic>Art games / games as art</gameStudiesTopic>
-         <gameStudiesTopic>Environment design / interactive environments</gameStudiesTopic>
-         <gameStudiesTopic>Puzzle design / secrets and hidden information / decoding games</gameStudiesTopic>
          <gameStudiesTopic>History in games / historical representations</gameStudiesTopic>
-         <gameStudiesTopic>Level design / possibility space</gameStudiesTopic>
          <gameStudiesTopic>Player-agnostic design</gameStudiesTopic>
          <gameStudiesTopic>American game studies</gameStudiesTopic>
          <gameStudiesTopic>Character agency / NPC agency</gameStudiesTopic>
       </gameStudiesTopics>
-      <mediaStudiesTopics>        <mediaStudiesTopic>Audio</mediaStudiesTopic>
+      <mediaStudiesTopics>        
+         <mediaStudiesTopic>Audio</mediaStudiesTopic>
          <mediaStudiesTopic>Images</mediaStudiesTopic>
          <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
          <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>
-         <mediaStudiesTopic>Rhetoric and persuasion</mediaStudiesTopic>
       </mediaStudiesTopics>
       <gameplayInstructionNote>Greg Heffernan is a New York University Steinhardt alumnus.</gameplayInstructionNote>
    </gameplayInstruction>

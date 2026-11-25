@@ -59,7 +59,7 @@
          <accessibilityFeature>Text highlighting</accessibilityFeature>
       </accessibilityFeatures>
       <mods></mods>
-      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects replicate speech.</gameplaySettingsNote>
+      <gameplaySettingsNote>Gameplay features visually indicated speech via colour-coded text, advancing simultaneously as musical sound effects mimic speech.</gameplaySettingsNote>
    </gameplaySettings>
    <gameplayFootage>
       <playTypes>
@@ -110,8 +110,8 @@
          <playerCharacter>PC cannot be customized (implicit)</playerCharacter>
          <playerCharacter>Blank slate / cipher (implicit)</playerCharacter>
          <playerCharacter>Stranger / visitor (explicit)</playerCharacter>
+         <playerCharacterNames>Nameless</playerCharacterNames>
       </playerCharacters>
-      <playerCharacterNames>Nameless</playerCharacterNames>
       <nonPlayerCharacters>
          <nonPlayerCharacter>Female (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Black (implicit)</nonPlayerCharacter>
@@ -119,14 +119,13 @@
          <nonPlayerCharacter>Adult (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Teacher / tutor (explicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Student (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Friendly / not hostile (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacterNames>Miss Davis</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Betsy</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Ellie</nonPlayerCharacterNames>
       </nonPlayerCharacters>
-      <nonPlayerCharacterNames>Miss Davis</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Betsy</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Ellie</nonPlayerCharacterNames>
       <mechanics>
-         <mechanic>Eavesdropping</mechanic>
-         <mechanic>Talking / speaking</mechanic>
-         <mechanic>Communicating verbally</mechanic>
+         <mechanic>Listening</mechanic>
          <mechanic>Exploring</mechanic>
          <mechanic>Playing music</mechanic>
          <mechanic>Wandering</mechanic>
@@ -138,7 +137,7 @@
       </timekeepingTypes>
       <progressionTypes>
          <progressionType>Embedded story</progressionType>
-         <progressionType>Evoked story</progressionType>
+         <progressionType>Enacted story</progressionType>
          <progressionType>New location</progressionType>
          <progressionType>Act structure</progressionType>
       </progressionTypes>
@@ -163,6 +162,7 @@
       </styles>
       <interfaces>
          <interface>Button prompt (contextual)</interface>
+         <interface>Dialogue / dialogue menu / speech screen</interface>
       </interfaces>
       <experiences>
          <experience>Confusion</experience>
@@ -180,6 +180,7 @@
         <environmentTrope>Adventure-friendly world</environmentTrope>
          <progressionTrope>Dev is smarter than me</progressionTrope>
          <narrativeTrope>Player and protagonist integration</narrativeTrope>
+         <narrativeTrope>Silent protagonist / heroic mime</narrativeTrope>
          <narrativeTrope>NPC has their own adventure or story</narrativeTrope>
          <characterTrope></characterTrope>
       </tropes>
@@ -198,9 +199,10 @@
          <gameStudiesTopic>Level design / possibility space</gameStudiesTopic>
          <gameStudiesTopic>Player-agnostic design</gameStudiesTopic>
          <gameStudiesTopic>American game studies</gameStudiesTopic>
+         <gameStudiesTopic>Character agency / NPC agency</gameStudiesTopic>
       </gameStudiesTopics>
       <mediaStudiesTopics>
- <mediaStudiesTopic>Audio</mediaStudiesTopic>
+         <mediaStudiesTopic>Audio</mediaStudiesTopic>
          <mediaStudiesTopic>Images</mediaStudiesTopic>
          <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
          <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>

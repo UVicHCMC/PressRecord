@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://hcmc.uvic.ca/ns/PressRecord"><!--
-Schema generated from ODD source 2026-11-23T23:06:09Z. . 
+Schema generated from ODD source 2026-11-25T21:34:51Z. . 
 TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
   
@@ -1289,15 +1289,9 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <optional>
                <ref name="playerCharacters"/>
             </optional>
-            <zeroOrMore>
-               <ref name="playerCharacterNames"/>
-            </zeroOrMore>
             <optional>
                <ref name="nonPlayerCharacters"/>
             </optional>
-            <zeroOrMore>
-               <ref name="nonPlayerCharacterNames"/>
-            </zeroOrMore>
             <optional>
                <ref name="mechanics"/>
             </optional>
@@ -1611,28 +1605,26 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
       <element name="playerCharacters">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Player characters) Groups the player characters metadata fields.</a:documentation>
          <oneOrMore>
-            <ref name="playerCharacter"/>
+            <oneOrMore>
+               <ref name="playerCharacter"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="playerCharacterNames"/>
+            </oneOrMore>
          </oneOrMore>
-      </element>
-   </define>
-   <define name="playerCharacterNames">
-      <element name="playerCharacterNames">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Player character names) Free-text language.</a:documentation>
-         <text/>
       </element>
    </define>
    <define name="nonPlayerCharacters">
       <element name="nonPlayerCharacters">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non player characters) Groups the non player characters metadata fields.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non player characters) Groups the player characters metadata fields.</a:documentation>
          <oneOrMore>
-            <ref name="nonPlayerCharacter"/>
+            <oneOrMore>
+               <ref name="nonPlayerCharacter"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="nonPlayerCharacterNames"/>
+            </oneOrMore>
          </oneOrMore>
-      </element>
-   </define>
-   <define name="nonPlayerCharacterNames">
-      <element name="nonPlayerCharacterNames">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non player character names) Free-text language.</a:documentation>
-         <text/>
       </element>
    </define>
    <define name="mechanics">
@@ -4612,6 +4604,10 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Canadian (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Chef / cook (explicit)</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Chef / cook (implicit)</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Child (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Child (implicit)</value>
@@ -4990,9 +4986,9 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Shapeshifter (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Shopkeeper (explicit)</value>
+            <value>Shopkeeper / innkeeper (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Shopkeeper (implicit)</value>
+            <value>Shopkeeper/ innkeeper (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Single (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5105,6 +5101,12 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
          </choice>
       </element>
    </define>
+   <define name="playerCharacterNames">
+      <element name="playerCharacterNames">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Player Character Names) Free-text names of player characters.</a:documentation>
+         <text/>
+      </element>
+   </define>
    <define name="nonPlayerCharacter">
       <element name="nonPlayerCharacter">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non-Player Character) A character in the gameplay footage whose actions are not controlled by the playerThis element will typically be repeated.Select No non-player character if a non-player character does not appear in the footage.When pertinent, tag the option with implicit when characters are implicitly coded and explicit when they are explicitly coded. As Adrienne Shaw et al. (2025) note, these selections are a fraught process, and thus we will correct and update this controlled vocabulary as the Gameplay Footage Collection unfolds.Use the Gameplay Footage Note to further describe the non-player character(s).Use existing scholarship, MobyGames, Wikipedia, Steam, fansites, official advertisements, the developer’s official website, and/or the platform edition’s official website to substantiate metadata about non-player characters.Controlled vocabulary adapted, with changes and additions, from Shaw et al. 2025 and Lee et al., Controlled Vocabulary for Protagonist and Controlled Vocabulary for Tropes, 2024.</a:documentation>
@@ -5204,6 +5206,10 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <value>Canadian (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Canadian (implicit)</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Chef / cook (explicit)</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Chef / cook (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Child (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5633,9 +5639,9 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Shapeshifter (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Shopkeeper (explicit)</value>
+            <value>Shopkeeper / innkeeper (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Shopkeeper (implicit)</value>
+            <value>Shopkeeper/ innkeeper (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Single (explicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5742,6 +5748,12 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <value>Zombie (implicit)</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
          </choice>
+      </element>
+   </define>
+   <define name="nonPlayerCharacterNames">
+      <element name="nonPlayerCharacterNames">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Non-player Character Names) Free-text names of non-player characters.</a:documentation>
+         <text/>
       </element>
    </define>
    <define name="mechanic">
@@ -5890,7 +5902,11 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Jumping</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Listening</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Locking</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Looking / staring</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Looting</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -5935,6 +5951,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <value>Racing</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Raising creatures</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Reading / skimming</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Releasing</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6934,7 +6952,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Decals and liveries menu</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <value>Dialogue menu / speech screen</value>
+            <value>Dialogue / dialogue menu / speech screen</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Difficulty select screen</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -8174,6 +8192,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/
             <value>Sell what you love / I ran out of cash</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Significant wardrobe change</value>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <value>Silent protagonist / heroic mime</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <value>Static role, exchangeable character</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
