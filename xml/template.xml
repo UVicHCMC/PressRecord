@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status=""> <!-- use status to record the metadata record status -->
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="" status=""> <!-- use status to record the metadata record status -->
    <platformEdition>
       <title></title>
       <release type="" year=""/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
@@ -88,9 +88,11 @@
       <playerCharacters>
          <playerCharacter></playerCharacter>
       </playerCharacters>
+      <playerCharacterNames></playerCharacterNames>
       <nonPlayerCharacters>
          <nonPlayerCharacter></nonPlayerCharacter>
       </nonPlayerCharacters>
+      <nonPlayerCharacterNames></nonPlayerCharacterNames>
       <mechanics>
          <mechanic></mechanic>
       </mechanics>
