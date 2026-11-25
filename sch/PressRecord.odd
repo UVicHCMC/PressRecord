@@ -2199,6 +2199,7 @@
                      <valItem ident="Tool / technology"/>
                      <valItem ident="Underwear"/>
                      <valItem ident="Vegetable / herb / plant / plant product"/>
+                     <valItem ident="Voucher / coupon"/>
                      <valItem ident="Water"/>
                      <valItem ident="Weapon"/>
                      <valItem ident="Wood"/>
@@ -4060,6 +4061,7 @@
                      <valItem ident="Informing the fourth wall / PC's intrapersonal communication"/>
                      <valItem ident="Instant death"/>
                      <valItem ident="Involuntary group split"/>
+                     <valItem ident="Item required to proceed"/>
                      <valItem ident="Kill screen"/>
                      <valItem ident="Kingmaker scenario"/>
                      <valItem ident="Last lousy point"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
 <?xml-model href="../sch/PressRecord.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
-<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="template" status="Complete"> <!-- use status to record the metadata record status -->
+<gameplayRecord xmlns="http://hcmc.uvic.ca/ns/PressRecord" xml:id="norwoodSuite2017CheckingIn00007" status="Complete"> <!-- use status to record the metadata record status -->
    <platformEdition>
       <title>Norwood Suite, The</title>
       <release type="rtInitOrOrigRelease" year="2017"/> <!-- a release can have multiple types separated by whitespace, but only one release per record -->
@@ -23,8 +23,8 @@
       </publishers>
       <platformEditionNote>Music by Archie Pelago. Cosmo D Studios are based in Brooklyn, NY. The game is inspired by psychogeography, the Catskills, the Hotel Chelsea, Glenn Gould, and La Monte Young’s Dream House, and it's reminiscent of Twin Peaks, The Shining, Gone Home, Dear Esther, Thief, and Soma.</platformEditionNote>
    </platformEdition>
-   <gameplayFile length="03:17" date="2026-05-04"> <!-- Clip length (MM:SS) and date recorded -->
-      <clipTitle>Visiting Miss Davis's Music History Class, Playing the Piano, and Pressing the "Do Not Touch" Button</clipTitle>
+   <gameplayFile length="02:00" date="2026-05-05"> <!-- Clip length (MM:SS) and date recorded -->
+      <clipTitle> Checking into Hotel Norwood and Talking to Dottie and Sandro</clipTitle>
       <commentaryTypes>
          <commentaryType>No commentary</commentaryType>
       </commentaryTypes>
@@ -36,7 +36,7 @@
       <metadataAttribution>Maya Roddick</metadataAttribution>
       <metadataAttribution>Jentery Sayers</metadataAttribution>
       <metadataAttribution>Izzy Tobias</metadataAttribution>
-      <filename>norwoodSuite2017MissDavisPiano00012.mp4</filename> <!--Video clip filename. Must match the XML file name except for the file type/extension--> 
+      <filename>norwoodSuite2017CheckingIn00007.mp4</filename> <!--Video clip filename. Must match the XML file name except for the file type/extension--> 
       <gameplayFileNote></gameplayFileNote>
    </gameplayFile>
    <gameplaySettings>
@@ -53,7 +53,6 @@
       </gameplayModes>
       <language>English</language>
       <accessibilityFeatures>
-         <accessibilityFeature>Visually indicated interactive object</accessibilityFeature>
          <accessibilityFeature>Visually indicated speech</accessibilityFeature>
          <accessibilityFeature>Text highlighting</accessibilityFeature>
       </accessibilityFeatures>
@@ -66,11 +65,9 @@
       </playTypes>
       <gameplayGenres>
          <gameplayGenre>Adventure / story-driven</gameplayGenre>
-         <gameplayGenre>Puzzle</gameplayGenre>
          <gameplaySubgenre>Walking sim</gameplaySubgenre>
          <gameplaySubgenre>Graphic adventure</gameplaySubgenre>
-         <gameplaySubgenre>Cryptic puzzle</gameplaySubgenre>
-         <gameplaySubgenre>Rhythm / music / dancing</gameplaySubgenre>
+         <gameplaySubgenre>Immersive sim</gameplaySubgenre>
       </gameplayGenres>
       <narrativeGenres>
          <narrativeGenre>Adventure</narrativeGenre>
@@ -98,57 +95,57 @@
          <transportMode>Walking</transportMode>
       </transportModes>
       <items>
-         <item>Musical instrument</item>
+         <item>Voucher / coupon</item>
       </items>
       <atmospheres>
          <atmosphere>Creative</atmosphere>
+         <atmosphere>Snarky</atmosphere>
       </atmospheres>
       <playerCharacters>
          <playerCharacter>PC cannot die (implicit)</playerCharacter>
+         <playerCharacter>PC cannot be customized (implicit)</playerCharacter>
          <playerCharacter>Blank slate / cipher (implicit)</playerCharacter>
          <playerCharacter>Stranger / visitor (explicit)</playerCharacter>
+         <playerCharacter>Poor (implicit)</playerCharacter>
+         <playerCharacterNames>Nameless</playerCharacterNames>
       </playerCharacters>
       <nonPlayerCharacters>
+         <nonPlayerCharacter>Male (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Female (implicit)</nonPlayerCharacter>
-         <nonPlayerCharacter>Black (implicit)</nonPlayerCharacter>
-         <nonPlayerCharacter>Asian (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Racialized (implicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>White (implicit)</nonPlayerCharacter>
          <nonPlayerCharacter>Adult (implicit)</nonPlayerCharacter>
-         <nonPlayerCharacter>Teacher / tutor (explicit)</nonPlayerCharacter>
-         <nonPlayerCharacter>Student (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Disabled (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Hearing-impaired (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacter>Shopkeeper / innkeeper (explicit)</nonPlayerCharacter>
+         <nonPlayerCharacterNames>Dottie</nonPlayerCharacterNames>
+         <nonPlayerCharacterNames>Sandro</nonPlayerCharacterNames>
       </nonPlayerCharacters>
-      <nonPlayerCharacterNames>Miss Davis</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Betsy</nonPlayerCharacterNames>
-      <nonPlayerCharacterNames>Ellie</nonPlayerCharacterNames>
       <mechanics>
-         <mechanic>Eavesdropping</mechanic>
          <mechanic>Talking / speaking</mechanic>
          <mechanic>Communicating verbally</mechanic>
-         <mechanic>Exploring</mechanic>
-         <mechanic>Playing music</mechanic>
-         <mechanic>Wandering</mechanic>
+         <mechanic>Trading</mechanic>
       </mechanics>
       <timekeepingTypes>
          <timekeepingType>Event-driven clock</timekeepingType>
          <timekeepingType>Real-time</timekeepingType>
       </timekeepingTypes>
       <progressionTypes>
-         <progressionType>Embedded story</progressionType>
-         <progressionType>Evoked story</progressionType>
+         <progressionType>Enacted story</progressionType>
          <progressionType>New location</progressionType>
          <progressionType>Act structure</progressionType>
       </progressionTypes>
       <themes>
-         <theme>Art and creativity</theme>
-         <theme>Chaos / order</theme>    
+         <theme>Art and creativity</theme>   
          <theme>Holiday / vacation</theme> 
          <theme>Secrecy</theme> 
+         <theme>Humour / laughter</theme>
       </themes>
       <assets>
          <asset>3D models</asset>
          <asset>Character dialogue / speech</asset>
          <asset>Ambient sound / soundscape</asset>
          <asset>Visual art / drawings</asset>
-         <asset>Level art</asset>
          <asset>Fonts / typography</asset>
       </assets>
       <styles>
@@ -157,50 +154,44 @@
          <style>Stylized 3D</style>
       </styles>
       <interfaces>
-         <interface>Button prompt (contextual)</interface>
+         <interface>Inventory menu</interface>
+         <interface>Object information screen</interface>
+         <interface>Dialogue / dialogue menu / speech screen</interface>
+         <interface>Buying and trading screen</interface>
       </interfaces>
       <experiences>
          <experience>Confusion</experience>
          <experience>Curiosity</experience>
-      </experiences>
+      </experiences> 
       <transactions>
          <transaction>No transaction</transaction>
       </transactions>
       <metagamingTypes>
-         <metagamingType>Testing the system</metagamingType>
+         <metagamingType>Orthogame (no observable meta)</metagamingType>
       </metagamingTypes>
       <tropes>
-         <gameplayTrope>Adventurer is you</gameplayTrope>
-         <environmentTrope>Video game vista</environmentTrope>
-        <environmentTrope>Adventure-friendly world</environmentTrope>
-         <progressionTrope>Only smart people may pass</progressionTrope>
-         <progressionTrope>Dev is smarter than me</progressionTrope>
+         <environmentTrope>Bottle episode</environmentTrope>
+         <progressionTrope>Item required to proceed</progressionTrope>
          <narrativeTrope>Player and protagonist integration</narrativeTrope>
          <narrativeTrope>NPC has their own adventure or story</narrativeTrope>
+         <narrativeTrope>Protagonist without a past</narrativeTrope>
          <characterTrope></characterTrope>
       </tropes>
       <contentWarning></contentWarning>
-      <gameplayFootageNote>This scene occurs during the game's Eighth Tableau.</gameplayFootageNote>
+      <gameplayFootageNote>The act structure is technically a tableau structure, and this scene occurs near the beginning of the game, before its First Tableau.</gameplayFootageNote>
    </gameplayFootage>
    <gameplayInstruction>
       <gameStudiesTopics>
-         <gameStudiesTopic>Worldbuilding and worldviews</gameStudiesTopic>
          <gameStudiesTopic>Visual design / visual art / graphic design</gameStudiesTopic>
          <gameStudiesTopic>Sound design / sound art / soundscapes / Foley</gameStudiesTopic>
          <gameStudiesTopic>Art games / games as art</gameStudiesTopic>
-         <gameStudiesTopic>Environment design / interactive environments</gameStudiesTopic>
-         <gameStudiesTopic>Puzzle design / secrets and hidden information / decoding games</gameStudiesTopic>
-         <gameStudiesTopic>History in games / historical representations</gameStudiesTopic>
-         <gameStudiesTopic>Level design / possibility space</gameStudiesTopic>
          <gameStudiesTopic>Player-agnostic design</gameStudiesTopic>
          <gameStudiesTopic>American game studies</gameStudiesTopic>
       </gameStudiesTopics>
       <mediaStudiesTopics>
- <mediaStudiesTopic>Audio</mediaStudiesTopic>
+         <mediaStudiesTopic>Audio</mediaStudiesTopic>
          <mediaStudiesTopic>Images</mediaStudiesTopic>
-         <mediaStudiesTopic>Meaning and semiotics</mediaStudiesTopic>
          <mediaStudiesTopic>Media aesthetics</mediaStudiesTopic>
-         <mediaStudiesTopic>Rhetoric and persuasion</mediaStudiesTopic>
       </mediaStudiesTopics>
       <gameplayInstructionNote>Greg Heffernan (developer) is a New York University Steinhardt alumnus.</gameplayInstructionNote>
    </gameplayInstruction>

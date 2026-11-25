@@ -333,7 +333,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/data/wip/norwoodSuite2017TalkingToTheBand00014.xml</String>
+                                    <String>xml/data/wip/norwoodSuite2017CheckingIn00007.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -373,7 +373,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/data/wip/norwoodSuite2017CheckingIn00007.xml</String>
+                                    <String>xml/data/wip/norwoodSuite2017TalkingToTheBand00014.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
